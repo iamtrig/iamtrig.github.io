@@ -1,0 +1,242 @@
+
+	
+		html, body {
+  			overflow-x: hidden;
+		}
+		body {
+ 		 	position: relative
+		}
+
+
+
+
+		
+
+
+		h1 { width: 100%; padding: 20px 0; background-color: #4F9BC6; text-align: center; border-bottom: 3px solid #FBCC9C }
+		h1 a { display: inline-block; }
+		h1 img { width: 70% }
+
+		h2 a, #header p a { position: absolute; top: 25px; right: -2%; display: inline-block; width: 50px; height: 37px; background: url('../mobile_images/mobie_burger.png') no-repeat; text-indent: -99999px; background-size: 50%}
+		#header p a { z-index: 100; background-image: url('../mobile_images/mobile_close.png'); }
+		#mainNav { z-index: 100; display: none; position: absolute; top: 0; width: 84%; height: 360px; padding: 0 8%; background-color: #4F9BC6; font-size: 1.2em }
+		#mainNav a { color: #e3e3e3 }
+		#mainNav a:hover { color: #fff }
+		.main_ul { padding-top: 30px; padding-bottom: 20px; margin-bottom: 20px; border-bottom: 1px solid #e3e3e3}
+		.main_ul li { display: inline-block; width: 25%; padding-bottom: 10px }		
+		.lang { clear: both; margin-top: 10px; padding-top: 20px; border-top: 1px solid #e3e3e3 }
+		.topNav li, .lang li { display: inline-block; }
+		.topNav li { width: 25%; padding-bottom: 10px }
+		.lang li { width: 25% }
+
+
+		#section1 h3:first-child { float: left; display: inline-block; width: 26px; height: 40px; background: #EDA183 url('../mobile_images/n.png') no-repeat 45% 45%; width: 10%; background-size: 16px; text-indent: -9999px}
+		#section1 p { display: inline-block; width: 87%; padding-left: 3%; height: 40px; line-height: 40px; background-color: #FAE3DA; color: #E57048; font-size: 1.1em  }
+
+		.map { height: 640px }
+
+		.timesWeather { position: relative; }
+		.timesWeather > li > a { float: left; display: inline-block; width: 25%; height: 50px; line-height: 50px; text-align: center; font-size: 1.2em;  background-color: #84b9d8; }
+		#wrap .timesWeather > li > a { color: #fff;  }
+		.timesWeather > li > ul { position: absolute; width: 100%; top: 50px; }
+		.timesWeather > li > ul > li > ul { position: absolute; width: 100%; left: 0; top: 50px; background-color: #FBF9F8  }
+		.timesWeather > li > ul > li { float: left;   }
+		.timesWeather > li > ul > li > a { color: #4f9bc5 }
+		.timesWeather > li > ul > li, .timesWeather > li.long > ul > li > ul > li  { display: inline-block; width: 50%; height: 50px; line-height: 50px; background-color: #a9cfe4; font-size: 1.2em;  text-align: center }
+		.timesWeather > li.current > ul > li, .timesWeather > li.todayTmrw > ul > li, .timesWeather > li.long > ul > li  { width: 20% }
+
+		.timesWeather > li.todayTmrw > ul > li >a { font-size: 0.8em;  }
+		.timesWeather > li.long > ul > li > ul > li { font-size: 1.0em; background-color: #BCD7E6 }
+		.timesWeather > li > ul > li > ul > li { position: relative; float: left; width: 25%; height: 90px; display: inline-block; background-color: #FBF9F8 }
+
+		.timesWeather > li.long > ul > li > ul > li > ul > li { position: relative; float: left; width: 25%; height: 90px; display: inline-block; background-color: #FBF9F8;  font-size: 1.0em  }
+		.timesWeather > li.long > ul > li > ul >  li > a { color: #4f9bc5}
+		.timesWeather > li.long > ul > li > ul > li:first-child > ul { width: 200%; position: absolute; left: 0; }
+		.timesWeather > li.long > ul > li > ul > li > ul {position: absolute;  left: -100%; width: 200%;  }
+		.timesWeather > li > ul > li > ul > li dl { border-right: 1px solid #e3e3e3; border-top: 1px solid #e3e3e3; border-bottom: 1px solid #e3e3e3 }
+		.timesWeather > li > ul > li > ul > li dt {  /*border-top: 1px solid #e3e3e3;*/   }
+		.timesWeather > li > ul > li > ul > li dd { /* border-top: 1px solid #e3e3e3 */ }
+		.timesWeather > li > ul > li > ul > li dl dt { height: 90px;line-height: 90px; color: #A1856D}
+		.timesWeather > li > ul > li > ul > li dl dd { position: absolute;  width: 100%; height: 90px; top: 0;line-height: 90px; text-align: center; background-color: #fff }
+		
+		.timesWeather > li > ul > li > ul > li dl dd a { display: inline-block; }
+
+
+		#wrap .timesWeather > li.todayTmrw > ul > li > ul > li .jeju { height: 89px; }
+		.timesWeather > li.todayTmrw > ul > li > ul > dl.jeju dl dt { height: 89px; }
+
+		#wrap .timesWeather > li.current > ul > li > ul > li .jeju { height: 89px; }
+		.timesWeather > li.current > ul > li > ul > dl.jeju dl dt { height: 89px; }
+
+		#wrap .timesWeather > li.current > ul > li > ul > li .hksando { height: 89px; }
+		.timesWeather > li.current > ul > li > ul > dl.hksando dl dt { height: 89px; }
+		
+		#wrap .timesWeather > li.yesterday > ul > li > ul > li .jeju { height: 89px; }
+		.timesWeather > li.yesterday > ul > li > ul > dl.jeju dl dt { height: 89px; }
+
+		#wrap .timesWeather > li.yesterday > ul > li > ul > li .hksando { height: 89px; }
+		.timesWeather > li.yesterday > ul > li > ul > dl.hksando dl dt { height: 89px; }
+
+		#section2 h3, .forecast form , .forecast h4 { display: inline-block; width: 90%; height: 50px; padding: 0 5%; line-height: 50px; font-size: 1.2em; color: #fff;  background-color: #4F9BC6; font-weight: normal; }
+		.forecast form { padding-top: 10px; height: 40px; background-color: #84b9d8 }
+		.forecast form #searchBar { width: 80%; height: 30px; padding: 0; }
+		.forecast form #submitB { float: right; width: 17%; height: 30px; padding: 0; background-color: #fff; color: #4f9bc5; font-size: 0.9em }
+		input { border: 0 none;  appearance: none; -moz-appearance: none; -webkit-appearance: none;  border-radius: 0; -moz-border-radius: 0; -webkit-border-radius: 0; }
+		.forecast h4 { color: #4f9bc5; background-color: #a9cfe4 }
+		
+
+		.forecast2 { width: 90%; height: 95px; padding: 15px 5%; background-color: #fcfbf9 }
+		.forecast2 .currentWeather { float: left; width: 58%; color: #a48971; font-size: 0.9em }
+		.forecast2 .currentWeather dt { padding: 10px 0 0 93px; font-weight: bold; }
+		.forecast2 .currentWeather .weatherIcon { float: left; margin-right: 25px; margin-top: -15px; margin-bottom: 10px; width: 70px; height: 70px; background: url('../images/weather_icons.png') no-repeat 0 -66px; text-align: center; line-height: 75px; font-size: 1.4em; color: #fff; font-weight: bold }
+		.forecast2 .currentWeather dd { margin-top: 5px }
+		
+		.forecast2 .betweenHours { float: right; margin-top: 7px; width: 40%; color: #a48971; border-left: 1px solid #e5dcd5 }
+		.forecast2 .betweenHours dl { display: inline-block; height: 75px; margin-top: 3px; padding-left: 14%; text-align: center; }
+		.forecast2 .betweenHours dl .weatherIcon { display: block; width: 23px; padding-top: 23px; margin: 10px 0; background: url('../images/weather_icons.png') no-repeat 0 -43px; }
+		
+
+
+
+		#forOverflow { width: 100%; overflow: hidden; }
+				
+		.forecast3 { float: left; width: 750px; height: 160px; color: #a48971;  }
+		.forecast3 .todaySlider, .tmrwSlider, .dayAfterTmrwSlider{ float: left; display: block;  height: 40px; line-height: 40px; background-color: #f4f3ef; text-align: center }
+
+		.forecast3 .todaySlider { width: 16% }
+		.forecast3 .tmrwSlider { width: 42% }
+		.forecast3 .dayAfterTmrwSlider { width: 42% }
+
+		.forecast3 ul { background-color: #fcfbf9;  height: 110px; padding: 10px 0 0 6px; line-height: 35px; text-align: center  }
+		.forecast3 ul li { float: left; padding-left: 12px  }
+		.forecast3 .forIcons { width: 23px; height: 23px; background: url('../images/weather_icons.png') no-repeat 0 -43px; font-size: 0; margin: 3px 0 }
+		.forecast3 .forIcons_night { width: 26px; height: 23px; background: url('../images/weather_icons.png') no-repeat -49px -43px; font-size: 0; margin: 3px 0 }
+		.forecast3 .tmrwSlider ul li:first-child { padding-left: 17px }
+		.forecast3 .dayAfterTmrwSlider ul li:first-child { padding-left: 5px }
+		
+		#section3 { border-top: 3px solid #FBCC9C; }
+		#section3 > ul > li > a.noMg { margin-bottom: 0 }
+		#section3 > ul { position: relative; }
+		#section3 > ul > li > a { float: left; display: inline-block; width: 25%; height: 50px; margin-bottom: 110px; line-height: 50px; text-align: center; font-size: 1.2em;  background-color: #84b9d8; color: #fff }
+		#section3 > ul > li:first-child > a { background-color: #4F9BC6}
+		#section3 > ul > li ul { position: absolute; top: 50px; width: 100%}
+		#section3 > ul > li > ul > li { float: left; display: inline-block; width: 25% }
+		#section3 > ul > li > ul > li > a { display: none }
+		
+		#section3 > ul > li > ul > li dl { font-size: 1.1em;  }
+		#section3 > ul > li > ul > li dl dt { color: #fff; height: 30px; margin-bottom: 10px; line-height: 30px; text-align: center; }
+		#section3 dl dd { padding-left: 7%; margin-bottom: 5px; }
+		#section3 .green dd {  color: #81D32A }
+		#section3 .green dt { background-color: #81D32A }
+
+		#section3 .yellow dd {  color: #E5A930 }
+		#section3 .yellow dt { background-color: #FFD00B }
+
+		#section3 .orange dd {  color: #F76E11 }
+		#section3 .orange dt { background-color: #F76E11 }
+
+		#section3 .red dd {  color: #CC0000 }
+		#section3 .red dt { background-color: #CC0000 }
+		
+		
+		#footer { width: 100%; padding: 30px 0; height: 15px; background-color: #4F9BC6; text-align: center;  border-top: 3px solid #FBCC9C }
+		#footer li{ width: 17%; display: inline-block; font-size: 1.1em;  }
+		#footer li a { color: #e3e3e3; }
+
+		#header { overflow: hidden; }
+		#section2 { clear: both; border-top: 3px solid #FBCC9C }
+
+		#section3, #footer { clear: both;}
+
+
+/*
+
+		@media only screen and (min-width: 600px) {
+			#forOverflow { width: 50% }
+			.forecast2 { float: left; width: 50%; padding: 32px 5% }
+
+		}*/
+
+		@media only screen and (min-width: 751px)  {
+			#forOverflow { width: 52% }
+			.forecast2 { float: left; width: 41%; padding: 32px 2% 32px 5%  }
+			.forecast2 .betweenHours dl { padding-left: 11% }
+			.forecast2 .currentWeather .weatherIcon { margin-right: 14px }
+			.forecast2 .currentWeather dt { padding-left: 83px }
+			.forecast2 .betweenHours { width: 41% }
+		}
+
+		@media only screen and (min-width: 701px)  and (max-width: 750px)  {
+			#forOverflow { width: 47% }
+			.forecast2 { float: left; width: 43%; padding: 32px 5%  }
+			.forecast2 .betweenHours dl { padding-left: 11% }
+			.forecast2 .currentWeather .weatherIcon { margin-right: 14px }
+			.forecast2 .currentWeather dt { padding-left: 83px }
+			.forecast2 .betweenHours { width: 41% }
+		}
+		
+		@media only screen and (min-width: 640px)  and (max-width: 700px)  {
+			#forOverflow { width: 43% }
+			.forecast2 { float: left; width: 47%; padding: 32px 5%  }
+			.forecast2 .betweenHours dl { padding-left: 11% }
+			.forecast2 .currentWeather .weatherIcon { margin-right: 14px }
+			.forecast2 .currentWeather dt { padding-left: 83px }
+			.forecast2 .betweenHours { width: 41% }
+		}
+
+		@media only screen and (min-width: 600px) and (max-width: 639px)  {
+			#forOverflow { width: 41% }
+			.forecast2 { float: left; width: 49%; padding: 32px 5%  }
+			.forecast2 .betweenHours dl { padding-left: 11% }
+			.forecast2 .currentWeather .weatherIcon { margin-right: 14px }
+			.forecast2 .currentWeather dt { padding-left: 83px }
+			.forecast2 .betweenHours { width: 41% }
+		}
+
+		@media only screen and (min-width: 551px) and (max-width: 600px) {
+			#forOverflow { width: 37% }
+			.forecast2 { float: left; width: 53%; padding: 32px 5%  }
+			.forecast2 .betweenHours dl { padding-left: 11% }
+			.forecast2 .currentWeather .weatherIcon { margin-right: 14px }
+			.forecast2 .currentWeather dt { padding-left: 83px }
+			.forecast2 .betweenHours { width: 41% }
+		}
+		
+		@media only screen and (min-width: 480px) and (max-width: 550px) {
+			#forOverflow { width: 30% }
+			.forecast2 { float: left; width: 60%; padding: 32px 5%  }
+			.forecast2 .betweenHours dl { padding-left: 11% }
+		}
+
+
+
+		@media only screen and (min-width: 451px) and (max-width: 479px) {
+			#forOverflow { width: 25% }
+			.forecast2 { float: left; width: 65%; padding: 32px 5% }
+			.forecast2 .currentWeather .weatherIcon { margin-right: 12px }
+			.forecast2 .currentWeather { width: 59% }
+			.forecast2 .betweenHours { width: 39% }
+			.forecast2 .betweenHours dl { padding-left: 10% }
+			.forecast2 .currentWeather dt { padding-left: 82px }
+			.forecast2 .currentWeather dd { margin-top: 8px }
+		}
+
+
+		@media only screen and (min-width: 360px) and (max-width: 450px) {
+
+			.forecast2 .currentWeather .weatherIcon { margin-right: 20px }
+			.forecast2 .currentWeather { width: 48% }
+			.forecast2 .betweenHours { width: 48% }
+			.forecast2 .betweenHours dl { padding-left: 16% }
+			.forecast2 .currentWeather dt { padding-left: 90px }
+		}
+
+
+
+		@media only screen and (min-width: 320px) and (max-width: 359px){
+			#wrap .forecast2 .betweenHours dl { padding-left: 11% }
+			.forecast2 .currentWeather { width: 53% }
+			.forecast2 .betweenHours { width: 45% }
+			.forecast2 .currentWeather dt { padding-left: 82px }
+			.forecast2 .currentWeather .weatherIcon { margin-right: 13px }
+		}

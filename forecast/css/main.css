@@ -1,0 +1,364 @@
+#header, #contents, #footer { width: 960px; margin: 0 auto}
+
+
+
+
+#header { position: relative; }
+.header_bg { width: 100%; height: 36px; background-color: #4F9BC6 }
+
+.skip { padding: 12px 0 36px 10px; }
+.skip a {display: block; width: 75px; color: #e3e3e3 }
+.skip a:hover { color: #fff }
+
+#header h1 { text-align: center; padding-bottom: 22px }
+
+.mainNav_bg { width: 100%; height: 50px; margin-top: 105px; background-color: #f4f3ef; border-bottom: 2px solid #f6c394 }
+
+#topNav { position: absolute; right: 10px; top: 15px;}
+
+#topNav form input { float: left }
+#topNav li { float: left }
+.fontSize p { float: left }
+
+.navIcons { position: absolute; top: -3px; right: 370px; width: 165px}
+.navIcons li { padding-left: 10px; }
+.navIcons li a, .lang a,.fontSize .size { display: inline-block; height: 10px; color: #e3e3e3; font-size: 0.9em }
+.navIcons li a:hover, .lang a:hover, .fontSize .size:hover { color: #fff }
+
+.lang { position: absolute;top: -2px; right: 220px; width: 155px }
+.lang li { padding-left: 10px; }
+.lang_1 a { width: 40px; background-position: -203px -30px }
+.lang_2 a { width: 46px; background-position: -246px -30px  }
+.lang_3 a { width: 39px; background-position: -295px -30px  }
+.lang_1 a:hover { width: 40px; background-position: -203px -41px }
+.lang_2 a:hover { width: 46px; background-position: -246px -41px  }
+.lang_3 a:hover { width: 39px; background-position: -295px -41px  }
+
+.fontSize { position: absolute; top: -1px; right: 97px; width: 107px }
+.fontSize .size { float: left; width: 40px; height: 10px; }
+.fontSize a { display: inline-block; width: 10px; height: 10px; margin-left: 5px; background: url('../images/all_imgs.png') no-repeat -11px 0; text-indent: -9999px  }
+.fontSize a:first-child { margin-left: 10px; background-position: 0px 0px }
+
+
+#topNav form { position: absolute; top: -1px; right: 0; width: 118px;  }
+#topNav input { width: 12px; height: 15px; background: url('../images/all_imgs.png') no-repeat -135px 0; padding: 0; border: 0 none; text-indent: -9999px;}
+#topNav #submitBtn:hover { background-position: -123px 0; }
+#topNav #textField { width: 100px; height: 17px; margin: -3px 5px 0 0 ; background-position: -22px 0px; text-indent: 0  }
+
+
+
+#mainNav > ul { margin: -3px 0 0 120px }
+#mainNav > ul > li { position: relative; float: left; width: 120px; text-align: center }
+#mainNav > ul > li > a { display: inline-block; height: 14px; padding-top: 18px; color: #A6A6A6; font-size: 14px}
+#mainNav > ul > li > a:hover { color: #838383  }
+
+#mainNav > ul > li > ul { text-align: left; display: none }
+#mainNav > ul > li > ul  { z-index: 20; position: absolute; width: 100%; height: 265px; padding-top: 30px }
+#mainNav > ul > li > ul li  { padding-bottom: 10px; }
+#mainNav > ul > li > ul > li a { color: #A5A5A5;  }
+#mainNav > ul > li > ul > li a:hover { color: #4c4c4c; }
+.mainNav_ul_bg { display: none; z-index: 15; position: absolute; width: 100%; height: 280px; background-color: #fcfcfb; border-bottom: 2px solid #f6c394  }
+
+
+
+#contents { clear: both }
+
+
+/* section1 */
+
+#section1 { width: 100%; height: 580px;  background-color: #84b9d8; border-bottom: 2px solid #fff }
+.map > .timesWeather { position: relative; }
+.map > .timesWeather > li {  float: left }
+.map > .timesWeather > li:first-child { padding-left: 120px  }
+.map > .timesWeather > li > a { display: inline-block; width: 120px; height: 40px; text-align: center; background-color: #84b9d8; line-height: 40px; color: #fff }
+.map > .timesWeather > li > a:hover { background-color: #4F9BC6 }
+
+.map > .timesWeather > li > ul > li {  float: left }
+.map > .timesWeather > li > ul > li > a { display: inline-block; width: 120px; height: 40px; text-align: center;  background-color: #a9cfe4; line-height: 40px; color: #4f9bc5 }
+.map > .timesWeather > li > ul > li > a:hover { color: #fff }
+.map > .timesWeather .yesterday > ul > li:first-child > a { margin-left: 360px }
+.map > .timesWeather .current > ul > li:first-child > a, .map > .timesWeather .todayTmrw > ul > li:first-child > a {  margin-left: 180px}
+.map > .timesWeather .long > ul > li:first-child > a { margin-left: 120px }
+.map > .timesWeather .vid > ul > li:first-child > a {  margin-left: 300px }
+
+
+.map > .timesWeather > li > ul { position: absolute; top: 40px; left: 0; width: 960px; height: 540px;  background: #a9cfe4 url('../images/s_map1.jpg') no-repeat 0 40px;  }
+.map > .timesWeather > li.todayTmrw  > ul.map_bg { background: #a9cfe4 url('../images/s_map2.jpg') no-repeat 0 40px; } 
+.map > .timesWeather > li.long > ul { background: #a9cfe4 url('../images/s_map3.jpg') no-repeat 0 41px; } 
+.map > .timesWeather > li > ul > li > ul > li > dl, .map > .timesWeather > li > ul > li > ul > li > ul > li > dl { position: absolute;  }
+.map > .timesWeather > li > ul.northMap { background: #a9cfe4 url('../images/n_map.jpg') no-repeat 0 40px; } 
+
+.map > .timesWeather > .long > ul > li > ul > li > a { position: absolute; left: 0; float: left; display: inline-block; width: 120px; height: 40px; margin: 2px 0 0 124px;  color: #fff; background-color: #a9cfe4; text-align: center; line-height: 40px;}
+.map > .timesWeather > .long > ul > li > ul > li:first-child > a:first-child { margin-left: 2px; left: 0 }
+.map > .timesWeather > .long > ul > li > ul > li > a:hover { color: #4F9BC6 }
+
+
+
+.map > .timesWeather > li > ul > li > ul { display: none }
+
+/* .yesterday */
+
+
+
+
+.map > .timesWeather > li > ul > li > ul > li > dl > dt, .map > .timesWeather > li.long > ul > li > ul > li > ul > li dt { font-size: 0 }
+
+.map > .timesWeather > li > ul > li > ul > li > dl a, .map > .timesWeather > li.long > ul > li > ul > li > ul > li dl a { display: block; width: 43px; height: 43px; background-image: url('../images/weather_icons.png'); background-position: 0 0; background-repeat: no-repeat; font-size: 0 }
+.map > .timesWeather > .yesterday > ul > li.highestAndLowest > ul > li > dl a { height: 35px; padding-top: 8px; text-align: center; color: #B61C1C; font-size: 12px; line-height: 17px }
+.map > .timesWeather > .yesterday > ul > li.highestAndLowest > ul > li > dl a span { display: block; margin-top: -4px; color: #589EC7 }
+
+.map > .timesWeather > .yesterday > ul > li.highestAndLowest > ul dl a ,.map > .timesWeather > .yesterday > ul li.rainList dl a, .map > .timesWeather > .current > ul li.annoyance dl dd,  .map > .timesWeather > .current > ul li.rainAmount dl a,  .map > .timesWeather > .current > ul li.wind dl a,  .map > .timesWeather > .current > ul li.wind2 dl a  { display: block; width: 43px; height: 43px; background-image: url('../images/weather_icons.png'); background-position: right top;  font-size: 12px; text-align: center; line-height: 43px }
+.map > .timesWeather > .yesterday > ul li.rainList dl a span  { font-size: 0.9em }
+.map > .timesWeather > .current ul li.weatherList dl dd a span { font-size: 12px; color: #fff; text-align: center; line-height: 45px; padding-left: 11px }
+
+.seoul { left: 422px; top: 75px }
+.choonchun { left: 500px; top: 62px }
+.kanglung { left: 601px; top: 76px }
+.inchun { left: 370px; top: 109px }
+.soowon { left: 490px; bottom: 205px }
+.chungjoo { left: 482px; top: 187px }
+.andong { left: 574px; top: 181px }
+.suhsan { left: 345px; top: 184px }
+.junjoo { left: 382px; bottom: 194px }
+.daejun { left: 425px; bottom: 260px }
+.daekoo { right: 362px; bottom: 227px }
+.pohang { right: 267px; bottom: 239px }
+.kwangjoo { left: 424px; bottom: 124px }
+.changwon { right: 374px; bottom: 79px }
+.boosan { right: 294px; bottom: 67px }
+.oolsan { right: 289px; bottom: 175px }
+.mocpo { left: 346px; bottom: 96px }
+.yuosoo { left: 477px; bottom: 39px }
+.jeju { left: 163px; bottom: 61px }
+.hksando { left: 275px; bottom: 105px }
+.backlyungdo { left: 208px; top: 76px }
+.dokdo { right: 170px; top: 96px }
+
+.changown { right: 373px; bottom: 78px }
+.ooljin { right: 270px; top: 167px }
+.sukwipo { left: 229px; bottom: 32px }
+.moonsan { left: 367px; top: 60px }
+
+
+.timesWeather .long .inchun { left: 328px; top: 131px }
+
+
+.timesWeather .current dl.jeju a, .timesWeather .current dl.backlyungdo a, .timesWeather .current dl.suhsan a, .timesWeather .current dl.junjoo a, .timesWeather .current dl.inchun a,.timesWeather .current dl.seoul a, .timesWeather .current dl.dokdo a { background-position: -43px 0 } 
+#section1 .map .timesWeather .current dl.jeju a span, #section1 .map .timesWeather .current dl.backlyungdo a span, #section1 .map .timesWeather .current dl.suhsan a span, #section1 .map .timesWeather .current dl.junjoo a span, #section1 .map .timesWeather .current dl.inchun a span,  #section1 .map .timesWeather .current dl.seoul a span, #section1 .map .timesWeather .current dl.dokdo a span { padding-left: 13px }
+
+
+.timesWeather .fri_arvo_21 dl.jeju a, .timesWeather .fri_arvo_21 dl.backlyungdo a, .timesWeather .fri_arvo_21 dl.suhsan a, .timesWeather .fri_arvo_21 dl.junjoo a, .timesWeather .fri_arvo_21 dl.inchun a,.timesWeather .fri_arvo_21 dl.seoul a, .timesWeather .fri_arvo_21 dl.dokdo a { background-position: -43px 0 } 
+.timesWeather .sat_mor_22 dl.ooljin a, .timesWeather .sat_mor_22 dl.daekoo a, .timesWeather .sat_mor_22 dl.suhsan a, .timesWeather .sat_mor_22 dl.pohang a, .timesWeather .sat_mor_22 dl.chungjoo a,.timesWeather .sat_mor_22 dl.soowon a, .timesWeather .sat_mor_22 dl.kanglung a, .timesWeather .sat_mor_22 dl.seoul a, .timesWeather .sat_mor_22 dl.inchun a, .timesWeather .sat_mor_22 dl.choonchun a { background-position: -43px 0 } 
+
+
+#section1 .long .mon_24 li:first-child dl.moonsan a,#section1 .long .mon_24 li:first-child dl.seoul a, #section1 .long .mon_24 li:first-child dl.inchun a, #section1 .long .mon_24 li:first-child dl.suhsan a, #section1 .long .mon_24 li:first-child dl.sukwipo a, #section1 .long .mon_24 li:first-child dl.jeju a, #section1 .long .mon_24 li:first-child dl.junjoo a, #section1 .long .mon_24 li:first-child dl.mocpo a { background-position: -43px 0 }
+
+.timesWeather .vid li dl dd {  position: absolute; left: 0; width: 960px; height: 500px; background: url("../images/map_vid1.jpg") no-repeat; text-indent: -9999px }
+.timesWeather .vid li dl dd.vid_dd2 { z-index: 1;background: url("../images/map_vid2.jpg") no-repeat; }
+.timesWeather .vid li dl dd.vid_dd3 { z-index: 1;background: url("../images/map_vid3.jpg") no-repeat; }
+.timesWeather .vid li.vid1 dl dd { z-index: 10; }
+
+/* northMap */
+
+.northMap li:first-child { padding: 12px 0 0 415px; font-size: 1.1em; color: #fff }
+
+.northMap dl a { display: block; width: 43px; height: 43px; background-image: url('../images/weather_icons.png'); background-position: 0 0; background-repeat: no-repeat; font-size: 0 }
+.northMap dl dt { font-size: 0 }
+.northMap dl a span { display: inline-block; line-height: 46px; padding-left: 10px; font-size: 13px; color: #fff } 
+.northMap dl.hamhng a, .northMap dl.wonsan a, .northMap dl.sinewjoo a, .northMap dl.anjoo a, .northMap dl.hejoo a { background-position: -43px 0 }
+.northMap dl.hamhng a span, .northMap dl.wonsan a span, .northMap dl.sinewjoo a span, .northMap dl.anjoo a span, .northMap dl.hejoo a span { font-size: 12px; padding-left: 13px; line-height: 43px }
+
+.northMap dl { position: absolute; }
+.sunbong { left: 777px; top: 70px; }
+.chungjin { left: 689px; top: 165px; }
+.samjiyun { left: 558px; top: 135px; }
+.joongkang { left: 433px; top: 88px; }
+.poongsan { left: 667px; top: 90px; }
+.kangkye { left: 461px; top: 216px; }
+.hamhng { left: 544px; top: 270px; }
+.wonsan { left: 474px; top: 350px; }
+.sinewjoo { left: 291px; top: 218px; }
+.anjoo { left: 363px; top: 282px; }
+.pyoungyang { left: 395px; top: 368px; }
+.kehsung { left: 435px; bottom: 50px; }
+.hejoo { left: 342px; bottom: 44px; }
+
+
+/* #section2 */
+
+#section2 { position: relative; margin-top: 20px; padding-top: 20px; border-top: 1px solid #e3e3e3;}
+
+.forecast { float: left; margin-right: 2px; }
+.forecast h3, .forecast form, .forecast h4 { width: 280px; height: 40px; background-color: #4F9BC6; line-height: 40px; padding-left: 10px; color: #f4f3ef; font-weight: normal; margin-bottom: 2px }
+.forecast form { background-color: #73afd1 }
+.forecast form #searchBar { width: 230px; height: 21px;  margin: 9px 5px 9px 0;  border: 0 none; border: 0 none; border: 0 none; border-radius: 0px; -mos-border-radius: 0px; -webkit-border-radius: 0px;  -moz-appearance: none; -webkit-appearance: none; appearance: none; }
+.forecast form #submitB {  width: 26px; height: 23px; margin: 9px 0 0 0; background: url('../images/all_imgs.png') no-repeat 0px -18px; text-indent: -9999px; border: 0 none; border: 0 none; border: 0 none; border-radius: 0px; -mos-border-radius: 0px; -webkit-border-radius: 0px;  -moz-appearance: none; -webkit-appearance: none; appearance: none; }
+.forecast form #submitB:hover { background-position: -27px -18px }
+.forecast h4 { clear: both; background-color: #a7cde2; color: #fff}
+
+.forecast2 { float: left; width: 428px; height: 106px; padding: 18px 0 0 30px; background-color: #fcfbf9 }
+.forecast2 .currentWeather { float: left; width: 225px; color: #a48971 }
+.forecast2 .currentWeather dt { padding: 10px 0 0 95px; font-weight: bold; }
+.forecast2 .currentWeather .weatherIcon { float: left; margin-right: 25px; margin-top: -15px; width: 70px; height: 70px; background: url('../images/weather_icons.png') no-repeat 0 -66px; text-align: center; line-height: 75px; font-size: 1.4em; color: #fff; font-weight: bold }
+.forecast2 .currentWeather dd { margin-top: 5px }
+
+.forecast2 .betweenHours { float: left; margin-top: 7px; color: #a48971; border-left: 1px solid #e5dcd5 }
+.forecast2 .betweenHours dl { display: inline-block; height: 75px; margin-top: 3px; padding-left: 30px; text-align: center }
+
+.forecast2 .betweenHours dl .weatherIcon { display: block; width: 23px; padding-top: 23px; margin: 10px 0; background: url('../images/weather_icons.png') no-repeat 0 -43px; }
+
+.forecast3 { float: left; width: 750px; height: 180px; color: #a48971;  }
+.forecast3 .todaySlider, .tmrwSlider, .dayAfterTmrwSlider{ float: left; display: block;  height: 40px; line-height: 40px; background-color: #f4f3ef; text-align: center }
+
+.forecast3 .todaySlider { width: 16% }
+.forecast3 .tmrwSlider { width: 42% }
+.forecast3 .dayAfterTmrwSlider { width: 42% }
+
+.forecast3 ul { background-color: #fcfbf9;  height: 110px; padding: 10px 0 0 6px; line-height: 35px; text-align: center  }
+.forecast3 ul li { float: left; padding-left: 12px  }
+.forecast3 .forIcons { width: 23px; height: 23px; background: url('../images/weather_icons.png') no-repeat 0 -43px; font-size: 0; margin: 3px 0 }
+.forecast3 .forIcons_night { width: 26px; height: 23px; background: url('../images/weather_icons.png') no-repeat -49px -43px; font-size: 0; margin: 3px 0 }
+.forecast3 .tmrwSlider ul li:first-child { padding-left: 17px }
+.forecast3 .dayAfterTmrwSlider ul li:first-child { padding-left: 5px }
+
+.weatherArea { position: absolute; right:0; }
+.weatherArea li a { display: inline-block; width: 200px; height: 40px; margin-bottom: 2px; line-height: 40px; text-align: center; background-color: #e5e5e5; color: #a5a5a5 }
+.weatherArea li a:hover { background-color: #f3f3f3 } 
+
+.userMenu { float: right; width: 200px; }
+.userMenu h4 { height: 40px; padding-left: 10px; background-color: #4F9BC6; color: #fff; line-height: 40px; font-weight: normal }
+.userMenu ul { height: 90px; background-color: #fafafa; padding: 15px 15px }
+.userMenu ul li:first-child { color: #4F9BC6; font-size: 1em }
+.userMenu ul li { padding-bottom: 7px; color: #a2a2a2; font-size: 0.95em }
+
+
+/* #section3 */
+
+#section3 { clear: both; margin-top: 20px; padding-top: 20px; border-top: 1px solid #e3e3e3 }
+
+.photoNews { position: relative; overflow: hidden; width: 270px; float: left; margin-right: 10px; }
+.photoNews h3 { height: 40px; background-color: #4F9BC6; line-height: 40px; padding-left: 10px; color: #f4f3ef; font-weight: normal; }
+.photoNews ul {  width: 100%; height: 185px; background-color: #fafafa; padding: 15px 15px }
+.photoNews ul li{ z-index: 1; position: absolute; width: 240px; height: 141px; margin-left: 15px; border: 1px solid #e3e3e3;  }
+.photoNews ul li dl { width: 220px; height: 77px; padding: 0 10px 0 10px; margin-top: 30px; background: url('../images/sec3_bg.png') no-repeat; color: #fff; font-size: 0.9em; text-align: center;}
+.photoNews ul li dt { padding: 13px 0 5px 0; }
+.photoNews ul li dt a { font-size: 1.2em }
+.photoNews ul li dl a { color: #fff; font-weight: bold;  }
+.photoNews ul li dl span { display: block; margin-top: 4px; font-size: 0.7em }
+.photoNews ul li:first-child { background: url('../images/photoNews_img.jpg') no-repeat;  }
+.photoNews ul li.photoList2 { background: url('../images/photoNews_img.jpeg') no-repeat; }
+.photoNews ul li.photoList3 { background: url('../images/photoNews_img.jpg') no-repeat; }
+.photoNews ul li.photoList4 { background: url('../images/photoNews_img.jpg') no-repeat; }
+
+.photoNews ul li:first-child { z-index: 10 }
+
+.news { float: left; width: 390px; position: relative; }
+.news p { position: absolute; top: 40px; font-size: 0.9em }
+.news p a { display: block; width: 390px; height: 30px; background-color: #e3ebee; line-height: 30px; text-align: center; color: #75b0d2 }
+.news p a:hover { color: #4F9BC6 }
+.news > ul > li { float: left; }
+.news > ul > li:first-child > a { color: #fff }
+.news > ul > li > a { display: block; width: 87.5px; height: 40px; color: #e3e3e3; background-color: #4F9BC6; text-align: center; line-height: 40px;  }
+.news > ul > li > a:hover { color: #fff }
+.news > ul > li:first-child > ul { z-index: 10 }
+.news > ul > li > ul { z-index: 1; position: absolute; left: 0; top: 70px; width: 360px; height: 163px; padding: 11px 15px; background-color: #fafafa }
+.news > ul > li > ul > li { height: 13px; padding-bottom: 11px; font-size: 0.9em }
+.news > ul > li > ul dt { float: left; width: 50px; border-right: 1px solid #e3e3e3; color: #75b0d2 }
+.news > ul > li > ul dd a { float: left; width: 240px; padding-left: 10px; color: #8b8b8b }
+.news > ul > li > ul dd a:hover { color: #75b0d2 }
+.news > ul > li > ul dd span { float: right; text-align: right; color: #ababab }
+.news > ul > li:first-child > ul .see_more a { z-index: 10 }
+.news > ul > li > ul .see_more a { position: absolute; right: 0; top: -70px; display: block;  width: 40px; height: 40px; background-color: #4F9BC6; color: #e3e3e3; line-height: 40px;  }
+.news > ul > li > ul .see_more a:hover { color: #fff }
+
+.event_service { position: relative; float: right; }
+.event_service h3 { width: 270px; height: 40px; background-color: #4F9BC6; line-height: 40px; padding-left: 10px; color: #f4f3ef; font-weight: normal; }
+.event_service .imgList { height: 140px; background-color: #fafafa }
+.event_service .imgList li img { position: absolute; top: 52px; left: 10px; border: 1px solid #e3e3e3 }
+.event_service .imgList li:first-child img { z-index: 1 }
+
+.event_service .service li { float: left; }
+.event_service .service li:first-child img { padding-left: 1px }
+.event_service .service li a img { background-color: #dceaf3 }
+.event_service .service li a img:hover { background-color: #E4F2FA }
+.event_service { margin-bottom: 20px }
+
+
+/*  play pause listNum */
+
+.playPause { position: absolute; left: 13px; bottom: 28px }
+.playPause a, .listNum a  { display: inline-block; width: 15px; height: 15px; background: url('../images/all_imgs.png') no-repeat -48px -42px; font-size: 0 }
+.playPause a:first-child { background-position: -32px -42px; margin-right: 5px }
+.listNum { z-index: 20; position: absolute; bottom: 98px; right: 191px }
+.listNum a { position: absolute; background-position: -16px -42px; }
+
+.photoNews .listNumbers { position: absolute; right: 13px; top: 197px }
+.photoNews .listNum { bottom: -14px; right: 61px; }
+.event_service .playPause { bottom: 84px; left: 10px; }
+
+
+.nav_on { background-position: 0 -42px !important; }
+
+
+#section4 { clear: both; height: 130px; padding-top: 20px; border-top: 1px solid #e3e3e3;  }
+
+.weather_on { float: left; width: 170px; margin-right: 10px;  }
+.weather_on h3, .social h3 { height: 40px;  background-color: #4F9BC6; line-height: 40px; padding-left: 10px; color: #f4f3ef; font-weight: normal; }
+.weather_on h3 a { color: #f4f3ef }
+.weather_on ul, .social ul { height: 75px; background-color: #f4f4f4; padding: 15px 0 0 20px }
+.weather_on li a { float: left; width: 42px; height: 59px; background: url('../images/all_imgs.png') no-repeat -54px -58px; font-size: 0 } 
+.weather_on li:first-child a { width: 54px; background-position: 0 -58px; margin-right: 24px }
+.weather_on li:first-child a:hover { background-position: -97px -58px }
+.weather_on li a:hover { background-position: -151px -58px }
+
+.social { float: left; width: 220px; margin-right: 10px;  font-weight: normal; }
+.social ul { height: 77px; padding-top: 13px;  }
+
+
+.social ul li:first-child a { float: left; display: block; width: 104px; height: 62px; margin-right: 10px; background: url('../images/all_imgs.png') no-repeat 0 -118px; font-size: 0}
+.social ul li:first-child a:hover { background-position: 0 -181px }
+.social ul li a {  color: #A2A2A2; }
+.social ul li a:hover {  color: #ababab; }
+.social ul li a span { display: inline-block; width: 17px; height: 17px; margin: 0 7px 3px 0; background: url('../images/all_imgs.png') no-repeat 0 -243px; vertical-align: middle;  }
+.social ul li.socialList_2 a span { margin-top: 3px }
+.social ul li.socialList_3 a span { background-position: -17px -243px }
+.social ul li.socialList_4 a span { background-position: -34px -243px }
+
+.special, .qna { width: 400px; float: left }
+.special img, .qna img { background-color: #dceaf3 }
+.special img:hover, .qna img:hover { background-color: #E4F2FA }
+.special { float: left }
+.special li, .qna li { float: left }
+
+.extra { float: right; width: 140px; margin-top: -65px }
+.extra p:first-child a { display: block; height: 40px; margin-bottom: 2px;  line-height: 40px; text-align: center; background-color: #e5e5e5; color: #a5a5a5 }
+.extra p:first-child a:hover { background-color: #f3f3f3 }
+.extra p.second_p a { float: left; display: inline-block; width: 45.3px; height: 46px; background: url('../images/all_imgs.png') no-repeat 0px -261px; font-size: 0}
+.extra p.second_p .extraA_2 { background-position: -46px -261px; margin-left: 2px; margin-right: 2px; }
+.extra p.second_p .extraA_3 { background-position: -93px -261px }
+.extra p.second_p a.extraA_1:hover { background-position: 0px -308px }
+.extra p.second_p a.extraA_2:hover { background-position: -46px -308px }
+.extra p.second_p a.extraA_3:hover { background-position: -93px -308px } 
+
+#footer { clear: both; position: relative; }
+
+#footer form p, #footer form fieldset{ float: left }
+#footer form:first-child { margin-left: 10px }
+#footer form { margin-top: 7px;  }
+#footer form select { width: 125px; height: 25px; padding: 0 0 0 10px; margin-right: 5px ; background: url('../images/all_imgs.png') no-repeat 0 -355px; color: #a68d76;  border: 0 none; border-radius: 0px; -mos-border-radius: 0px; -webkit-border-radius: 0px;  -moz-appearance: none; -webkit-appearance: none; appearance: none;}
+#footer form p input {  width: 40px; height: 25px; margin-right: 20px;  background: url('../images/all_imgs.png') no-repeat 0 -355px;color: #a68d76; border: 0 none; border-radius: 0px; -mos-border-radius: 0px; -webkit-border-radius: 0px;  -moz-appearance: none; -webkit-appearance: none; appearance: none; }
+
+.footerList { clear: both;  }
+.footerList li { float: left; margin: 30px 30px 15px 10px; font-size: 1.1em }
+.footerList li a { color: #f0f0f0 }
+.footerList li a:hover { color: #fff }
+
+.num131 a { position: absolute; top: 85px; right: 20px; width: 164px; height: 27px; background-color: #eee; color: #4F9BC6; line-height: 27px; text-align: center }
+.num131 a:hover { background-color: #fff }
+
+#footer address { width: 700px; margin-left: 10px; line-height: 20px; color: #e3e3e3 }
+
+.footer_form_bg { width: 100%; height: 40px; margin-top: 40px; background-color: #f4f3ef; border-top: 2px solid #f7c495 }
+.footer_bg { z-index: -100; position: absolute; width: 100%; height: 200px;  background-color: #4F9BC6; }
+
+

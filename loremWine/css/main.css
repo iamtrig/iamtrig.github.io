@@ -1,0 +1,245 @@
+		#content #products .productsOverflow::-webkit-scrollbar { width: 0.4em }
+		#content #products .productsOverflow::-webkit-scrollbar-track { -webkit-box-shadow: inset #202020; }
+		#content #products .productsOverflow::-webkit-scrollbar-thumb { background: #691A19;  outline:0 none}
+
+		input[type=text], input[type=email], input[type=tel], input[type=url], input[type=search], input[type=password], input[type=submit]  { -webkit-appearance:caret;  appearance: none;
+  -moz-appearance: none; -webkit-appearance: none; border-radius: 0; -moz-border-radius: 0; -webkit-border-radius: 0; border: 0 none; }
+
+		#header { position: relative; padding-left: 17%; height: 800px; background-color: #691A19; /*background: #691A19 url('../imgs/main_bg.jpg') no-repeat center right;*/  }
+		#header h1 { display: none; padding:225px 0 0 340px }
+		#header p.trueLorem { z-index: 100; position: absolute; top: 300px; left: 17%; width: 80%; color: #9C9C9C; font-size: 3.7em; letter-spacing: 0.2em  }
+		#header .red { display: inline-block; width: 120px; height: 120px; padding-top: 30px; background: url('../imgs/logo.png') no-repeat; text-indent: -999999px }
+		#header .red:hover { text-align: center; color: #4E0100; text-indent: 0; background: none;   }
+		#header .chooseLang p { z-index: 100; position: absolute; top: 100px; right: 10%;  font-size: 0.9em; padding-right: 30px }
+		#header .chooseLang p a {  text-align: right; }
+		#header a:hover { color: #691A19 }
+
+
+		.mainNav {  position: absolute; top: 0; right: 10%; width: 25%;  background-color: #202020; font-size: 0.8em }
+		.mainNav ul { height: 627px; padding: 173px 30px 0 0; text-align: right }
+		.mainNav ul li { padding-bottom: 50px }
+		.btmBg { z-index: 400; position: absolute; left: 0; bottom: -2px; width: 100%; height: 300px; background: url('../imgs/btmBg.png') no-repeat; background-size: 100% 100%; }
+		
+		#content { text-align: center; }
+		#content h1 { padding: 50px 0 50px; font-size: 2.5em; text-align: center; color: #9C9C9C }
+
+
+		#content #products { padding: 50px 20% 200px 20%; background-color: #202020; text-align: left; }
+		#content #products .productsOverflow { height: 600px; overflow: auto;  }
+		#content #products ol li { position: relative; padding-left: 5% }
+		#content #products ol li > a { position: absolute; right: -5px; top: 25px; width: 70px }
+		#content #products .productsOverflow { width: 103%; margin-top: 30px; }
+
+		#content #products ol li > a:hover  { color: #691A19; }
+		#content #products ol li > a:hover span.dot  { background-color: #691A19; }
+		#content #products ol li > a span.dot { float: right; display: inline-block; width: 10px; height: 10px; margin-top: 4px; border-radius: 50%; background-color: #666 }
+		#content #products ol { width: 99%; padding: 100px 0 0 0; box-shadow: inset 0px 0 26px #181818; -webkit-box-shadow: inset 0px 0 26px #181818; -moz-box-shadow: inset 0px 0 26px #181818;}
+		#content #products ol dl { width: 60%; padding-bottom: 150px; color: #4F4F4F }
+		#content #products ol dl dt { font-size: 2em; padding-bottom: 5px; color: #717171 }
+		#content #products ol dl .redLine { display: block; width: 100px; height: 3px; margin-bottom: 7px; background-color: #691A19 }
+		#content #products ol dl dd.year { font-size: 1.4em; padding-bottom: 20px; color: #5D5648 }
+		#content #products ol dl dd.exp { padding-bottom: 20px; font-size: 1.2em; line-height: 25px }
+		#content #products ol dl dd.pro { padding-bottom: 5px }
+		#content #products ol dl dd.buy { display: inline-block; margin-right: 10px; }
+		#content #products ol dl dd.cart { display: inline-block; }
+
+		#content #products ol dl dd a { display: inline-block; margin-bottom: 10px; }
+
+		#content #products ol dl dd a:hover { color: #691A19;   }
+		
+		#content #aboutUs { padding: 100px 20%; background-color: #691A19; color: #7D7D7D }
+		#content #aboutUs p { padding: 50px 0; height: 320px; background: url('../imgs/aboutUsBg.png') no-repeat center center; font-size: 1.45em }
+		#content #aboutUs p span { font-size: 1.5em }
+
+		#content #news { position: relative; height: 580px; padding: 100px 20%; background-color: #202020; color: #4F4F4F}
+		#content #news .pos { position: relative; }
+		#content #news p { position: absolute; left: 0; top: 650px; font-size: 1.6em; width: 100%; }
+		#content #news p a { display: inline; margin-left: 20px; text-align: center; color: #4F4F4F  }
+		#content #news p a:first-child { margin-left: 0 }
+		#content #news p a:hover { color: #691A19 }
+		#content #news p a:first-child { color: #691A19 } 
+		
+		#content #news ol {  overflow: hidden; font-size: 1.45em }
+		#content #news ol li { position: absolute; }
+		#content #news ol .time { display: block; margin-top: 20px }
+		#content #news ol li { display: none }
+		#content #news ol li:first-child { display: block;  } 
+		#content #news .num { font-size: 1.5em; margin-right: 10px}
+
+		#content #logIn {  padding: 100px 20%; background-color: #691A19 }
+		#content #logIn input { width: 98%; height: 40px; padding-left: 2%; margin-bottom: 10px;background-color: #691A19; border: 1px solid #9C9C9C; color: #9C9C9C; font-size: 1.2em; font-family: serif; }
+		#content #logIn input[type=submit] { width: 50%; height: 80px; cursor: pointer; background-color: #691A19; border: 0 none; font-family: serif; font-size: 2em; color: #9C9C9C }
+		#content #logIn input[type=submit]:hover { color: #202020 }
+		#content #logIn .yet { font-size: 1.5em; padding-bottom: 20px; font-weight: normal }
+		#content #logIn p { font-size: 1.7em }
+		#content #logIn p a { color: #9C9C9C }
+		#content #logIn p a:hover { color: #202020  }
+
+		
+		#footer { position: relative;  padding: 100px 20% 70px 20%; height: 434px; background-color: #202020; color: #383838}
+
+		.redBtmBg { position: absolute; top: -2px; left: 0; width: 100%; height: 300px; background: url('../imgs/redBtmBg.png') no-repeat; background-size: 100% 100%; }
+
+		#footer h2 { display: block; margin: 200px 0 0 20%; width: 120px; padding-top: 100px; background: url('../imgs/footerLogo.svg') no-repeat; text-indent: -9999px}
+		#footer h2 span { display: block; text-indent: 0; margin-top: 10px; font-weight: normal; text-align: center; font-style: italic; }
+		#footer .footerDeco { position: absolute; top: 0; right: 10%; width: 25%; height: 604px; background-color: #691A19;}
+		#footer address p { padding: 70px 0 0 20%; } 
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1320px) {
+	#wrap #header p.trueLorem { left: 12%; font-size: 2.8em }
+	.mainNav { right: 12% }
+	#header .chooseLang p { right: 12% }
+}
+
+@media only screen and (max-width: 1000px) {
+	#header .chooseLang p { right: 0 }
+	.mainNav { right: 0 }
+	#wrap #header p.trueLorem { top: 266px;  font-size: 2.5em }
+	#content #aboutUs p {  font-size: 1.3em; height: 300px; }
+	#content #news ol {  font-size: 1.2em }
+	#wrap #products,#wrap #aboutUs,#wrap #news,#wrap #logIn { padding-left: 15%; padding-right: 15%; }
+}
+
+@media only screen and (max-width: 900px) {
+	#header { height: 700px }
+	.btmBg, .redBtmBg { height: 200px; }
+	#footer { padding-top: 2px }
+	#footer .footerDeco { height: 506px }
+
+}
+
+@media only screen and (max-width: 800px) {
+	.mainNav { z-index: 900; position: fixed; width: 100%; height: 50px; }
+	.mainNav h2 a, .mainNav h3 a{ z-index: 1000; position: absolute; right: 15px; top: 15px; display: block; width: 20px; height: 20px;  }
+	.mainNav h2 a { background: url('../imgs/burger.svg') no-repeat; }
+	.mainNav h3 a { display: none; background: url('../imgs/close_burger.svg') no-repeat; }
+	.mainNav .navUl {  z-index: 1000; position: absolute; width: 100%; text-align: center; height: 430px; top: 50px; padding-top: 0; padding-right: 0; padding-bottom: 0; background-color: #202020; border-bottom: 1px solid #202020 ;}
+	.mainNav .navUl li { padding-bottom: 0; border-bottom: 1px solid #202020 ;  }
+	.mainNav .navUl li a{ display: block; height: 70px; line-height: 70px; color: #9C9C9C; background-color: #691A19 }
+	.mainNav .navUl li a:hover { background-color: #202020 }
+	#wrap .chooseLang p { z-index: 1250; position: fixed; top: 430px; width: 100%; text-align: center; padding-right: 0  }
+	#wrap .chooseLang p a { color: #9c9c9c }
+	#wrap .chooseLang p a:hover { color:  #691A19 }
+
+	#wrap #products .productsOverflow { overflow: visible; height: auto }
+	#content #products ol dl { padding-bottom: 100px }
+	#content #products ol { width: 100% }
+
+	#header { height: 600px; padding-left: 0; }
+	#wrap #header p.trueLorem { top: 230px; left: 0; width: 100%; text-align: center; }
+	#wrap #header p.trueLorem { position: relative; top:  }
+	#footer { height: 400px; }
+	#footer .footerDeco { height: 472px }
+	#footer address p { padding-top: 37px }
+
+	#content h1 { padding: 0 0 30px; font-size: 2em }
+	#content #logIn .yet { font-size: 1.2em }
+
+	#wrap #content #aboutUs p { height: 335px; font-size: 1.2em }
+
+	#wrap #content #news ol { font-size: 1.2em }
+	#wrap #content #news { height: 520px }
+	#wrap #content #news p { top: 580px }
+
+	.navUl { display: none }
+	.chooseLang p { display: none }
+
+}
+
+@media only screen and (max-width: 700px) {
+	.btmBg, .redBtmBg { height: 150px }
+	#footer { height: 328px }
+	#footer .footerDeco { height: 400px }
+	#footer h2 { margin-top: 160px }
+	#wrap { font-size: 0.9em }
+	#wrap #header p.trueLorem { top: 180px }
+	#header { height: 500px }
+	#header .red { width: 100px; height: 100px; background-size: 100px }
+	#content h1 {  }
+	#content #products { padding-bottom: 70px; text-align: center; }
+	#content #products ol li { padding-left: 0; }
+	#content #products ol { padding-top: 60px; background: none; box-shadow:  none }
+	#content #products ol li > a { display: none }
+	#content #products ol dl { width: 100%; padding-bottom: 60px }
+	#content #products ol dl .redLine { margin: 0 auto; margin-bottom: 10px }
+	#content #aboutUs { padding: 70px 20% }
+	#content #aboutUs p { padding: 30px 0 }
+	#wrap #content #news { height: 470px }
+	#wrap #content #news p {  top: 560px}
+}
+
+@media only screen and (max-width: 650px) {
+	#wrap #header p.trueLorem { font-size: 2em }
+	#content #products ol {  padding-top: 15px }
+	#wrap #content #aboutUs, #wrap #products, #wrap #news, #wrap #logIn { padding-left: 12%; padding-right: 12% }
+}
+
+@media only screen and (max-width: 550px) {
+	#wrap #header p.trueLorem { font-size: 2em }
+	#header { height: 300px }
+	.btmBg, .redBtmBg { height: 100px }
+	body #wrap #header p.trueLorem { top: 130px; font-size: 1.7em }
+	#header .red {  width: 50px; height: 50px; background-size: 50px; padding-top: 10px}
+	#content h1 { font-size: 1.5em }
+	#wrap #products .productsOverflow {  margin-top: 0}
+	#content #products ol dl { padding-bottom: 30px }
+	#wrap #products .productsOverflow dl dt { font-size: 1.5em }
+	#content #products ol dl dd.year { font-size: 1.2em}
+
+	#content #news, #content #aboutUs, #content #logIn {  padding-top: 70px; padding-bottom: 70px; }
+	#wrap #content #news p { top: 140px; font-size: 1.3em }
+	#footer h2 { margin: 95px 0 0 0; padding-top: 87px; background-size: 100px }
+	#footer h2 span { width: 100px }
+	#footer address p { padding: 20px 0 0 5px }
+	#footer {  height: 270px }
+	#footer .footerDeco { height: 342px }
+	#wrap #content #news {  height: 560px }
+	#wrap #content #aboutUs p { background-size: 300px }
+
+	.mainNav .navUl li a { height: 55px; line-height: 55px }
+	.mainNav .navUl { height: 340px}
+	#wrap .chooseLang p { top: 354px }
+	#content #logIn input { height: 30px; }
+	#content #logIn input[type=submit] { font-size: 1.5em }
+	#content #logIn p { font-size: 1.5em }
+	#wrap #content #news ol {  padding-top: 70px }
+}
+
+@media only screen and (max-width: 450px) {
+	#wrap #content #aboutUs { height: 470px }
+	#wrap #content #aboutUs p { padding-top: 10px; height: 410px }
+	#footer { height: 215px }
+	#footer .footerDeco { height: 287px }
+	#footer h2 { background-size: 70px; padding-top: 55px; margin-left: 20px; }
+	#footer h2 span { width: 74px }
+}
+
+@media only screen and (max-width: 390px) {
+	body #wrap #header p.trueLorem { font-size: 1.2em }
+	#wrap #content #aboutUs { height: 520px }
+	#wrap #content #news { height: 600px }
+}
+
+@media only screen and (max-width: 360px) {
+	#wrap #content #aboutUs p { background-size: 230px; }
+	#wrap #content #aboutUs { height: 560px }
+	#wrap #content #news { height: 640px }
+}
+
+@media only screen and (max-width: 320px) {
+	#wrap #content #aboutUs { height: 590px }
+	#wrap #content #news { height: 660px }
+}
+
+
+
+
