@@ -149,16 +149,20 @@ $(document).ready(function(){
 
 
 // #spareTime list mouseenter
+		if ($(window).width()>800) {
 
-		$("#work ol li").mouseenter(function(){
-			$(this).animate({opacity:1},500);
-			$(this).css("boxShadow","3px 0px 32px #D3D3D3");
-		});
+			$("#work ol li").mouseenter(function(){
+				$(this).animate({opacity:1},500);
+				$(this).css("boxShadow","3px 0px 32px #D3D3D3");
+			});
 
-		$("#work ol li").mouseleave(function(){
-			$(this).animate({opacity:0.6},500);
-			$(this).css("boxShadow","none");
-		});
+			$("#work ol li").mouseleave(function(){
+				$(this).animate({opacity:0.6},500);
+				$(this).css("boxShadow","none");
+			});
+		} else {
+			$("#work ol li").css("opacity",1);
+		}
 
 
 		$('#spareTime ul li').bind('mouseenter mouseleave click', function(event){ 

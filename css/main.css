@@ -206,6 +206,9 @@
 	#spareTime ul ol dl { height: 34px; padding-top: 170px; font-size: 0.8em; }
 	#work ol li dl dd a { width: 43%; left: 28%; color: #fff; background-color: #4B4B4B }
 	#spareTime ul li ol li, #wrap #work ol li { opacity: 1 }
+	#work ol li.forecast { background-image: url('../imgs/forecast_img_on.jpg');  }
+	#work ol li.lorem { background-image: url('../imgs/lorem_img_on.jpg');  }
+	#work ol li.wine { background-image: url('../imgs/loremWine_img_on.jpg'); }
 }
 
 @media only screen and (max-width: 700px) {
