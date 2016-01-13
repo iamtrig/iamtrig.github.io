@@ -3,10 +3,11 @@
 	#content #myPage .red { color: #DF0F00 }
 
 
-		input { margin: 0; border: 0 none; font-size: 1.1em; color: #fff; letter-spacing: 0.3em; background-color: #D2D7D6; border-bottom: 1px solid #fff  }
-		input[type=submit], input[type=reset] { cursor: pointer; }
-		input:focus, select:focus { box-shadow: none; outline: 0; border-color: none }
-		input[type=submit]:hover, input[type=reset]:hover { color: #DF0F00; border-bottom: 1px solid #DF0F00 }
+		input[type=text], input[type=submit], input[type=reset],input[type=password] { background: none; border: 0 none; appearance: none; -moz-appearance: none; -webkit-appearance: none; border-radius: 0; -webkit-border-radius: 0; -moz-border-radius: 0; box-shadow: 0 0 0 0; -moz-box-shadow: 0 0 0 0; -webkit-box-shadow: 0 0 0 0; }
+		body input,input[type=text], input[type=submit], input[type=reset],input[type=password] { margin: 0; font-size: 1.1em; color: #fff; letter-spacing: 0.3em; background-color: #D2D7D6; border-bottom: 1px solid #fff  }
+		body input[type=submit], input[type=reset] { cursor: pointer; }
+		body input:focus, select:focus { box-shadow: none; outline: 0; border-color: none }
+		body input[type=submit]:hover, input[type=reset]:hover { color: #DF0F00; border-bottom: 1px solid #DF0F00 }
 		
 		#content h1 { color: #fff }
 		#header, #aboutUs, #books, #myPage, #signUp, #qna, #footer { width: 620px; margin: 0 auto }

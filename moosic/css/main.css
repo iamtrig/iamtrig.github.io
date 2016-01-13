@@ -1,6 +1,6 @@
 h1 { color: #BA3194; letter-spacing: 0.4em;  }
 
-	input[type=text], input[type=submit], input[type=reset],input[type=password] { background: none; border: 0 none; appearance: none; -moz-appearance: none; -webkit-appearance: none; }
+	input[type=text], input[type=submit], input[type=reset],input[type=password] { background: none; border: 0 none; appearance: none; -moz-appearance: none; -webkit-appearance: none; border-radius: 0; -webkit-border-radius: 0; -moz-border-radius: 0; box-shadow: 0 0 0 0; -moz-box-shadow: 0 0 0 0; -webkit-box-shadow: 0 0 0 0; }
 		body #header .showAndHide { display: none; transition: 0.5s; }
 
 		#header { position: relative; margin: 0 auto; padding-top: 100px; text-align: center; }
