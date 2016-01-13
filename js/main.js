@@ -165,24 +165,28 @@ $(document).ready(function(){
 		}
 
 
-		$('#spareTime ul li').bind('mouseenter mouseleave click', function(event){ 
+		$('#spareTime ul > li > a').bind('mouseenter mouseleave click', function(event){ 
 			 var lisColour = $(this).find(">a").attr("class");
 
 		    if(event.type == 'click') { 
-		       	$(this).find("ol").show();
-				$(this).siblings().find("ol").hide();
-				$(this).find(">a").css({"backgroundColor":"#4B4B4B","color":"#fff"});
-				$(this).siblings().find(">a").css({"backgroundColor":"#F9F9F9","color":"#4B4B4B"});
+		       	$(this).parent().find("ol").show();
+				$(this).parent().siblings().find("ol").hide();
+				$(this).parent().find(">a").css({"backgroundColor":"#4B4B4B","color":"#fff"});
+				$(this).parent().siblings().find(">a").css({"backgroundColor":"#F9F9F9","color":"#4B4B4B"});
 		        activeItem = this;          
 		    } else if(event.type == 'mouseenter') { 
-		        $(this).find(">a").css({"backgroundColor":"#4B4B4B","color":"#fff"});
+		        $(this).parent().find(">a").css({"backgroundColor":"#4B4B4B","color":"#fff"});
 
 		    } else if(event.type == 'mouseleave') {
 		        if(activeItem != this) {        
-		           $(this).find(">a").css({"backgroundColor":"#F9F9F9","color":"#4B4B4B"});
+		           $(this).parent().find(">a").css({"backgroundColor":"#F9F9F9","color":"#4B4B4B"});
 		        }
 		    } 
 		    return false;
 		});
+
+
+
+
 
 	});
