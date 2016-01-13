@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+/* reset */
+
+body, div, p, h1, h2, h3, h4, h5, h6, ul, ol, ul, ol, li, dl, dt, dd, table, caption, tr, td, th, form, fieldset, legend, address, blockquote { margin: 0; padding: 0; }
+h1, h2, h3, h4, h5, h6 { font-size: 100% }
+address, em { font-style: normal; }
+fieldset, img { border: 0 none; }
+table { border-collapse: collapse; border-spacing: 0px; }
+ol, ul, li { list-style: none; }
+hr { display: none; }
+
+/* base */
+
+body {
+	background: #D2D7D6;
+	color: #879C9E;
+	font-family: sans-serif;
+	font-size: 1em;
+	border: 17px solid #fff; 
+	letter-spacing: 2px;
+}
+
+a { color: #fff; text-decoration: none; }
+a:hover { color: #686868; text-decoration: none; }
+img, input { vertical-align: top; }
+.hidden {
+	width: 0px;
+	height: 0px;
+	line-height: 0px;
+	font-size: 0px;
+
+}

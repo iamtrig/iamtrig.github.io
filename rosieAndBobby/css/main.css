@@ -1,0 +1,548 @@
+/* for script */
+	#content #myPage .redInside { background-color: #DF0F00 }
+	#content #myPage .red { color: #DF0F00 }
+
+
+		input { margin: 0; border: 0 none; font-size: 1.1em; color: #fff; letter-spacing: 0.3em; background-color: #D2D7D6; border-bottom: 1px solid #fff  }
+		input[type=submit], input[type=reset] { cursor: pointer; }
+		input:focus, select:focus { box-shadow: none; outline: 0; border-color: none }
+		input[type=submit]:hover, input[type=reset]:hover { color: #DF0F00; border-bottom: 1px solid #DF0F00 }
+		
+		#content h1 { color: #fff }
+		#header, #aboutUs, #books, #myPage, #signUp, #qna, #footer { width: 620px; margin: 0 auto }
+		#header { padding-bottom: 150px; }
+		.relPos { position: relative; }
+		#aboutUs, #books, #myPage, #signUp, #qna, #footer { padding-top: 100px; margin-bottom: 100px; }
+		#content h1 { position: absolute; left: 90px; bottom: 0; font-size: 1em }
+
+		.headerBg { width: 100%; height: 620px; margin-top: 200px; background: url("../imgs/headerBg.png") no-repeat; text-align: center  }
+		#header h1 { padding-top: 100px; font-size: 3em; letter-spacing: 0.2em; color: #fff; text-align: center }
+		#header h1 img { margin: 50px; }
+		#header p { color: #fff; font-style: italic; font-family: serif; text-align: center; font-size: 1.5em }
+		
+		#nav { z-index: 100; position: fixed; right: 60px; top: 300px; }
+		#nav ul { text-align: right; font-size: 0.8em }
+		#nav ul li { margin-bottom: 30px }
+		#nav ul li:first-child { position: relative; }
+		#nav ul li dl { display: none }
+		#nav ul li dt input { position: absolute; top: 5px; right: 0; width: 170px; margin: 0; border: 0 none; font-size: 1.1em; color: #fff; letter-spacing: 0.3em; background-color: #D2D7D6; border-bottom: 1px solid #fff }
+		#nav ul li dt input:focus { border-color: #fff; outline: 0;  }
+		#nav ul li dd input { position: absolute; top: 0; right: 0; width: 25px; height: 25px; font-size: 0; background: url('../imgs/search.svg') no-repeat; border: 0; margin: 0;  }
+		#nav ul li a:hover { transition: 0.5s; color: #DF0F00 }
+		#nav ul li:first-child { cursor: pointer }
+
+
+		#aboutUs p { line-height: 30px }
+		#aboutUs p:first-child { color: #fff }
+		#aboutUs p span { font-size: 1.8em }
+		.facePics { text-align: center;  }
+		.facePics img { border-radius: 50% 50%; margin: 60px 0 }
+		.deco { display: inline-block; width: 70px; height: 70px;margin: 85px 50px 0 50px; background: url('../imgs/betweenPics.png') no-repeat; }
+
+		.contact { position: fixed; top: 485px; left: -100px; -ms-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); transform: rotate(-90deg); font-size: 0.75em; color: #fff;text-align: center; }
+
+		.sectionLine { border-bottom: 1px solid #fff; }
+		
+/* #books */
+		#books .navInBooks { text-align: center; }
+		#books .navInBooks li { display: inline-block; margin: 0 0 50px 50px; }
+		#books .navInBooks li a { display: inline-block; padding-bottom: 20px; border-bottom: 1px solid #D2D7D6 }
+		#books .navInBooks li a:hover, #books .navInBooks li:first-child a { transition: 0.5s; color: #DF0F00; border-bottom: 1px solid #DF0F00 }
+		#books .navInBooks li:first-child { margin-left: 0 }
+		#books .gradiSeeMoreNav { display: none }
+		
+		#books #searchInBooks { text-align: center; margin-bottom: 90px; }
+		#books #searchInBooks select { display: inline-block; letter-spacing: 0.2em; font-size: 1.1em; color: #fff; background: #D2D7D6 url('../imgs/arrowDown.png') no-repeat 87px 4px; border: 0; border-radius: 0; appearance: none; -moz-appearance: none; -webkit-appearance: none; cursor: pointer }
+		#books #searchInBooks dl, #books #searchInBooks dl dt, #books #searchInBooks dl dd { display: inline-block; }
+		#books #searchInBooks dt { position: absolute; }
+		#content #books #searchInBooks input#searchFieldInBooks { width: 300px }
+		#books #goBtnInBooks { width: 25px; height: 25px; margin-left: 20px; font-size: 0; border-bottom: 0 none; background: url('../imgs/search.svg') no-repeat; }
+		
+		#books .topFiveUl { position: relative; }
+		#books .topFiveUl > li:first-child { height: 600px; padding-top: 40px; border-top: 0 none }
+		#books .topFiveUl > li { height: 560px;padding-top: 70px;  border-top: 1px solid #fff }
+		#books .topFiveBg { margin: 70px 0; width: 620px; height: 145px; background: url('../imgs/books_line.png') no-repeat center top; }
+		#books .topFiveUl li .forBold { color: #fff; font-weight: bold; font-size: 1.2em; letter-spacing: 0.2em }
+		#books .topFiveUl ol li > a { position: absolute; width: 25px; height: 25px; background-color: #DF0F00; border-radius: 50% 50%; text-align: center; line-height: 25px; font-size: 1em; font-family: serif; font-style: italic  }
+		#books .topFiveUl ol li > a:hover { transition: 0.2s; color: #fff; width: 45px; height: 45px; font-size: 1.3em; line-height: 45px }
+		#books .topFiveUl ol li:first-child > a { top: -231px; left: 31px;   }
+		#books .topFiveUl ol li.booksLi2 > a { top: -184px; left: 133px  }
+		#books .topFiveUl ol li.booksLi3 > a { top: -162px; left: 256px  }
+		#books .topFiveUl ol li.booksLi4 > a { top: -128px; left: 363px  }
+		#books .topFiveUl ol li.booksLi5 > a { top: -108px; left: 475px  }
+		
+		#books .topFiveUl ol li:first-child > a:hover { top: -241px; left: 21px; }
+		#books .topFiveUl ol li.booksLi2 > a:hover { top: -194px; left: 123px  }
+		#books .topFiveUl ol li.booksLi3 > a:hover { top: -172px; left: 246px  }
+		#books .topFiveUl ol li.booksLi4 > a:hover { top: -138px; left: 353px  }
+		#books .topFiveUl ol li.booksLi5 > a:hover { top: -118px; left: 465px  }
+
+		#books .topFiveUl .howManyPeople { position: absolute; top: -216px; right: 20px; font-size: 0.7em; color: #879C9E; }
+		#books .topFiveUl ol li { position: absolute; }
+		#books .topFiveUl ol li dl { color: #fff }
+		#books .topFiveUl ol li dl dt { float: left; margin-right: 25px; padding-bottom: 40px }
+		#books .topFiveUl .descrip { font-size: 0.9em; margin: 10px 0 10px 0; color: #879C9E; line-height: 20px }
+		
+
+		#books .topFiveUl ol li dl { display: none }
+		#books .topFiveUl ol li:first-child dl { display: block; }
+
+		#books .authour, #books .topFiveUl .genreOfBook { color: #fff; display: inline-block; font-size: 0.9; font-family: serif; font-style: italic }
+		#books .authour  { margin-top: 10px; margin-bottom: 7px }
+		#books .topFiveUl .price { position: absolute; left: 45px }
+
+		#books .ratings .ratingDot { margin-left: -5px; margin-right: 8px;  display: inline-block; width: 10px; height: 10px; background-color: #DF0F00; border-radius: 50% 50%; }
+		#books .getIt span, #books .giftIt span, #books .saveIt span  { display: inline-block; width: 15px; height: 15px; margin: 0 20px 0 5px; vertical-align: middle; background: url('../imgs/get.svg') no-repeat; }
+		#books .giftIt span { background-image: url('../imgs/gift.svg'); }
+		#books .saveIt span { background-image: url('../imgs/save.svg'); }
+		#books .getIt, #books .giftIt, #books .saveIt { display: inline-block; font-size: 0.85em; font-weight: bold }
+		#books .getIt a, #books .giftIt a, #books .saveIt a { color: #DF0F00; opacity: 0.5;}
+		#books .getIt a:hover, #books .giftIt a:hover, #books .saveIt a:hover { transition: 0.5s; opacity: 1;}
+		#content #books dd.bookTitle, #content #books dt.bookTitle { font-size: 1.3em; color: #fff }
+
+		#books .newArrivalsLi { position: relative; }
+		#books .newArrivalsLi .price { top: 0;right: 5px; left: auto; color: #fff }
+		#books .newArrivalsLi li { position: absolute; margin-top: 270px }
+		#books .newArrivalsLi li > a { position: absolute; top: -200px; opacity: 0.6 }
+		#books .arrivalsLi2 > a { left: 160px }
+		#books .arrivalsLi3 > a { left: 320px }
+		#books .arrivalsLi4 > a { left: 480px }
+		#books .newArrivalsLi li > a:hover, #books .newArrivalsLi li:first-child > a { transition: 0.5s; opacity: 1; box-shadow: #A6A6A6 0px 14px 26px -7px; }
+		
+		#books .newArrivalsLi li dl { display: none; }
+		#books .newArrivalsLi li:first-child > dl { display: block }
+		#books .newArrivalsLi li:first-child dl dd {  }
+		
+		#content #books .forHeight { height: auto; }
+		#books .recomLi li { overflow: hidden; position: relative; display: inline-block; height: 340px; width:130px; margin-right: 25px }
+		#books .recomLi li dl { margin-top: 50px; font-size: 0.7em; text-align: center }
+		#books .recomLi li dl dt  { margin-bottom: 20px }
+
+		#books .recomLi li dl .authour { margin-top: 5px; margin-bottom: 5px; color: #879C9E }
+		#books .recomLi li dl .genreOfBook { margin-bottom: 10px; color: #879C9E}
+		#books .recomLi .ratings .ratingDot { margin-left: 0; margin-right: 5px; }
+		#books .recomLi li dl .price { display: none; left: auto; top: 58px; right: 10px; font-size: 1.4em; color: #fff; font-weight: bold }
+		#books .recomLi .getIt, #books .recomLi .saveIt, #books .recomLi .giftIt { display: none; position: absolute; top: 150px; }
+		#books .recomLi .getIt a, #books .recomLi .saveIt a, #books .recomLi .giftIt a { opacity: 1 }
+		#books .recomLi .getIt { left: 25px }
+		#books .recomLi .giftIt { left: 55px }
+		#books .recomLi .saveIt { left: 85px }
+
+		#books .recomLi .noMgRight { margin-right: 0px; }
+
+		.gradiSeeMore { display: none }
+
+
+/* #myPage */
+		#myPage .beforeLoggingIn  dl { position: relative; }
+		#myPage .beforeLoggingIn  dt { position: absolute; }
+		#myPage .beforeLoggingIn  .dtPswd { left: 55% }
+
+		#myPage .beforeLoggingIn #signIn .ddEmail { float: left; width: 50% }
+		#myPage .beforeLoggingIn #signIn .ddPswd { float: right; width: 50% }
+		#myPage .beforeLoggingIn #signIn .ddEmail input { width: 90% }
+		#myPage .beforeLoggingIn #signIn .ddPswd input { float: right; width: 90% }
+		#myPage .beforeLoggingIn .ddSignIn { text-align: center; }
+		#myPage .beforeLoggingIn .ddSignIn input { margin: 70px 0 70px 0; }
+		#myPage .beforeLoggingIn p { text-align: center; }
+		#myPage .beforeLoggingIn p a { padding-right: 25px; background: url('../imgs/arrowDown.png') no-repeat right 2px;  }
+		#myPage .beforeLoggingIn p a:hover { color: #fff }
+
+#myPage .afterLoggingIn { display: none }		
+		#myPage .afterLoggingIn { position: relative; }
+		#myPage .afterLoggingIn .msgBg { position: absolute; right: 0; top: 7px; width: 50px; height: 50px; background: url('../imgs/letterIcon.svg') no-repeat; }
+		#myPage .afterLoggingIn .msgBg .messages { display: inline-block; padding: 7px 0 0 11px; color: #fff; }
+		#myPage .afterLoggingIn .msgBg .messages a:hover { color: #fff }
+		#myPage .afterLoggingIn h2 { padding-bottom: 20px; margin-bottom: 20px; font-size: 1.4em; color: #fff; border-bottom: 1px solid #fff; font-weight: normal; }
+		#myPage .afterLoggingIn .userImg { display: inline-block; width: 55px; height: 55px; margin-right: 20px; background: url('../imgs/profilePic.jpg') no-repeat; border-radius: 50% 50%; vertical-align: middle; }
+		#myPage .afterLoggingIn .giftnDeleteIcons { z-index: 100; position: absolute; right: 127px; top: 230px;}
+		#myPage .afterLoggingIn .giftnDeleteIcons a { margin-right: 14px; opacity: 0.5; }
+		#myPage .afterLoggingIn .giftnDeleteIcons a:hover { transition: 0.5s; opacity: 1; }
+		#myPage .afterLoggingIn .points { color: #DF0F00; }
+		#myPage .afterLoggingIn p:first-child { margin-bottom: 50px; }
+
+		#myPage .afterLoggingIn select { letter-spacing: 0.1em; font-size: 1.1em; color: #fff; background: #D2D7D6 url('../imgs/arrowDown.png') no-repeat 105px 4px; border: 0; border-radius: 0; appearance: none; -moz-appearance: none; -webkit-appearance: none; cursor: pointer }
+		#myPage .afterLoggingIn #purchasedSortBy, #myPage .afterLoggingIn #savedSortBy  { z-index: 100; position: absolute; right: -27px; top: 230px; }
+		
+		#myPage .afterLoggingIn .savedLi .giftnDeleteIcons { display: none }
+		#myPage .afterLoggingIn #savedSortBy { display: none; }
+		
+		#myPage .afterLoggingIn ul > li > a { z-index: 100; position: relative; float: left; width: 50%; padding-bottom: 20px; margin-bottom: 435px; border-bottom: 1px solid #fff; text-align: center; font-weight: bold; font-size: 1.2em }
+		#myPage .afterLoggingIn ul > li > a:hover, #myPage .afterLoggingIn ul > li > a.chckd { transition: 0.5s; color: #DF0F00; border-bottom: 1px solid #DF0F00 }
+		
+		#myPage .afterLoggingIn .roundBg { display: inline-block; width: 15px; height: 15px; border-radius: 50% 50%; border: 1px solid #879C9E; vertical-align: middle; }
+		#myPage .afterLoggingIn ol li .chooseLi { display: inline-block; width: 7px; height: 7px; border-radius: 50% 50%;  margin: -5px 0 0 4px; vertical-align: middle; }
+	
+#myPage .afterLoggingIn ul .savedLi ol { display: none }
+		
+		#myPage .afterLoggingIn .overFlowHiddenBox { z-index: 100;  position: absolute; top: 285px;  overflow: hidden; height: 250px; }
+		#myPage .afterLoggingIn ul ol {  }
+		#myPage .afterLoggingIn ul ol li { padding: 12px 0 }
+		#myPage .afterLoggingIn ol li > a { display: inline-block; color: #879C9E;  }
+		#myPage .afterLoggingIn ol li .ddmmyyyy { padding: 30px 20px; margin-left: 20px;  border-left: 1px solid #879C9E; border-right: 1px solid #879C9E;  font-weight: bold;}
+		#myPage .afterLoggingIn ol li .ddmmyyyy:hover { color: #DF0F00 }
+		
+		#myPage .afterLoggingIn ul ol dl { display: inline-block; vertical-align: middle; padding-left: 20px; cursor: pointer; font-weight: bold }
+		#myPage .afterLoggingIn ul ol li > a:hover { transition: 0.3s; color: #DF0F00 }
+		#myPage .afterLoggingIn ul ol dl dt { letter-spacing: 0.2em }
+		#myPage .afterLoggingIn ul ol dl dd { display: inline-block; font-size: 0.8em; font-style: italic; font-family: serif; font-weight: normal}
+		#myPage .afterLoggingIn .gradiBg { z-index: 200; position: absolute; top: 455px; width: 100%; height: 140px; background: url('../imgs/myPage_gradi.png') repeat-x; text-align: center; }
+		#myPage .afterLoggingIn .gradiBg a { display: inline-block; margin-top: 100px; }
+		#myPage .afterLoggingIn .gradiBg a:first-child { margin-right: 30px }
+		#myPage .afterLoggingIn .savedLi .gradiBg { display: none }
+
+
+		#myPage .afterLoggingIn .recievedLi .overFlowHiddenBox, #myPage .afterLoggingIn .sentLi .overFlowHiddenBox { top: 730px }
+		#myPage .afterLoggingIn .recievedLi .gradiBg, #myPage .afterLoggingIn .sentLi .gradiBg { top:900px }
+		#myPage .afterLoggingIn .recievedLi dl, #myPage .afterLoggingIn .sentLi dl { padding-left: 0; }
+		#myPage .afterLoggingIn .recievedLi ol, #myPage .afterLoggingIn .sentLi ol { margin-left: 10px }
+		#myPage .afterLoggingIn .recievedLi ol li:first-child, #myPage .afterLoggingIn .sentLi ol li:first-child  { margin-left: -10px; color: #DF0F00 }
+		#myPage .afterLoggingIn .sentLi ol li a { color: #DF0F00 }
+		#myPage .afterLoggingIn .recievedLi ol li:first-child .arrowRight,#myPage .afterLoggingIn .sentLi ol li:first-child .arrowRight  { padding-left: 10px }
+		#myPage .afterLoggingIn .recievedLi ol li dl, #myPage .afterLoggingIn .sentLi ol li dl  { cursor: default; }
+
+		#myPage .afterLoggingIn .arrowRight { display: inline-block; padding-right: 5px; width: 20px; height: 20px; background: url('../imgs/arrowRightOff.svg') no-repeat;  }
+		#myPage .afterLoggingIn li:first-child .arrowRight { background: url('../imgs/arrowRightOn.svg') no-repeat;  }
+		#myPage .afterLoggingIn .recievedLi ol li:first-child:hover .arrowRight, #myPage .afterLoggingIn .sentLi ol li:first-child:hover .arrowRight { padding-left: 0; }
+		#myPage .afterLoggingIn .recievedLi ol li:first-child:hover, #myPage .afterLoggingIn .sentLi ol li:first-child:hover  { margin-left: 0; cursor: pointer }
+		#myPage .afterLoggingIn .recievedLi ol li:first-child:hover dl, #myPage .afterLoggingIn .sentLi ol li:first-child:hover dl  { cursor: pointer; }
+		#myPage .afterLoggingIn .logOutBtn { position: absolute; top: 22px; right: 60px; }
+		#myPage .afterLoggingIn .logOutBtn a { color: #879C9E } 
+		#myPage .afterLoggingIn .logOutBtn a:hover { color: #DF0F00 }  
+
+		#myPage .afterLoggingIn .sentLi .gradiBg { display: none }
+		#myPage .afterLoggingIn .sentLi ol { display: none }
+
+
+
+/* #signUp */
+		
+		#signUp { padding-top: 0 }
+		#signUp .signUpForm { position: relative; }
+		#signUp .signUpForm dt { position: absolute; }
+		#signUp .signUpForm dd { width: 50%; margin-bottom: 50px }
+		#signUp .signUpForm dd input { width: 90% }
+		#signUp .signUpForm .floatRi { float: right }
+		#signUp .signUpForm .floatRi input { float: right }
+		#signUp .signUpForm .floatLef { float: left }
+
+		#signUp .signUpForm .dtLast, #signUp .signUpForm .dtConfirm { left: 55% }
+		#signUp .dtPswd, #signUp .dtConfirm { top: 73px }
+		#signUp .dtEmail { top: 146px }
+
+		#signUp .signUpForm select { float: right; font-size: 1.1em; letter-spacing: 0.2em; color: #fff; background-color: #D2D7D6; border: 0; border-radius: 0; appearance: none; -moz-appearance: none; -webkit-appearance: none; width: 90%; cursor: pointer }
+
+		#signUp h2 { clear: both; padding: 10px 0 30px 0; text-align: center; font-size: 0.8em; font-weight: normal }
+		#signUp h2 a { color: #DF0F00; padding-bottom: 5px; border-bottom: 1px solid #DF0F00 }
+		#signUp .agreement { text-align: center; }
+		#signUp .agreement dt, #signUp .agreement dd { display: inline-block; font-size: 0.8em }
+		#signUp dl.agreement dd:first-child { margin-right: 10px }
+		#signUp p { margin-top: 70px; text-align: center }
+
+		#signUp p input:first-child { margin-right: 20px; }
+
+		#signUp select { background: url('../imgs/arrowDown.png') no-repeat right 5px; }
+
+
+/* #qna */
+
+		#qna { height: auto;  }
+		#qna ul { position: relative; height: 480px }
+		#qna ul li { position: absolute; width: 620px; }
+		#qna ul li dl { display: none }
+		#qna ul li:first-child dl { display: block }
+		#qna ul li > a { z-index: 100; position: absolute; top: 540px; margin-left: 21.5%; display: inline-block; width: 12px; height: 12px; background-color: #fff; border-radius: 50%; font-size: 0 }
+		#qna ul li:first-child > a { background-color:#DF0F00 }
+		#qna dl dt { width: 100%; padding-left: 22px; padding-bottom: 35px }
+		#qna dl dt span:first-child { margin-left: -27px; padding-bottom: 6px;  font-size: 1.5em }
+		#qna dl dt a:hover span:first-child { border-bottom: 1px solid #fff; transition: 0.2s; }
+		#qna dl dt a:hover { color: #fff }
+
+		#qna dl dd { display: none; padding: 0 0 35px 20px; margin-left: 25px }
+		#qna dl dd span:first-child { margin-left: -24px; padding-bottom: 4px; font-size: 1.5em; border-bottom: 1px solid #DF0F00; color: #DF0F00  }
+		#qna dl dd.show { display: block; }
+
+		#qna h2 { margin: 140px 0 40px 0; text-align: center; font-size: 0.8em; font-weight: normal }
+		#qna p {  text-align: center; }
+		#qna p a { padding-bottom: 5px; border-bottom: 1px solid #fff;  }
+		#qna p a:hover { color: #DF0F00; border-bottom: 1px solid #DF0F00; transition: 0.3s; }
+
+		#footer { text-align: center }
+		#footer ul li { display: inline-block; margin: 0 10px 10px 0; font-size: 0.9em }
+		#footer ul li a { color: #879C9E }
+		#footer ul li a:hover { transition: 0.3s; color:#DF0F00 }
+		#footer p { margin-top: 30px }
+
+
+
+
+
+
+
+
+
+/* media query */
+
+
+		#header h3.smallLogo { display: none }
+
+		@media only screen and (max-width: 1100px) {
+			#wrap { overflow: hidden }
+			#content h1 { position: static; margin-bottom: 50px; text-align: center; opacity: 0.5 }
+
+		}
+
+		@media only screen and (max-width: 1000px) {  
+		#wrap #header h3.closeMenu a { display: none }
+		#nav ul { display: none }
+			body { border: 0 none; }
+			body #wrap #header h2 { display: block; z-index: 1000; position: fixed; top: 0; left: 0; width: 100%; height: 50px; background-color: #fff }
+			#header h3.smallLogo { display: block }
+			#header h2 a, #header h3.closeMenu a { z-index: 10000; display: block; position: fixed; top: 15px; right: 20px; width: 20px; height: 20px; background: url('../imgs/burger.svg') no-repeat; opacity: 0.6  }
+			#header h3.closeMenu a { background: url('../imgs/closeMenu.svg') no-repeat; }
+			#header h3.smallLogo a { z-index: 10000; position: fixed; top: 10px; width: 30px; height: 30px; background: url('../imgs/rosie_logo_mob.svg') no-repeat; left: 20px; }
+			#header h3 a { background: url('../imgs/.svg') no-repeat;  }
+			#header h2 a:hover, #header h3 a:hover { transition: 0.3s; opacity: 1 }
+		
+			#header #nav { position: static; top:0; right: 0;  }
+			#header #nav ul { z-index: 1000; position: fixed; top: 50px; left: 0; width: 100%;  }
+			#header #nav ul li { text-align: center; margin-bottom: 0;}
+			#header #nav ul li a { display: inline-block; height: 50px; width: 100%; color: #879C9E; background-color: #fff; line-height: 50px; opacity: 0.7;border-bottom: 1px solid #879c9e;  }
+			#header #nav ul li a:hover { transition: 0.5s; opacity: 0.9 }
+			#header #nav ul li:first-child { position: absolute; display: none }
+			.contact { position: static; display: inline-block; transform: none; font-size: 1em; color: #879C9E; margin: 30px 0 }
+			#footer p { margin-top: 0 }
+			
+
+		}
+
+		@media only screen and (max-width: 720px) {
+			#wrap { }
+			#header { padding-bottom: 40px }
+			.headerBg { background-size: 100% 83%; width: auto; height: 680px }
+			#header h1 { font-size: 2.5em }
+			#header h1 img { width: 31% }
+
+			#books .topFiveBg { background: none; margin: 0 }
+			#books .topFiveUl ol li > a { display: block; width: 20%; height: 55px; border-radius: 0 0; line-height: 55px; border-bottom: 1px solid #fff; background-color: transparent; }
+			#books .topFiveUl ol li:first-child > a, #books .topFiveUl ol li > a:hover  { color: #df0f00; border-bottom: 1px solid #df0f00 }
+			#books .topFiveUl ol li { position: static; }
+			#books .topFiveUl > li:first-child { padding-top: 0; height: auto; margin-bottom: 70px }
+				
+			#books .navInBooks li a { font-size: 0.8em; }
+			#books .navInBooks li { margin: 0 0 30px 30px }
+			#books .topFiveUl ol li:first-child > a { left: 0; top: 70px; }
+			#books .topFiveUl ol li.booksLi2 > a { left: 20%; top: 70px }
+			#books .topFiveUl ol li.booksLi3 > a { left: 40%; top: 70px }
+			#books .topFiveUl ol li.booksLi4 > a { left: 60%; top: 70px }
+			#books .topFiveUl ol li.booksLi5 > a { left: 80%; top: 70px }
+			
+			#books .topFiveUl ol li:first-child > a:hover { left: 0; top: 70px;  width: 20%; height: 55px; line-height: 55px }
+			#books .topFiveUl ol li.booksLi2 > a:hover { left: 20%; top: 70px;  width: 20%; height: 55px; line-height: 55px }
+			#books .topFiveUl ol li.booksLi3 > a:hover { left: 40%; top: 70px;  width: 20%; height: 55px; line-height: 55px }
+			#books .topFiveUl ol li.booksLi4 > a:hover { left: 60%; top: 70px;  width: 20%; height: 55px; line-height: 55px }
+			#books .topFiveUl ol li.booksLi5 > a:hover { left: 80%; top: 70px;  width: 20%; height: 55px; line-height: 55px }
+
+			#books .topFiveUl .howManyPeople { position: static; margin-top: 10px; color: #fff }
+			#books .topFiveUl ol li dl dt { padding-bottom: 110px }
+			#books .recomLi li.noMgRight { margin-right: 25px }
+			#books .forHeight ul { text-align: center; }
+
+			#header, #aboutUs, #books, #myPage, #signUp, #qna, #footer { width: 90%; margin-left: 5%; margin-right: 5%;  }
+
+			#books { overflow: hidden }
+			#content #books .recomLi li { margin-right: 0 }
+			#books #searchInBooks select { font-size: 0.8em; background-position: right 3px; background-size: 15% 69%; margin-right: 10px }
+			#content #books #searchInBooks input#searchFieldInBooks { width: 250px; }
+			 #books #searchInBooks dl dt {  font-size: 0.9em }
+			 #books #goBtnInBooks { width: 20px; height: 20px; margin-left: 10px }
+			 #books .topFiveUl li .forBold { font-size: 1em }
+
+
+			#myPage .beforeLoggingIn #signIn .ddEmail, #myPage .beforeLoggingIn #signIn .ddPswd { float: none; width: 100%; }
+
+			#myPage .beforeLoggingIn #signIn .ddEmail { margin-bottom: 30px }
+
+			#myPage .beforeLoggingIn #signIn .ddEmail input , #myPage .beforeLoggingIn #signIn .ddPswd  input { width: 100%} 
+
+			#myPage .beforeLoggingIn .dtPswd { left: 0 }
+			
+			#signUp .signUpForm .floatRi, #signUp .signUpForm .floatRi input { float: none; }
+			#signUp .signUpForm .floatLef, #signUp .signUpForm .floatLef input { float: none; }
+		    #content #signUp .signUpForm dd { position: static; display: inline-block; width: 100%; margin-bottom: 30px }
+		    #signUp .dtPswd, #signUp .dtConfirm, #signUp .dtEmail { top: auto }
+		    #content #signUp .signUpForm dt { left: 0; }
+			#content #signUp .signUpForm dd input { width: 100%; display: block; }
+			#signUp .signUpForm select { float: none; width: 100%; margin-bottom: 20px }
+			
+
+			#qna ul li { width: 100% }
+			#footer { font-size: 0.8em; }
+		} 
+
+		@media only screen and (max-width: 570px) {
+			#header, #aboutUs, #books, #myPage, #signUp, #qna, #footer  { padding-top: 60px; margin-bottom: 60px }
+			.facePics { display: none }
+			
+			.headerBg { height: 600px; margin-top: 100px }
+			#header { margin-bottom: 0 }
+			#header h1 { font-size: 2em }
+			#header p { font-size: 1.2em }
+			
+
+			#books .topFiveUl li:first-child ol li dl { position: absolute; }
+			#books .topFiveUl li:first-child ol li dl dt img { opacity: 0.6; cursor: pointer }
+			#books .topFiveUl li:first-child ol li:first-child dl dt img { opacity: 1; box-shadow: rgb(166, 166, 166) 0px 14px 26px -7px }
+			#content #books .topFiveBg { display: none }
+			#books .topFiveUl li:first-child ol li > a { display: none }
+			#books .topFiveUl li:first-child ol li dl { display: block } 
+			#content #books .topFiveUl li:first-child ol li dl dd { display: none } 
+			#books .topFiveUl li:first-child ol li dt { display: block }
+			#content  #books .topFiveUl li:first-child ol li:first-child dl dd { display: block } 
+			#books .topFiveUl ol li dl dt { position: absolute; top: -185px; }
+			#books .topFiveUl ol li.booksLi2 dl dt { left: 160px }
+			#books .topFiveUl ol li.booksLi3 dl dt { left: 320px }
+			#books .topFiveUl ol li.booksLi4 dl dt { left: 480px }
+			#books .topFiveUl ol li.booksLi5 dl dt { left: 640px }
+			#books .getIt, #books .giftIt, #books .saveIt { display: inline-block; }
+			#books .topFiveUl > li:first-child .price { top: 0; right: 0; left: auto }
+			#content #books .topFiveUl li:first-child ol li dl .authour { float: left; font-size: 0.8em; margin-right: 8px } 
+			#content #books .topFiveUl li:first-child ol li dl .genreOfBook { margin: 10px 0 10px 10px; padding-left: 10px; font-size: 0.8em }
+			#books .getIt, #books .giftIt, #books .saveIt { float: left; }
+			#books .topFiveUl > li:first-child { height: 525px; margin-bottom: 40px }
+			#books .newArrivalsLi li { margin-top: 250px }
+			
+			#aboutUs p { font-size: 0.9em }
+			#books .navInBooks li { margin-left: 10px }
+			#books .topFiveUl ol li dl { margin-top: 235px }
+			#books .recomLi li { height: 312px }
+			#books .recomLi li dl { margin-top: 0 }
+			#books .recomLi li dl .price { top: 8px; }
+			#books .recomLi .getIt, #books .recomLi .saveIt, #books .recomLi .giftIt { top: 110px }
+			#books .forHeight ul { margin-top: 50px }
+			#books .topFiveUl .descrip { margin: 20px 0 }
+		
+			#myPage .afterLoggingIn ul > li .overFlowHiddenBox { display: none; height: auto }
+			#myPage .afterLoggingIn ul > li:first-child .overFlowHiddenBox { display: block }
+			#myPage .afterLoggingIn ul > li > a { display: block; width: 100%; float: none; margin-bottom: 30px;  }
+			#myPage .afterLoggingIn #purchasedSortBy, #myPage .afterLoggingIn #savedSortBy { right: 0;}
+			#myPage .afterLoggingIn select { font-size: 0.9em; background-position: 92px 4px }
+			#myPage .afterLoggingIn .giftnDeleteIcons { top: 200px; right: 113px }
+			#myPage .afterLoggingIn .overFlowHiddenBox { position: static; overflow: none }
+			#content #myPage .afterLoggingIn .gradiBg { display: none }
+			#myPage .afterLoggingIn ol li .ddmmyyyy { position: absolute; padding: 38px 20px; border-right: 0 none; font-size: 0.7em }
+			#myPage .afterLoggingIn ul ol dl { padding-left: 36px }
+			#myPage .afterLoggingIn ul ol { margin-top: 25px; margin-bottom: 50px; }
+			#myPage .afterLoggingIn ul ol li { padding: 23px 0; }
+			#myPage .afterLoggingIn .userImg { width: 30px; height: 30px; margin-right: 10px; background-size: 100% 100%;  }
+			#myPage .afterLoggingIn .msgBg { width: 40px; height: 40px; background-size: 100% 100%; top: -7px }
+			#myPage .afterLoggingIn .msgBg .messages { padding: 9px 0 0 9px; }
+			#myPage .afterLoggingIn .logOutBtn { top: 9px; right: 49px; font-size: 0.8em }
+			#myPage .afterLoggingIn h2 { font-size: 1.2em }
+			#myPage { height: auto; font-size: 0.9em }
+
+			#myPage .afterLoggingIn #purchasedSortBy { top: 203px; }
+			#myPage .afterLoggingIn ol li .chooseLi { margin-top: -3px }
+
+			#myPage .beforeLoggingIn dt { font-size: 0.9em }
+			#content #signUp .signUpForm dt { font-size: 0.9em }
+			#content #signUp .signUpForm .dtChoose { display: none }
+			
+			#signUp { padding-top: 0 }
+			#signUp h2 { font-size: 0.7em }
+			#myPage .afterLoggingIn #savedSortBy { top: 277px }
+			#myPage .afterLoggingIn .savedLi .giftnDeleteIcons { top: 275px }
+			#myPage .afterLoggingIn .recievedLi ol, #myPage .afterLoggingIn .sentLi ol { font-size: 0.8em; text-transform: lowercase; }
+			#myPage .afterLoggingIn .arrowRight { width: 10px; height: 12px }
+			
+			#content #myPage .topFiveUl > li { position: relative; }
+			#myPage .afterLoggingIn .recievedLi ol li:first-child .arrowRight, #myPage .afterLoggingIn .sentLi ol li:first-child .arrowRight { width: 10px; height: 12px }
+
+			.gradiSeeMore { display: block; z-index: 100; position: absolute; right: -5%; top: 0;  width: 50px; height: 240px; background: url('../imgs/gradiSeeMore.png') repeat-y; }
+			.li2 .gradiSeeMore { top: 650px }
+
+			.gradiSeeMore a { display: block; margin-top: 130px; margin-left: 10px; opacity: 0.6 }
+			.gradiSeeMore a:hover { opacity: 1; transition: 0.4s; }
+
+			.gradiSeeMore a.left { display: none }
+
+			#qna dl dt { width: 98% }
+			#qna ul { font-size: 0.9em }
+			#aboutUs p:first-child { margin-bottom: 20px }
+
+			#footer ul { display: none }
+			#footer address .contact { margin-top: 0; line-height: 25px }
+
+		}
+
+
+		@media only screen and (max-width: 500px) {
+
+			#books #searchInBooks { margin-bottom: 60px }
+			#books .navInBooks li { margin-left: 24px; margin-bottom: 0 }
+			#books .navInBooks { width: 500px; text-align: left }
+			#books .navInBooks li a:hover, #books .navInBooks li:first-child a { padding-bottom: 10px }
+			.headerBg { height: 530px; margin-top: 50px; }
+			#header { padding-bottom: 0 }
+			#header h1 { font-size: 1.7em; padding-top: 90px }
+			#header p { font-size: 1.2em }
+			#header h1 img { margin: 30px }
+			#aboutUs p { line-height: 25px }
+			#myPage .afterLoggingIn ul > li > a { font-size: 1em }
+
+			#books .gradiSeeMoreNav { display: block; z-index: 100; position: absolute; right: -2%; top: -4px;  width: 50px; height: 40px; background: url('../imgs/gradiSeeMore.png') repeat-y; }
+
+			#books .gradiSeeMoreNav a { display: block; margin-top: 130px; margin-left: 10px; }
+			
+			#books .gradiSeeMoreNav a.left { margin-top: 130px }
+			#books .gradiSeeMoreNav a.left { display: none }
+
+		}
+
+		@media only screen and (max-width: 470px) {
+			#books #searchInBooks select { width: 100%; margin: 10px 0; padding-bottom: 10px; background-size: 4% 50%; border-bottom: 1px solid #fff; }
+			#books #searchInBooks dl { position: relative; width: 100% }
+			#books #searchInBooks dd.firstDd { width: 100%; }
+			#content #books #searchInBooks input#searchFieldInBooks { width: 100% }
+			#books #goBtnInBooks { z-index: 10; position: absolute; top: -3px; right: 0; }
+		}
+
+		@media only screen and (max-width: 447px) {
+			.headerBg { height: 500px; }
+			.mg447 { margin-left: 40px }
+			#books .getIt, #books .giftIt, #books .saveIt { font-size: 0.7em }
+
+
+		}
+
+		@media only screen and (max-width: 400px) {
+			.headerBg { height: 468px; }
+			#books .topFiveUl li .forBold { font-size: 0.85em }
+			.mg447 { margin-left: 10px }
+			#books .getIt span, #books .giftIt span, #books .saveIt span { height: 17px }
+			#books .topFiveUl .descrip { font-size: 0.8em }
+			#books .authour, #books .topFiveUl .genreOfBook { font-size: 0.8em }
+			#books .recomLi li { height: 280px }
+			#myPage .beforeLoggingIn p, #myPage .beforeLoggingIn dl { font-size: 0.9em }
+			#myPage .beforeLoggingIn p { font-size: 0.8em }
+			#myPage .beforeLoggingIn p a { background-size: 10px 10px;  }
+			#myPage .beforeLoggingIn .ddSignIn input { margin: 40px 0 }
+			#signUp h2 { font-size: 0.6em }
+			#signUp p { margin-top: 50px }
+			#signUpPage { font-size: 0.9em }
+			#qna ul { font-size: 0.8em }
+			#qna ul li > a { top: 565px }
+
+
+			.gradiSeeMoreNav { right: -3% }
+
+		}
+
+		@media only screen and (max-width: 350px) {
+			.gradiSeeMoreNav { right: -4.5% }
+			.headerBg { height: 374px }
+			#header h1 { padding-top: 15px }
+			#header p { font-size: 1em }
+			#myPage .afterLoggingIn .logOutBtn { right: 0; top: 72px }
+
+		}

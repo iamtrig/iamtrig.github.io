@@ -1,0 +1,58 @@
+
+		#music form#searchInMusic dt { left: 174px }
+		#mainMusic .moreSongs { left: 182px }
+		#nav ul li { font-size: 0.9em }
+		#subNav { font-size: 1.2em }
+		#music form#searchInMusic dl { font-size: 1.2em }
+		#nav li:first-child .arrowDown { height: 11px }
+		#signUp .agree { padding-left: 36%; }
+
+
+		@media only screen and (max-width: 721px) {
+			
+			#music form#searchInMusic dt { left: 70px }
+			#signUp .agree { padding-left: 34%; }
+		}
+
+		@media only screen and (max-width: 700px) {
+			
+			#music form#searchInMusic dt { left: 70px }
+			#signUp .agree { padding-left: 33%; }
+		}
+
+		@media only screen and (max-width: 650px) {
+			
+			#signUp .agree { padding-left: 32%; }
+		}
+
+		@media only screen and (max-width: 600px) {
+			
+			#signUp .agree { padding-left: 31%; }
+		}
+		@media only screen and (max-width: 550px) {
+			
+			#signUp .agree { padding-left: 29%; }
+		}
+
+		@media only screen and (max-width: 500px) {
+			
+			#signUp .agree { padding-left: 27%; }
+		}
+
+		@media only screen and (max-width: 450px) {
+			
+			#signUp .agree { padding-left: 25%; }
+		}
+
+
+		@media only screen and (max-width: 400px) {
+			#signUp .agree { padding-left: 23%; }
+			#nav li:first-child .arrowDown { height: 7px }
+			#wrap #nav ul li { font-size: 1.1em } 
+			#music form#searchInMusic dt { left: 0 }
+			#footer { padding-top: 50px  }
+		}
+
+		@media only screen and (max-width: 350px) {
+			#signUp .agree { padding-left: 21%; }
+		}

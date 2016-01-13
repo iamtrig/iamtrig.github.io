@@ -1,0 +1,11 @@
+		#wrap #header p { font-family: sans-serif; }
+		#myPage .afterLoggingIn select { width: 100px; background-position: right 4px }
+		#wrap #myPage .afterLoggingIn #purchasedSortBy,#wrap #myPage .afterLoggingIn #savedSortBy { right: 0 }
+		#myPage .afterLoggingIn .giftnDeleteIcons { right: 106px }
+		#wrap .contact { left: -70px }
+
+		@media only screen and (max-width: 571px) {
+			#myPage .afterLoggingIn select { width: 70px; background-position: right 4px }
+			#wrap #myPage .afterLoggingIn #purchasedSortBy,#wrap #myPage .afterLoggingIn #savedSortBy { right: 0 }
+			#myPage .afterLoggingIn .giftnDeleteIcons { right: 70px }
+		}
