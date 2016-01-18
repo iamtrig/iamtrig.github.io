@@ -8,7 +8,9 @@
 		body input[type=submit], input[type=reset] { cursor: pointer; }
 		body input:focus, select:focus { box-shadow: none; outline: 0; border-color: none }
 		body input[type=submit]:hover, input[type=reset]:hover { color: #DF0F00; border-bottom: 1px solid #DF0F00 }
-		
+		body #signUp #signUpPage .agreement input[type=radio] { width: 15px; height: 15px; border: 1px solid #fff; border-radius: 50% }
+
+
 		#content h1 { color: #fff }
 		#header, #aboutUs, #books, #myPage, #signUp, #qna, #footer { width: 620px; margin: 0 auto }
 		#header { padding-bottom: 150px; }
@@ -299,7 +301,7 @@
 			body { border: 0 none; }
 			body #wrap #header h2 { display: block; z-index: 1000; position: fixed; top: 0; left: 0; width: 100%; height: 50px; background-color: #fff }
 			#header h3.smallLogo { display: block }
-			#header h2 a, #header h3.closeMenu a { z-index: 10000; display: block; position: fixed; top: 15px; right: 20px; width: 20px; height: 20px; background: url('../imgs/burger.svg') no-repeat; opacity: 0.6  }
+			#header h2 a, #header h3.closeMenu a { z-index: 10000; display: block; position: fixed; top: 15px; right: 13px; width: 20px; height: 20px; background: url('../imgs/burger.svg') no-repeat; opacity: 0.6  }
 			#header h3.closeMenu a { background: url('../imgs/closeMenu.svg') no-repeat; }
 			#header h3.smallLogo a { z-index: 10000; position: fixed; top: 10px; width: 30px; height: 30px; background: url('../imgs/rosie_logo_mob.svg') no-repeat; left: 20px; }
 			#header h3 a { background: url('../imgs/.svg') no-repeat;  }
@@ -365,7 +367,8 @@
 
 			#myPage .beforeLoggingIn #signIn .ddEmail { margin-bottom: 30px }
 		
-			#myPage .beforeLoggingIn #signIn .ddEmail input , #myPage .beforeLoggingIn #signIn .ddPswd  input { float: none; width: 100%} 
+			#myPage .beforeLoggingIn #signIn .ddEmail input , #myPage .beforeLoggingIn #signIn .ddPswd  input { float: none; width: 97%}
+			#content #signUp .signUpForm dd input { width: 97% } 
 
 			#myPage .beforeLoggingIn .dtPswd { left: 0 }
 			
@@ -492,11 +495,11 @@
 			#aboutUs p { line-height: 25px }
 			#myPage .afterLoggingIn ul > li > a { font-size: 1em }
 
-			#books .gradiSeeMoreNav { display: block; z-index: 100; position: absolute; right: -2%; top: -4px;  width: 50px; height: 40px; background: url('../imgs/gradiSeeMore.png') repeat-y; }
+			#books .gradiSeeMoreNav { display: block; z-index: 100; position: absolute; right: -2%; top: 126px;  width: 50px; height: 40px; background: url('../imgs/gradiSeeMore.png') repeat-y; }
 
-			#books .gradiSeeMoreNav a { display: block; margin-top: 130px; margin-left: 10px; }
+			#books .gradiSeeMoreNav a { display: block; margin-left: 10px; }
 			
-			#books .gradiSeeMoreNav a.left { margin-top: 130px }
+			#books .gradiSeeMoreNav a.left {  }
 			#books .gradiSeeMoreNav a.left { display: none }
 
 		}
@@ -524,7 +527,7 @@
 			#books .getIt span, #books .giftIt span, #books .saveIt span { height: 17px }
 			#books .topFiveUl .descrip { font-size: 0.8em }
 			#books .authour, #books .topFiveUl .genreOfBook { font-size: 0.8em }
-			#books .recomLi li { height: 280px }
+			#books .recomLi li { height: 300px }
 			#myPage .beforeLoggingIn p, #myPage .beforeLoggingIn dl { font-size: 0.9em }
 			#myPage .beforeLoggingIn p { font-size: 0.8em }
 			#myPage .beforeLoggingIn p a { background-size: 10px 10px;  }
