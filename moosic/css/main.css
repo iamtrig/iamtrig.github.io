@@ -324,6 +324,7 @@ h1 { color: #BA3194; letter-spacing: 0.4em;  }
 			.mainMusicDeco { display: none; top: 714px; height: 344px }
 
 			#news .newsPic img { width: 100% }
+			#content #news .firstOl { height: 920px }
 			#news ol li { width: 100% }
 			
 			#signUp .sta { width: 30%; padding-top: 12px; }
@@ -360,6 +361,7 @@ h1 { color: #BA3194; letter-spacing: 0.4em;  }
 		
 		@media only screen and (max-width: 490px) { 
 			.subMusicNext { left: 96.5% }
+			#content #news .firstOl { height: 950px }
 		}
 
 		@media only screen and (max-width: 460px) { 
