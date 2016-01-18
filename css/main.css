@@ -12,7 +12,7 @@
 		#header ul.navUl li > a { display: block; padding-left: 40px; height: 85px; line-height: 85px; background-color: #F1F1F1; color: #BBBBBB; /*font-weight: bold; */letter-spacing: 0.25em }
 		#header ul.navUl li > a:hover { background-color: #4B4B4B; color: #fff; -webkit-transition: 0.4s; -moz-transition: 0.4s; transition: 0.4s; }
 
-		#header ul.navUl li > a span { display: inline-block; width: 16px; height: 16px; background: url('../imgs/aboutIcon.svg') no-repeat; margin-right: 10px; margin-bottom: -2px}
+		#header ul.navUl li > a span { display: inline-block; width: 13px; height: 14px; background: url('../imgs/aboutIcon.svg') no-repeat; margin-right: 10px; margin-bottom: -3px}
 		#header ul.navUl li > a span.workIcon { background: url('../imgs/workIcon.svg') no-repeat; }
 		#header ul.navUl li > a span.spareIcon { background: url('../imgs/spareIcon.svg') no-repeat; }
 		#header ul.navUl li > a span.contactIcon { background: url('../imgs/contactIcon.svg') no-repeat; }
@@ -161,7 +161,7 @@
 
 @media only screen and (max-height: 650px) and (min-width: 1000px) {
 	#header .logoBg { margin-top: 55px }
-	#header h1 { top: 72px; }
+	#header h1 { top: 70px; }
 }
 
 @media only screen and (max-height: 440px) and (min-width: 1000px) {

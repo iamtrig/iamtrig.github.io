@@ -359,12 +359,13 @@
 			 #books #goBtnInBooks { width: 20px; height: 20px; margin-left: 10px }
 			 #books .topFiveUl li .forBold { font-size: 1em }
 
-
+			
+			#myPage .beforeLoggingIn dl, #myPage .beforeLoggingIn, #myPage .afterLoggingIn, #signUp .signUpForm, #content #signUp .signUpForm dd { width: 100% }
 			#myPage .beforeLoggingIn #signIn .ddEmail, #myPage .beforeLoggingIn #signIn .ddPswd { float: none; width: 100%; }
 
 			#myPage .beforeLoggingIn #signIn .ddEmail { margin-bottom: 30px }
-
-			#myPage .beforeLoggingIn #signIn .ddEmail input , #myPage .beforeLoggingIn #signIn .ddPswd  input { width: 100%} 
+		
+			#myPage .beforeLoggingIn #signIn .ddEmail input , #myPage .beforeLoggingIn #signIn .ddPswd  input { float: none; width: 100%} 
 
 			#myPage .beforeLoggingIn .dtPswd { left: 0 }
 			
