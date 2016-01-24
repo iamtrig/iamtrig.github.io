@@ -102,11 +102,11 @@ $(document).ready(function(){
 
 			if ( wHeight <= aHeight) {
 				$("#header .navUl li:eq(0) > a").css({"backgroundColor":"#4B4B4B","color":"#fff"});
-				$("#header .navUl li:eq(0) .aboutIcon").css("backgroundImage","url('imgs/aboutIcon_on.svg')");
+				
 				$("#header .navUl li:eq(1) > a").css({"backgroundColor":"#F1F1F1","color":"#BBBBBB"});
 			} else {
 				$("#header .navUl li:eq(0) > a").css({"backgroundColor":"#F1F1F1","color":"#BBBBBB"});
-				$("#header .navUl li:eq(0) .aboutIcon").css("backgroundImage","url('imgs/aboutIcon.svg')");
+		
 			}
 		});
 	} else {
@@ -129,7 +129,7 @@ $(document).ready(function(){
 			var iconName = $(this).find("span").attr("class");
 		    if(event.type == 'click') { 
 				$(this).css({"backgroundColor":"#4B4B4B","color":"#fff"});
-				$(this).find("span").css("backgroundImage","url('imgs/"+iconName+"_on.svg')");
+			
 
 				$(this).parent().siblings().find("a").css({"backgroundColor":"#F1F1F1","color":"#BBB"});
 
@@ -137,12 +137,12 @@ $(document).ready(function(){
 		        activeItem = this;          
 		    } else if(event.type == 'mouseenter') { 
 		        $(this).css({"backgroundColor":"#4B4B4B","color":"#fff"});
-				$(this).find("span").css("backgroundImage","url('imgs/"+iconName+"_on.svg')");
+		
 
 		    } else if(event.type == 'mouseleave') {
 		        if(activeItem != this) {        
 		            $(this).css({"backgroundColor":"#F1F1F1","color":"#BBB"});
-					$(this).find("span").css("backgroundImage","url('imgs/"+iconName+".svg')");
+			
 		        }
 		    } 
 		});
