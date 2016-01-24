@@ -24,7 +24,9 @@
 			#header ul.navUl li > a { padding-left: 40%; width: 60%; }
 		}
 		
-
+		@media only screen and (max-width: 431px) {
+			#work ol li dl dt { margin-top: -5px }
+		}
 
 		@media only screen and (max-width: 400px) {
 			#header ul.navUl li > a { padding-left: 38%; width: 72%; }
