@@ -64,27 +64,129 @@ $(document).ready(function(){
 			});
 
 
+		if ($(window).width()>721) {
+			
+			var auto;
+			var current = 0;
+			var listNum = $("#mainMusic > ul > li").length; 
 
-				var q = 100;
+			for(var e = 0; e < listNum; e++) {
+					$("#mainMusic > ul > li").eq(e).css("left",(e*100)+"%");
+			}
+
+			$("#mainMusic .leftRight a.right").click(function(){
+
+					$("#mainMusic > ul > li")
+						.eq(current).css("left","0").stop().animate({left:"-100%"},600)
+						.next().css("left","100%").stop().animate({left:"0"},600);
+
+					current++; //current = current+1;
+					
+
+					if(current>listNum-1) {
+						current = 0;
+						$("#mainMusic > ul > li")
+						.eq(current).css("left","100%").stop().animate({left:"0"},600);
+						
+					}
+					return false;
+				});
 
 			$("#mainMusic .leftRight a.left").click(function(){
 
-				
-					$("#mainMusic > ul > li.mainMusicList1").animate({left:"0"},500);
-					$("#mainMusic > ul > li.mainMusicList2").animate({left:"100%"},500);
+					$("#mainMusic > ul > li")
+						.eq(current).css("left","0").stop().animate({left:"100%"},600)
+						.prev().css("left","-100%").stop().animate({left:"0"},600);
 
-				
+					current--; //current = current+1;
+					
 
-				return false;
-			});
-			$("#mainMusic .leftRight a.right").click(function(){
+					if(current < 0) {
+						current = listNum-1;
+						$("#mainMusic > ul > li")
+						.eq(current).css("left","-100%").stop().animate({left:"0"},600);
+					
+					}
+					return false;
+				});
 
-					$("#mainMusic > ul > li.mainMusicList2").animate({left:"-100%"},500);
-					$("#mainMusic > ul > li.mainMusicList3").animate({left:"0"},500);
-				
+			function autoClick() {
+					$("#mainMusic .leftRight a.right").trigger("click");
+				}
 
-				return false;
-			});
+				// 타이머 실행
+				function timer() {
+					auto = setInterval(function(){autoClick()},4000);
+				}
+
+				// 타이머 정지(제거)
+				function timerStop() {
+					clearInterval(auto);
+				}
+
+				timer();
+
+				$("#mainMusic > ul > li").mouseenter(function(){
+				timerStop();
+
+				});
+
+				$("#mainMusic > ul > li").mouseleave(function(){
+				timer();
+
+				});
+
+
+			} else {
+				var auto;
+				var current = 0;
+				var listNum = $("#mainMusic > ul > li").length; 
+
+				for(var e = 0; e < listNum; e++) {
+						$("#mainMusic > ul > li").eq(e).css("left",(e*100)+"%");
+				}
+
+				$("#mainMusic .leftRight a.right").click(function(){
+
+						$("#mainMusic > ul > li")
+							.eq(current).css("left","0").stop().animate({left:"-100%"},600)
+							.next().css("left","100%").stop().animate({left:"0"},600);
+
+						current++; //current = current+1;
+						
+
+						if(current>listNum-1) {
+							current = 0;
+							$("#mainMusic > ul > li")
+							.eq(current).css("left","100%").stop().animate({left:"0"},600);
+							
+						}
+						return false;
+					});
+
+				$("#mainMusic .leftRight a.left").click(function(){
+
+						$("#mainMusic > ul > li")
+							.eq(current).css("left","0").stop().animate({left:"100%"},600)
+							.prev().css("left","-100%").stop().animate({left:"0"},600);
+
+						current--; //current = current+1;
+						
+
+						if(current < 0) {
+							current = listNum-1;
+							$("#mainMusic > ul > li")
+							.eq(current).css("left","-100%").stop().animate({left:"0"},600);
+						
+						}
+						return false;
+					});
+			}
+
+			
+
+
+
 
 			$("#mainMusic .play a").click(function(){
 				// $(this).parent().find(".play").css("opacity",1);
@@ -169,6 +271,46 @@ $(document).ready(function(){
 				return false;
 			});
 
+	
+		var getHeaderHeight = $('#nav').outerHeight();
+		var lastScrollPosition = 0;
+
+// mainMenu
+		$(window).scroll(function() {
+			var currentScrollPosition = $(window).scrollTop();
+
+			if ($(window).width() > 1000) {
+				$("#nav").show();
+
+				if($(window).scrollTop() > getHeaderHeight) {
+					$("#nav").show();
+					$("#nav").css("position","fixed");
+					$("#nav, #nav ul .forAb").css({"zIndex":"1000","paddingTop":"10px","paddingBottom":"10px","backgroundColor": "#001329","transition":"0.5s"});
+					$("#logIn").css("top","50px");
+					if (currentScrollPosition < lastScrollPosition) {
+						$("#nav").css({"top":"-40px"});
+						
+					} else {
+						$("#nav").css({"top":"0"});
+						$("#nav, #nav ul .forAb").css({"zIndex":"1000","paddingTop":"10px","paddingBottom":"10px","backgroundColor": "#001329","transition":"0.5s"});
+
+					}
+					lastScrollPosition = currentScrollPosition;
+				} else {
+					$("#logIn").css("top","135px");
+					$("#nav, #nav ul .forAb").css({"zIndex":1000,"paddingTop":"100px","paddingBottom":"0","backgroundColor":"transparent","transition":"0.5s"});
+
+				}
+
+
+
+			} else if ($(window).width() < 1000) {
+				$("#nav, #nav ul .forAb").css({"paddingTop":"0","paddingBottom":"0","backgroundColor":"transparent","transition":"0.5s"});
+			}
+
+		});
+		
+	
 	if ($(window).width() <= 400 ) {
 
 

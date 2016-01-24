@@ -80,6 +80,8 @@
 		#books .topFiveUl ol li.booksLi4 > a:hover { top: -138px; left: 353px  }
 		#books .topFiveUl ol li.booksLi5 > a:hover { top: -118px; left: 465px  }
 
+		#books .topFiveUl ol li:first-child > a { color: #fff; width: 45px; height: 45px; background-color: #DF0F00; margin: 0 0; border-radius: 50% 50%; line-height: 45px; font-size: 1.3em  }
+
 		#books .topFiveUl .howManyPeople { position: absolute; top: -216px; right: 20px; font-size: 0.7em; color: #879C9E; }
 		#books .topFiveUl ol li { position: absolute; }
 		#books .topFiveUl ol li dl { color: #fff }
@@ -303,7 +305,7 @@
 			#header h3.smallLogo { display: block }
 			#header h2 a, #header h3.closeMenu a { z-index: 10000; display: block; position: fixed; top: 15px; right: 13px; width: 20px; height: 20px; background: url('../imgs/burger.svg') no-repeat; opacity: 0.6  }
 			#header h3.closeMenu a { background: url('../imgs/closeMenu.svg') no-repeat; }
-			#header h3.smallLogo a { z-index: 10000; position: fixed; top: 10px; width: 30px; height: 30px; background: url('../imgs/rosie_logo_mob.svg') no-repeat; left: 20px; }
+			#header h3.smallLogo a { z-index: 10000; position: fixed; top: 10px; left: 13px; width: 30px; height: 30px; background: url('../imgs/rosie_logo_mob.svg') no-repeat;  }
 			#header h3 a { background: url('../imgs/.svg') no-repeat;  }
 			#header h2 a:hover, #header h3 a:hover { transition: 0.3s; opacity: 1 }
 		
@@ -327,24 +329,26 @@
 			#header h1 img { width: 31% }
 
 			#books .topFiveBg { background: none; margin: 0 }
-			#books .topFiveUl ol li > a { display: block; width: 20%; height: 55px; border-radius: 0 0; line-height: 55px; border-bottom: 1px solid #fff; background-color: transparent; }
-			#books .topFiveUl ol li:first-child > a, #books .topFiveUl ol li > a:hover  { color: #df0f00; border-bottom: 1px solid #df0f00 }
-			#books .topFiveUl ol li { position: static; }
+			#books .topFiveUl ol li > a { display: block; width: 20% !important; height: 55px !important; border-radius: 0 0; line-height: 55px !important; border-bottom: 1px solid #fff; background-color: transparent; }
+			#books .topFiveUl ol li:first-child > a, #books .topFiveUl ol li > a:hover  { color: #df0f00; border-bottom: 1px solid #df0f00  }
+			#books .topFiveUl ol li { position: static !important; }
 			#books .topFiveUl > li:first-child { padding-top: 0; height: auto; margin-bottom: 70px }
 				
 			#books .navInBooks li a { font-size: 0.8em; }
 			#books .navInBooks li { margin: 0 0 30px 30px }
-			#books .topFiveUl ol li:first-child > a { left: 0; top: 70px; }
-			#books .topFiveUl ol li.booksLi2 > a { left: 20%; top: 70px }
-			#books .topFiveUl ol li.booksLi3 > a { left: 40%; top: 70px }
-			#books .topFiveUl ol li.booksLi4 > a { left: 60%; top: 70px }
-			#books .topFiveUl ol li.booksLi5 > a { left: 80%; top: 70px }
+			#books .topFiveUl ol li:first-child > a { left: 0 !important; top: 70px !important; }
+			#books .topFiveUl ol li.booksLi2 > a { left: 20% !important; top: 70px !important; }
+			#books .topFiveUl ol li.booksLi3 > a { left: 40% !important; top: 70px !important; }
+			#books .topFiveUl ol li.booksLi4 > a { left: 60% !important; top: 70px !important; }
+			#books .topFiveUl ol li.booksLi5 > a { left: 80% !important; top: 70px !important; }
 			
 			#books .topFiveUl ol li:first-child > a:hover { left: 0; top: 70px;  width: 20%; height: 55px; line-height: 55px }
 			#books .topFiveUl ol li.booksLi2 > a:hover { left: 20%; top: 70px;  width: 20%; height: 55px; line-height: 55px }
 			#books .topFiveUl ol li.booksLi3 > a:hover { left: 40%; top: 70px;  width: 20%; height: 55px; line-height: 55px }
 			#books .topFiveUl ol li.booksLi4 > a:hover { left: 60%; top: 70px;  width: 20%; height: 55px; line-height: 55px }
 			#books .topFiveUl ol li.booksLi5 > a:hover { left: 80%; top: 70px;  width: 20%; height: 55px; line-height: 55px }
+
+			#books .topFiveUl ol li:first-child > a { color: #fff; width: 55px; height: 55px; color: #df0f00; background-color: transparent; border-bottom: 1px solid #DF0F00; margin: 0 0; border-radius: 0; line-height: 55px; font-size: 1.3em  }
 
 			#books .topFiveUl .howManyPeople { position: static; margin-top: 10px; color: #fff }
 			#books .topFiveUl ol li dl dt { padding-bottom: 110px }
@@ -395,16 +399,16 @@
 			#header p { font-size: 1.2em }
 			
 
-			#books .topFiveUl li:first-child ol li dl { position: absolute; }
+			#books .topFiveUl li:first-child ol li dl { position: absolute !important;; }
 			#books .topFiveUl li:first-child ol li dl dt img { opacity: 0.6; cursor: pointer }
 			#books .topFiveUl li:first-child ol li:first-child dl dt img { opacity: 1; box-shadow: rgb(166, 166, 166) 0px 14px 26px -7px }
 			#content #books .topFiveBg { display: none }
-			#books .topFiveUl li:first-child ol li > a { display: none }
-			#books .topFiveUl li:first-child ol li dl { display: block } 
-			#content #books .topFiveUl li:first-child ol li dl dd { display: none } 
-			#books .topFiveUl li:first-child ol li dt { display: block }
-			#content  #books .topFiveUl li:first-child ol li:first-child dl dd { display: block } 
-			#books .topFiveUl ol li dl dt { position: absolute; top: -185px; }
+			#books .topFiveUl li:first-child ol li > a { display: none !important; }
+			#books .topFiveUl li:first-child ol li dl { display: block !important; } 
+			#content #books .topFiveUl li:first-child ol li dl dd { display: none !important; } 
+			#books .topFiveUl li:first-child ol li dt { display: block !important; }
+			#content  #books .topFiveUl li:first-child ol li:first-child dl dd { display: block !important; } 
+			#books .topFiveUl ol li dl dt { position: absolute!important; top: -185px!important; }
 			#books .topFiveUl ol li.booksLi2 dl dt { left: 160px }
 			#books .topFiveUl ol li.booksLi3 dl dt { left: 320px }
 			#books .topFiveUl ol li.booksLi4 dl dt { left: 480px }

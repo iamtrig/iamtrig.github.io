@@ -4,6 +4,29 @@
 				$("#qna li").eq(i).find(">a").css("left","9"*i+"%");
 			}
 
+
+			$("#books .topFiveUl ol li > a").mouseenter(function(){
+
+				$(this).parent().siblings("li").find("dl").hide();
+				$(this).siblings("dl").show();
+
+				if ($(window).width() >= 721) {
+
+					$(this).parent().siblings("li").find(">a").css({"width":"25px","height":"25px","lineHeight":"25px","margin":"0 0","fontSize":"1em","color":"#fff"});
+					$(this).css({"width":"45px","height":"45px","lineHeight":"45px","fontSize":"1.3em","transition":"0.3s"});
+
+				} else if ($(window).width() > 570 && $(window).width() < 720) {
+
+					$(this).parent().siblings("li").find(">a").css({"width":"55px","height":"55px","lineHeight":"55px","margin":"0 0","fontSize":"1em"});
+					$(this).css({"width":"45px","height":"45px","lineHeight":"45px","fontSize":"1.3em"});
+					$(this).parent().siblings().find("dl").hide();
+					$(this).parent().find("dl").show();
+					$(this).parent().siblings().find(">a").css({"color":"#fff","borderBottom":"1px solid #fff"});
+					$(this).css({"color":"#DF0F00","borderBottom":"1px solid #DF0F00"});
+				} 
+			});
+
+
 			if ( $(window).width() >= 720 ) {
 	
 
@@ -19,37 +42,11 @@
 				return false;
 			});
 
-			// $("#nav ul li:eq(4)").click(function(){
-			// 	$("#signUp").show();
-			// 	return false;
-			// });
-
 			$("#nav ul li:eq(6)").mouseenter(function(){
 				$(".contact").css({"color":"#DF0F00","transition":"0.5s"});
 			});
 			$("#nav ul li:eq(6)").mouseleave(function(){
 				$(".contact").css("color","#fff");
-			});
-
-
-
-
-			$("#books .topFiveUl ol li > a").click(function(){
-				$(this).parent().siblings("li").find(">a").css({"width":"25px","height":"25px","lineHeight":"25px","margin":"0 0","fontSize":"1em"});
-				$(this).css({"width":"45px","height":"45px","lineHeight":"45px","fontSize":"1.3em","margin":"0 0 10px -0"});
-				$(this).parent().siblings("li").find("dl").hide();
-				$(this).siblings("dl").show();
-
-				return false;
-			});
-
-			$("#books .topFiveUl ol li > a").mouseenter(function(){
-				$(this).parent().siblings("li").find(">a").css({"width":"25px","height":"25px","lineHeight":"25px","margin":"0 0","fontSize":"1em"});
-				$(this).css({"width":"45px","height":"45px","lineHeight":"45px","fontSize":"1.3em"});
-				$(this).parent().siblings("li").find("dl").hide();
-				$(this).siblings("dl").show();
-
-				return false;
 			});
 
 
@@ -210,6 +207,7 @@
 
 			} else if ( $(window).width() > 570 && $(window).width() < 720 ) {  
 
+
 			$("#nav h2 a").click(function(){
 				$(this).hide();
 				$(this).parent().parent().find(".closeMenu a").show();
@@ -225,13 +223,6 @@
 				return false;
 			});
 
-			$("#books .topFiveUl ol li > a").click(function(){
-				$(this).parent().siblings().find("dl").hide();
-				$(this).parent().find("dl").show();
-				$(this).parent().siblings().find(">a").css({"color":"#fff","borderBottom":"1px solid #fff"});
-				$(this).css({"color":"#DF0F00","borderBottom":"1px solid #DF0F00"});
-				return false;
-			});
 
 			$("#myPage p a").click(function(){
 				$("#signUp").slideDown(1000);
@@ -341,10 +332,6 @@
 				$("#signUp").slideUp(1000);
 				return false;
 			});
-
-
-
-
 
 
 
