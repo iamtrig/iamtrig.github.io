@@ -103,6 +103,12 @@
 		#spareTime .ui1 { background: url('../imgs/wine_be.jpg') no-repeat; background-size: 115% auto; background-position: 50% 35%; color: #ccc }
 		#spareTime .ui2 { background: url('../imgs/rosie_be.jpg') no-repeat; background-size: 115% auto; background-position: 50% 35% }
 		#spareTime .ui3 { background: url('../imgs/moosic_be.jpg') no-repeat; background-size: 115% auto; background-position: 50% 29%; color: #ccc }
+		
+		#spareTime ul li dl.challenge1 { background: url('../imgs/challenge1.jpg') no-repeat; background-size: 100% 110%; background-position: 20% center }
+		#spareTime ul li dl.challenge2 { background: url('../imgs/challenge2.jpg') no-repeat; background-size: 100% 110%; background-position: 20% center }
+		#spareTime ul li dl.challenge3 { background: url('../imgs/challenge3.jpg') no-repeat; background-size: 100% 110%; background-position: 20% center }
+		#spareTime ul li dl.challenge4 { background: url('../imgs/challenge4.jpg') no-repeat; background-size: 100% 110%; background-position: 20% center }
+		#spareTime ul li dl.challenge5 { background: url('../imgs/challenge5.jpg') no-repeat; background-size: 100% 110%; background-position: 20% center }
 
 		#spareTime ul > li ol { display: none }
 		#spareTime ul > li:first-child ol { display: block }
@@ -254,8 +260,12 @@
 
 }
 
-@media only screen and (max-width: 588px) {
+@media only screen and (max-width: 598px) {
 	#spareTime { height: 1130px }
+
+}
+
+@media only screen and (max-width: 588px) {
 
 	#spareTime ul li.ui ol li { height: 317px }
 	#spareTime ul li.ui ol dl { padding-top: 250px }
@@ -302,16 +312,19 @@
 
 @media only screen and (max-width: 450px) {
 	#work { padding-bottom: 37px; }
+	#wrap #work ol li { background-size: 150% 120% }
 }
 
 
 @media only screen and (max-width: 410px) {
+	#spareTime ul li.ui ol dl { background-size: 154% auto }
 	#contact { padding-top: 60px }
 	#contact p.mail { margin-bottom: 15px }
 	#aboutMe p { font-size: 1em }
 	h4, h3 { font-size: 2em }
 	.aboutMeBg ul.techEx ul li { padding-top: 8px; line-height: 15px }
 	.aboutMeBg ul.techEx ul { height: 95px }
+
 }
 
 @media only screen and (max-width: 359px) {
