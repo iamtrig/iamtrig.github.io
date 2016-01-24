@@ -16,11 +16,7 @@
 		#header ul.navUl li > a span.workIcon { background: url('../imgs/workIcon.svg') no-repeat; }
 		#header ul.navUl li > a span.spareIcon { background: url('../imgs/spareIcon.svg') no-repeat; }
 		#header ul.navUl li > a span.contactIcon { background: url('../imgs/contactIcon.svg') no-repeat; }
-		
-		#header ul.navUl li > a:hover span.aboutIcon { background: url('../imgs/aboutIcon_on.svg') no-repeat; }
-		#header ul.navUl li > a:hover span.workIcon { background: url('../imgs/workIcon_on.svg') no-repeat; }
-		#header ul.navUl li > a:hover span.spareIcon { background: url('../imgs/spareIcon_on.svg') no-repeat; }
-		#header ul.navUl li > a:hover span.contactIcon { background: url('../imgs/contactIcon_on.svg') no-repeat; }
+
 
 		.chooseLang { z-index: 1000; position: fixed;  bottom: 65px; width: 220px; text-align: center; font-size: 0.9em}
 		.chooseLang li { display: inline-block; }
@@ -28,7 +24,7 @@
 		.chooseLang li a { color: #bbb }
 		.chooseLang li a:hover { color: #878787 }
 		
-		#header ul.navUl li:first-child > a span.aboutIcon { background: url('../imgs/aboutIcon_on.svg') no-repeat; }
+		
 		#header ul.navUl li:first-child > a { color: #fff; background-color: #4B4B4B}
 	/* content */
 		#content, #footer { padding: 0 15%; margin-left: 220px }
@@ -324,6 +320,8 @@
 	h4, h3 { font-size: 2em }
 	.aboutMeBg ul.techEx ul li { padding-top: 8px; line-height: 15px }
 	.aboutMeBg ul.techEx ul { height: 95px }
+	#spareTime ul li.ui ol dl { padding-bottom: 10px }
+	#work ol li dl { height: 70px; margin-top: 35px;  }
 
 }
 
