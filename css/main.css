@@ -84,12 +84,12 @@
 		#spareTime ul li ol li { opacity: 0.6 }
 		#spareTime ul li ol li dl { background: url('../imgs/cs.jpg') no-repeat center center; background-size: 110% }
 		#spareTime ul li.digital ol li dl { background: url('../imgs/digital1.jpg') no-repeat center center; background-size: 110%;  }
-		#spareTime ul li.digital ol li dl.digital2 { background-image: url('../imgs/digital2.jpg'); }
+		#spareTime ul li.digital ol li dl.digital2 { background-image: url('../imgs/digital2.jpg'); color: #ACACAC }
 		#spareTime ul li.digital ol li dl.digital3 { background-image: url('../imgs/digital3.jpg'); }
-		#spareTime ul li.digital ol li dl.digital4 { background-image: url('../imgs/digital4.jpg'); }
+		#spareTime ul li.digital ol li dl.digital4 { background-image: url('../imgs/digital4.jpg'); color: #ACACAC}
 		#spareTime ul li.digital ol li dl.digital5 { background-image: url('../imgs/digital5.jpg'); }
-		#spareTime ul li.digital ol li dl.digital6 { background-image: url('../imgs/digital6.jpg'); }
-		#spareTime ul li.digital ol li dl.digital7 { background-image: url('../imgs/digital10.jpg'); }
+		#spareTime ul li.digital ol li dl.digital6 { background-image: url('../imgs/digital6.jpg'); color: #ACACAC}
+		#spareTime ul li.digital ol li dl.digital7 { background-image: url('../imgs/digital10.jpg'); color: #ACACAC}
 		#spareTime ul li.digital ol li dl.digital8 { background-image: url('../imgs/digital8.jpg'); }
 		#spareTime ul li.digital ol li dl.digital9 { background-image: url('../imgs/digital9.jpg'); }
 		#spareTime ul li ol li:hover { opacity: 1; -webkit-box-shadow: -2px 28px 45px -30px rgba(166,166,166,1); -moz-box-shadow: -2px 28px 45px -30px rgba(166,166,166,1); box-shadow: -2px 28px 45px -30px rgba(166,166,166,1); -webkit-transition: 0.4s; -moz-transition: 0.4s; transition: 0.4s; }
@@ -285,6 +285,8 @@
 	#contact h3 { padding-bottom: 30px }
 	#spareTime ul > li > a { font-size: 0.9em }
 	#footer { margin-top: -20px }
+	#spareTime ul ol dl { height: 40px !important; padding-top: 120px  }
+	#spareTime ul ol dl dt { margin-bottom: 0 }
 }
 
 
@@ -320,7 +322,7 @@
 	h4, h3 { font-size: 2em }
 	.aboutMeBg ul.techEx ul li { padding-top: 8px; line-height: 15px }
 	.aboutMeBg ul.techEx ul { height: 95px }
-	#spareTime ul li.ui ol dl { padding-bottom: 10px }
+
 	#work ol li dl { height: 70px; margin-top: 35px;  }
 
 }
