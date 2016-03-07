@@ -1,5 +1,8 @@
 body { overflow-x: hidden; font-family: Arial, sans-serif }
 
+input[type=text], input[type=submit], input[type=reset],input[type=password] { background: none; border: 0 none; appearance: none; -moz-appearance: none; -webkit-appearance: none; border-radius: 0; -webkit-border-radius: 0; -moz-border-radius: 0; box-shadow: 0 0 0 0; -moz-box-shadow: 0 0 0 0; -webkit-box-shadow: 0 0 0 0; }
+
+
 header { width: 95%; margin: 5px auto; }
 header h1, footer h1 { display: inline-block; font-size: 16px; letter-spacing: 0.04em; line-height: 25px }
 header h1 img, footer h1 img { margin-right: 7px }
