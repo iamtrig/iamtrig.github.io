@@ -53,11 +53,13 @@
 		#work ol li.lorem { background: url('../imgs/lorem_img.jpg') no-repeat 50% 2%; background-size: 110%  }
 		#work ol li.rosie { background: url('../imgs/rosie_img.jpg') no-repeat 50% 30%; background-size: 110%  }
 		#work ol li.moosic { background: url('../imgs/moosic_img.jpg') no-repeat 50% 15%; background-size: 110%  }
+		#work ol li.sendFaster { background: url('../imgs/sendFaster_img.jpg') no-repeat 50% 20%; background-size: 110%  }
 
 		#work ol li.forecast:hover { background-image: url('../imgs/forecast_img_on.jpg');  }
 		#work ol li.lorem:hover { background-image: url('../imgs/lorem_img_on.jpg');  }
 		#work ol li.rosie:hover { background-image: url('../imgs/rosie_img_on.jpg'); }
 		#work ol li.moosic:hover { background-image: url('../imgs/moosic_img_on.jpg'); }
+		#work ol li.sendFaster:hover { background-image: url('../imgs/sendFaster_img_on.jpg'); }
 
 
 		#work ol li dl { position: relative; width: 66%; height: 60px; padding: 25px 3%; margin: 45px 0 0 15%; background-color: #fff; }
@@ -181,6 +183,14 @@
 	#footer { padding-bottom: 5% }
 }
 
+@media only screen and (min-width: 1001px) {
+	.mainNav .navUl { display: block !important; }
+	.mainNav .navUl li { display: block !important; }
+	.sns { display: block !important; }
+	.chooseLang { display: block !important; }
+}
+
+
 @media only screen and (max-width: 1000px) {
 	#aside .moral { display: none; }
 	#header .logoBg { display: none }
@@ -214,6 +224,7 @@
 	#work ol li.lorem { background-image: url('../imgs/lorem_img_on.jpg');  }
 	#work ol li.rosie { background-image: url('../imgs/rosie_img_on.jpg'); }
 	#work ol li.moosic { background-image: url('../imgs/moosic_img_on.jpg'); }
+	#work ol li.sendFaster { background-image: url('../imgs/sendFaster_img_on.jpg'); }
 }
 
 @media only screen and (max-width: 700px) {
@@ -271,7 +282,7 @@
 	.aboutMeBg ul.techEx ul li { line-height: 25px }
 	.aboutMeBg ul.techEx ul { height: 110px }
 	.aboutMeBg ul.techEx > li { height: 181px }
-	#wrap #work ol li { background-size: 150% 150% }
+	#wrap #work ol li { background-size: 200%; background-position: center 20%}
 	#spareTime { height: 1120px }
 }
 
@@ -303,18 +314,20 @@
 	#work ol li.forecast { background-image: url('../imgs/forecast_img_on.jpg');  }
 	#work ol li.lorem { background-image: url('../imgs/lorem_img_on.jpg');  }
 	#work ol li.rosie { background-image: url('../imgs/rosie_img_on.jpg'); }
-	#work ol li.moosic { background-image: url('../imgs/moosic_img_on.jpg'); }}
+	#work ol li.moosic { background-image: url('../imgs/moosic_img_on.jpg'); }
+	#work ol li.sendFaster { background-image: url('../imgs/sendFaster_img_on.jpg'); }
 
 }
 
 
 @media only screen and (max-width: 450px) {
 	#work { padding-bottom: 37px; }
-	#wrap #work ol li { background-size: 150% 120% }
+	#wrap #work ol li { background-size: 200%; background-position: center center }
 }
 
 
 @media only screen and (max-width: 410px) {
+	#wrap #work ol li.sendFaster { background-position: center 35% }
 	#spareTime ul li.ui ol dl { background-size: 154% auto }
 	#contact { padding-top: 60px }
 	#contact p.mail { margin-bottom: 15px }

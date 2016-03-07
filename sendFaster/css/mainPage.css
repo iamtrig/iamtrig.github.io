@@ -1,0 +1,36 @@
+#banner { position: relative; width: 100%; height: 570px }
+#banner > ul > li {  position: absolute; width: 100%; height: 270px; padding: 150px 0; background: url('../imgs/loveBanner.jpg') no-repeat center center; background-size: cover; color: #fff }
+#banner .loveList { z-index: 100 }
+#banner .doorList { background-image: url('../imgs/doorBanner.jpg')  }
+#banner .serviceList { background-image: url('../imgs/serviceBanner.jpg')  }
+
+.bannerWrap { width: 70%; margin: 0 auto; }
+#banner ul li h2 { font-size: 3.5rem; letter-spacing: 0.05em; margin-bottom: 10px }
+.bannerWrap p { font-size: 1.9rem; line-height: 40px }
+.bannerWrap .description { margin-top: 160px; font-size: 15px }
+#banner .doorList .bannerWrap { text-align: center }
+#banner .doorList .bannerWrap { padding-top: 30px }
+#banner .doorList .bannerWrap .description { margin-top: 100px }
+
+#banner .serviceList ul li { float: left; width: 50%; text-align: center }
+#banner .serviceList ul li:first-child { color: #625151 }
+#banner .serviceList ul li h2 { margin-bottom: 50px }
+#banner .serviceList ul li p { margin-bottom: 60px; font-size: 1.5rem }
+#banner .serviceList .button a { display: inline-block; width: 300px; height: 80px; background-color: #7AB9DD; line-height: 80px; border-radius: 40px; opacity: 0.6; color: #fff }
+#banner .serviceList .button a:hover { opacity: 0.8; transition: 0.8s; }
+#banner .serviceList .orange a { background-color: #D18903 }
+
+.pagination a { z-index: 300; position: absolute; text-indent: -9999999px }
+.pagination .prev, .pagination .next { top: 43%; display: block; width: 66px; height: 78px; background: url('../imgs/prev.png') no-repeat; opacity: 0.8}
+.pagination .next { background-image: url('../imgs/next.png'); }
+.pagination .num { display: block; width: 15px; height: 15px; background-color: #FFC903; border: 3px solid #FFC903; border-radius: 50%; opacity: 0.5;  }
+.pagination .num:hover { border: 3px solid #fff; opacity: 0.7; transition: 0; }
+.pagination .prev:hover, .pagination .next:hover { opacity: 1; transition: 0; }
+
+#wrapper .numOn { border: 3px solid #fff; opacity: 0.7; }
+
+.pagination .next { right: 0 }
+.pagination .num { bottom: 50px; }
+.firstNum { left: 45% }
+.secondNum { left: 50% }
+.thirdNum { left: 55% }

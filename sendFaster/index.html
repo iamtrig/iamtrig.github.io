@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="eng">
+	<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Send Faster Than You've ever imagined</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
+	<link rel="shortcut icon" href="imgs/sendFaster_favi.png" type="image/png" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" type="text/css" href="css/common.css" />
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<link rel="stylesheet" type="text/css" href="css/mainPage.css" />
+	<link rel="stylesheet" type="text/css" href="css/send.css" />
+<!--	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script> -->
+	<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script>
+	//<![CDATA[
+
+		$(document).ready(function(){
+
+			$("header .burger").click(function(){
+				$(this).hide();
+				$("header nav").slideDown();
+				$(".close").show();
+
+				return false;
+			});
+
+			$("header .close").click(function(){
+				$(this).hide();
+				$("header nav").slideUp();
+				$(".burger").show();
+
+				return false;
+			});
+
+
+		});
+
+
+	//]]>
+	</script>
+	<style>
+		
+		
+
+	</style>
+	</head>
+
+	<body>
+
+		<div id="wrapper">
+
+			<header>
+				<h1><a href="http://iamtrig.github.io/sendFaster/index.html"><img src="imgs/logo.jpg" alt="logo" />SENDFASTER</a></h1>
+				
+				<h2 class="burger"><a href="">Main Menu</a></h2>
+				<nav>
+					<a href="http://iamtrig.github.io/sendFaster/about.html">ABOUT</a>
+					<a href="http://iamtrig.github.io/sendFaster/send.html">SEND</a>
+					<a href="http://iamtrig.github.io/sendFaster/pricings.html">PRICINGS/DELIVERY</a>
+					<a href="http://iamtrig.github.io/sendFaster/track.html">TRACK ITEMS</a>
+					<a href="http://iamtrig.github.io/sendFaster/login.html">LOGIN</a>
+					<a href="http://iamtrig.github.io/sendFaster/qna.html">Q&A</a>
+					<a href="http://iamtrig.github.io/sendFaster/contact.html">CONTACT</a>
+				</nav>
+				<h2 class="close"><a href="">Close Menu</a></h2>
+
+			</header>
+
+			<div id="banner">
+
+				<ul>
+					<li class="loveList">
+						<div class="bannerWrap">
+							<h2>LOVE IS IN THE AIR</h2>
+							<p>Literally, It's being delivered right now.</p>
+							<p class="description">WE GUARANTEE TWO DAYS OF SHIPPING (INTERNATIONAL EXCLUDED)</p>
+						</div>
+					</li>
+					<li class="doorList">
+						<div class="bannerWrap">
+						<h2>TELL US WHICH DOOR</h2>
+							<p>We value your time. tell us where you are<br/>and we'll take care of the rest</p>
+							<p class="description">WE GUARANTEE TWO DAYS OF SHIPPING (INTERNATIONAL EXCLUDED)</p>
+						</div>
+					</li>
+					<li class="serviceList">
+						<ul>
+							<li>
+								<h2>DAY</h2>
+								<p>CALL US ANYTIME</p>
+								<p class="button"><a href="http://iamtrig.github.io/sendFaster/contact.html">000 - 0000 - 0000</a></p>
+							</li>
+							<li>
+								<h2>NIGHT</h2>
+								<p class="bannerCusotmer">24-HOUR CUSTOMER SERVICE</p>
+								<p class="button orange askUsNowBtn"><a href="http://iamtrig.github.io/sendFaster/qna.html">ASK US NOW</a></p>
+							</li>
+						</ul>
+					</li>
+				</ul>
+
+				<div class="pagination">
+					<a href="" class="prev">PREV</a>
+					<a href="" class="next">NEXT</a>
+				</div>
+				<div class="pagination">
+					<a href="" class="num numOn firstNum">1</a>
+					<a href="" class="num secondNum">2</a>
+					<a href="" class="num thirdNum">3</a>
+				</div>
+
+			</div>
+			
+			<div id="content">
+				<aside>
+					<ul class="sideNav">
+						<li class="sideTrack">
+							<a href="track.html">TRACK ITEMS</a>
+							<form action="" method="" id="trackItems" name="trackItems">
+								<fieldset>
+									<legend class="hidden">TRACK ITEMS</legend>
+									<dl>
+										<label for="trackingCode"><dt>tracking code</dt></label>
+										<dd><input type="text" id="trackingCode" name="trackingCode" /></dd>
+										<dd class="twoInputs">
+											<input type="submit" value="GO" />
+											<input type="reset" value="RESET" />
+										</dd>
+									</dl>
+								</fieldset>
+							</form>
+						</li>
+						<li class="sideLogIn">
+							<a href="logIn.html">LOGIN</a>
+							<form action="" method="" id="logIn" name="logIn">
+								<fieldset>
+									<legend class="hidden">logIn</legend>
+									<dl>
+										<label for="emailAdr">
+										<dt>Email Address</dt></label>
+										<dd><input type="text" id="emailAdr" name="emailAdr" /></dd>
+										<label for="logInPass">
+										<dt>Password</dt></label>
+										<dd><input type="password" id="logInPass" name="logInPass" /></dd>
+										<dd class="twoInputs">
+											<input type="submit" value="SIGNIN" />
+											<input type="reset" value="RESET" />
+										</dd>
+									</dl>
+								</fieldset>
+							</form>
+						</li>
+						<li class="sideSignUp">
+							<a href="http://iamtrig.github.io/sendFaster/logIn.html">SIGNUP</a>
+						</li>
+					</ul>
+				</aside>
+				
+				<article class="withSideNav">
+					<h1>WHAT ARE YOU SENDING?</h1>
+					<section>
+						<ul class="mainUl sendUl">
+							<li class="letterIcon"><a href="#">letters</a>
+								<ul class="subUl">
+									<li class="subLi1">
+										<h2>LOCAL</h2>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia numquam dolores, deserunt ratione blanditiis molestias quibusdam eveniet quod, minima porro quae nemo hic at.  </p>
+										<ul>
+											<li><a href="">From<span class="dot"></span></a>
+												
+											</li>
+											<li><a href="">To<span class="dot"></span></a>
+												
+											</li>
+											<li><a href="">Quantity<span class="dot"></span></a>
+												
+											</li>
+											<li><a href="">Price / Shipping day<span class="tick"></span></a>
+												
+											</li>
+										</ul>
+									</li>
+									<li class="subLi2">
+										<h2>INTERNATIONAL</h2>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia numquam dolores, deserunt ratione blanditiis molestias quibusdam eveniet quod, minima porro quae nemo hic at.  </p>
+										<ul>
+											<li><a href="">From<span class="dot"></span></a>
+												
+											</li>
+											<li><a href="">To<span class="dot"></span></a>
+												
+											</li>
+											<li><a href="">Quantity<span class="dot"></span></a>
+												
+											</li>
+											<li><a href="">Price / Shipping day<span class="tick"></span></a>
+												
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li class="parcelIcon"><a href="#">parcels</a>
+								
+							</li>
+							<li class="inviteIcon"><a href="#">invites</a>
+								
+							</li>
+							<li class="flowerIcon"><a href="#">flowers</a>
+								
+							</li>
+						</ul>
+					</section>
+				</article>
+
+			</div>
+
+			<footer>
+				<h1><img src="imgs/logo_footer.jpg" alt="logo">SENDFASTER</h1>
+				<p class="social">
+					<a href="#"><img src="imgs/twitter.png" alt="twitter"></a>
+					<a href="#"><img src="imgs/facebook.png" alt="facebook"></a>
+					<a href="#"><img src="imgs/instagram.png" alt="instagram"></a>
+				</p>
+			</footer>
+
+		</div>
+
+		
+	</body>
+
+	</html>

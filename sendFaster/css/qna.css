@@ -1,0 +1,32 @@
+.smallerBanner { background-image: url('../imgs/qnaBanner.jpg'); background-position: left }
+
+/* js */
+#content .current { background-color: #F90D1A; color: #fff; }
+
+#content .showDd { display: block; }
+
+#content { widows: 70%; margin: 0 auto; max-width: 760px }
+
+.qnaBg { margin: 50px 0 100px 0; width: 100%; }
+.qnaBg ul li { display: none }
+.qnaBg ul dd { display: none; width: 90%; border-top: 1px solid #e3e3e3; padding: 20px 5%; line-height: 20px  }
+.qnaBg dt { cursor: pointer; padding: 20px 0; border-top: 1px solid #e3e3e3 }
+.qnaBg dt:hover, .qnaBg li dl dt.noBorder { color: #F90D1A; }
+.qnaBg .noBorder { border-top: 0 none } 
+.qnaBg .selected { display: block }
+
+.pagination { margin-top: 30px; text-align: center }
+.pagination a { display: inline-block; width: 30px; height: 30px; margin-left: 10px; text-align: center; line-height: 30px }
+.pagination a:hover { background-color: #F90D1A; color: #fff; }
+#content .pagination a:first-child { margin-left: 0 }
+
+select, input[type=submit] { -webkit-appearance: none; appearance: none; -moz-appearance: none; padding: 7px 1%; border-radius: 0; border: 0 none; }
+select { float: left; width: 18%; background: #efefef url('../imgs/arrowDown.png') no-repeat 90% 10px; border-top: 1px solid #efefef; border-bottom: 1px solid #efefef;}
+input[type=text] { border: 0 none; width: 63%; border-top: 1px solid #efefef; border-bottom: 1px solid #efefef; padding: 7px 2%; }
+input[type=submit]  { float: right; width: 15%; background-color: #F90D1A; color: #fff; border-top: 1px solid #F90D1A; border-bottom: 1px solid #F90D1A; } 
+input[type=submit]:hover { background-color: #E70C18; transition: 0.3s; }
+
+#content  h3 { margin: 0 0 70px 0; padding-bottom: 20px; border-bottom: 2px solid #F90D1A; color: #F90D1A; font-size: 1.5rem; text-align: center }
+.customer24 #customerName { float: left; width: 17%; }
+.customer24 #customerEmail { width: 41.8%; border-left: 1px solid #efefef }
+.customer24 textarea { width: 95.84%; max-width: 729px; height: 100px; max-height: 150px; padding: 10px 2%; border: 1px solid #efefef; border-top: 0 none; }

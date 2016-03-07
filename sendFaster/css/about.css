@@ -1,0 +1,10 @@
+.smallerBanner { background-image: url('../imgs/aboutBanner.jpg'); background-color: #000; }
+
+#content { width: 70%; margin: 0 auto; text-align: center; max-width: 760px }
+#content h2 { margin-bottom: 50px; font-size: 2rem; color: #F90D1A; text-align: center; }
+#content p { line-height: 23px; text-align: left }
+.nameBox { margin-top: 100px ; display: inline-block; text-align: center }
+.nameBox h3, .nameBox p { display: inline-block; }
+.nameBox h3 { margin-right: 40px; font-weight: normal }
+.nameBox .claire { margin-right: 60px; font-family: Times, serif; font-style: italic }
+.nameBox img { margin-top: -30px }

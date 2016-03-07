@@ -1,0 +1,26 @@
+.smallerBanner { background-image: url('../imgs/logInBanner.jpg'); background-position: top right }
+
+#content h1 { margin: 90px 0 70px 0; padding-bottom: 20px; border-bottom: 2px solid #F90D1A; color: #F90D1A; text-align: center }
+#content h1:first-child { border-bottom: 2px solid #0064A7; color: #0064A7; margin-top: 0; }
+
+#content { width: 70%; margin: 0 auto; max-width: 760px }
+
+#content form dl { position: relative; }
+#content form dt { font-size: 13px }
+#content #logIn input[type=submit] { background-color: #0064A7  }
+#content #logIn input[type=submit]:hover { background-color: #00548d;  transition: 0.3s; }
+#content form input[type=reset] { background-color: #737373 }
+#content form input[type=reset]:hover { background-color: #515151; transition: 0.3s; }
+#content #signUpForm input[type=submit]  { background-color: #F90D1A; color: #fff;  } 
+#content #signUpForm input[type=submit]:hover { background-color: #E70C18; transition: 0.3s; }
+
+
+.absol { z-index: 10; top: 0; left: 52%; position: absolute; }
+.absol.bottom { top: 75px }
+.float { width: 48%; }
+.float { float: left }
+.float.right { float: right }
+.float input { width: 100%; padding: 5px 0; margin: 10px 0 20px 0; border: 0 none; border-bottom: 1px solid #e3e3e3; }
+.twoInputs { margin-top: 70px; text-align: center }
+.twoInputs input { display: inline-block; width: 20%; height: 35px; padding: 5px; color: #fff; border: 0 none}
+.twoInputs input:first-child { margin-right: 3% }

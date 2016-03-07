@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="eng">
+	<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Q&A / SENDFASTER</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
+	<link rel="shortcut icon" href="imgs/sendFaster_favi.png" type="image/png" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" type="text/css" href="css/common.css" />
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<link rel="stylesheet" type="text/css" href="css/qna.css" />
+<!--	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script> -->
+	<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script>
+	//<![CDATA[
+
+		$(document).ready(function(){
+
+			$(".qnaBg dl dt").click(function(){
+				$(this).siblings().css("color","#919191").removeClass("selected");
+				$(this).css("color","#f90d1a").next().toggleClass("selected");
+				
+				return false;
+			});
+
+			$(".pagination a").click(function(){
+
+				var linkNum = $(this).index();
+
+				$(this).addClass("current").siblings().removeClass("current");
+				
+				$(".qnaBg ul li").hide();
+				$(".qnaBg ul li").eq(linkNum).show();
+
+
+				return false;
+			});
+
+		});
+
+
+	//]]>
+	</script>
+	<style>
+		
+
+
+	</style>
+	</head>
+
+	<body>
+
+		<div id="wrapper">
+
+			<header>
+				<h1><a href="http://iamtrig.github.io/sendFaster/index.html"><img src="imgs/logo.jpg" alt="logo" />SENDFASTER</a></h1>
+				
+				<h2 class="burger"><a href="">Main Menu</a></h2>
+				<nav>
+					<a href="http://iamtrig.github.io/sendFaster/about.html">ABOUT</a>
+					<a href="http://iamtrig.github.io/sendFaster/send.html">SEND</a>
+					<a href="http://iamtrig.github.io/sendFaster/pricings.html">PRICINGS/DELIVERY</a>
+					<a href="http://iamtrig.github.io/sendFaster/track.html">TRACK ITEMS</a>
+					<a href="http://iamtrig.github.io/sendFaster/login.html">LOGIN</a>
+					<a href="http://iamtrig.github.io/sendFaster/qna.html" class="qna">Q&A</a>
+					<a href="http://iamtrig.github.io/sendFaster/contact.html">CONTACT</a>
+				</nav>
+				<h2 class="close"><a href="">Close Menu</a></h2>
+
+			</header>
+
+			<div class="smallerBanner">
+				<h2>WE ARE HERE WAITING<br/>TO ANSWER YOUR QUESTION</h2>
+			</div>
+
+			<div id="content">
+				<article class="withoutSide">
+					<form action="" method="" name="qnaForm" id="qnaForm">
+						<fieldset>
+							<legend class="hidden">Search what you wonder</legend>
+							<select name="qnaSelect" id="qnaSelect">
+								<option value="ALL">ALL</option>
+								<option value="send">Send</option>
+								<option value="pricings">Pricings</option>
+								<option value="delivery">Delivery</option>
+								<option value="track itmes">Track Items</option>
+								<option value="contact">Contact</option>
+								<option value="sign up">Sign Up</option>
+							</select>
+							<input type="text" id="qnaTextField" name="qnaTextField" value="ex) Shipping..." />
+							<input type="submit" value="SEARCH" />
+						</fieldset>
+					</form>
+
+					<div class="qnaBg">
+						<ul>
+							<li class="selected">
+								<dl>
+									<dt class="noBorder">Q. architecto facilis dicta veniam et accusantium repellendus autem itaque ip autem</dt>
+									<dd class="selected">architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia eius officia quaerat a unde maxime cum, hic ullam architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </dd>
+									<dt>Q. architecto facilis dicta veniam et accusantium repellendus autem itaque ip autem</dt>
+									<dd>architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia eius officia quaerat a unde maxime cum, hic ullam architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </dd>
+									<dt>Q. architecto facilis dicta veniam et accusantium repellendus autem itaque ip autem</dt>
+									<dd>architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia eius officia quaerat a unde maxime cum, hic ullam architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </dd>
+									<dt>Q. architecto facilis dicta veniam et accusantium repellendus autem itaque ip autem</dt>
+									<dd>architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia eius officia quaerat a unde maxime cum, hic ullam architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </dd>
+									<dt>Q. architecto facilis dicta veniam et accusantium repellendus autem itaque ip autem</dt>
+									<dd>architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia eius officia quaerat a unde maxime cum, hic ullam architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt class="noBorder">Q. architecto facilis dicta veniam et accusantium repellendus autem itaque ip autem</dt>
+									<dd class="selected">architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia eius officia quaerat a unde maxime cum, hic ullam architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </dd>
+									<dt>Q. architecto facilis dicta veniam et accusantium repellendus autem itaque ip autem</dt>
+									<dd>architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia eius officia quaerat a unde maxime cum, hic ullam architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </dd>
+									<dt>Q. architecto facilis dicta veniam et accusantium repellendus autem itaque ip autem</dt>
+									<dd>architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia eius officia quaerat a unde maxime cum, hic ullam architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </dd>
+									<dt>Q. architecto facilis dicta veniam et accusantium repellendus autem itaque ip autem</dt>
+									<dd>architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia eius officia quaerat a unde maxime cum, hic ullam architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </dd>
+									<dt>Q. architecto facilis dicta veniam et accusantium repellendus autem itaque ip autem</dt>
+									<dd>architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia eius officia quaerat a unde maxime cum, hic ullam architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt class="noBorder">Q. architecto facilis dicta veniam et accusantium repellendus autem itaque ip autem</dt>
+									<dd class="selected">architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia eius officia quaerat a unde maxime cum, hic ullam architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </dd>
+									<dt>Q. architecto facilis dicta veniam et accusantium repellendus autem itaque ip autem</dt>
+									<dd>architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia eius officia quaerat a unde maxime cum, hic ullam architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </dd>
+									<dt>Q. architecto facilis dicta veniam et accusantium repellendus autem itaque ip autem</dt>
+									<dd>architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia eius officia quaerat a unde maxime cum, hic ullam architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </dd>
+									<dt>Q. architecto facilis dicta veniam et accusantium repellendus autem itaque ip autem</dt>
+									<dd>architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia eius officia quaerat a unde maxime cum, hic ullam architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </dd>
+									<dt>Q. architecto facilis dicta veniam et accusantium repellendus autem itaque ip autem</dt>
+									<dd>architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia eius officia quaerat a unde maxime cum, hic ullam architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt class="noBorder">Q. architecto facilis dicta veniam et accusantium repellendus autem itaque ip autem</dt>
+									<dd class="selected">architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia eius officia quaerat a unde maxime cum, hic ullam architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </dd>
+									<dt>Q. architecto facilis dicta veniam et accusantium repellendus autem itaque ip autem</dt>
+									<dd>architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia eius officia quaerat a unde maxime cum, hic ullam architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </dd>
+									<dt>Q. architecto facilis dicta veniam et accusantium repellendus autem itaque ip autem</dt>
+									<dd>architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia eius officia quaerat a unde maxime cum, hic ullam architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </dd>
+									<dt>Q. architecto facilis dicta veniam et accusantium repellendus autem itaque ip autem</dt>
+									<dd>architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia eius officia quaerat a unde maxime cum, hic ullam architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </dd>
+									<dt>Q. architecto facilis dicta veniam et accusantium repellendus autem itaque ip autem</dt>
+									<dd>architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia eius officia quaerat a unde maxime cum, hic ullam architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt class="noBorder">Q. architecto facilis dicta veniam et accusantium repellendus autem itaque ip autem</dt>
+									<dd class="selected">architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia eius officia quaerat a unde maxime cum, hic ullam architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </dd>
+									<dt>Q. architecto facilis dicta veniam et accusantium repellendus autem itaque ip autem</dt>
+									<dd>architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia eius officia quaerat a unde maxime cum, hic ullam architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </dd>
+									<dt>Q. architecto facilis dicta veniam et accusantium repellendus autem itaque ip autem</dt>
+									<dd>architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia eius officia quaerat a unde maxime cum, hic ullam architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </dd>
+									<dt>Q. architecto facilis dicta veniam et accusantium repellendus autem itaque ip autem</dt>
+									<dd>architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia eius officia quaerat a unde maxime cum, hic ullam architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </dd>
+									<dt>Q. architecto facilis dicta veniam et accusantium repellendus autem itaque ip autem</dt>
+									<dd>architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia eius officia quaerat a unde maxime cum, hic ullam architecto facilis dicta veniam et accusantium repellendus autem itaque ipsum debitis sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </dd>
+								</dl>
+							</li>
+						</ul>
+						<p class="pagination">
+							<a href="" class="current">1</a>
+							<a href="">2</a>
+							<a href="">3</a>
+							<a href="">4</a>
+							<a href="">5</a>
+						</p>
+					</div>
+					<h3>24-HOUR CUSTOMER SERVICE</h3>
+					<div class="customer24">
+						<form action="" method="" name="customer24" id="customer24">
+							<fieldset>
+								<legend class="hidden">24-HOUR CUSTOMER SERVICE</legend>
+								<select name="customerSelect" id="customerSelect">
+									<option value="ALL">ALL</option>
+									<option value="send">Send</option>
+									<option value="pricings">Pricings</option>
+									<option value="delivery">Delivery</option>
+									<option value="track itmes">Track Items</option>
+									<option value="contact">Contact</option>
+									<option value="sign up">Sign Up</option>
+								</select>
+								<input type="text" id="customerName" name="customerName" value="Name" />
+								<input type="text" id="customerEmail" name="customerEmail" value="Email Address" />
+								<input type="submit" value="SEND" />
+								<textarea name="customerTextarea" id="customerTextarea" cols="30" rows="10"></textarea>
+							</fieldset>
+						</form>
+					</div>
+				</article>
+			</div>
+
+			<footer>
+				<h1><img src="imgs/logo_footer.jpg" alt="logo">SENDFASTER</h1>
+				<p class="social">
+					<a href="#"><img src="imgs/twitter.png" alt="twitter"></a>
+					<a href="#"><img src="imgs/facebook.png" alt="facebook"></a>
+					<a href="#"><img src="imgs/instagram.png" alt="instagram"></a>
+				</p>
+			</footer>
+
+		</div>
+
+		
+	</body>
+
+	</html>

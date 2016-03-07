@@ -31,3 +31,8 @@
 		@media only screen and (max-width: 400px) {
 			#header ul.navUl li > a { padding-left: 38%; width: 72%; }
 		}
+
+		@media only screen and (max-width: 359px) {
+			.aboutMeBg { height: 1180px }
+		}
+

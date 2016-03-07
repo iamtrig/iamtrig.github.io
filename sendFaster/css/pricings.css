@@ -1,0 +1,60 @@
+.smallerBanner { background-image: url('../imgs/pricingBanner.jpg'); background-color: #000; }
+
+
+#content .withSideNav { float: right; margin-right: 10% }
+#content .withSideNav > h1 { margin: 0 0 70px 0; padding-bottom: 20px; border-bottom: 2px solid #F90D1A; color: #F90D1A; text-align: center }
+
+#content { overflow: hidden }
+
+.mainUl { position: relative; width: 100%; height: 800px; text-align: center }
+.subUl { position: absolute; top: 160px; left: 0; text-align: left }
+
+.mainUl > li { display: inline-block; margin: 0 7%; }
+.mainUl .letterIcon { margin-left: 0 }
+.mainUl .flowerIcon { margin-right: 0 }
+.mainUl > li {  }
+.mainUl > li > a {  display: inline-block; width: 79px; padding-top: 75px; color: #CACACA; text-align: center; letter-spacing: 0.05em; }
+.mainUl .letterIcon > a { background: url('../imgs/letterIcon.jpg') no-repeat; }
+.mainUl .parcelIcon > a { background: url('../imgs/parcelsIcon.jpg') no-repeat; }
+.mainUl .inviteIcon > a { background: url('../imgs/invitesIcon.jpg') no-repeat; }
+.mainUl .flowerIcon > a { background: url('../imgs/flowersIcon.jpg') no-repeat; }
+.mainUl > li > a:hover, .mainUl .parcelIcon > a { background-position: -81px 0; transition: 0s; color: #F90D1A }
+
+.subUl { height: 670px }
+.subUl .from, .subUl .to { display: inline-block; margin-bottom: 15px; font-weight: bold }
+.subUl .to { margin-top: 20px; }
+
+.subUl .fromUl li, .subUl .toUl li { margin-bottom: 10px; height: 30px; border-bottom: 2px solid #fff; }
+.subUl .fromUl li a, .subUl .toUl li a { display: inline-block; width: 100% }
+
+
+.subUl .weight { display: inline-block; width: 22%; margin-right: 3% }
+.subUl .ship { float: right; display: inline-block; width: 70% }
+
+.subUl .buttons { clear: both; width: 100%; text-align: center; margin-top: 30px }
+#wrapper .subUl .buttons a { float: left; display: inline-block; width: 45%; height: 35px; line-height: 35px; margin: 0; padding: 0; color: #fff; background-color: #E5E5E5 }
+#wrapper .subUl .buttons a:hover { background-color: #FF2608 }
+#wrapper .subUl .buttons a.can { float: right; background-color: #737373 }
+#wrapper .subUl .buttons a.can:hover { background-color: #515151; }
+
+.mainUl .subUl > li { float: left; width: 43%; }
+.mainUl .subUl { width: 100%; background-color: #F5F5F5 }
+.mainUl .subUl > li > h2 { margin-top: 50px; }
+.mainUl .subUl > li > p { margin: 20px 0 50px 0; line-height: 23px }
+.mainUl .subUl .subLi1 { margin-left: 5%; } 
+.mainUl .subUl .subLi2 { margin-right: 5%; float: right }
+
+.subUl .weight, .subUl .ship { height: 30px; margin-top: 20px; border-bottom: 2px solid #fff; }
+
+.subUl .fromUl li a, .subUl .toUl li a,.withSideNav .mainUl .subUl > li > ul > li > a { color: #c9c9c9 }
+.subUl .fromUl li a:hover, .subUl .toUl li a:hover,.withSideNav .mainUl .subUl > li > ul > li > a:hover { color: #919191 }
+.withSideNav .dot { float: right; display: inline-block; width: 10px; height: 10px; margin: 4px 5px 0 0; vertical-align: middle;  background-color: #e3e3e3; border-radius: 50%;  }
+.subUl .fromUl li a:hover .dot, .subUl .toUl li a:hover .dot,.withSideNav .mainUl .subUl > li > ul > li > a:hover .dot {  background-color: #F90D1A; transition: 0.3s; }
+
+
+
+/* media query */
+
+@media only screen and (max-width: 460px) {
+	#wrapper .mainUl .parcelIcon > a { background-position: -66px 0 }
+}
