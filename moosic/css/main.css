@@ -249,8 +249,11 @@ h1 { color: #BA3194; letter-spacing: 0.4em;  }
 
 /* media query */
 
-
-
+		
+		@media only screen and (min-width: 1001px) {
+			#nav ul { display: block !important; }
+		}  
+		
 		@media only screen and (max-width: 1000px) {
 			#header h2 { z-index: 1000; position: fixed; top: 0; width: 100%; height: 50px; background-color: #001329 }
 			#header h2 {  display: block }

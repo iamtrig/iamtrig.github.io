@@ -112,7 +112,7 @@ $(document).ready(function(){
 	}
 
 	function timer() {
-		auto = setInterval(function(){autoClick()},10000);
+		auto = setInterval(function(){autoClick()},4000);
 	}
 
 	function timerStop() {
