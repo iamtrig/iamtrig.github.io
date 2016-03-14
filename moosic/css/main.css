@@ -1,464 +1,464 @@
 h1 { color: #BA3194; letter-spacing: 0.4em;  }
 
-	input[type=text], input[type=submit], input[type=reset],input[type=password] { background: none; border: 0 none; appearance: none; -moz-appearance: none; -webkit-appearance: none; border-radius: 0; -webkit-border-radius: 0; -moz-border-radius: 0; box-shadow: 0 0 0 0; -moz-box-shadow: 0 0 0 0; -webkit-box-shadow: 0 0 0 0; }
-		body #header .showAndHide { display: none; transition: 0.5s; }
+input[type=text], input[type=submit], input[type=reset],input[type=password] { background: none; border: 0 none; appearance: none; -moz-appearance: none; -webkit-appearance: none; border-radius: 0; -webkit-border-radius: 0; -moz-border-radius: 0; box-shadow: 0 0 0 0; -moz-box-shadow: 0 0 0 0; -webkit-box-shadow: 0 0 0 0; }
+body #header .showAndHide { display: none; transition: 0.5s; }
 
-		#header { position: relative; margin: 0 auto; padding-top: 100px; text-align: center; }
-		#music, #news, #aboutUs, #signUp, #faq, #contactUs, #footer { width: 720px; margin: 0 auto; padding: 100px 0; font-size: 0.8em }
-		#content h1 { margin-bottom: 100px; text-align: center; font-size: 1.7em }
-		
-		#header h1 { margin-top: 155px; font-size: 2.5em }
-		#header h1 img { margin-bottom: 73px }
-		#header p { margin-top: 27px }
-		
-		#nav { position: absolute; top: 0; left: 0; padding-top: 100px; width: 100% }
-		#nav ul li { display: inline-block; margin-right: 30px; font-size: 0.7em }
-		#nav .forAb { position: absolute; top: 3px; right: 70px; padding-top: 100px; margin-right: 0  }
-		#nav .noMgRight { margin-right: 0 }
-		#nav li:first-child { left: 70px; right: auto }
-		#nav li:first-child .arrowDown { display: inline-block; width: 7px; height: 7px; margin-left: 3px; background: url('../img/arrowDown.png') no-repeat left center; }
-		#nav li:first-child a:hover .arrowDown { background-position: right center }
+#header { position: relative; margin: 0 auto; padding-top: 100px; text-align: center; }
+#music, #news, #aboutUs, #signUp, #faq, #contactUs, #footer { width: 720px; margin: 0 auto; padding: 100px 0; font-size: 0.8em }
+#content h1 { margin-bottom: 100px; text-align: center; font-size: 1.7em }
 
-		#logIn { position: absolute; top: 135px; left: -3px; width: 180px; text-align: left }
-		#logIn dt { position: absolute; left: 3px }
-		#logIn dd { margin-bottom: 10px}
-		#logIn dd input { background-color: #011835; width: 100%;  border: 0 none;font-size: 1.3em; letter-spacing: 0.3em; border-bottom: 1px solid #6A6AA7; color: #6A6AA7 }
-		#logIn #userPswd {  }
-		#logIn .forFloat  { display: inline-block; text-align: center; }
-		#logIn .right { float: right }
-		#logIn .forFloat input { width: 100%; border-bottom: 0 none; font-size: 1em; letter-spacing: 0.3em; text-align: center;  }
-		#logIn .forFloat input:hover { color: #CC73E9; cursor: pointer }
+#header h1 { margin-top: 155px; font-size: 2.5em }
+#header h1 img { margin-bottom: 73px }
+#header p { margin-top: 27px }
 
-		.headerDeco { margin-top: 70px; text-align: center; }
-		.headerDeco span { display: inline-block; width: 2.8px; height: 105px; background-color: #6A6AA7 }
-		.headerDeco .deco1 { margin-top: -40px }
-		.headerDeco .deco2, .headerDeco .deco4 { background-color: #BA3194; margin-left: 60px;}
-		.headerDeco .deco2 { margin-right: 60px; margin-top: 40px; margin-bottom: -28px }
-		.headerDeco .deco3 { height: 88px; margin-top: 35px }
-		.headerDeco .deco4 { height: 98px; margin-top: 5px }
-		.btmSection { width: 100%; height: 150px; margin-top: 100px; background: url('../img/sectionDeco.jpg') no-repeat center top;  }
+#nav { position: absolute; top: 0; left: 0; padding-top: 100px; width: 100% }
+#nav ul li { display: inline-block; margin-right: 30px; font-size: 0.7em }
+#nav .forAb { position: absolute; top: 3px; right: 70px; padding-top: 100px; margin-right: 0  }
+#nav .noMgRight { margin-right: 0 }
+#nav li:first-child { left: 70px; right: auto }
+#nav li:first-child .arrowDown { display: inline-block; width: 7px; height: 7px; margin-left: 3px; background: url('../img/arrowDown.png') no-repeat left center; }
+#nav li:first-child a:hover .arrowDown { background-position: right center }
 
+#logIn { position: absolute; top: 135px; left: -3px; width: 180px; text-align: left }
+#logIn dt { position: absolute; left: 3px }
+#logIn dd { margin-bottom: 10px}
+#logIn dd input { background-color: #011835; width: 100%;  border: 0 none;font-size: 1.3em; letter-spacing: 0.3em; border-bottom: 1px solid #6A6AA7; color: #6A6AA7 }
+#logIn #userPswd {  }
+#logIn .forFloat  { display: inline-block; text-align: center; }
+#logIn .right { float: right }
+#logIn .forFloat input { width: 100%; border-bottom: 0 none; font-size: 1em; letter-spacing: 0.3em; text-align: center;  }
+#logIn .forFloat input:hover { color: #CC73E9; cursor: pointer }
 
-		
-		#music {  }
-		#music .get a, #music .gift a, #music .save a { color: #915024 }
-		#music .get a:hover, #music .gift a:hover, #music .save a:hover { color: #C2631E }
-		#subNav { text-align: center }
-		#subNav ul { width: 100%; }
-		#subNav li { display: inline-block; margin-left: 30px; margin-bottom: 50px }
-		#subNav li:first-child { margin-left: 0 }
-		.subMusicNext { display: none }
-		#subNav li:first-child a { color: #BA3194 }
-		#music form#searchInMusic { margin-bottom: 155px }
-		#music form#searchInMusic dl { position: relative; text-align: center; }
-		#music form#searchInMusic dt { position: absolute; top: 2px; left: 193px;color: #CC73E9; cursor: pointer; opacity: 0.5 }
-		#music form#searchInMusic dd { display: inline-block; }
-		#music select { background: none; border: 0 none; appearance: none; -moz-appearance: none; -webkit-appearance: none; cursor: pointer; font-size: 1em; letter-spacing: 0.2em; color: #CC73E9; padding-right: 15px; background: url('../img/biggerArrowDown.png') no-repeat center right; }
-		#music select:focus { border-color: none }
-		#music #searchFieldInMusic { width: 400px; border-bottom: 1px solid #CC73E9; margin: 0 20px; color: #CC73E9; letter-spacing: 0.2em; font-size: 1em; }
-		#music .subInMusic input { width: 19px; height: 19px; margin-top: 3px; background: url('../img/search_btn.svg') no-repeat; text-indent: -999999px; cursor: pointer }
-		
-		
-		.ifSearched { display: none; position: relative; }
-		.ifSearched ol { height: 600px }
-		.ifSearched ol li { position: absolute; width: 720px; }
-		.ifSearched ol li:first-child ul { display: block }
-		.ifSearched ol li ul { display: none; margin-top: 70px; }
-		.ifSearched ul .albumCover { display: none; float: left; padding-top: 7px } 
-		.ifSearched ul li:first-child .albumCover { display: block }
-		.ifSearched .save, .ifSearched .gift, .ifSearched dl dt, .ifSearched .pause  { display: none; }
-		.ifSearched ul li:first-child dl { float: left;  /*border-bottom: 3px solid #001329;*/ margin-left: 20px }
-		.ifSearched ul li:first-child { height: 120px }
-		.ifSearched ul li { position: relative; width: 100%; border-bottom: 3px solid #001329;   }
-		.ifSearched ul li dl dt { margin: 10px 0; font-size: 0.8em }
-		.ifSearched ol li ul li { padding-top: 10px; height: 55px; }
-		.ifSearched ol ul li:first-child {  }
-		.ifSearched .title { color: #BA3194; margin-bottom: 10px }
-		.ifSearched .mood { margin-left: 5px; font-size: 0.8em; }
-		.ifSearched .artist { float: left; margin-right: 10px;  font-size: 0.8em;}
-		.ifSearched ol ul li:first-child dl dt { display: block; }
-		.ifSearched ol ul li:first-child .save, .ifSearched ol ul li:first-child dl .gift { display: inline-block; margin: 10px 0 }
-		.ifSearched ol ul li:first-child dl .gift { margin-left: 4px }
-
-		.ifSearched ol ul li:first-child .get { position: static; display: inline-block; }
-		.ifSearched .play, .ifSearched .pause, .ifSearched .get { position: absolute; right: 0; top: 0 }
-		.ifSearched ol ul li:first-child .play img, .ifSearched ol ul li:first-child .pause img { width: 60px }
-		.ifSearched ol ul li:first-child .play, .ifSearched ol ul li:first-child .pause { top: 35px;  }
-		.ifSearched .play, .ifSearched .pause { top: 17px }
-		.ifSearched .get { top: 25px; right: 40px }
-		
-		.ifSearched ol li > a:hover { background-color: #BA3194 }
-		.ifSearched > ol > li { width: 100% } 
-		.ifSearched ol li > a { z-index: 100; position: absolute; background-color: #CC73E9; width: 15px; height: 15px; border-radius: 50% 50%; left:29%; text-indent: -999999px }
-		#content .ifSearched .closeBtnInMusic { top: 0; text-align: right; right: -400px; left: auto  } 
-		.ifSearched ol li:first-child  > a { background-color: #BA3194 }
-		.ifSearched .closeBtnInMusic > a, .ifSearched .closeBtnInMusic > a:hover { background-color: transparent;  }
+.headerDeco { margin-top: 70px; text-align: center; }
+.headerDeco span { display: inline-block; width: 2.8px; height: 105px; background-color: #6A6AA7 }
+.headerDeco .deco1 { margin-top: -40px }
+.headerDeco .deco2, .headerDeco .deco4 { background-color: #BA3194; margin-left: 60px;}
+.headerDeco .deco2 { margin-right: 60px; margin-top: 40px; margin-bottom: -28px }
+.headerDeco .deco3 { height: 88px; margin-top: 35px }
+.headerDeco .deco4 { height: 98px; margin-top: 5px }
+.btmSection { width: 100%; height: 150px; margin-top: 100px; background: url('../img/sectionDeco.jpg') no-repeat center top;  }
 
 
 
-		#mainMusic { position: relative; width: 720px; height: 600px; overflow: hidden }
-		#mainMusic > ul > li:first-child  { display: block }
-		#mainMusic ul li:first-child ul li:first-child dl { display: block }
-		#mainMusic > ul > li {  text-align: center; width: 100% }
-		#mainMusic > ul > li > a { display: block; font-size: 1.4em; color: #BA3194; }
-		#mainMusic .fromWhen { display: inline-block; margin-top: 10px; font-size: 0.8em }
-		#mainMusic .albumCover { z-index: 2; position: absolute; top: 140px;  }
-		#mainMusic dl { position: relative; margin-top: 355px; width: 200px; }
-		#mainMusic dl .descrip { position: absolute; margin-left: 220px; padding-left: 20px; padding-bottom: 40px; top: 0; width: 480px; text-align: left; border-left: 1px solid #6A6AA7; line-height: 20px }
-		#mainMusic > ul > li { position: absolute; top: 0 }
-		#mainMusic > ul > li > ul > li { position: absolute; top: 0; width: 720px }
-		#mainMusic dl .title { color: #BA3194 }
-		#mainMusic .prev, #mainMusic .play, #mainMusic .pause, #mainMusic .forward { display: inline-block; margin-left: 12px; }
-		#mainMusic .prev { margin-left: 0 }
-		#mainMusic .get, #mainMusic .save, #mainMusic .gift { display: inline-block; margin-top: 17px; }
-		#mainMusic .save { padding-left: 10px; padding-right: 10px }
-		#mainMusic .moreSongs { position: absolute; left: 233px; top: 188px; width: 300px }
-		#mainMusic dl dt { margin: 10px 0; padding-top: 5px }
-		#mainMusic dl .artist { margin: 10px 0; }
-		#mainMusic dl .audioTool { margin: 10px 0 }
-		#mainMusic ul li ul li dl { display: none }
-		#mainMusic ul li ul li:first-child dl { display: block }
-
-		#mainMusic .albumCover { opacity: 0.6; box-shadow: 0px 0px 47px #000; cursor: pointer; }
-
-		#mainMusic .al1 .albumCover { top: 160px; left: 0; z-index: 10; }
-		#mainMusic .al2 .albumCover { top: 155px; left: 7%; z-index: 12; opacity: 0.7 }
-		#mainMusic .al3 .albumCover { top: 150px; left: 16%; z-index: 14; opacity: 0.8; }
-		#mainMusic .al4 .albumCover { top: 145px; left: 26%; z-index: 16; opacity: 0.9; }
-		#mainMusic .al5 .albumCover { left: 280px; z-index: 20; opacity: 1; }
-		#mainMusic .al6 .albumCover { top: 145px; right: 26%; z-index: 16; opacity: 0.9; }
-		#mainMusic .al7 .albumCover { top: 150px; right: 16%; z-index: 14; opacity: 0.8; }
-		#mainMusic .al8 .albumCover { top: 155px; right: 7%; z-index: 12; opacity: 0.7 }
-		#mainMusic .al9 .albumCover { top: 160px; right: 0; z-index: 10; }
-
-		#mainMusic .al1 .albumCover img { width: 110px; }
-		#mainMusic .al2 .albumCover img { width: 120px; }
-		#mainMusic .al3 .albumCover img { width: 130px;  }
-		#mainMusic .al4 .albumCover img { width: 140px ; }
-		#mainMusic .al5 .albumCover img { width: ; }
-		#mainMusic .al6 .albumCover img { width: 140px ;  }
-		#mainMusic .al7 .albumCover img { width: 130px;   }
-		#mainMusic .al8 .albumCover img { width: 120px;  }
-		#mainMusic .al9 .albumCover img { width: 110px;  }
-
-		#mainMusic .leftRight a { position: absolute; top: 3px; opacity: 0.6}
-		#mainMusic .leftRight a:hover { transition: 0.5s; opacity: 1}
-		#mainMusic .leftRight .right { right: 0;  }
-
-		#mainMusic .mainMusicList1 { left: -100% }
-		#mainMusic .mainMusicList2 { left: 0; }
-		#mainMusic .mainMusicList3 { left: 100% }
+#music {  }
+#music .get a, #music .gift a, #music .save a { color: #915024 }
+#music .get a:hover, #music .gift a:hover, #music .save a:hover { color: #C2631E }
+#subNav { text-align: center }
+#subNav ul { width: 100%; }
+#subNav li { display: inline-block; margin-left: 30px; margin-bottom: 50px }
+#subNav li:first-child { margin-left: 0 }
+.subMusicNext { display: none }
+#subNav li:first-child a { color: #BA3194 }
+#music form#searchInMusic { margin-bottom: 155px }
+#music form#searchInMusic dl { position: relative; text-align: center; }
+#music form#searchInMusic dt { position: absolute; top: 2px; left: 193px;color: #CC73E9; cursor: pointer; opacity: 0.5 }
+#music form#searchInMusic dd { display: inline-block; }
+#music select { background: none; border: 0 none; appearance: none; -moz-appearance: none; -webkit-appearance: none; cursor: pointer; font-size: 1em; letter-spacing: 0.2em; color: #CC73E9; padding-right: 15px; background: url('../img/biggerArrowDown.png') no-repeat center right; }
+#music select:focus { border-color: none }
+#music #searchFieldInMusic { width: 400px; border-bottom: 1px solid #CC73E9; margin: 0 20px; color: #CC73E9; letter-spacing: 0.2em; font-size: 1em; }
+#music .subInMusic input { width: 19px; height: 19px; margin-top: 3px; background: url('../img/search_btn.svg') no-repeat; text-indent: -999999px; cursor: pointer }
 
 
-		
-		.audioTool { text-align: left; padding-bottom: 10px }
-		.audioTool .baseline { display: inline-block;vertical-align: middle; margin-top: 10px; height: 2px; width: 100%; background-color: #4B367F }
-		.audioTool .baseline .dot { display: inline-block; margin-top: -6px; margin-bottom: 6px; width: 15px; height: 15px; border-radius: 50% 50%; background-color: #4B367F }
+.ifSearched { display: none; position: relative; }
+.ifSearched ol { height: 600px }
+.ifSearched ol li { position: absolute; width: 720px; }
+.ifSearched ol li:first-child ul { display: block }
+.ifSearched ol li ul { display: none; margin-top: 70px; }
+.ifSearched ul .albumCover { display: none; float: left; padding-top: 7px } 
+.ifSearched ul li:first-child .albumCover { display: block }
+.ifSearched .save, .ifSearched .gift, .ifSearched dl dt, .ifSearched .pause  { display: none; }
+.ifSearched ul li:first-child dl { float: left;  /*border-bottom: 3px solid #001329;*/ margin-left: 20px }
+.ifSearched ul li:first-child { height: 120px }
+.ifSearched ul li { position: relative; width: 100%; border-bottom: 3px solid #001329;   }
+.ifSearched ul li dl dt { margin: 10px 0; font-size: 0.8em }
+.ifSearched ol li ul li { padding-top: 10px; height: 55px; }
+.ifSearched ol ul li:first-child {  }
+.ifSearched .title { color: #BA3194; margin-bottom: 10px }
+.ifSearched .mood { margin-left: 5px; font-size: 0.8em; }
+.ifSearched .artist { float: left; margin-right: 10px;  font-size: 0.8em;}
+.ifSearched ol ul li:first-child dl dt { display: block; }
+.ifSearched ol ul li:first-child .save, .ifSearched ol ul li:first-child dl .gift { display: inline-block; margin: 10px 0 }
+.ifSearched ol ul li:first-child dl .gift { margin-left: 4px }
 
-		
-		#news { position: relative; padding: 50px 0 }
-		#news .firstOl { height: 900px }
-		#news .firstOl > li { position: absolute; top: 170px; width: 100%}
-		#news .firstOl ol li { position: relative; }
-		#news .firstOl ol li:first-child {  margin-top: 50px }
-		#news .firstOl ol li .newsPic { display: block }
-		/*#news .firstOl ol li .newsPic { position: absolute; top: 0 }*/
-		#news .firstOl ol li .newsPic, #news .firstOl ol li .descrip, #news .firstOl ol li .seeMore { display: none }
-		#news .firstOl ol li .newsPic { margin-bottom: 20px; }
-		#news .firstOl ol li { padding-bottom: 10px; margin-bottom: 10px; border-bottom: 3px solid #001329 }
-		#news .firstOl ol li .seeMore { margin-bottom: 20px }
-		#news .firstOl ol li .descrip { padding: 10px 0; line-height: 20px }
-		#news .firstOl ol li:first-child .newsPic, #news .firstOl ol li:first-child .descrip, #news .firstOl ol li:first-child .seeMore { display: block }
-		#news .firstOl ol li dt { margin: 10px 0; }
-		#news .firstOl ol dl dt { color: #BA3194  }
-		#news .firstOl ol { display: none }
-		#news .firstOl li:first-child ol { display: block; }
-		#news .firstOl li > a { z-index: 100; position: absolute; left: 29%; top: 0; display: inline-block; width: 15px; height: 15px; background-color: #CC73E9; border-radius: 50% 50%; text-indent: -999999px  }
-		#news .firstOl li > a:hover, #news .firstOl li:first-child > a { background-color: #BA3194 }
+.ifSearched ol ul li:first-child .get { position: static; display: inline-block; }
+.ifSearched .play, .ifSearched .pause, .ifSearched .get { position: absolute; right: 0; top: 0 }
+.ifSearched ol ul li:first-child .play img, .ifSearched ol ul li:first-child .pause img { width: 60px }
+.ifSearched ol ul li:first-child .play, .ifSearched ol ul li:first-child .pause { top: 35px;  }
+.ifSearched .play, .ifSearched .pause { top: 17px }
+.ifSearched .get { top: 25px; right: 40px }
+
+.ifSearched ol li > a:hover { background-color: #BA3194 }
+.ifSearched > ol > li { width: 100% } 
+.ifSearched ol li > a { z-index: 100; position: absolute; background-color: #CC73E9; width: 15px; height: 15px; border-radius: 50% 50%; left:29%; text-indent: -999999px }
+#content .ifSearched .closeBtnInMusic { top: 0; text-align: right; right: -400px; left: auto  } 
+.ifSearched ol li:first-child  > a { background-color: #BA3194 }
+.ifSearched .closeBtnInMusic > a, .ifSearched .closeBtnInMusic > a:hover { background-color: transparent;  }
 
 
 
-		#aboutUs .centre { display: inline-block; text-align: center }
-		#aboutUs .heart { display: inline-block; width: 35px; height: 35px; margin-bottom: 20px; background: url('../img/heartIcon.svg') no-repeat center top;  }
-		#aboutUs .music { display: inline-block; width: 35px; height: 35px; margin-bottom: 20px; background: url('../img/musicIcon.svg') no-repeat; }
-		#aboutUs .moosicSign { display: inline-block; width: 100px; height: 38px; margin-bottom: 20px; background: url('../img/moosic_logo.svg') no-repeat; }
-		#aboutUs .centre img { margin: -43px 40px 0 40px; }
-		#aboutUs p:first-child { line-height: 22px }
-		#aboutUs p { text-align: center; }
-		#aboutUs .whatIsMoosic { margin-top: 240px }
-		.aboutUsFullWidth { z-index: -1; position: absolute; top: 3475px; width: 100%; height: 250px; background-color: #001329}
-		
-		
-		#signUp { position: relative; padding-bottom: 0 }
-		#signUp dt.forAb { position: absolute; opacity: 0.7; cursor: pointer; }
-		#signUp dd { margin-bottom: 40px; }
-		#signUp dd input { width: 100%; font-size: 1.3em; border-bottom: 1px solid #6A6AA7; }
-		#signUp .agree { padding-left: 240px }
-		#signUp .agree, #signUp .disagree  { display: inline-block; cursor: pointer; }
-		#signUp .disagree { margin-left: 35px }
-		#signUp dd.agreeCheck input, #signUp .disagreeCheck input { border-bottom: 0 none; appearance: auto;  }
-		#signUp dd.agreeCheck, #signUp .disagreeCheck {display: inline-block; }
-		
-		#signUp .submitDd { display: inline-block; width: 45%; margin-top: 20px; text-align: right }
-		#signUp .resetDd { float: right; display: inline-block; width: 45%; margin-top: 20px }
-		#signUp .submitDd input, #signUp .resetDd input { border-bottom: 0 none; color: #CC73E9; cursor: pointer; text-align: right; margin-bottom: 0; letter-spacing: 0.2em }
-		#signUp .resetDd input { text-align: left }
-		#signUp .submitDd input:hover, #signUp .resetDd input:hover { color:#BA3194; transition: 0.3s; }
+#mainMusic { position: relative; width: 720px; height: 600px; overflow: hidden }
+#mainMusic > ul > li:first-child  { display: block }
+#mainMusic ul li:first-child ul li:first-child dl { display: block }
+#mainMusic > ul > li {  text-align: center; width: 100% }
+#mainMusic > ul > li > a { display: block; font-size: 1.4em; color: #BA3194; }
+#mainMusic .fromWhen { display: inline-block; margin-top: 10px; font-size: 0.8em }
+#mainMusic .albumCover { z-index: 2; position: absolute; top: 140px;  }
+#mainMusic dl { position: relative; margin-top: 355px; width: 200px; }
+#mainMusic dl .descrip { position: absolute; margin-left: 220px; padding-left: 20px; padding-bottom: 40px; top: 0; width: 480px; text-align: left; border-left: 1px solid #6A6AA7; line-height: 20px }
+#mainMusic > ul > li { position: absolute; top: 0 }
+#mainMusic > ul > li > ul > li { position: absolute; top: 0; width: 720px }
+#mainMusic dl .title { color: #BA3194 }
+#mainMusic .prev, #mainMusic .play, #mainMusic .pause, #mainMusic .forward { display: inline-block; margin-left: 12px; }
+#mainMusic .prev { margin-left: 0 }
+#mainMusic .get, #mainMusic .save, #mainMusic .gift { display: inline-block; margin-top: 17px; }
+#mainMusic .save { padding-left: 10px; padding-right: 10px }
+#mainMusic .moreSongs { position: absolute; left: 233px; top: 188px; width: 300px }
+#mainMusic dl dt { margin: 10px 0; padding-top: 5px }
+#mainMusic dl .artist { margin: 10px 0; }
+#mainMusic dl .audioTool { margin: 10px 0 }
+#mainMusic ul li ul li dl { display: none }
+#mainMusic ul li ul li:first-child dl { display: block }
 
-		#signUp .robot { margin: 100px 0 50px 0; color: #BA3194 }
-		#signUp .sta { float: left; margin-right: 30px }
-		#signUp .changeImg { width: 500px; padding-top: 20px }
-		#signUp .changeImg a { padding-left: 20px; background: url('../img/arrowLeft.svg') no-repeat; }
-		#signUp .typeDd { position: absolute; top: 725px; left: 236px; width: 470px; }
-		#signUp input { color: #6A6AA7; letter-spacing: 0.2em }
-		#signUp .termsCon { text-align: center; padding: 100px 0 30px 0 }
-	
-		
-		#faq ol { position: relative; height: 550px; padding-top: 50px}
-		#faq li { position: absolute; }
-		#faq li dl { display: none }
-		#faq li dl dd { display: none }
-		#faq li:first-child dl { display: block }
-		#faq ol li dl dd.firstDd { display: block; }
-		#faq .arrowRight { display: inline-block; width: 20px; height: 12px;  margin-right: 3px; background: url('../img/arrowRight.svg') no-repeat;   }
-		#faq a:hover .arrowRight, #faq dt:first-child a span, #faq dt:first-child a { transition: 0.3s; background-position: center center; color: #BA3194 }
-		#faq dt { padding-bottom: 20px; padding-top: 20px; ;  border-top: 3px solid #001329; border-collapse: inherit; }
-		#faq dd { border-top: 3px solid #001329; line-height: 20px; padding-top: 20px; margin: 0 0 20px 30px }
-		#faq h2 { text-align: center; }
-		#faq p { margin-top: 60px; font-size: 1.5em; text-align: center; }
-		#faq ol > li { width: 100% }
-		#faq ol > li > a {z-index: 100; top: -50px; left: 28%;  position: absolute; display: inline-block; width: 15px; height: 15px; background-color: #CC73E9; border-radius: 50% 50%; text-indent: -999999px }
-		#faq ol > li:first-child > a { background-color: #BA3194 }
-		#faq ol > li > a:hover { background-color: #BA3194 }
-		
-		#contactUs { padding-top: 0; text-align: center; } 
-		#contactUs p { font-size: 2em }
-		#contactUs p:first-child { margin-bottom: 40px; font-size: 1.2em }
+#mainMusic .albumCover { opacity: 0.6; box-shadow: 0px 0px 47px #000; cursor: pointer; }
 
-		#footer { padding: 60px 0; text-align: center; }
-		#footer p:first-child { font-size: 1em }
-		#footer p { font-size: 0.7em }
-		#footer address { padding: 20px 0 }
-		.footerDeco { width: 100%; height: 200px; background-color: #001329 }
-		
-		#content { position: relative; }
-		.mainMusicDeco { z-index: -1; top: 680px; position: absolute; width: 100%; height: 400px; background-color: #001329 }
+#mainMusic .al1 .albumCover { top: 160px; left: 0; z-index: 10; }
+#mainMusic .al2 .albumCover { top: 155px; left: 7%; z-index: 12; opacity: 0.7 }
+#mainMusic .al3 .albumCover { top: 150px; left: 16%; z-index: 14; opacity: 0.8; }
+#mainMusic .al4 .albumCover { top: 145px; left: 26%; z-index: 16; opacity: 0.9; }
+#mainMusic .al5 .albumCover { left: 280px; z-index: 20; opacity: 1; }
+#mainMusic .al6 .albumCover { top: 145px; right: 26%; z-index: 16; opacity: 0.9; }
+#mainMusic .al7 .albumCover { top: 150px; right: 16%; z-index: 14; opacity: 0.8; }
+#mainMusic .al8 .albumCover { top: 155px; right: 7%; z-index: 12; opacity: 0.7 }
+#mainMusic .al9 .albumCover { top: 160px; right: 0; z-index: 10; }
+
+#mainMusic .al1 .albumCover img { width: 110px; }
+#mainMusic .al2 .albumCover img { width: 120px; }
+#mainMusic .al3 .albumCover img { width: 130px;  }
+#mainMusic .al4 .albumCover img { width: 140px ; }
+#mainMusic .al5 .albumCover img { width: ; }
+#mainMusic .al6 .albumCover img { width: 140px ;  }
+#mainMusic .al7 .albumCover img { width: 130px;   }
+#mainMusic .al8 .albumCover img { width: 120px;  }
+#mainMusic .al9 .albumCover img { width: 110px;  }
+
+#mainMusic .leftRight a { position: absolute; top: 3px; opacity: 0.6}
+#mainMusic .leftRight a:hover { transition: 0.5s; opacity: 1}
+#mainMusic .leftRight .right { right: 0;  }
+
+#mainMusic .mainMusicList1 { left: -100% }
+#mainMusic .mainMusicList2 { left: 0; }
+#mainMusic .mainMusicList3 { left: 100% }
+
+
+
+.audioTool { text-align: left; padding-bottom: 10px }
+.audioTool .baseline { display: inline-block;vertical-align: middle; margin-top: 10px; height: 2px; width: 100%; background-color: #4B367F }
+.audioTool .baseline .dot { display: inline-block; margin-top: -6px; margin-bottom: 6px; width: 15px; height: 15px; border-radius: 50% 50%; background-color: #4B367F }
+
+
+#news { position: relative; padding: 50px 0 }
+#news .firstOl { height: 900px }
+#news .firstOl > li { position: absolute; top: 170px; width: 100%}
+#news .firstOl ol li { position: relative; }
+#news .firstOl ol li:first-child {  margin-top: 50px }
+#news .firstOl ol li .newsPic { display: block }
+/*#news .firstOl ol li .newsPic { position: absolute; top: 0 }*/
+#news .firstOl ol li .newsPic, #news .firstOl ol li .descrip, #news .firstOl ol li .seeMore { display: none }
+#news .firstOl ol li .newsPic { margin-bottom: 20px; }
+#news .firstOl ol li { padding-bottom: 10px; margin-bottom: 10px; border-bottom: 3px solid #001329 }
+#news .firstOl ol li .seeMore { margin-bottom: 20px }
+#news .firstOl ol li .descrip { padding: 10px 0; line-height: 20px }
+#news .firstOl ol li:first-child .newsPic, #news .firstOl ol li:first-child .descrip, #news .firstOl ol li:first-child .seeMore { display: block }
+#news .firstOl ol li dt { margin: 10px 0; }
+#news .firstOl ol dl dt { color: #BA3194  }
+#news .firstOl ol { display: none }
+#news .firstOl li:first-child ol { display: block; }
+#news .firstOl li > a { z-index: 100; position: absolute; left: 29%; top: 0; display: inline-block; width: 15px; height: 15px; background-color: #CC73E9; border-radius: 50% 50%; text-indent: -999999px  }
+#news .firstOl li > a:hover, #news .firstOl li:first-child > a { background-color: #BA3194 }
+
+
+
+#aboutUs .centre { display: inline-block; text-align: center }
+#aboutUs .heart { display: inline-block; width: 35px; height: 35px; margin-bottom: 20px; background: url('../img/heartIcon.svg') no-repeat center top;  }
+#aboutUs .music { display: inline-block; width: 35px; height: 35px; margin-bottom: 20px; background: url('../img/musicIcon.svg') no-repeat; }
+#aboutUs .moosicSign { display: inline-block; width: 100px; height: 38px; margin-bottom: 20px; background: url('../img/moosic_logo.svg') no-repeat; }
+#aboutUs .centre img { margin: -43px 40px 0 40px; }
+#aboutUs p:first-child { line-height: 22px }
+#aboutUs p { text-align: center; }
+#aboutUs .whatIsMoosic { margin-top: 240px }
+.aboutUsFullWidth { z-index: -1; position: absolute; top: 3475px; width: 100%; height: 250px; background-color: #001329}
+
+
+#signUp { position: relative; padding-bottom: 0 }
+#signUp dt.forAb { position: absolute; opacity: 0.7; cursor: pointer; }
+#signUp dd { margin-bottom: 40px; }
+#signUp dd input { width: 100%; font-size: 1.3em; border-bottom: 1px solid #6A6AA7; }
+#signUp .agree { padding-left: 240px }
+#signUp .agree, #signUp .disagree  { display: inline-block; cursor: pointer; }
+#signUp .disagree { margin-left: 35px }
+#signUp dd.agreeCheck input, #signUp .disagreeCheck input { border-bottom: 0 none; appearance: auto;  }
+#signUp dd.agreeCheck, #signUp .disagreeCheck {display: inline-block; }
+
+#signUp .submitDd { display: inline-block; width: 45%; margin-top: 20px; text-align: right }
+#signUp .resetDd { float: right; display: inline-block; width: 45%; margin-top: 20px }
+#signUp .submitDd input, #signUp .resetDd input { border-bottom: 0 none; color: #CC73E9; cursor: pointer; text-align: right; margin-bottom: 0; letter-spacing: 0.2em }
+#signUp .resetDd input { text-align: left }
+#signUp .submitDd input:hover, #signUp .resetDd input:hover { color:#BA3194; transition: 0.3s; }
+
+#signUp .robot { margin: 100px 0 50px 0; color: #BA3194 }
+#signUp .sta { float: left; margin-right: 30px }
+#signUp .changeImg { width: 500px; padding-top: 20px }
+#signUp .changeImg a { padding-left: 20px; background: url('../img/arrowLeft.svg') no-repeat; }
+#signUp .typeDd { position: absolute; top: 725px; left: 236px; width: 470px; }
+#signUp input { color: #6A6AA7; letter-spacing: 0.2em }
+#signUp .termsCon { text-align: center; padding: 100px 0 30px 0 }
+
+
+#faq ol { position: relative; height: 550px; padding-top: 50px}
+#faq li { position: absolute; }
+#faq li dl { display: none }
+#faq li dl dd { display: none }
+#faq li:first-child dl { display: block }
+#faq ol li dl dd.firstDd { display: block; }
+#faq .arrowRight { display: inline-block; width: 20px; height: 12px;  margin-right: 3px; background: url('../img/arrowRight.svg') no-repeat;   }
+#faq a:hover .arrowRight, #faq dt:first-child a span, #faq dt:first-child a { transition: 0.3s; background-position: center center; color: #BA3194 }
+#faq dt { padding-bottom: 20px; padding-top: 20px; ;  border-top: 3px solid #001329; border-collapse: inherit; }
+#faq dd { border-top: 3px solid #001329; line-height: 20px; padding-top: 20px; margin: 0 0 20px 30px }
+#faq h2 { text-align: center; }
+#faq p { margin-top: 60px; font-size: 1.5em; text-align: center; }
+#faq ol > li { width: 100% }
+#faq ol > li > a {z-index: 100; top: -50px; left: 28%;  position: absolute; display: inline-block; width: 15px; height: 15px; background-color: #CC73E9; border-radius: 50% 50%; text-indent: -999999px }
+#faq ol > li:first-child > a { background-color: #BA3194 }
+#faq ol > li > a:hover { background-color: #BA3194 }
+
+#contactUs { padding-top: 0; text-align: center; } 
+#contactUs p { font-size: 2em }
+#contactUs p:first-child { margin-bottom: 40px; font-size: 1.2em }
+
+#footer { padding: 60px 0; text-align: center; }
+#footer p:first-child { font-size: 1em }
+#footer p { font-size: 0.7em }
+#footer address { padding: 20px 0 }
+.footerDeco { width: 100%; height: 200px; background-color: #001329 }
+
+#content { position: relative; }
+.mainMusicDeco { z-index: -1; top: 680px; position: absolute; width: 100%; height: 400px; background-color: #001329 }
 
 
 
 
 /* media query */
 
-		
-		@media only screen and (min-width: 1001px) {
-			#nav ul { display: block !important; }
-		}  
-		
-		@media only screen and (max-width: 1000px) {
-			#header h2 { z-index: 1000; position: fixed; top: 0; width: 100%; height: 50px; background-color: #001329 }
-			#header h2 {  display: block }
-			#header h2 a { background: url('../img/burger.svg') no-repeat; }
-			#header h2 a, #header h3 a { z-index: 10000; position: fixed; top: 15px; right: 17px;display: block; width: 20px; height: 20px; opacity: 0.7  }
-			 #header h3 a { display: none; background: url('../img/closeBurger.svg') no-repeat; }
-			#header h2 a:hover, #header h3 a:hover { opacity: 1; transition: 0.4s; }
-			
-			#header #nav ul li { padding-top: 0 }
-			#header #nav ul { z-index: 10000; display: none; position: fixed; width: 100%; top: 50px; }
-			#header #nav ul .forAb { position: static; }
-			#header #nav ul li { display: block; margin-right: 0 }
-			#header #nav ul li:first-child form { position: static; margin: 0 auto; width: 100%; padding-top: 20px;  background-color: #011835 }
-			#header #nav ul li:first-child form dl { width: 50%; margin: auto }
-			#header #nav ul li:first-child form dt { left: auto }
-			#header #nav ul li a { display: block; height: 40px; line-height: 40px; background-color: #011835; border-bottom: 1px solid #000B18  }
-			#header #nav .search a img { margin-top: 12px }
-		}
 
-		@media only screen and (max-width: 721px) {
-			#wrap { overflow: hidden }
-			#music, #news, #aboutUs, #signUp, #faq, #contactUs, #footer { width: 90%; margin-left: 5%; margin-right:5%; padding: 50px 0 50px 0 }
-			
-			#subNav li { margin-bottom: 60px }
-		
-			#header h1 { margin-top: 70px }
-		/*	#content h1 { margin-bottom: 50px }*/
-			.headerDeco { margin-bottom: 50px }
+@media only screen and (min-width: 1001px) {
+	#nav ul { display: block !important; }
+}  
 
-		
-			#content .ifSearched .closeBtnInMusic { right: 25px }
-			#content .ifSearched .closeBtnInMusic a { left: auto }
-			
-		
+@media only screen and (max-width: 1000px) {
+	#header h2 { z-index: 10000; position: fixed; top: 0; width: 100%; height: 50px; background-color: #001329 }
+	#header h2 {  display: block }
+	#header h2 a { background: url('../img/burger.svg') no-repeat; }
+	#header h2 a, #header h3 a { z-index: 10000; position: fixed; top: 15px; right: 17px;display: block; width: 20px; height: 20px; opacity: 0.7  }
+	 #header h3 a { display: none; background: url('../img/closeBurger.svg') no-repeat; }
+	#header h2 a:hover, #header h3 a:hover { opacity: 1; transition: 0.4s; }
+	
+	#header #nav ul li { padding-top: 0 }
+	#header #nav ul { z-index: 10000; display: none; position: fixed; width: 100%; top: 50px; }
+	#header #nav ul .forAb { position: static; }
+	#header #nav ul li { display: block; margin-right: 0 }
+	#header #nav ul li:first-child form { position: static; margin: 0 auto; width: 100%; padding-top: 20px;  background-color: #011835 }
+	#header #nav ul li:first-child form dl { width: 50%; margin: auto }
+	#header #nav ul li:first-child form dt { left: auto }
+	#header #nav ul li a { display: block; height: 40px; line-height: 40px; background-color: #011835; border-bottom: 1px solid #000B18  }
+	#header #nav .search a img { margin-top: 12px }
+}
 
-			#music form#searchInMusic { margin-bottom: 100px }
-			#music form#searchInMusic dl { text-align: left }
-			#music form#searchInMusic .firstDd { float: left; }
-			#music form#searchInMusic dd.secondDd { width: 75%; float: left }
-			#music #searchFieldInMusic { width: 100% }
-			#music form#searchInMusic dt { left: 97px }
-			#music form#searchInMusic .subInMusic { float: right; margin-left: 30px}
-			#music .subInMusic input { margin-top: 0 }
-			
-			#mainMusic > ul > li > a { font-size: 1.2em; width: 85%; margin: auto }
-			#mainMusic .albumCover { position: static; }
-			
-			
-			 #mainMusic ul li ul li dl { padding: 20px 0 40px 0;  background-color: #001329  }
-			 #mainMusic dl dt { margin-top: 0; padding-top: 0 }
+@media only screen and (max-width: 721px) {
+	#wrap { overflow: hidden }
+	#music, #news, #aboutUs, #signUp, #faq, #contactUs, #footer { width: 90%; margin-left: 5%; margin-right:5%; padding: 50px 0 50px 0 }
+	
+	#subNav li { margin-bottom: 60px }
 
-			.aboutUsFullWidth { display: none }
-			.btmSection { margin-top: 0 }
-
-			#mainMusic { width: 100%; overflow: hidden; height: 650px }
-			#mainMusic dl { margin-top: 30px; margin-right: 0; width: 100%;  }
-			#mainMusic dl .descrip { position: static; margin-left: 0; border-left: 0 none; padding-left: 0; text-align: center; margin: auto; width: 75%; padding-top: 20px; padding-bottom: 15px }
-			#mainMusic .moreSongs { position: static; margin: auto; padding-top: 45px; font-size: 0.8em  }
-			#mainMusic > ul > li > ul > li { width: 100%; margin-top: 100px }
-			#content #mainMusic .albumCover { opacity: 1; width: 150px; box-shadow: 0 0 0 0; cursor: default }
-			#content #mainMusic .albumCover img { width: 150px }
-			#mainMusic dl .audioTool { width: 50%; margin: auto; padding-bottom: 20px }
-			.noneMob { display: none } 
-			#mainMusic .prev, #mainMusic .play, #mainMusic .pause, #mainMusic .forward { margin-left: 5% }
-			#mainMusic .prev { margin-left: 0 }
-			#mainMusic .get {  position: absolute; top: 77%; left: 27%; margin-top: 0; padding: 0 }
-			#mainMusic .save, #mainMusic .gift { position: absolute; top: 77%; margin-top: 0; padding: 0; }
-			#mainMusic .save  { left: 45% }
-			#mainMusic .gift { left: 63.3% }
-			#mainMusic .prev, #mainMusic .play, #mainMusic .pause, #mainMusic .forward {  }
-
-			.mainMusicDeco { display: none; top: 714px; height: 344px }
-
-			#news .newsPic img { width: 100% }
-			#content #news .firstOl { height: 920px }
-			#news ol li { width: 100% }
-			
-			#signUp .sta { width: 30%; padding-top: 12px; }
-			#signUp .sta img { width: 100% }
-			#signUp .typeDd { left: 36%; width: 60%; top: 677px }
-			#signUp .agree { padding-left: 30% }
-			/*#signUp .submitDd { width: 40%; }*/
+	#header h1 { margin-top: 70px }
+/*	#content h1 { margin-bottom: 50px }*/
+	.headerDeco { margin-bottom: 50px }
 
 
-			#aboutUs .whatIsMoosic { width: 80%; padding: 10%; margin: auto; margin-top: 20%; background-color: #001329  }
-			#aboutUs .centre { width: 17% }
-			#aboutUs .heart { width: 59% } 
-			#aboutUs .centre img { margin: -50% 0 0 -10%; width: 30% }
-			#aboutUs .moosicSign { width: 110%; height: 29px; margin-left: 1% }
-		}
+	#content .ifSearched .closeBtnInMusic { right: 25px }
+	#content .ifSearched .closeBtnInMusic a { left: auto }
+	
 
-		@media only screen and (max-width: 650px) {
-			#signUp .agree { padding-left: 28% }
-			#music { overflow: hidden; }
-			#music h1 { margin-bottom: 155px }
-			#subNav { position: relative; }
-			#subNav ul { position: absolute; top: -70px; width: 700px; text-align: left }
-			.subMusicNext { display: block; position: absolute; top: -70px; left: 96%; width: 17px; height: 20px; background-color: #011835  }
-			.subMusicNext a { display: none }
-			.subMusicNext a:first-child { display: block }
-		} 
 
-		@media only screen and (max-width: 600px) { 
-			#signUp .agree { padding-left: 25% }
-			#music form#searchInMusic dd.secondDd { width: 70%; }
-			.subMusicNext { left: 97% }
+	#music form#searchInMusic { margin-bottom: 100px }
+	#music form#searchInMusic dl { text-align: left }
+	#music form#searchInMusic .firstDd { float: left; }
+	#music form#searchInMusic dd.secondDd { width: 75%; float: left }
+	#music #searchFieldInMusic { width: 100% }
+	#music form#searchInMusic dt { left: 97px }
+	#music form#searchInMusic .subInMusic { float: right; margin-left: 30px}
+	#music .subInMusic input { margin-top: 0 }
+	
+	#mainMusic > ul > li > a { font-size: 1.2em; width: 85%; margin: auto }
+	#mainMusic .albumCover { position: static; }
+	
+	
+	 #mainMusic ul li ul li dl { padding: 20px 0 40px 0;  background-color: #001329  }
+	 #mainMusic dl dt { margin-top: 0; padding-top: 0 }
 
-		}
-		
-		@media only screen and (max-width: 490px) { 
-			.subMusicNext { left: 96.5% }
-			#content #news .firstOl { height: 950px }
-		}
+	.aboutUsFullWidth { display: none }
+	.btmSection { margin-top: 0 }
 
-		@media only screen and (max-width: 460px) { 
-			#header h2 a, #header h3 a { opacity: 1 }
-			#music form#searchInMusic dd.secondDd { width: 65%; }
-			#music #searchFieldInMusic { width: 100% }
-			#music form#searchInMusic dt { left: 97px; letter-spacing: 0.3em }
+	#mainMusic { width: 100%; overflow: hidden; height: 650px }
+	#mainMusic dl { margin-top: 30px; margin-right: 0; width: 100%;  }
+	#mainMusic dl .descrip { position: static; margin-left: 0; border-left: 0 none; padding-left: 0; text-align: center; margin: auto; width: 75%; padding-top: 20px; padding-bottom: 15px }
+	#mainMusic .moreSongs { position: static; margin: auto; padding-top: 45px; font-size: 0.8em  }
+	#mainMusic > ul > li > ul > li { width: 100%; margin-top: 100px }
+	#content #mainMusic .albumCover { opacity: 1; width: 150px; box-shadow: 0 0 0 0; cursor: default }
+	#content #mainMusic .albumCover img { width: 150px }
+	#mainMusic dl .audioTool { width: 50%; margin: auto; padding-bottom: 20px }
+	.noneMob { display: none } 
+	#mainMusic .prev, #mainMusic .play, #mainMusic .pause, #mainMusic .forward { margin-left: 5% }
+	#mainMusic .prev { margin-left: 0 }
+	#mainMusic .get {  position: absolute; top: 77%; left: 27%; margin-top: 0; padding: 0 }
+	#mainMusic .save, #mainMusic .gift { position: absolute; top: 77%; margin-top: 0; padding: 0; }
+	#mainMusic .save  { left: 45% }
+	#mainMusic .gift { left: 63.3% }
+	#mainMusic .prev, #mainMusic .play, #mainMusic .pause, #mainMusic .forward {  }
 
-		}
+	.mainMusicDeco { display: none; top: 714px; height: 344px }
 
-		@media only screen and (max-width: 400px) {
-			#music, #news, #aboutUs, #signUp, #faq, #contactUs, #footer { padding-top: 15px }
-			#header { padding-top: 50px; font-size: 0.7em }
-			#header #nav ul li { font-size: 1em }
-			#header h1 img { margin-bottom: 50px; width: 150px }
-			.headerDeco { margin-top: 30px; margin-bottom: 20px }
-			.headerDeco .deco2, .headerDeco .deco4 { margin-left: 47px }
-			.headerDeco .deco2 { margin-right: 38px }
-			
-			.ifSearched ol ul li:first-child .play, .ifSearched ol ul li:first-child .pause { top: 40px; right: auto; left: 6%  }
+	#news .newsPic img { width: 100% }
+	#content #news .firstOl { height: 920px }
+	#news ol li { width: 100% }
+	
+	#signUp .sta { width: 30%; padding-top: 12px; }
+	#signUp .sta img { width: 100% }
+	#signUp .typeDd { left: 36%; width: 60%; top: 677px }
+	#signUp .agree { padding-left: 30% }
+	/*#signUp .submitDd { width: 40%; }*/
 
-			#music form#searchInMusic { position: relative; margin-bottom: 80px }
-			#music form#searchInMusic dl { text-align: left; font-size: 0.9em }
-			#music form#searchInMusic .firstDd { float: none; width: 100%; margin-bottom: 10px; text-align: center; border-bottom: 1px solid #66458E;  padding: 10px 0}
-			#music form#searchInMusic .firstDd select { width: 100% }
-			#music form#searchInMusic dd.secondDd { width: 100%; float: none; margin-top: 5px }
-			#music form#searchInMusic dd.secondDd input { margin-left: 0; padding-bottom: 5px }
-			#music #searchFieldInMusic { width: 100% }
-			#music form#searchInMusic dt { bottom: 7px; top: auto; left: 0;  }
-			#music form#searchInMusic .subInMusic { position: absolute; bottom: 7px; right: 0}
-			#music .subInMusic input { margin-top: 0 }
 
-			#subNav ul,.subMusicNext { top: -40px;  }
+	#aboutUs .whatIsMoosic { width: 80%; padding: 10%; margin: auto; margin-top: 20%; background-color: #001329  }
+	#aboutUs .centre { width: 17% }
+	#aboutUs .heart { width: 59% } 
+	#aboutUs .centre img { margin: -50% 0 0 -10%; width: 30% }
+	#aboutUs .moosicSign { width: 110%; height: 29px; margin-left: 1% }
+}
 
-			#mainMusic { height: 550px }
-			#mainMusic > ul > li > a { font-size: 1em }
+@media only screen and (max-width: 650px) {
+	#signUp .agree { padding-left: 28% }
+	#music { overflow: hidden; }
+	#music h1 { margin-bottom: 155px }
+	#subNav { position: relative; }
+	#subNav ul { position: absolute; top: -70px; width: 700px; text-align: left }
+	.subMusicNext { display: block; position: absolute; top: -70px; left: 96%; width: 17px; height: 20px; background-color: #011835  }
+	.subMusicNext a { display: none }
+	.subMusicNext a:first-child { display: block }
+} 
 
-			#mainMusic dl { font-size: 0.9em }
-			#mainMusic dl .descrip { display: none }
-			#mainMusic .save, #mainMusic .gift, #mainMusic .get { top: 71% }
-			#mainMusic dl .audioTool { width: 70% }
-			#mainMusic .get { left: 24% }
-			#mainMusic .save { left: 42.6% }
-			
-			#content h1 { margin-bottom: 50px; font-size: 1.2em }
-			#news h1 { margin-bottom: 0 }
-			#news .firstOl > li { top: 130px }
-			#news .firstOl ol li { font-size: 0.9em }
-			#news .firstOl > li { top: 90px }
-			#news { padding-bottom: 0 }
+@media only screen and (max-width: 600px) { 
+	#signUp .agree { padding-left: 25% }
+	#music form#searchInMusic dd.secondDd { width: 70%; }
+	.subMusicNext { left: 97% }
 
-			#music h1 { margin-bottom: 110px }
+}
 
-			#aboutUs .whatIsMoosic { font-size: 0.8em; margin-top: 5% }
-			#aboutUs .moosicSign { margin-left: 11% }
-			#aboutUs .centre img { margin: -80% 0 0 -10%; }
-			#signUp dd { margin-bottom: 30px }
-			#aboutUs .centre { width: 17% }
-			#aboutUs .none { display: none }
-			#signUp { padding-bottom: 0 }
-			#signUp .typeDd { position: static; width: 100% }
-			#signUp .typeDd input { width: 100% }
-			#signUp .changeImg { margin-bottom: 10px }
-			#signUp .sta { margin-bottom: 20px }
-			#signUp .termsCon { padding-top: 30px }
-			#signUp .robot { margin-top: 60px }
-			#signUp .agree { padding-left: 17% }
-			#signUp .disagree { margin-left: 5% }
+@media only screen and (max-width: 490px) { 
+	.subMusicNext { left: 96.5% }
+	#content #news .firstOl { height: 950px }
+}
 
-			#faq p { font-size: 1.3em }
-			#contactUs p:first-child { font-size: 1em }
-			#contactUs p { font-size: 1.5em }
-			
-			#signUpForm { font-size: 0.9em }
+@media only screen and (max-width: 460px) { 
+	#header h2 a, #header h3 a { opacity: 1 }
+	#music form#searchInMusic dd.secondDd { width: 65%; }
+	#music #searchFieldInMusic { width: 100% }
+	#music form#searchInMusic dt { left: 97px; letter-spacing: 0.3em }
 
-			#faq ol { height: 600px }
+}
 
-			body #footer p:first-child { font-size: 0.8em; padding-top: 30px }
-		}
+@media only screen and (max-width: 400px) {
+	#music, #news, #aboutUs, #signUp, #faq, #contactUs, #footer { padding-top: 15px }
+	#header { padding-top: 50px; font-size: 0.7em }
+	#header #nav ul li { font-size: 1em }
+	#header h1 img { margin-bottom: 50px; width: 150px }
+	.headerDeco { margin-top: 30px; margin-bottom: 20px }
+	.headerDeco .deco2, .headerDeco .deco4 { margin-left: 47px }
+	.headerDeco .deco2 { margin-right: 38px }
+	
+	.ifSearched ol ul li:first-child .play, .ifSearched ol ul li:first-child .pause { top: 40px; right: auto; left: 6%  }
 
-		@media only screen and (max-width: 380px) {
-			.subMusicNext { left: 95% }
-			#subNav li { margin-left: 19px; padding-top: 2px; font-size: 0.9em; letter-spacing: 0.2em }
-			#signUp .agree { padding-left: 16% }
-		}
+	#music form#searchInMusic { position: relative; margin-bottom: 80px }
+	#music form#searchInMusic dl { text-align: left; font-size: 0.9em }
+	#music form#searchInMusic .firstDd { float: none; width: 100%; margin-bottom: 10px; text-align: center; border-bottom: 1px solid #66458E;  padding: 10px 0}
+	#music form#searchInMusic .firstDd select { width: 100% }
+	#music form#searchInMusic dd.secondDd { width: 100%; float: none; margin-top: 5px }
+	#music form#searchInMusic dd.secondDd input { margin-left: 0; padding-bottom: 5px }
+	#music #searchFieldInMusic { width: 100% }
+	#music form#searchInMusic dt { bottom: 7px; top: auto; left: 0;  }
+	#music form#searchInMusic .subInMusic { position: absolute; bottom: 7px; right: 0}
+	#music .subInMusic input { margin-top: 0 }
 
-		@media only screen and (max-width: 355px) {
-			#header #nav ul li:first-child form dl { width: 70%; }
-			#faq ol { height: 650px }
-			#faq h2 { width: 70%; margin: auto; font-size: 0.9em }
-			#signUp .agree { padding-left: 13% }
-		}
+	#subNav ul,.subMusicNext { top: -40px;  }
 
-		@media only screen and (max-width: 330px) {
-			#signUp .agree { padding-left: 11% }
-		}
+	#mainMusic { height: 550px }
+	#mainMusic > ul > li > a { font-size: 1em }
+
+	#mainMusic dl { font-size: 0.9em }
+	#mainMusic dl .descrip { display: none }
+	#mainMusic .save, #mainMusic .gift, #mainMusic .get { top: 71% }
+	#mainMusic dl .audioTool { width: 70% }
+	#mainMusic .get { left: 24% }
+	#mainMusic .save { left: 42.6% }
+	
+	#content h1 { margin-bottom: 50px; font-size: 1.2em }
+	#news h1 { margin-bottom: 0 }
+	#news .firstOl > li { top: 130px }
+	#news .firstOl ol li { font-size: 0.9em }
+	#news .firstOl > li { top: 90px }
+	#news { padding-bottom: 0 }
+
+	#music h1 { margin-bottom: 110px }
+
+	#aboutUs .whatIsMoosic { font-size: 0.8em; margin-top: 5% }
+	#aboutUs .moosicSign { margin-left: 11% }
+	#aboutUs .centre img { margin: -80% 0 0 -10%; }
+	#signUp dd { margin-bottom: 30px }
+	#aboutUs .centre { width: 17% }
+	#aboutUs .none { display: none }
+	#signUp { padding-bottom: 0 }
+	#signUp .typeDd { position: static; width: 100% }
+	#signUp .typeDd input { width: 100% }
+	#signUp .changeImg { margin-bottom: 10px }
+	#signUp .sta { margin-bottom: 20px }
+	#signUp .termsCon { padding-top: 30px }
+	#signUp .robot { margin-top: 60px }
+	#signUp .agree { padding-left: 17% }
+	#signUp .disagree { margin-left: 5% }
+
+	#faq p { font-size: 1.3em }
+	#contactUs p:first-child { font-size: 1em }
+	#contactUs p { font-size: 1.5em }
+	
+	#signUpForm { font-size: 0.9em }
+
+	#faq ol { height: 600px }
+
+	body #footer p:first-child { font-size: 0.8em; padding-top: 30px }
+}
+
+@media only screen and (max-width: 380px) {
+	.subMusicNext { left: 95% }
+	#subNav li { margin-left: 19px; padding-top: 2px; font-size: 0.9em; letter-spacing: 0.2em }
+	#signUp .agree { padding-left: 16% }
+}
+
+@media only screen and (max-width: 355px) {
+	#header #nav ul li:first-child form dl { width: 70%; }
+	#faq ol { height: 650px }
+	#faq h2 { width: 70%; margin: auto; font-size: 0.9em }
+	#signUp .agree { padding-left: 13% }
+}
+
+@media only screen and (max-width: 330px) {
+	#signUp .agree { padding-left: 11% }
+}
