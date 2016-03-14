@@ -1,35 +1,29 @@
 <!DOCTYPE html>
 <html lang="eng">
 	<head>
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	
-	<title>moosic, let it change your mood</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
-	<link rel="shortcut icon" href="img/moosic_favi.png" type="image/png" />
-	<meta name="keywords" content="" />
-	<meta name="description" content="" />
-	<link rel="stylesheet" type="text/css" href="css/common.css" />
-	<link rel="stylesheet" type="text/css" href="css/main.css" />
-<!--	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script> -->
-	<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
-	<script>
-	//<![CDATA[
-
-	//]]>
-	</script>
-	<style>
-		body { font-family: Arial, sans-serif }
-
-
-	</style>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>moosic, let it change your mood</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
+		<link rel="shortcut icon" href="img/moosic_favi.png" type="image/png" />
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script> 
+		<script type="text/javascript" src="js/main.js"></script>
+		<style>
+			body { font-family: Arial, sans-serif }
+		</style>
 	</head>
 
 	<body>
-		
+	
+	<!-- #wrap -->
 		<div id="wrap">
 			<p class="hidden"><a href="#content">SKIP TO MAIN PAGE</a></p>
+
+		<!-- #header -->
 			<div id="header">
 				<header>
 					<h1><img src="img/moosic_logo.svg" width="180px" alt="moosic logo" /><br/>MOOSIC</h1>
@@ -73,7 +67,9 @@
 				</div>
 				<h3 class="hidden"><a href="">close menu</a></h3>
 
-			</div>
+			</div>  <!-- ######## #header ends ######-->
+
+			<!-- only for design purpose -->
 			<div class="headerDeco">
 						<span class="deco1"></span>
 						<span class="deco2"></span>
@@ -83,1213 +79,1235 @@
 			<div class="btmSection"></div>
 
 
-			
+		<!-- #content -->
 			<div id="content">
+
+				<!-- only for design purpose -->
 				<div class="mainMusicDeco"></div>
+
+				<!-- .fullWidth Div  -->
 				<div class="fullWidth">
-				<article>
-
-				<div id="music">
-					<section>
-						<header><h1>MUSIC</h1></header>
-						<article>
-						<h2 class="hidden">Sub menu</h2>
-						<div id="subNav">
-							<nav>
-								<ul>
-									<li><a href="">ALL</a></li>
-									<li><a href="">HAPPY</a></li>
-									<li><a href="">SAD</a></li>
-									<li><a href="">NEUTRAL</a></li>
-									<li><a href="">DREAMY</a></li>
-									<li><a href="">ANGRY</a></li>
-								</ul>
-							</nav>
-							<p class="hidden subMusicNext"><a href=""><img src="img/arrowRight.svg" width="10px" alt="next"></a><a href=""><img src="img/arrowLeft1.svg" width="10px" alt="prev"></a></p>
-						</div>
-						<form action="" method="POST" id="searchInMusic" name="searchInMusic">
-							<fieldset>
-								<legend class="hidden">SEARCH MUSIC UNDER MOOD</legend>
-								<dl>
-									<label for="selectInMusic">
-									<dt class="hidden">select a mood</dt></label>
-									<dd class="firstDd">
-										<select name="selectInMusic" id="selectInMusic">
-											<option value="MOOD">MOOD</option>
-											<option value="all">all</option>
-											<option value="happy">happy</option>
-											<option value="sad">sad</option>
-											<option value="neutral">neutral</option>
-											<option value="dreamy">dreamy</option>
-											<option value="angry">angry</option>
-										</select>
-									</dd>
-									<label for="searchFieldInMusic">
-									<dt>ENTER TITLE OR ARTIST</dt></label>
-									<dd class="secondDd"><input type="text" name="searchFieldInMusic" id="searchFieldInMusic" /></dd>
-									<dd class="subInMusic"><input type="submit" value="SUBMIT"></dd>
-								</dl>
-							</fieldset>
-						</form>
-
-						<h3 class="hidden">if searched</h3>
-						<div class="ifSearched">
-							<ol>
-								<li class="numbers"><a href="">1</a>
-									<ul>
-										<li><span class="albumCover"><img src="img/cv_oxford.jpg" width="100px" alt=""></span>
-											<dl>
-												<dt>RELEASE DATE</dt>
-												<dd class="title">TITLE</dd>
-												<dd class="artist">ARTIST /</dd>
-												<dd class="mood">MOOD</dd>
-												<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-												<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-												<dd class="get"><a href="">GET</a></dd>
-												<dd class="save"><a href="">SAVE</a></dd>
-												<dd class="gift"><a href="">GIFT</a></dd>
-											</dl>
-										</li>
-										<li><span class="albumCover"><img src="img/cv_oxford.jpg" width="100px" alt=""></span>
-											<dl>
-												<dt>RELEASE DATE</dt>
-												<dd class="title">TITLE</dd>
-												<dd class="artist">ARTIST /</dd>
-												<dd class="mood">MOOD</dd>
-												<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-												<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-												<dd class="get"><a href="">GET</a></dd>
-												<dd class="save"><a href="">SAVE</a></dd>
-												<dd class="gift"><a href="">GIFT</a></dd>
-											</dl>
-										</li>
-										<li><span class="albumCover"><img src="img/cv_oxford.jpg" width="100px" alt=""></span>
-											<dl>
-												<dt>RELEASE DATE</dt>
-												<dd class="title">TITLE</dd>
-												<dd class="artist">ARTIST /</dd>
-												<dd class="mood">MOOD</dd>
-												<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-												<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-												<dd class="get"><a href="">GET</a></dd>
-												<dd class="save"><a href="">SAVE</a></dd>
-												<dd class="gift"><a href="">GIFT</a></dd>
-											</dl>
-										</li>
-										<li><span class="albumCover"><img src="img/cv_oxford.jpg" width="100px" alt=""></span>
-											<dl>
-												<dt>RELEASE DATE</dt>
-												<dd class="title">TITLE</dd>
-												<dd class="artist">ARTIST /</dd>
-												<dd class="mood">MOOD</dd>
-												<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-												<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-												<dd class="get"><a href="">GET</a></dd>
-												<dd class="save"><a href="">SAVE</a></dd>
-												<dd class="gift"><a href="">GIFT</a></dd>
-											</dl>
-										</li>
-										<li><span class="albumCover"><img src="img/cv_oxford.jpg" width="100px" alt=""></span>
-											<dl>
-												<dt>RELEASE DATE</dt>
-												<dd class="title">TITLE</dd>
-												<dd class="artist">ARTIST /</dd>
-												<dd class="mood">MOOD</dd>
-												<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-												<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-												<dd class="get"><a href="">GET</a></dd>
-												<dd class="save"><a href="">SAVE</a></dd>
-												<dd class="gift"><a href="">GIFT</a></dd>
-											</dl>
-										</li>
-									</ul>
-								</li>
-								<li class="numbers"><a href="">2</a>
-									<ul>
-										<li><span class="albumCover"><img src="img/cv_oxford.jpg" width="100px" alt=""></span>
-											<dl>
-												<dt>RELEASE DATE</dt>
-												<dd class="title">TITLE</dd>
-												<dd class="artist">ARTIST /</dd>
-												<dd class="mood">MOOD</dd>
-												<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-												<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-												<dd class="get"><a href="">GET</a></dd>
-												<dd class="save"><a href="">SAVE</a></dd>
-												<dd class="gift"><a href="">GIFT</a></dd>
-											</dl>
-										</li>
-										<li><span class="albumCover"><img src="img/cv_oxford.jpg" width="100px" alt=""></span>
-											<dl>
-												<dt>RELEASE DATE</dt>
-												<dd class="title">TITLE</dd>
-												<dd class="artist">ARTIST /</dd>
-												<dd class="mood">MOOD</dd>
-												<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-												<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-												<dd class="get"><a href="">GET</a></dd>
-												<dd class="save"><a href="">SAVE</a></dd>
-												<dd class="gift"><a href="">GIFT</a></dd>
-											</dl>
-										</li>
-										<li><span class="albumCover"><img src="img/cv_oxford.jpg" width="100px" alt=""></span>
-											<dl>
-												<dt>RELEASE DATE</dt>
-												<dd class="title">TITLE</dd>
-												<dd class="artist">ARTIST /</dd>
-												<dd class="mood">MOOD</dd>
-												<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-												<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-												<dd class="get"><a href="">GET</a></dd>
-												<dd class="save"><a href="">SAVE</a></dd>
-												<dd class="gift"><a href="">GIFT</a></dd>
-											</dl>
-										</li>
-										<li><span class="albumCover"><img src="img/cv_oxford.jpg" width="100px" alt=""></span>
-											<dl>
-												<dt>RELEASE DATE</dt>
-												<dd class="title">TITLE</dd>
-												<dd class="artist">ARTIST /</dd>
-												<dd class="mood">MOOD</dd>
-												<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-												<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-												<dd class="get"><a href="">GET</a></dd>
-												<dd class="save"><a href="">SAVE</a></dd>
-												<dd class="gift"><a href="">GIFT</a></dd>
-											</dl>
-										</li>
-										<li><span class="albumCover"><img src="img/cv_oxford.jpg" width="100px" alt=""></span>
-											<dl>
-												<dt>RELEASE DATE</dt>
-												<dd class="title">TITLE</dd>
-												<dd class="artist">ARTIST /</dd>
-												<dd class="mood">MOOD</dd>
-												<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-												<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-												<dd class="get"><a href="">GET</a></dd>
-												<dd class="save"><a href="">SAVE</a></dd>
-												<dd class="gift"><a href="">GIFT</a></dd>
-											</dl>
-										</li>
-									</ul>
-								</li>
-								<li class="numbers"><a href="">3</a>
-									<ul>
-										<li><span class="albumCover"><img src="img/cv_oxford.jpg" width="100px" alt=""></span>
-											<dl>
-												<dt>RELEASE DATE</dt>
-												<dd class="title">TITLE</dd>
-												<dd class="artist">ARTIST /</dd>
-												<dd class="mood">MOOD</dd>
-												<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-												<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-												<dd class="get"><a href="">GET</a></dd>
-												<dd class="save"><a href="">SAVE</a></dd>
-												<dd class="gift"><a href="">GIFT</a></dd>
-											</dl>
-										</li>
-										<li><span class="albumCover"><img src="img/cv_oxford.jpg" width="100px" alt=""></span>
-											<dl>
-												<dt>RELEASE DATE</dt>
-												<dd class="title">TITLE</dd>
-												<dd class="artist">ARTIST /</dd>
-												<dd class="mood">MOOD</dd>
-												<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-												<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-												<dd class="get"><a href="">GET</a></dd>
-												<dd class="save"><a href="">SAVE</a></dd>
-												<dd class="gift"><a href="">GIFT</a></dd>
-											</dl>
-										</li>
-										<li><span class="albumCover"><img src="img/cv_oxford.jpg" width="100px" alt=""></span>
-											<dl>
-												<dt>RELEASE DATE</dt>
-												<dd class="title">TITLE</dd>
-												<dd class="artist">ARTIST /</dd>
-												<dd class="mood">MOOD</dd>
-												<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-												<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-												<dd class="get"><a href="">GET</a></dd>
-												<dd class="save"><a href="">SAVE</a></dd>
-												<dd class="gift"><a href="">GIFT</a></dd>
-											</dl>
-										</li>
-										<li><span class="albumCover"><img src="img/cv_oxford.jpg" width="100px" alt=""></span>
-											<dl>
-												<dt>RELEASE DATE</dt>
-												<dd class="title">TITLE</dd>
-												<dd class="artist">ARTIST /</dd>
-												<dd class="mood">MOOD</dd>
-												<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-												<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-												<dd class="get"><a href="">GET</a></dd>
-												<dd class="save"><a href="">SAVE</a></dd>
-												<dd class="gift"><a href="">GIFT</a></dd>
-											</dl>
-										</li>
-										<li><span class="albumCover"><img src="img/cv_oxford.jpg" width="100px" alt=""></span>
-											<dl>
-												<dt>RELEASE DATE</dt>
-												<dd class="title">TITLE</dd>
-												<dd class="artist">ARTIST /</dd>
-												<dd class="mood">MOOD</dd>
-												<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-												<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-												<dd class="get"><a href="">GET</a></dd>
-												<dd class="save"><a href="">SAVE</a></dd>
-												<dd class="gift"><a href="">GIFT</a></dd>
-											</dl>
-										</li>
-									</ul>
-								</li>
-								<li class="numbers"><a href="">4</a>
-									<ul>
-										<li><span class="albumCover"><img src="img/cv_oxford.jpg" width="100px" alt=""></span>
-											<dl>
-												<dt>RELEASE DATE</dt>
-												<dd class="title">TITLE</dd>
-												<dd class="artist">ARTIST /</dd>
-												<dd class="mood">MOOD</dd>
-												<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-												<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-												<dd class="get"><a href="">GET</a></dd>
-												<dd class="save"><a href="">SAVE</a></dd>
-												<dd class="gift"><a href="">GIFT</a></dd>
-											</dl>
-										</li>
-										<li><span class="albumCover"><img src="img/cv_oxford.jpg" width="100px" alt=""></span>
-											<dl>
-												<dt>RELEASE DATE</dt>
-												<dd class="title">TITLE</dd>
-												<dd class="artist">ARTIST /</dd>
-												<dd class="mood">MOOD</dd>
-												<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-												<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-												<dd class="get"><a href="">GET</a></dd>
-												<dd class="save"><a href="">SAVE</a></dd>
-												<dd class="gift"><a href="">GIFT</a></dd>
-											</dl>
-										</li>
-										<li><span class="albumCover"><img src="img/cv_oxford.jpg" width="100px" alt=""></span>
-											<dl>
-												<dt>RELEASE DATE</dt>
-												<dd class="title">TITLE</dd>
-												<dd class="artist">ARTIST /</dd>
-												<dd class="mood">MOOD</dd>
-												<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-												<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-												<dd class="get"><a href="">GET</a></dd>
-												<dd class="save"><a href="">SAVE</a></dd>
-												<dd class="gift"><a href="">GIFT</a></dd>
-											</dl>
-										</li>
-										<li><span class="albumCover"><img src="img/cv_oxford.jpg" width="100px" alt=""></span>
-											<dl>
-												<dt>RELEASE DATE</dt>
-												<dd class="title">TITLE</dd>
-												<dd class="artist">ARTIST /</dd>
-												<dd class="mood">MOOD</dd>
-												<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-												<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-												<dd class="get"><a href="">GET</a></dd>
-												<dd class="save"><a href="">SAVE</a></dd>
-												<dd class="gift"><a href="">GIFT</a></dd>
-											</dl>
-										</li>
-										<li><span class="albumCover"><img src="img/cv_oxford.jpg" width="100px" alt=""></span>
-											<dl>
-												<dt>RELEASE DATE</dt>
-												<dd class="title">TITLE</dd>
-												<dd class="artist">ARTIST /</dd>
-												<dd class="mood">MOOD</dd>
-												<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-												<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-												<dd class="get"><a href="">GET</a></dd>
-												<dd class="save"><a href="">SAVE</a></dd>
-												<dd class="gift"><a href="">GIFT</a></dd>
-											</dl>
-										</li>
-									</ul>
-								</li>
-								<li class="closeBtnInMusic"><a href=""><img src="img/closeBtn.svg" width="15px" alt="close"></a></li>
-							</ol>
-						</div>
-
-
-						<h2 class="hidden">recommended music, most listened to, new music</h2>
-						
-						<div id="mainMusic">
-								<ul>
-									<li class="mainMusicList1"><a href="">RECOMMENDED MUSIC</a><span class="fromWhen">FROM DEC 2015 TO JAN 2016</span>
-										<ul>
-											<li class="al1"><span class="albumCover"><img src="img/cv_saviour.jpg" width="150px" alt="saviour album cover"></span>
-												<dl>
-													<dt>RELEASE DATE</dt>
-													<dd class="title">TITLE</dd>
-													<dd class="artist">ARTIST</dd>
-													<dd class="mood">MOOD</dd>
-													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
-													<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
-													<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
-													<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-													<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-													<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
-													<dd class="get"><a href="">GET</a></dd>
-													<dd class="save"><a href="">SAVE</a></dd>
-													<dd class="gift"><a href="">GIFT</a></dd>
-													<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
-												</dl>
-											</li>
-											<li class="al2"><span class="albumCover"><img src="img/cv_nightAfterNight.jpg" width="150px" alt="night after night album cover"></span>
-												<dl>
-													<dt>RELEASE DATE</dt>
-													<dd class="title">TITLE</dd>
-													<dd class="artist">ARTIST</dd>
-													<dd class="mood">MOOD</dd>
-													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
-													<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
-													<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
-													<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-													<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-													<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
-													<dd class="get"><a href="">GET</a></dd>
-													<dd class="save"><a href="">SAVE</a></dd>
-													<dd class="gift"><a href="">GIFT</a></dd>
-													<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
-												</dl>
-											</li>
-											<li class="al3"><span class="albumCover"><img src="img/cv_master.jpg" width="150px" alt="master album cover"></span>
-												<dl>
-													<dt>RELEASE DATE</dt>
-													<dd class="title">TITLE</dd>
-													<dd class="artist">ARTIST</dd>
-													<dd class="mood">MOOD</dd>
-													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
-													<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
-													<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
-													<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-													<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-													<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
-													<dd class="get"><a href="">GET</a></dd>
-													<dd class="save"><a href="">SAVE</a></dd>
-													<dd class="gift"><a href="">GIFT</a></dd>
-													<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
-												</dl>
-											</li>
-											<li class="al4"><span class="albumCover"><img src="img/cv_underTheWater.jpg" width="150px" alt="under the water album cover"></span>
-												<dl>
-													<dt>RELEASE DATE</dt>
-													<dd class="title">TITLE</dd>
-													<dd class="artist">ARTIST</dd>
-													<dd class="mood">MOOD</dd>
-													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
-													<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
-													<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
-													<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-													<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-													<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
-													<dd class="get"><a href="">GET</a></dd>
-													<dd class="save"><a href="">SAVE</a></dd>
-													<dd class="gift"><a href="">GIFT</a></dd>
-													<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
-												</dl>
-											</li>
-											<li class="al5"><span class="albumCover"><img src="img/cv_coloradoBoy.jpg" width="150px" alt="coloradoBoy album cover"></span>
-												<dl>
-													<dt>RELEASE DATE</dt>
-													<dd class="title">TITLE</dd>
-													<dd class="artist">ARTIST</dd>
-													<dd class="mood">MOOD</dd>
-													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
-													<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
-													<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
-													<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-													<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-													<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
-													<dd class="get"><a href="">GET</a></dd>
-													<dd class="save"><a href="">SAVE</a></dd>
-													<dd class="gift"><a href="">GIFT</a></dd>
-													<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
-												</dl>
-											</li>
-											<li class="al6"><span class="albumCover"><img src="img/cv_3Ed4.jpg" width="150px" alt="3.ed.4 album cover"></span>
-												<dl>
-													<dt>RELEASE DATE</dt>
-													<dd class="title">TITLE</dd>
-													<dd class="artist">ARTIST</dd>
-													<dd class="mood">MOOD</dd>
-													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
-													<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
-													<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
-													<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-													<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-													<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
-													<dd class="get"><a href="">GET</a></dd>
-													<dd class="save"><a href="">SAVE</a></dd>
-													<dd class="gift"><a href="">GIFT</a></dd>
-													<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
-												</dl>
-											</li>
-											<li class="al7"><span class="albumCover"><img src="img/cv_oxford.jpg" width="150px" alt="oxford album cover"></span>
-												<dl>
-													<dt>RELEASE DATE</dt>
-													<dd class="title">TITLE</dd>
-													<dd class="artist">ARTIST</dd>
-													<dd class="mood">MOOD</dd>
-													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
-													<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
-													<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
-													<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-													<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-													<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
-													<dd class="get"><a href="">GET</a></dd>
-													<dd class="save"><a href="">SAVE</a></dd>
-													<dd class="gift"><a href="">GIFT</a></dd>
-													<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
-												</dl>
-											</li>
-											<li class="al8"><span class="albumCover"><img src="img/cv_thirsty.jpg" width="150px" alt="thirsty album cover"></span>
-												<dl>
-													<dt>RELEASE DATE</dt>
-													<dd class="title">TITLE</dd>
-													<dd class="artist">ARTIST</dd>
-													<dd class="mood">MOOD</dd>
-													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
-													<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
-													<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
-													<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-													<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-													<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
-													<dd class="get"><a href="">GET</a></dd>
-													<dd class="save"><a href="">SAVE</a></dd>
-													<dd class="gift"><a href="">GIFT</a></dd>
-													<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
-												</dl>
-											</li>
-											<li class="al9"><span class="albumCover"><img src="img/cv_shakeYourLegs.jpg" width="150px" alt="shake Your Legs album cover"></span>
-												<dl>
-													<dt>RELEASE DATE</dt>
-													<dd class="title">TITLE</dd>
-													<dd class="artist">ARTIST</dd>
-													<dd class="mood">MOOD</dd>
-													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
-													<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
-													<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
-													<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-													<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-													<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
-													<dd class="get"><a href="">GET</a></dd>
-													<dd class="save"><a href="">SAVE</a></dd>
-													<dd class="gift"><a href="">GIFT</a></dd>
-													<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
-												</dl>
-											</li>
-										</ul>
-									</li>
-									<li class="mainMusicList2"><a href="">MOST LISTENED TO IN ALL FEELINGS</a><span class="fromWhen">FROM DEC 2015 TO JAN 2016</span>
-										<ul>
-											<li class="al1"><span class="albumCover"><img src="img/cv_saviour.jpg" width="150px" alt="saviour album cover"></span>
-												<dl>
-													<dt>RELEASE DATE</dt>
-													<dd class="title">TITLE</dd>
-													<dd class="artist">ARTIST</dd>
-													<dd class="mood">MOOD</dd>
-													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
-													<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
-													<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
-													<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-													<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-													<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
-													<dd class="get"><a href="">GET</a></dd>
-													<dd class="save"><a href="">SAVE</a></dd>
-													<dd class="gift"><a href="">GIFT</a></dd>
-													<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
-												</dl>
-											</li>
-											<li class="al2"><span class="albumCover"><img src="img/cv_nightAfterNight.jpg" width="150px" alt="night after night album cover"></span>
-												<dl>
-													<dt>RELEASE DATE</dt>
-													<dd class="title">TITLE</dd>
-													<dd class="artist">ARTIST</dd>
-													<dd class="mood">MOOD</dd>
-													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
-													<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
-													<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
-													<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-													<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-													<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
-													<dd class="get"><a href="">GET</a></dd>
-													<dd class="save"><a href="">SAVE</a></dd>
-													<dd class="gift"><a href="">GIFT</a></dd>
-													<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
-												</dl>
-											</li>
-											<li class="al3"><span class="albumCover"><img src="img/cv_master.jpg" width="150px" alt="master album cover"></span>
-												<dl>
-													<dt>RELEASE DATE</dt>
-													<dd class="title">TITLE</dd>
-													<dd class="artist">ARTIST</dd>
-													<dd class="mood">MOOD</dd>
-													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
-													<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
-													<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
-													<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-													<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-													<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
-													<dd class="get"><a href="">GET</a></dd>
-													<dd class="save"><a href="">SAVE</a></dd>
-													<dd class="gift"><a href="">GIFT</a></dd>
-													<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
-												</dl>
-											</li>
-											<li class="al4"><span class="albumCover"><img src="img/cv_underTheWater.jpg" width="150px" alt="under the water album cover"></span>
-												<dl>
-													<dt>RELEASE DATE</dt>
-													<dd class="title">TITLE</dd>
-													<dd class="artist">ARTIST</dd>
-													<dd class="mood">MOOD</dd>
-													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
-													<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
-													<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
-													<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-													<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-													<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
-													<dd class="get"><a href="">GET</a></dd>
-													<dd class="save"><a href="">SAVE</a></dd>
-													<dd class="gift"><a href="">GIFT</a></dd>
-													<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
-												</dl>
-											</li>
-											<li class="al5"><span class="albumCover"><img src="img/cv_coloradoBoy.jpg" width="150px" alt="coloradoBoy album cover"></span>
-												<dl>
-													<dt>RELEASE DATE</dt>
-													<dd class="title">TITLE</dd>
-													<dd class="artist">ARTIST</dd>
-													<dd class="mood">MOOD</dd>
-													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
-													<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
-													<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
-													<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-													<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-													<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
-													<dd class="get"><a href="">GET</a></dd>
-													<dd class="save"><a href="">SAVE</a></dd>
-													<dd class="gift"><a href="">GIFT</a></dd>
-													<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
-												</dl>
-											</li>
-											<li class="al6"><span class="albumCover"><img src="img/cv_3Ed4.jpg" width="150px" alt="3.ed.4 album cover"></span>
-												<dl>
-													<dt>RELEASE DATE</dt>
-													<dd class="title">TITLE</dd>
-													<dd class="artist">ARTIST</dd>
-													<dd class="mood">MOOD</dd>
-													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
-													<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
-													<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
-													<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-													<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-													<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
-													<dd class="get"><a href="">GET</a></dd>
-													<dd class="save"><a href="">SAVE</a></dd>
-													<dd class="gift"><a href="">GIFT</a></dd>
-													<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
-												</dl>
-											</li>
-											<li class="al7"><span class="albumCover"><img src="img/cv_oxford.jpg" width="150px" alt="oxford album cover"></span>
-												<dl>
-													<dt>RELEASE DATE</dt>
-													<dd class="title">TITLE</dd>
-													<dd class="artist">ARTIST</dd>
-													<dd class="mood">MOOD</dd>
-													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
-													<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
-													<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
-													<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-													<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-													<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
-													<dd class="get"><a href="">GET</a></dd>
-													<dd class="save"><a href="">SAVE</a></dd>
-													<dd class="gift"><a href="">GIFT</a></dd>
-													<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
-												</dl>
-											</li>
-											<li class="al8"><span class="albumCover"><img src="img/cv_thirsty.jpg" width="150px" alt="thirsty album cover"></span>
-												<dl>
-													<dt>RELEASE DATE</dt>
-													<dd class="title">TITLE</dd>
-													<dd class="artist">ARTIST</dd>
-													<dd class="mood">MOOD</dd>
-													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
-													<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
-													<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
-													<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-													<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-													<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
-													<dd class="get"><a href="">GET</a></dd>
-													<dd class="save"><a href="">SAVE</a></dd>
-													<dd class="gift"><a href="">GIFT</a></dd>
-													<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
-												</dl>
-											</li>
-											<li class="al9"><span class="albumCover"><img src="img/cv_shakeYourLegs.jpg" width="150px" alt="shake Your Legs album cover"></span>
-												<dl>
-													<dt>RELEASE DATE</dt>
-													<dd class="title">TITLE</dd>
-													<dd class="artist">ARTIST</dd>
-													<dd class="mood">MOOD</dd>
-													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
-													<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
-													<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
-													<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-													<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-													<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
-													<dd class="get"><a href="">GET</a></dd>
-													<dd class="save"><a href="">SAVE</a></dd>
-													<dd class="gift"><a href="">GIFT</a></dd>
-													<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
-												</dl>
-											</li>
-										</ul>
-									</li>
-									<li class="mainMusicList3"><a href="">NEW MUSIC</a><span class="fromWhen">FROM DEC 2015 TO JAN 2016</span>
-										<ul>
-											<li class="al1"><span class="albumCover"><img src="img/cv_saviour.jpg" width="150px" alt="saviour album cover"></span>
-												<dl>
-													<dt>RELEASE DATE</dt>
-													<dd class="title">TITLE</dd>
-													<dd class="artist">ARTIST</dd>
-													<dd class="mood">MOOD</dd>
-													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
-													<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
-													<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
-													<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-													<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-													<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
-													<dd class="get"><a href="">GET</a></dd>
-													<dd class="save"><a href="">SAVE</a></dd>
-													<dd class="gift"><a href="">GIFT</a></dd>
-													<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
-												</dl>
-											</li>
-											<li class="al2"><span class="albumCover"><img src="img/cv_nightAfterNight.jpg" width="150px" alt="night after night album cover"></span>
-												<dl>
-													<dt>RELEASE DATE</dt>
-													<dd class="title">TITLE</dd>
-													<dd class="artist">ARTIST</dd>
-													<dd class="mood">MOOD</dd>
-													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
-													<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
-													<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
-													<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-													<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-													<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
-													<dd class="get"><a href="">GET</a></dd>
-													<dd class="save"><a href="">SAVE</a></dd>
-													<dd class="gift"><a href="">GIFT</a></dd>
-													<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
-												</dl>
-											</li>
-											<li class="al3"><span class="albumCover"><img src="img/cv_master.jpg" width="150px" alt="master album cover"></span>
-												<dl>
-													<dt>RELEASE DATE</dt>
-													<dd class="title">TITLE</dd>
-													<dd class="artist">ARTIST</dd>
-													<dd class="mood">MOOD</dd>
-													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
-													<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
-													<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
-													<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-													<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-													<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
-													<dd class="get"><a href="">GET</a></dd>
-													<dd class="save"><a href="">SAVE</a></dd>
-													<dd class="gift"><a href="">GIFT</a></dd>
-													<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
-												</dl>
-											</li>
-											<li class="al4"><span class="albumCover"><img src="img/cv_underTheWater.jpg" width="150px" alt="under the water album cover"></span>
-												<dl>
-													<dt>RELEASE DATE</dt>
-													<dd class="title">TITLE</dd>
-													<dd class="artist">ARTIST</dd>
-													<dd class="mood">MOOD</dd>
-													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
-													<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
-													<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
-													<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-													<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-													<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
-													<dd class="get"><a href="">GET</a></dd>
-													<dd class="save"><a href="">SAVE</a></dd>
-													<dd class="gift"><a href="">GIFT</a></dd>
-													<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
-												</dl>
-											</li>
-											<li class="al5"><span class="albumCover"><img src="img/cv_coloradoBoy.jpg" width="150px" alt="coloradoBoy album cover"></span>
-												<dl>
-													<dt>RELEASE DATE</dt>
-													<dd class="title">TITLE</dd>
-													<dd class="artist">ARTIST</dd>
-													<dd class="mood">MOOD</dd>
-													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
-													<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
-													<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
-													<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-													<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-													<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
-													<dd class="get"><a href="">GET</a></dd>
-													<dd class="save"><a href="">SAVE</a></dd>
-													<dd class="gift"><a href="">GIFT</a></dd>
-													<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
-												</dl>
-											</li>
-											<li class="al6"><span class="albumCover"><img src="img/cv_3Ed4.jpg" width="150px" alt="3.ed.4 album cover"></span>
-												<dl>
-													<dt>RELEASE DATE</dt>
-													<dd class="title">TITLE</dd>
-													<dd class="artist">ARTIST</dd>
-													<dd class="mood">MOOD</dd>
-													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
-													<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
-													<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
-													<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-													<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-													<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
-													<dd class="get"><a href="">GET</a></dd>
-													<dd class="save"><a href="">SAVE</a></dd>
-													<dd class="gift"><a href="">GIFT</a></dd>
-													<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
-												</dl>
-											</li>
-											<li class="al7"><span class="albumCover"><img src="img/cv_oxford.jpg" width="150px" alt="oxford album cover"></span>
-												<dl>
-													<dt>RELEASE DATE</dt>
-													<dd class="title">TITLE</dd>
-													<dd class="artist">ARTIST</dd>
-													<dd class="mood">MOOD</dd>
-													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
-													<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
-													<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
-													<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-													<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-													<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
-													<dd class="get"><a href="">GET</a></dd>
-													<dd class="save"><a href="">SAVE</a></dd>
-													<dd class="gift"><a href="">GIFT</a></dd>
-													<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
-												</dl>
-											</li>
-											<li class="al8"><span class="albumCover"><img src="img/cv_thirsty.jpg" width="150px" alt="thirsty album cover"></span>
-												<dl>
-													<dt>RELEASE DATE</dt>
-													<dd class="title">TITLE</dd>
-													<dd class="artist">ARTIST</dd>
-													<dd class="mood">MOOD</dd>
-													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
-													<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
-													<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
-													<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-													<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-													<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
-													<dd class="get"><a href="">GET</a></dd>
-													<dd class="save"><a href="">SAVE</a></dd>
-													<dd class="gift"><a href="">GIFT</a></dd>
-													<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
-												</dl>
-											</li>
-											<li class="al9"><span class="albumCover"><img src="img/cv_shakeYourLegs.jpg" width="150px" alt="shake Your Legs album cover"></span>
-												<dl>
-													<dt>RELEASE DATE</dt>
-													<dd class="title">TITLE</dd>
-													<dd class="artist">ARTIST</dd>
-													<dd class="mood">MOOD</dd>
-													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
-													<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
-													<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
-													<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
-													<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
-													<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
-													<dd class="get"><a href="">GET</a></dd>
-													<dd class="save"><a href="">SAVE</a></dd>
-													<dd class="gift"><a href="">GIFT</a></dd>
-													<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
-												</dl>
-											</li>
-										</ul>
-									</li>
-								</ul>
-
-								<p class="leftRight">
-									<a href="" class="left"><img src="img/arrowLeft1.svg" width="15px" alt="left"></a>
-									<a href="" class="right"><img src="img/arrowRight.svg" width="15px" alt="right"></a>
-								</p>
-						</div>
-						
-						</article>
-					</section>
-				</div>
-
-				</div>
-		
-				<div id="news">
-					<section>
-						<header><h1>NEWS</h1></header>
-						<article>
-							<ol class="firstOl">
-								<li><a href="">1</a>
-									<ol>
-										<li><span class="arrowRight"></span><span class="newsPic"><img src="img/news_pic.jpg" alt="picture"></span><span class="date">dd/mm/yyyy</span>
-											<dl>
-												<dt>TITLE</dt>
-												<dd class="artist">ARTIST</dd>
-												<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</dd>
-												<dd class="seeMore"><a href="">SEE MORE</a></dd>
-											</dl>
-										</li>
-										<li><span class="arrowRight"></span><span class="newsPic"><img src="img/news_pic.jpg" alt="picture"></span><span class="date">dd/mm/yyyy</span>
-											<dl>
-												<dt>TITLE</dt>
-												<dd class="artist">ARTIST</dd>
-												<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</dd>
-												<dd class="seeMore"><a href="">SEE MORE</a></dd>
-											</dl>
-										</li>
-										<li><span class="arrowRight"></span><span class="newsPic"><img src="img/news_pic.jpg" alt="picture"></span><span class="date">dd/mm/yyyy</span>
-											<dl>
-												<dt>TITLE</dt>
-												<dd class="artist">ARTIST</dd>
-												<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</dd>
-												<dd class="seeMore"><a href="">SEE MORE</a></dd>
-											</dl>
-										</li>
-										<li><span class="arrowRight"></span><span class="newsPic"><img src="img/news_pic.jpg" alt="picture"></span><span class="date">dd/mm/yyyy</span>
-											<dl>
-												<dt>TITLE</dt>
-												<dd class="artist">ARTIST</dd>
-												<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</dd>
-												<dd class="seeMore"><a href="">SEE MORE</a></dd>
-											</dl>
-										</li>
-										<li><span class="arrowRight"></span><span class="newsPic"><img src="img/news_pic.jpg" alt="picture"></span><span class="date">dd/mm/yyyy</span>
-											<dl>
-												<dt>TITLE</dt>
-												<dd class="artist">ARTIST</dd>
-												<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</dd>
-												<dd class="seeMore"><a href="">SEE MORE</a></dd>
-											</dl>
-										</li>
-									</ol>
-								</li>
-								<li><a href="">2</a>
-									<ol>
-										<li><span class="arrowRight"></span><span class="newsPic"><img src="img/news_pic.jpg" alt="picture"></span><span class="date">dd/mm/yyyy</span>
-											<dl>
-												<dt>TITLE</dt>
-												<dd class="artist">ARTIST</dd>
-												<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</dd>
-												<dd class="seeMore"><a href="">SEE MORE</a></dd>
-											</dl>
-										</li>
-										<li><span class="arrowRight"></span><span class="newsPic"><img src="img/news_pic.jpg" alt="picture"></span><span class="date">dd/mm/yyyy</span>
-											<dl>
-												<dt>TITLE</dt>
-												<dd class="artist">ARTIST</dd>
-												<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</dd>
-												<dd class="seeMore"><a href="">SEE MORE</a></dd>
-											</dl>
-										</li>
-										<li><span class="arrowRight"></span><span class="newsPic"><img src="img/news_pic.jpg" alt="picture"></span><span class="date">dd/mm/yyyy</span>
-											<dl>
-												<dt>TITLE</dt>
-												<dd class="artist">ARTIST</dd>
-												<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</dd>
-												<dd class="seeMore"><a href="">SEE MORE</a></dd>
-											</dl>
-										</li>
-										<li><span class="arrowRight"></span><span class="newsPic"><img src="img/news_pic.jpg" alt="picture"></span><span class="date">dd/mm/yyyy</span>
-											<dl>
-												<dt>TITLE</dt>
-												<dd class="artist">ARTIST</dd>
-												<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</dd>
-												<dd class="seeMore"><a href="">SEE MORE</a></dd>
-											</dl>
-										</li>
-										<li><span class="arrowRight"></span><span class="newsPic"><img src="img/news_pic.jpg" alt="picture"></span><span class="date">dd/mm/yyyy</span>
-											<dl>
-												<dt>TITLE</dt>
-												<dd class="artist">ARTIST</dd>
-												<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</dd>
-												<dd class="seeMore"><a href="">SEE MORE</a></dd>
-											</dl>
-										</li>
-									</ol>
-								</li>
-								<li><a href="">3</a>
-									<ol>
-										<li><span class="arrowRight"></span><span class="newsPic"><img src="img/news_pic.jpg" alt="picture"></span><span class="date">dd/mm/yyyy</span>
-											<dl>
-												<dt>TITLE</dt>
-												<dd class="artist">ARTIST</dd>
-												<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</dd>
-												<dd class="seeMore"><a href="">SEE MORE</a></dd>
-											</dl>
-										</li>
-										<li><span class="arrowRight"></span><span class="newsPic"><img src="img/news_pic.jpg" alt="picture"></span><span class="date">dd/mm/yyyy</span>
-											<dl>
-												<dt>TITLE</dt>
-												<dd class="artist">ARTIST</dd>
-												<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</dd>
-												<dd class="seeMore"><a href="">SEE MORE</a></dd>
-											</dl>
-										</li>
-										<li><span class="arrowRight"></span><span class="newsPic"><img src="img/news_pic.jpg" alt="picture"></span><span class="date">dd/mm/yyyy</span>
-											<dl>
-												<dt>TITLE</dt>
-												<dd class="artist">ARTIST</dd>
-												<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</dd>
-												<dd class="seeMore"><a href="">SEE MORE</a></dd>
-											</dl>
-										</li>
-										<li><span class="arrowRight"></span><span class="newsPic"><img src="img/news_pic.jpg" alt="picture"></span><span class="date">dd/mm/yyyy</span>
-											<dl>
-												<dt>TITLE</dt>
-												<dd class="artist">ARTIST</dd>
-												<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</dd>
-												<dd class="seeMore"><a href="">SEE MORE</a></dd>
-											</dl>
-										</li>
-										<li><span class="arrowRight"></span><span class="newsPic"><img src="img/news_pic.jpg" alt="picture"></span><span class="date">dd/mm/yyyy</span>
-											<dl>
-												<dt>TITLE</dt>
-												<dd class="artist">ARTIST</dd>
-												<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</dd>
-												<dd class="seeMore"><a href="">SEE MORE</a></dd>
-											</dl>
-										</li>
-									</ol>
-								</li>
-								<li><a href="">4</a>
-									<ol>
-										<li><span class="arrowRight"></span><span class="newsPic"><img src="img/news_pic.jpg" alt="picture"></span><span class="date">dd/mm/yyyy</span>
-											<dl>
-												<dt>TITLE</dt>
-												<dd class="artist">ARTIST</dd>
-												<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</dd>
-												<dd class="seeMore"><a href="">SEE MORE</a></dd>
-											</dl>
-										</li>
-										<li><span class="arrowRight"></span><span class="newsPic"><img src="img/news_pic.jpg" alt="picture"></span><span class="date">dd/mm/yyyy</span>
-											<dl>
-												<dt>TITLE</dt>
-												<dd class="artist">ARTIST</dd>
-												<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</dd>
-												<dd class="seeMore"><a href="">SEE MORE</a></dd>
-											</dl>
-										</li>
-										<li><span class="arrowRight"></span><span class="newsPic"><img src="img/news_pic.jpg" alt="picture"></span><span class="date">dd/mm/yyyy</span>
-											<dl>
-												<dt>TITLE</dt>
-												<dd class="artist">ARTIST</dd>
-												<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</dd>
-												<dd class="seeMore"><a href="">SEE MORE</a></dd>
-											</dl>
-										</li>
-										<li><span class="arrowRight"></span><span class="newsPic"><img src="img/news_pic.jpg" alt="picture"></span><span class="date">dd/mm/yyyy</span>
-											<dl>
-												<dt>TITLE</dt>
-												<dd class="artist">ARTIST</dd>
-												<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</dd>
-												<dd class="seeMore"><a href="">SEE MORE</a></dd>
-											</dl>
-										</li>
-										<li><span class="arrowRight"></span><span class="newsPic"><img src="img/news_pic.jpg" alt="picture"></span><span class="date">dd/mm/yyyy</span>
-											<dl>
-												<dt>TITLE</dt>
-												<dd class="artist">ARTIST</dd>
-												<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</dd>
-												<dd class="seeMore"><a href="">SEE MORE</a></dd>
-											</dl>
-										</li>
-									</ol>
-								</li>
-							</ol>
-						</article>
-					</section>
-				</div>
-
-				<div class="btmSection"></div>
+					<article>
 				
-				<div class="aboutUsFullWidth"></div>
+				<!-- #music -->
+					<div id="music">
+						<section>
 
-				<div id="aboutUs">
-					<section>
-						<header><h1>ABOUT US</h1></header>
-						<article>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore.
-							<br/>
-							<br/>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore.
-							<br/>
-							<br/><span class="none">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, </span></p>
+							<header><h1>MUSIC</h1></header>
 
-							<p class="whatIsMoosic">
-								<span class="centre"><span class="heart"></span><br/>HEART</span>
-								<span class="centre"><img src="img/plusSign.svg" width="30px" alt="plus"></span>
-								<span class="centre"><span class="music"></span><br/>MUSIC</span>
-								<span class="centre"><img src="img/equalSign.svg" width="30px" alt="equals"></span>
-								<span class="centre"><span class="moosicSign"></span><br/>MOOSIC</span>
-							</p>
-						</article>
-					</section>
-				</div>
-
-				
-
-				<div id="signUp">
-					<section>
-						<header><h1>SIGN UP</h1></header>
-						<article>
-							<form action="" method="POST" name="signUpForm" id="signUpForm">
-								<dl>
-									<label for="firstNameField">
-									<dt class="forAb">YOUR FIRST NAME</dt></label>
-									<dd><input type="text" name="firstNameField" id="firstNameField" /></dd>
-
-									<label for="lastNameField">
-									<dt class="forAb">YOUR LAST NAME</dt></label>
-									<dd><input type="text" name="lastNameField" id="lastNameField" /></dd>
-
-									<label for="yourEmail">
-									<dt class="forAb">YOUR EMAIL ADDRESS</dt></label>
-									<dd><input type="text" name="yourEmail" id="yourEmail" /></dd>
-
-									<label for="pswdInSignUp">
-									<dt class="forAb">PASSWORD</dt></label>
-									<dd><input type="password" name="pswdInSignUp" id="pswdInSignUp" /></dd>
-
-									<label for="conPswdInSignUp">
-									<dt class="forAb">CONFIRM PASSWORD</dt></label>
-									<dd><input type="password" name="conPswdInSignUp" id="conPswdInSignUp" /></dd>
-									<dt class="robot">WE NEED TO MAKE SURE YOU ARE ONE OF US. TYPE WHAT YOU SEE.</dt>
-									<dd class="sta"><img src="img/sta12.jpg" alt="sta12" /></dd>
-									<dd class="changeImg"><a href=""><span class="arrowLeft"></span>CHANGE IMAGE</a></dd>
-									<dd class="typeDd"><input type="text" name="typeImg" id="typeImg" /></dd>
-
-									<dt class="termsCon">I HAVE READ <a href="">TERMS AND CONDITIONS</a> AND I...</dt>
-									<label for="agree">
-									<dt class="agree">AGREE</dt></label>
-									<dd class="agreeCheck"><input type="checkbox" name="agree" id="agree" /></dd>
-									<label for="disagree">
-									<dt class="disagree">DISAGREE</dt></label>
-									<dd class="disagreeCheck"><input type="checkbox" name="disagree" id="disagree" /></dd>
-
-									<dd class="submitDd"><input type="submit" name="doneInSignUp" id="doneInSignUp" value="DONE"></dd>
-									<dd class="resetDd"><input type="reset" name="resetInSignUp" id="resetInSignUp" value="CANCEL"></dd>
-								</dl>
+							<article>
+								<h2 class="hidden">Sub menu</h2>
 								
-							</form>
-						</article>
-					</section>
-				</div>
+							<!-- #subNav -->
+								<div id="subNav">
+									<nav>
+										<ul>
+											<li><a href="">ALL</a></li>
+											<li><a href="">HAPPY</a></li>
+											<li><a href="">SAD</a></li>
+											<li><a href="">NEUTRAL</a></li>
+											<li><a href="">DREAMY</a></li>
+											<li><a href="">ANGRY</a></li>
+										</ul>
+									</nav>
+									<p class="hidden subMusicNext"><a href=""><img src="img/arrowRight.svg" width="10px" alt="next"></a><a href=""><img src="img/arrowLeft1.svg" width="10px" alt="prev"></a></p>
+								</div> <!-- ######## #subNav ends ######-->
+								
+							
+								<form action="" method="POST" id="searchInMusic" name="searchInMusic">
+									<fieldset>
+										<legend class="hidden">SEARCH MUSIC UNDER MOOD</legend>
+										<dl>
+											<label for="selectInMusic">
+											<dt class="hidden">select a mood</dt></label>
+											<dd class="firstDd">
+												<select name="selectInMusic" id="selectInMusic">
+													<option value="MOOD">MOOD</option>
+													<option value="all">all</option>
+													<option value="happy">happy</option>
+													<option value="sad">sad</option>
+													<option value="neutral">neutral</option>
+													<option value="dreamy">dreamy</option>
+													<option value="angry">angry</option>
+												</select>
+											</dd>
+											<label for="searchFieldInMusic">
+											<dt>ENTER TITLE OR ARTIST</dt></label>
+											<dd class="secondDd"><input type="text" name="searchFieldInMusic" id="searchFieldInMusic" /></dd>
+											<dd class="subInMusic"><input type="submit" value="SUBMIT"></dd>
+										</dl>
+									</fieldset>
+								</form>
 
-				<div class="btmSection"></div>
+								<h3 class="hidden">if searched</h3>
+								
+								<!-- if searched -->
+								<div class="ifSearched">
+									<ol>
+										<li class="numbers"><a href="">1</a>
+											<ul>
+												<li><span class="albumCover"><img src="img/cv_oxford.jpg" width="100px" alt=""></span>
+													<dl>
+														<dt>RELEASE DATE</dt>
+														<dd class="title">TITLE</dd>
+														<dd class="artist">ARTIST /</dd>
+														<dd class="mood">MOOD</dd>
+														<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+														<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+														<dd class="get"><a href="">GET</a></dd>
+														<dd class="save"><a href="">SAVE</a></dd>
+														<dd class="gift"><a href="">GIFT</a></dd>
+													</dl>
+												</li>
+												<li><span class="albumCover"><img src="img/cv_oxford.jpg" width="100px" alt=""></span>
+													<dl>
+														<dt>RELEASE DATE</dt>
+														<dd class="title">TITLE</dd>
+														<dd class="artist">ARTIST /</dd>
+														<dd class="mood">MOOD</dd>
+														<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+														<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+														<dd class="get"><a href="">GET</a></dd>
+														<dd class="save"><a href="">SAVE</a></dd>
+														<dd class="gift"><a href="">GIFT</a></dd>
+													</dl>
+												</li>
+												<li><span class="albumCover"><img src="img/cv_oxford.jpg" width="100px" alt=""></span>
+													<dl>
+														<dt>RELEASE DATE</dt>
+														<dd class="title">TITLE</dd>
+														<dd class="artist">ARTIST /</dd>
+														<dd class="mood">MOOD</dd>
+														<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+														<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+														<dd class="get"><a href="">GET</a></dd>
+														<dd class="save"><a href="">SAVE</a></dd>
+														<dd class="gift"><a href="">GIFT</a></dd>
+													</dl>
+												</li>
+												<li><span class="albumCover"><img src="img/cv_oxford.jpg" width="100px" alt=""></span>
+													<dl>
+														<dt>RELEASE DATE</dt>
+														<dd class="title">TITLE</dd>
+														<dd class="artist">ARTIST /</dd>
+														<dd class="mood">MOOD</dd>
+														<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+														<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+														<dd class="get"><a href="">GET</a></dd>
+														<dd class="save"><a href="">SAVE</a></dd>
+														<dd class="gift"><a href="">GIFT</a></dd>
+													</dl>
+												</li>
+												<li><span class="albumCover"><img src="img/cv_oxford.jpg" width="100px" alt=""></span>
+													<dl>
+														<dt>RELEASE DATE</dt>
+														<dd class="title">TITLE</dd>
+														<dd class="artist">ARTIST /</dd>
+														<dd class="mood">MOOD</dd>
+														<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+														<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+														<dd class="get"><a href="">GET</a></dd>
+														<dd class="save"><a href="">SAVE</a></dd>
+														<dd class="gift"><a href="">GIFT</a></dd>
+													</dl>
+												</li>
+											</ul>
+										</li>
+										<li class="numbers"><a href="">2</a>
+											<ul>
+												<li><span class="albumCover"><img src="img/cv_oxford.jpg" width="100px" alt=""></span>
+													<dl>
+														<dt>RELEASE DATE</dt>
+														<dd class="title">TITLE</dd>
+														<dd class="artist">ARTIST /</dd>
+														<dd class="mood">MOOD</dd>
+														<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+														<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+														<dd class="get"><a href="">GET</a></dd>
+														<dd class="save"><a href="">SAVE</a></dd>
+														<dd class="gift"><a href="">GIFT</a></dd>
+													</dl>
+												</li>
+												<li><span class="albumCover"><img src="img/cv_oxford.jpg" width="100px" alt=""></span>
+													<dl>
+														<dt>RELEASE DATE</dt>
+														<dd class="title">TITLE</dd>
+														<dd class="artist">ARTIST /</dd>
+														<dd class="mood">MOOD</dd>
+														<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+														<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+														<dd class="get"><a href="">GET</a></dd>
+														<dd class="save"><a href="">SAVE</a></dd>
+														<dd class="gift"><a href="">GIFT</a></dd>
+													</dl>
+												</li>
+												<li><span class="albumCover"><img src="img/cv_oxford.jpg" width="100px" alt=""></span>
+													<dl>
+														<dt>RELEASE DATE</dt>
+														<dd class="title">TITLE</dd>
+														<dd class="artist">ARTIST /</dd>
+														<dd class="mood">MOOD</dd>
+														<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+														<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+														<dd class="get"><a href="">GET</a></dd>
+														<dd class="save"><a href="">SAVE</a></dd>
+														<dd class="gift"><a href="">GIFT</a></dd>
+													</dl>
+												</li>
+												<li><span class="albumCover"><img src="img/cv_oxford.jpg" width="100px" alt=""></span>
+													<dl>
+														<dt>RELEASE DATE</dt>
+														<dd class="title">TITLE</dd>
+														<dd class="artist">ARTIST /</dd>
+														<dd class="mood">MOOD</dd>
+														<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+														<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+														<dd class="get"><a href="">GET</a></dd>
+														<dd class="save"><a href="">SAVE</a></dd>
+														<dd class="gift"><a href="">GIFT</a></dd>
+													</dl>
+												</li>
+												<li><span class="albumCover"><img src="img/cv_oxford.jpg" width="100px" alt=""></span>
+													<dl>
+														<dt>RELEASE DATE</dt>
+														<dd class="title">TITLE</dd>
+														<dd class="artist">ARTIST /</dd>
+														<dd class="mood">MOOD</dd>
+														<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+														<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+														<dd class="get"><a href="">GET</a></dd>
+														<dd class="save"><a href="">SAVE</a></dd>
+														<dd class="gift"><a href="">GIFT</a></dd>
+													</dl>
+												</li>
+											</ul>
+										</li>
+										<li class="numbers"><a href="">3</a>
+											<ul>
+												<li><span class="albumCover"><img src="img/cv_oxford.jpg" width="100px" alt=""></span>
+													<dl>
+														<dt>RELEASE DATE</dt>
+														<dd class="title">TITLE</dd>
+														<dd class="artist">ARTIST /</dd>
+														<dd class="mood">MOOD</dd>
+														<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+														<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+														<dd class="get"><a href="">GET</a></dd>
+														<dd class="save"><a href="">SAVE</a></dd>
+														<dd class="gift"><a href="">GIFT</a></dd>
+													</dl>
+												</li>
+												<li><span class="albumCover"><img src="img/cv_oxford.jpg" width="100px" alt=""></span>
+													<dl>
+														<dt>RELEASE DATE</dt>
+														<dd class="title">TITLE</dd>
+														<dd class="artist">ARTIST /</dd>
+														<dd class="mood">MOOD</dd>
+														<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+														<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+														<dd class="get"><a href="">GET</a></dd>
+														<dd class="save"><a href="">SAVE</a></dd>
+														<dd class="gift"><a href="">GIFT</a></dd>
+													</dl>
+												</li>
+												<li><span class="albumCover"><img src="img/cv_oxford.jpg" width="100px" alt=""></span>
+													<dl>
+														<dt>RELEASE DATE</dt>
+														<dd class="title">TITLE</dd>
+														<dd class="artist">ARTIST /</dd>
+														<dd class="mood">MOOD</dd>
+														<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+														<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+														<dd class="get"><a href="">GET</a></dd>
+														<dd class="save"><a href="">SAVE</a></dd>
+														<dd class="gift"><a href="">GIFT</a></dd>
+													</dl>
+												</li>
+												<li><span class="albumCover"><img src="img/cv_oxford.jpg" width="100px" alt=""></span>
+													<dl>
+														<dt>RELEASE DATE</dt>
+														<dd class="title">TITLE</dd>
+														<dd class="artist">ARTIST /</dd>
+														<dd class="mood">MOOD</dd>
+														<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+														<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+														<dd class="get"><a href="">GET</a></dd>
+														<dd class="save"><a href="">SAVE</a></dd>
+														<dd class="gift"><a href="">GIFT</a></dd>
+													</dl>
+												</li>
+												<li><span class="albumCover"><img src="img/cv_oxford.jpg" width="100px" alt=""></span>
+													<dl>
+														<dt>RELEASE DATE</dt>
+														<dd class="title">TITLE</dd>
+														<dd class="artist">ARTIST /</dd>
+														<dd class="mood">MOOD</dd>
+														<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+														<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+														<dd class="get"><a href="">GET</a></dd>
+														<dd class="save"><a href="">SAVE</a></dd>
+														<dd class="gift"><a href="">GIFT</a></dd>
+													</dl>
+												</li>
+											</ul>
+										</li>
+										<li class="numbers"><a href="">4</a>
+											<ul>
+												<li><span class="albumCover"><img src="img/cv_oxford.jpg" width="100px" alt=""></span>
+													<dl>
+														<dt>RELEASE DATE</dt>
+														<dd class="title">TITLE</dd>
+														<dd class="artist">ARTIST /</dd>
+														<dd class="mood">MOOD</dd>
+														<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+														<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+														<dd class="get"><a href="">GET</a></dd>
+														<dd class="save"><a href="">SAVE</a></dd>
+														<dd class="gift"><a href="">GIFT</a></dd>
+													</dl>
+												</li>
+												<li><span class="albumCover"><img src="img/cv_oxford.jpg" width="100px" alt=""></span>
+													<dl>
+														<dt>RELEASE DATE</dt>
+														<dd class="title">TITLE</dd>
+														<dd class="artist">ARTIST /</dd>
+														<dd class="mood">MOOD</dd>
+														<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+														<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+														<dd class="get"><a href="">GET</a></dd>
+														<dd class="save"><a href="">SAVE</a></dd>
+														<dd class="gift"><a href="">GIFT</a></dd>
+													</dl>
+												</li>
+												<li><span class="albumCover"><img src="img/cv_oxford.jpg" width="100px" alt=""></span>
+													<dl>
+														<dt>RELEASE DATE</dt>
+														<dd class="title">TITLE</dd>
+														<dd class="artist">ARTIST /</dd>
+														<dd class="mood">MOOD</dd>
+														<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+														<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+														<dd class="get"><a href="">GET</a></dd>
+														<dd class="save"><a href="">SAVE</a></dd>
+														<dd class="gift"><a href="">GIFT</a></dd>
+													</dl>
+												</li>
+												<li><span class="albumCover"><img src="img/cv_oxford.jpg" width="100px" alt=""></span>
+													<dl>
+														<dt>RELEASE DATE</dt>
+														<dd class="title">TITLE</dd>
+														<dd class="artist">ARTIST /</dd>
+														<dd class="mood">MOOD</dd>
+														<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+														<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+														<dd class="get"><a href="">GET</a></dd>
+														<dd class="save"><a href="">SAVE</a></dd>
+														<dd class="gift"><a href="">GIFT</a></dd>
+													</dl>
+												</li>
+												<li><span class="albumCover"><img src="img/cv_oxford.jpg" width="100px" alt=""></span>
+													<dl>
+														<dt>RELEASE DATE</dt>
+														<dd class="title">TITLE</dd>
+														<dd class="artist">ARTIST /</dd>
+														<dd class="mood">MOOD</dd>
+														<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+														<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+														<dd class="get"><a href="">GET</a></dd>
+														<dd class="save"><a href="">SAVE</a></dd>
+														<dd class="gift"><a href="">GIFT</a></dd>
+													</dl>
+												</li>
+											</ul>
+										</li>
+										<li class="closeBtnInMusic"><a href=""><img src="img/closeBtn.svg" width="15px" alt="close"></a></li>
+									</ol>
+								</div>
 
-				<div id="faq">
-					<section>
-						<header><h1>FAQ</h1></header>
-						<article>
-							<ol>
-								<li><a href="">1</a>
-									<dl>
-										<dt><a href=""><span class="arrowRight"></span>QUESTION 1</a></dt>
-										<dd class="firstDd">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet.</dd>
-										<dt><a href=""><span class="arrowRight"></span>QUESTION 2</a></dt>
-										<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet.</dd>
-										<dt><a href=""><span class="arrowRight"></span>QUESTION 3</a></dt>
-										<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet.</dd>
-										<dt><a href=""><span class="arrowRight"></span>QUESTION 4</a></dt>
-										<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet.</dd>
-										<dt><a href=""><span class="arrowRight"></span>QUESTION 5</a></dt>
-										<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet.</dd>
-									</dl>
-									<div class="lastBorder"></div>
-								</li>
-								<li><a href="">2</a>
-									<dl>
-										<dt><a href=""><span class="arrowRight"></span>QUESTION 6</a></dt>
-										<dd class="firstDd">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet.</dd>
-										<dt><a href=""><span class="arrowRight"></span>QUESTION 7</a></dt>
-										<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet.</dd>
-										<dt><a href=""><span class="arrowRight"></span>QUESTION 8</a></dt>
-										<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet.</dd>
-										<dt><a href=""><span class="arrowRight"></span>QUESTION 9</a></dt>
-										<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet.</dd>
-										<dt><a href=""><span class="arrowRight"></span>QUESTION 10</a></dt>
-										<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet.</dd>
-									</dl>
-									<div class="lastBorder"></div>
-								</li>
-								<li><a href="">3</a>
-									<dl>
-										<dt><a href=""><span class="arrowRight"></span>QUESTION 11</a></dt>
-										<dd class="firstDd">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet.</dd>
-										<dt><a href=""><span class="arrowRight"></span>QUESTION 12</a></dt>
-										<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet.</dd>
-										<dt><a href=""><span class="arrowRight"></span>QUESTION 13</a></dt>
-										<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet.</dd>
-										<dt><a href=""><span class="arrowRight"></span>QUESTION 14</a></dt>
-										<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet.</dd>
-										<dt><a href=""><span class="arrowRight"></span>QUESTION 15</a></dt>
-										<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet.</dd>
-									</dl>
-									<div class="lastBorder"></div>
-								</li>
-								<li><a href="">4</a>
-									<dl>
-										<dt><a href=""><span class="arrowRight"></span>QUESTION 16</a></dt>
-										<dd class="firstDd">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet.</dd>
-										<dt><a href=""><span class="arrowRight"></span>QUESTION 17</a></dt>
-										<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet.</dd>
-										<dt><a href=""><span class="arrowRight"></span>QUESTION 18</a></dt>
-										<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet.</dd>
-										<dt><a href=""><span class="arrowRight"></span>QUESTION 19</a></dt>
-										<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet.</dd>
-										<dt><a href=""><span class="arrowRight"></span>QUESTION 20</a></dt>
-										<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet.
-										</dd>
-									</dl>
-									<div class="lastBorder"></div>
-								</li>
-							</ol>
 
-							<h2>HAVEN'T FOUND THE RIGHT ANSWER YET?</h2>
-							<p><a href="">MESSAGE US</a></p>
-						</article>
-					</section>
-				</div>
-				<div id="contactUs">
-					<section>
-						<header><h1>CONTACT US</h1></header>
-						<article>
-							<p>CALL US ANYTIME</p>
-							<p><a href="">000 - 0000 - 0000</a></p>
-						</article>
-					</section>
-				</div>
+								<h2 class="hidden">recommended music, most listened to, new music</h2>
+							<!-- #mainMusic -->
+								<div id="mainMusic">
+										<ul>
+											<li class="mainMusicList1"><a href="">RECOMMENDED MUSIC</a><span class="fromWhen">FROM DEC 2015 TO JAN 2016</span>
+												<ul>
+													<li class="al1"><span class="albumCover"><img src="img/cv_saviour.jpg" width="150px" alt="saviour album cover"></span>
+														<dl>
+															<dt>RELEASE DATE</dt>
+															<dd class="title">TITLE</dd>
+															<dd class="artist">ARTIST</dd>
+															<dd class="mood">MOOD</dd>
+															<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
+															<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
+															<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
+															<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+															<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+															<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
+															<dd class="get"><a href="">GET</a></dd>
+															<dd class="save"><a href="">SAVE</a></dd>
+															<dd class="gift"><a href="">GIFT</a></dd>
+															<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
+														</dl>
+													</li>
+													<li class="al2"><span class="albumCover"><img src="img/cv_nightAfterNight.jpg" width="150px" alt="night after night album cover"></span>
+														<dl>
+															<dt>RELEASE DATE</dt>
+															<dd class="title">TITLE</dd>
+															<dd class="artist">ARTIST</dd>
+															<dd class="mood">MOOD</dd>
+															<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
+															<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
+															<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
+															<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+															<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+															<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
+															<dd class="get"><a href="">GET</a></dd>
+															<dd class="save"><a href="">SAVE</a></dd>
+															<dd class="gift"><a href="">GIFT</a></dd>
+															<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
+														</dl>
+													</li>
+													<li class="al3"><span class="albumCover"><img src="img/cv_master.jpg" width="150px" alt="master album cover"></span>
+														<dl>
+															<dt>RELEASE DATE</dt>
+															<dd class="title">TITLE</dd>
+															<dd class="artist">ARTIST</dd>
+															<dd class="mood">MOOD</dd>
+															<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
+															<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
+															<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
+															<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+															<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+															<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
+															<dd class="get"><a href="">GET</a></dd>
+															<dd class="save"><a href="">SAVE</a></dd>
+															<dd class="gift"><a href="">GIFT</a></dd>
+															<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
+														</dl>
+													</li>
+													<li class="al4"><span class="albumCover"><img src="img/cv_underTheWater.jpg" width="150px" alt="under the water album cover"></span>
+														<dl>
+															<dt>RELEASE DATE</dt>
+															<dd class="title">TITLE</dd>
+															<dd class="artist">ARTIST</dd>
+															<dd class="mood">MOOD</dd>
+															<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
+															<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
+															<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
+															<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+															<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+															<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
+															<dd class="get"><a href="">GET</a></dd>
+															<dd class="save"><a href="">SAVE</a></dd>
+															<dd class="gift"><a href="">GIFT</a></dd>
+															<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
+														</dl>
+													</li>
+													<li class="al5"><span class="albumCover"><img src="img/cv_coloradoBoy.jpg" width="150px" alt="coloradoBoy album cover"></span>
+														<dl>
+															<dt>RELEASE DATE</dt>
+															<dd class="title">TITLE</dd>
+															<dd class="artist">ARTIST</dd>
+															<dd class="mood">MOOD</dd>
+															<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
+															<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
+															<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
+															<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+															<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+															<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
+															<dd class="get"><a href="">GET</a></dd>
+															<dd class="save"><a href="">SAVE</a></dd>
+															<dd class="gift"><a href="">GIFT</a></dd>
+															<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
+														</dl>
+													</li>
+													<li class="al6"><span class="albumCover"><img src="img/cv_3Ed4.jpg" width="150px" alt="3.ed.4 album cover"></span>
+														<dl>
+															<dt>RELEASE DATE</dt>
+															<dd class="title">TITLE</dd>
+															<dd class="artist">ARTIST</dd>
+															<dd class="mood">MOOD</dd>
+															<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
+															<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
+															<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
+															<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+															<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+															<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
+															<dd class="get"><a href="">GET</a></dd>
+															<dd class="save"><a href="">SAVE</a></dd>
+															<dd class="gift"><a href="">GIFT</a></dd>
+															<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
+														</dl>
+													</li>
+													<li class="al7"><span class="albumCover"><img src="img/cv_oxford.jpg" width="150px" alt="oxford album cover"></span>
+														<dl>
+															<dt>RELEASE DATE</dt>
+															<dd class="title">TITLE</dd>
+															<dd class="artist">ARTIST</dd>
+															<dd class="mood">MOOD</dd>
+															<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
+															<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
+															<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
+															<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+															<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+															<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
+															<dd class="get"><a href="">GET</a></dd>
+															<dd class="save"><a href="">SAVE</a></dd>
+															<dd class="gift"><a href="">GIFT</a></dd>
+															<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
+														</dl>
+													</li>
+													<li class="al8"><span class="albumCover"><img src="img/cv_thirsty.jpg" width="150px" alt="thirsty album cover"></span>
+														<dl>
+															<dt>RELEASE DATE</dt>
+															<dd class="title">TITLE</dd>
+															<dd class="artist">ARTIST</dd>
+															<dd class="mood">MOOD</dd>
+															<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
+															<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
+															<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
+															<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+															<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+															<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
+															<dd class="get"><a href="">GET</a></dd>
+															<dd class="save"><a href="">SAVE</a></dd>
+															<dd class="gift"><a href="">GIFT</a></dd>
+															<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
+														</dl>
+													</li>
+													<li class="al9"><span class="albumCover"><img src="img/cv_shakeYourLegs.jpg" width="150px" alt="shake Your Legs album cover"></span>
+														<dl>
+															<dt>RELEASE DATE</dt>
+															<dd class="title">TITLE</dd>
+															<dd class="artist">ARTIST</dd>
+															<dd class="mood">MOOD</dd>
+															<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
+															<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
+															<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
+															<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+															<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+															<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
+															<dd class="get"><a href="">GET</a></dd>
+															<dd class="save"><a href="">SAVE</a></dd>
+															<dd class="gift"><a href="">GIFT</a></dd>
+															<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
+														</dl>
+													</li>
+												</ul>
+											</li>
+											<li class="mainMusicList2"><a href="">MOST LISTENED TO IN ALL FEELINGS</a><span class="fromWhen">FROM DEC 2015 TO JAN 2016</span>
+												<ul>
+													<li class="al1"><span class="albumCover"><img src="img/cv_saviour.jpg" width="150px" alt="saviour album cover"></span>
+														<dl>
+															<dt>RELEASE DATE</dt>
+															<dd class="title">TITLE</dd>
+															<dd class="artist">ARTIST</dd>
+															<dd class="mood">MOOD</dd>
+															<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
+															<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
+															<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
+															<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+															<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+															<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
+															<dd class="get"><a href="">GET</a></dd>
+															<dd class="save"><a href="">SAVE</a></dd>
+															<dd class="gift"><a href="">GIFT</a></dd>
+															<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
+														</dl>
+													</li>
+													<li class="al2"><span class="albumCover"><img src="img/cv_nightAfterNight.jpg" width="150px" alt="night after night album cover"></span>
+														<dl>
+															<dt>RELEASE DATE</dt>
+															<dd class="title">TITLE</dd>
+															<dd class="artist">ARTIST</dd>
+															<dd class="mood">MOOD</dd>
+															<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
+															<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
+															<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
+															<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+															<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+															<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
+															<dd class="get"><a href="">GET</a></dd>
+															<dd class="save"><a href="">SAVE</a></dd>
+															<dd class="gift"><a href="">GIFT</a></dd>
+															<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
+														</dl>
+													</li>
+													<li class="al3"><span class="albumCover"><img src="img/cv_master.jpg" width="150px" alt="master album cover"></span>
+														<dl>
+															<dt>RELEASE DATE</dt>
+															<dd class="title">TITLE</dd>
+															<dd class="artist">ARTIST</dd>
+															<dd class="mood">MOOD</dd>
+															<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
+															<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
+															<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
+															<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+															<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+															<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
+															<dd class="get"><a href="">GET</a></dd>
+															<dd class="save"><a href="">SAVE</a></dd>
+															<dd class="gift"><a href="">GIFT</a></dd>
+															<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
+														</dl>
+													</li>
+													<li class="al4"><span class="albumCover"><img src="img/cv_underTheWater.jpg" width="150px" alt="under the water album cover"></span>
+														<dl>
+															<dt>RELEASE DATE</dt>
+															<dd class="title">TITLE</dd>
+															<dd class="artist">ARTIST</dd>
+															<dd class="mood">MOOD</dd>
+															<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
+															<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
+															<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
+															<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+															<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+															<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
+															<dd class="get"><a href="">GET</a></dd>
+															<dd class="save"><a href="">SAVE</a></dd>
+															<dd class="gift"><a href="">GIFT</a></dd>
+															<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
+														</dl>
+													</li>
+													<li class="al5"><span class="albumCover"><img src="img/cv_coloradoBoy.jpg" width="150px" alt="coloradoBoy album cover"></span>
+														<dl>
+															<dt>RELEASE DATE</dt>
+															<dd class="title">TITLE</dd>
+															<dd class="artist">ARTIST</dd>
+															<dd class="mood">MOOD</dd>
+															<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
+															<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
+															<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
+															<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+															<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+															<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
+															<dd class="get"><a href="">GET</a></dd>
+															<dd class="save"><a href="">SAVE</a></dd>
+															<dd class="gift"><a href="">GIFT</a></dd>
+															<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
+														</dl>
+													</li>
+													<li class="al6"><span class="albumCover"><img src="img/cv_3Ed4.jpg" width="150px" alt="3.ed.4 album cover"></span>
+														<dl>
+															<dt>RELEASE DATE</dt>
+															<dd class="title">TITLE</dd>
+															<dd class="artist">ARTIST</dd>
+															<dd class="mood">MOOD</dd>
+															<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
+															<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
+															<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
+															<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+															<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+															<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
+															<dd class="get"><a href="">GET</a></dd>
+															<dd class="save"><a href="">SAVE</a></dd>
+															<dd class="gift"><a href="">GIFT</a></dd>
+															<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
+														</dl>
+													</li>
+													<li class="al7"><span class="albumCover"><img src="img/cv_oxford.jpg" width="150px" alt="oxford album cover"></span>
+														<dl>
+															<dt>RELEASE DATE</dt>
+															<dd class="title">TITLE</dd>
+															<dd class="artist">ARTIST</dd>
+															<dd class="mood">MOOD</dd>
+															<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
+															<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
+															<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
+															<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+															<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+															<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
+															<dd class="get"><a href="">GET</a></dd>
+															<dd class="save"><a href="">SAVE</a></dd>
+															<dd class="gift"><a href="">GIFT</a></dd>
+															<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
+														</dl>
+													</li>
+													<li class="al8"><span class="albumCover"><img src="img/cv_thirsty.jpg" width="150px" alt="thirsty album cover"></span>
+														<dl>
+															<dt>RELEASE DATE</dt>
+															<dd class="title">TITLE</dd>
+															<dd class="artist">ARTIST</dd>
+															<dd class="mood">MOOD</dd>
+															<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
+															<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
+															<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
+															<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+															<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+															<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
+															<dd class="get"><a href="">GET</a></dd>
+															<dd class="save"><a href="">SAVE</a></dd>
+															<dd class="gift"><a href="">GIFT</a></dd>
+															<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
+														</dl>
+													</li>
+													<li class="al9"><span class="albumCover"><img src="img/cv_shakeYourLegs.jpg" width="150px" alt="shake Your Legs album cover"></span>
+														<dl>
+															<dt>RELEASE DATE</dt>
+															<dd class="title">TITLE</dd>
+															<dd class="artist">ARTIST</dd>
+															<dd class="mood">MOOD</dd>
+															<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
+															<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
+															<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
+															<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+															<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+															<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
+															<dd class="get"><a href="">GET</a></dd>
+															<dd class="save"><a href="">SAVE</a></dd>
+															<dd class="gift"><a href="">GIFT</a></dd>
+															<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
+														</dl>
+													</li>
+												</ul>
+											</li>
+											<li class="mainMusicList3"><a href="">NEW MUSIC</a><span class="fromWhen">FROM DEC 2015 TO JAN 2016</span>
+												<ul>
+													<li class="al1"><span class="albumCover"><img src="img/cv_saviour.jpg" width="150px" alt="saviour album cover"></span>
+														<dl>
+															<dt>RELEASE DATE</dt>
+															<dd class="title">TITLE</dd>
+															<dd class="artist">ARTIST</dd>
+															<dd class="mood">MOOD</dd>
+															<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
+															<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
+															<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
+															<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+															<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+															<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
+															<dd class="get"><a href="">GET</a></dd>
+															<dd class="save"><a href="">SAVE</a></dd>
+															<dd class="gift"><a href="">GIFT</a></dd>
+															<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
+														</dl>
+													</li>
+													<li class="al2"><span class="albumCover"><img src="img/cv_nightAfterNight.jpg" width="150px" alt="night after night album cover"></span>
+														<dl>
+															<dt>RELEASE DATE</dt>
+															<dd class="title">TITLE</dd>
+															<dd class="artist">ARTIST</dd>
+															<dd class="mood">MOOD</dd>
+															<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
+															<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
+															<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
+															<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+															<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+															<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
+															<dd class="get"><a href="">GET</a></dd>
+															<dd class="save"><a href="">SAVE</a></dd>
+															<dd class="gift"><a href="">GIFT</a></dd>
+															<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
+														</dl>
+													</li>
+													<li class="al3"><span class="albumCover"><img src="img/cv_master.jpg" width="150px" alt="master album cover"></span>
+														<dl>
+															<dt>RELEASE DATE</dt>
+															<dd class="title">TITLE</dd>
+															<dd class="artist">ARTIST</dd>
+															<dd class="mood">MOOD</dd>
+															<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
+															<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
+															<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
+															<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+															<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+															<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
+															<dd class="get"><a href="">GET</a></dd>
+															<dd class="save"><a href="">SAVE</a></dd>
+															<dd class="gift"><a href="">GIFT</a></dd>
+															<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
+														</dl>
+													</li>
+													<li class="al4"><span class="albumCover"><img src="img/cv_underTheWater.jpg" width="150px" alt="under the water album cover"></span>
+														<dl>
+															<dt>RELEASE DATE</dt>
+															<dd class="title">TITLE</dd>
+															<dd class="artist">ARTIST</dd>
+															<dd class="mood">MOOD</dd>
+															<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
+															<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
+															<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
+															<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+															<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+															<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
+															<dd class="get"><a href="">GET</a></dd>
+															<dd class="save"><a href="">SAVE</a></dd>
+															<dd class="gift"><a href="">GIFT</a></dd>
+															<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
+														</dl>
+													</li>
+													<li class="al5"><span class="albumCover"><img src="img/cv_coloradoBoy.jpg" width="150px" alt="coloradoBoy album cover"></span>
+														<dl>
+															<dt>RELEASE DATE</dt>
+															<dd class="title">TITLE</dd>
+															<dd class="artist">ARTIST</dd>
+															<dd class="mood">MOOD</dd>
+															<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
+															<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
+															<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
+															<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+															<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+															<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
+															<dd class="get"><a href="">GET</a></dd>
+															<dd class="save"><a href="">SAVE</a></dd>
+															<dd class="gift"><a href="">GIFT</a></dd>
+															<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
+														</dl>
+													</li>
+													<li class="al6"><span class="albumCover"><img src="img/cv_3Ed4.jpg" width="150px" alt="3.ed.4 album cover"></span>
+														<dl>
+															<dt>RELEASE DATE</dt>
+															<dd class="title">TITLE</dd>
+															<dd class="artist">ARTIST</dd>
+															<dd class="mood">MOOD</dd>
+															<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
+															<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
+															<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
+															<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+															<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+															<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
+															<dd class="get"><a href="">GET</a></dd>
+															<dd class="save"><a href="">SAVE</a></dd>
+															<dd class="gift"><a href="">GIFT</a></dd>
+															<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
+														</dl>
+													</li>
+													<li class="al7"><span class="albumCover"><img src="img/cv_oxford.jpg" width="150px" alt="oxford album cover"></span>
+														<dl>
+															<dt>RELEASE DATE</dt>
+															<dd class="title">TITLE</dd>
+															<dd class="artist">ARTIST</dd>
+															<dd class="mood">MOOD</dd>
+															<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
+															<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
+															<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
+															<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+															<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+															<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
+															<dd class="get"><a href="">GET</a></dd>
+															<dd class="save"><a href="">SAVE</a></dd>
+															<dd class="gift"><a href="">GIFT</a></dd>
+															<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
+														</dl>
+													</li>
+													<li class="al8"><span class="albumCover"><img src="img/cv_thirsty.jpg" width="150px" alt="thirsty album cover"></span>
+														<dl>
+															<dt>RELEASE DATE</dt>
+															<dd class="title">TITLE</dd>
+															<dd class="artist">ARTIST</dd>
+															<dd class="mood">MOOD</dd>
+															<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
+															<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
+															<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
+															<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+															<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+															<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
+															<dd class="get"><a href="">GET</a></dd>
+															<dd class="save"><a href="">SAVE</a></dd>
+															<dd class="gift"><a href="">GIFT</a></dd>
+															<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
+														</dl>
+													</li>
+													<li class="al9"><span class="albumCover"><img src="img/cv_shakeYourLegs.jpg" width="150px" alt="shake Your Legs album cover"></span>
+														<dl>
+															<dt>RELEASE DATE</dt>
+															<dd class="title">TITLE</dd>
+															<dd class="artist">ARTIST</dd>
+															<dd class="mood">MOOD</dd>
+															<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="noneMob">Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</span></dd>
+															<dd class="audioTool"><span class="baseline"><a href=""><span class="dot"></span></a></span></dd>
+															<dd class="prev"><a href=""><img src="img/prevBtn.svg" width="30px" alt="prev"></a></dd>
+															<dd class="play"><a href=""><img src="img/playBtn.svg" width="30px" alt="play"></a></dd>
+															<dd class="pause"><a href=""><img src="img/pauseBtn.svg" width="30px" alt="pause"></a></dd>
+															<dd class="forward"><a href=""><img src="img/forwardBtn.svg" width="30px" alt="forward"></a></dd>
+															<dd class="get"><a href="">GET</a></dd>
+															<dd class="save"><a href="">SAVE</a></dd>
+															<dd class="gift"><a href="">GIFT</a></dd>
+															<dd class="moreSongs"><a href="">MORE SONGS FROM ARTIST</a></dd>
+														</dl>
+													</li>
+												</ul>
+											</li>
+										</ul>
 
-				</article>
+										<p class="leftRight">
+											<a href="" class="left"><img src="img/arrowLeft1.svg" width="15px" alt="left"></a>
+											<a href="" class="right"><img src="img/arrowRight.svg" width="15px" alt="right"></a>
+										</p>
+								</div> <!-- ######## #mainMusic ends ######-->
+							
+							</article>
+						</section>
+					</div> <!-- ######## #music ends ######-->
+
+				<!-- #news -->
+					<div id="news">
+						<section>
+							<header><h1>NEWS</h1></header>
+							<article>
+								<ol class="firstOl">
+									<li><a href="">1</a>
+										<ol>
+											<li><span class="arrowRight"></span><span class="newsPic"><img src="img/news_pic.jpg" alt="picture"></span><span class="date">dd/mm/yyyy</span>
+												<dl>
+													<dt>TITLE</dt>
+													<dd class="artist">ARTIST</dd>
+													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</dd>
+													<dd class="seeMore"><a href="">SEE MORE</a></dd>
+												</dl>
+											</li>
+											<li><span class="arrowRight"></span><span class="newsPic"><img src="img/news_pic.jpg" alt="picture"></span><span class="date">dd/mm/yyyy</span>
+												<dl>
+													<dt>TITLE</dt>
+													<dd class="artist">ARTIST</dd>
+													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</dd>
+													<dd class="seeMore"><a href="">SEE MORE</a></dd>
+												</dl>
+											</li>
+											<li><span class="arrowRight"></span><span class="newsPic"><img src="img/news_pic.jpg" alt="picture"></span><span class="date">dd/mm/yyyy</span>
+												<dl>
+													<dt>TITLE</dt>
+													<dd class="artist">ARTIST</dd>
+													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</dd>
+													<dd class="seeMore"><a href="">SEE MORE</a></dd>
+												</dl>
+											</li>
+											<li><span class="arrowRight"></span><span class="newsPic"><img src="img/news_pic.jpg" alt="picture"></span><span class="date">dd/mm/yyyy</span>
+												<dl>
+													<dt>TITLE</dt>
+													<dd class="artist">ARTIST</dd>
+													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</dd>
+													<dd class="seeMore"><a href="">SEE MORE</a></dd>
+												</dl>
+											</li>
+											<li><span class="arrowRight"></span><span class="newsPic"><img src="img/news_pic.jpg" alt="picture"></span><span class="date">dd/mm/yyyy</span>
+												<dl>
+													<dt>TITLE</dt>
+													<dd class="artist">ARTIST</dd>
+													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</dd>
+													<dd class="seeMore"><a href="">SEE MORE</a></dd>
+												</dl>
+											</li>
+										</ol>
+									</li>
+									<li><a href="">2</a>
+										<ol>
+											<li><span class="arrowRight"></span><span class="newsPic"><img src="img/news_pic.jpg" alt="picture"></span><span class="date">dd/mm/yyyy</span>
+												<dl>
+													<dt>TITLE</dt>
+													<dd class="artist">ARTIST</dd>
+													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</dd>
+													<dd class="seeMore"><a href="">SEE MORE</a></dd>
+												</dl>
+											</li>
+											<li><span class="arrowRight"></span><span class="newsPic"><img src="img/news_pic.jpg" alt="picture"></span><span class="date">dd/mm/yyyy</span>
+												<dl>
+													<dt>TITLE</dt>
+													<dd class="artist">ARTIST</dd>
+													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</dd>
+													<dd class="seeMore"><a href="">SEE MORE</a></dd>
+												</dl>
+											</li>
+											<li><span class="arrowRight"></span><span class="newsPic"><img src="img/news_pic.jpg" alt="picture"></span><span class="date">dd/mm/yyyy</span>
+												<dl>
+													<dt>TITLE</dt>
+													<dd class="artist">ARTIST</dd>
+													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</dd>
+													<dd class="seeMore"><a href="">SEE MORE</a></dd>
+												</dl>
+											</li>
+											<li><span class="arrowRight"></span><span class="newsPic"><img src="img/news_pic.jpg" alt="picture"></span><span class="date">dd/mm/yyyy</span>
+												<dl>
+													<dt>TITLE</dt>
+													<dd class="artist">ARTIST</dd>
+													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</dd>
+													<dd class="seeMore"><a href="">SEE MORE</a></dd>
+												</dl>
+											</li>
+											<li><span class="arrowRight"></span><span class="newsPic"><img src="img/news_pic.jpg" alt="picture"></span><span class="date">dd/mm/yyyy</span>
+												<dl>
+													<dt>TITLE</dt>
+													<dd class="artist">ARTIST</dd>
+													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</dd>
+													<dd class="seeMore"><a href="">SEE MORE</a></dd>
+												</dl>
+											</li>
+										</ol>
+									</li>
+									<li><a href="">3</a>
+										<ol>
+											<li><span class="arrowRight"></span><span class="newsPic"><img src="img/news_pic.jpg" alt="picture"></span><span class="date">dd/mm/yyyy</span>
+												<dl>
+													<dt>TITLE</dt>
+													<dd class="artist">ARTIST</dd>
+													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</dd>
+													<dd class="seeMore"><a href="">SEE MORE</a></dd>
+												</dl>
+											</li>
+											<li><span class="arrowRight"></span><span class="newsPic"><img src="img/news_pic.jpg" alt="picture"></span><span class="date">dd/mm/yyyy</span>
+												<dl>
+													<dt>TITLE</dt>
+													<dd class="artist">ARTIST</dd>
+													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</dd>
+													<dd class="seeMore"><a href="">SEE MORE</a></dd>
+												</dl>
+											</li>
+											<li><span class="arrowRight"></span><span class="newsPic"><img src="img/news_pic.jpg" alt="picture"></span><span class="date">dd/mm/yyyy</span>
+												<dl>
+													<dt>TITLE</dt>
+													<dd class="artist">ARTIST</dd>
+													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</dd>
+													<dd class="seeMore"><a href="">SEE MORE</a></dd>
+												</dl>
+											</li>
+											<li><span class="arrowRight"></span><span class="newsPic"><img src="img/news_pic.jpg" alt="picture"></span><span class="date">dd/mm/yyyy</span>
+												<dl>
+													<dt>TITLE</dt>
+													<dd class="artist">ARTIST</dd>
+													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</dd>
+													<dd class="seeMore"><a href="">SEE MORE</a></dd>
+												</dl>
+											</li>
+											<li><span class="arrowRight"></span><span class="newsPic"><img src="img/news_pic.jpg" alt="picture"></span><span class="date">dd/mm/yyyy</span>
+												<dl>
+													<dt>TITLE</dt>
+													<dd class="artist">ARTIST</dd>
+													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</dd>
+													<dd class="seeMore"><a href="">SEE MORE</a></dd>
+												</dl>
+											</li>
+										</ol>
+									</li>
+									<li><a href="">4</a>
+										<ol>
+											<li><span class="arrowRight"></span><span class="newsPic"><img src="img/news_pic.jpg" alt="picture"></span><span class="date">dd/mm/yyyy</span>
+												<dl>
+													<dt>TITLE</dt>
+													<dd class="artist">ARTIST</dd>
+													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</dd>
+													<dd class="seeMore"><a href="">SEE MORE</a></dd>
+												</dl>
+											</li>
+											<li><span class="arrowRight"></span><span class="newsPic"><img src="img/news_pic.jpg" alt="picture"></span><span class="date">dd/mm/yyyy</span>
+												<dl>
+													<dt>TITLE</dt>
+													<dd class="artist">ARTIST</dd>
+													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</dd>
+													<dd class="seeMore"><a href="">SEE MORE</a></dd>
+												</dl>
+											</li>
+											<li><span class="arrowRight"></span><span class="newsPic"><img src="img/news_pic.jpg" alt="picture"></span><span class="date">dd/mm/yyyy</span>
+												<dl>
+													<dt>TITLE</dt>
+													<dd class="artist">ARTIST</dd>
+													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</dd>
+													<dd class="seeMore"><a href="">SEE MORE</a></dd>
+												</dl>
+											</li>
+											<li><span class="arrowRight"></span><span class="newsPic"><img src="img/news_pic.jpg" alt="picture"></span><span class="date">dd/mm/yyyy</span>
+												<dl>
+													<dt>TITLE</dt>
+													<dd class="artist">ARTIST</dd>
+													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</dd>
+													<dd class="seeMore"><a href="">SEE MORE</a></dd>
+												</dl>
+											</li>
+											<li><span class="arrowRight"></span><span class="newsPic"><img src="img/news_pic.jpg" alt="picture"></span><span class="date">dd/mm/yyyy</span>
+												<dl>
+													<dt>TITLE</dt>
+													<dd class="artist">ARTIST</dd>
+													<dd class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque.</dd>
+													<dd class="seeMore"><a href="">SEE MORE</a></dd>
+												</dl>
+											</li>
+										</ol>
+									</li>
+								</ol>
+							</article>
+						</section>
+					</div> <!-- ######## #news ends ######-->
+
+					<div class="btmSection"></div>
+					
+					<div class="aboutUsFullWidth"></div>
+				
+				<!-- #aboutUs -->
+					<div id="aboutUs">
+						<section>
+							<header><h1>ABOUT US</h1></header>
+							<article>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore.
+								<br/>
+								<br/>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore.
+								<br/>
+								<br/><span class="none">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, </span></p>
+
+								<p class="whatIsMoosic">
+									<span class="centre"><span class="heart"></span><br/>HEART</span>
+									<span class="centre"><img src="img/plusSign.svg" width="30px" alt="plus"></span>
+									<span class="centre"><span class="music"></span><br/>MUSIC</span>
+									<span class="centre"><img src="img/equalSign.svg" width="30px" alt="equals"></span>
+									<span class="centre"><span class="moosicSign"></span><br/>MOOSIC</span>
+								</p>
+							</article>
+						</section>
+					</div> <!-- ######## #aboutUs ends ######-->
+
+					
+				<!-- #signUp -->
+					<div id="signUp">
+						<section>
+							<header><h1>SIGN UP</h1></header>
+							<article>
+								<form action="" method="POST" name="signUpForm" id="signUpForm">
+									<dl>
+										<label for="firstNameField">
+										<dt class="forAb">YOUR FIRST NAME</dt></label>
+										<dd><input type="text" name="firstNameField" id="firstNameField" /></dd>
+
+										<label for="lastNameField">
+										<dt class="forAb">YOUR LAST NAME</dt></label>
+										<dd><input type="text" name="lastNameField" id="lastNameField" /></dd>
+
+										<label for="yourEmail">
+										<dt class="forAb">YOUR EMAIL ADDRESS</dt></label>
+										<dd><input type="text" name="yourEmail" id="yourEmail" /></dd>
+
+										<label for="pswdInSignUp">
+										<dt class="forAb">PASSWORD</dt></label>
+										<dd><input type="password" name="pswdInSignUp" id="pswdInSignUp" /></dd>
+
+										<label for="conPswdInSignUp">
+										<dt class="forAb">CONFIRM PASSWORD</dt></label>
+										<dd><input type="password" name="conPswdInSignUp" id="conPswdInSignUp" /></dd>
+										<dt class="robot">WE NEED TO MAKE SURE YOU ARE ONE OF US. TYPE WHAT YOU SEE.</dt>
+										<dd class="sta"><img src="img/sta12.jpg" alt="sta12" /></dd>
+										<dd class="changeImg"><a href=""><span class="arrowLeft"></span>CHANGE IMAGE</a></dd>
+										<dd class="typeDd"><input type="text" name="typeImg" id="typeImg" /></dd>
+
+										<dt class="termsCon">I HAVE READ <a href="">TERMS AND CONDITIONS</a> AND I...</dt>
+										<label for="agree">
+										<dt class="agree">AGREE</dt></label>
+										<dd class="agreeCheck"><input type="checkbox" name="agree" id="agree" /></dd>
+										<label for="disagree">
+										<dt class="disagree">DISAGREE</dt></label>
+										<dd class="disagreeCheck"><input type="checkbox" name="disagree" id="disagree" /></dd>
+
+										<dd class="submitDd"><input type="submit" name="doneInSignUp" id="doneInSignUp" value="DONE"></dd>
+										<dd class="resetDd"><input type="reset" name="resetInSignUp" id="resetInSignUp" value="CANCEL"></dd>
+									</dl>
+									
+								</form>
+							</article>
+						</section>
+					</div> <!-- ######## #signUp ends ######-->
+
+					<div class="btmSection"></div>
+				
+				<!-- #faq -->
+					<div id="faq">
+						<section>
+							<header><h1>FAQ</h1></header>
+							<article>
+								<ol>
+									<li><a href="">1</a>
+										<dl>
+											<dt><a href=""><span class="arrowRight"></span>QUESTION 1</a></dt>
+											<dd class="firstDd">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet.</dd>
+											<dt><a href=""><span class="arrowRight"></span>QUESTION 2</a></dt>
+											<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet.</dd>
+											<dt><a href=""><span class="arrowRight"></span>QUESTION 3</a></dt>
+											<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet.</dd>
+											<dt><a href=""><span class="arrowRight"></span>QUESTION 4</a></dt>
+											<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet.</dd>
+											<dt><a href=""><span class="arrowRight"></span>QUESTION 5</a></dt>
+											<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet.</dd>
+										</dl>
+										<div class="lastBorder"></div>
+									</li>
+									<li><a href="">2</a>
+										<dl>
+											<dt><a href=""><span class="arrowRight"></span>QUESTION 6</a></dt>
+											<dd class="firstDd">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet.</dd>
+											<dt><a href=""><span class="arrowRight"></span>QUESTION 7</a></dt>
+											<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet.</dd>
+											<dt><a href=""><span class="arrowRight"></span>QUESTION 8</a></dt>
+											<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet.</dd>
+											<dt><a href=""><span class="arrowRight"></span>QUESTION 9</a></dt>
+											<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet.</dd>
+											<dt><a href=""><span class="arrowRight"></span>QUESTION 10</a></dt>
+											<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet.</dd>
+										</dl>
+										<div class="lastBorder"></div>
+									</li>
+									<li><a href="">3</a>
+										<dl>
+											<dt><a href=""><span class="arrowRight"></span>QUESTION 11</a></dt>
+											<dd class="firstDd">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet.</dd>
+											<dt><a href=""><span class="arrowRight"></span>QUESTION 12</a></dt>
+											<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet.</dd>
+											<dt><a href=""><span class="arrowRight"></span>QUESTION 13</a></dt>
+											<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet.</dd>
+											<dt><a href=""><span class="arrowRight"></span>QUESTION 14</a></dt>
+											<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet.</dd>
+											<dt><a href=""><span class="arrowRight"></span>QUESTION 15</a></dt>
+											<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet.</dd>
+										</dl>
+										<div class="lastBorder"></div>
+									</li>
+									<li><a href="">4</a>
+										<dl>
+											<dt><a href=""><span class="arrowRight"></span>QUESTION 16</a></dt>
+											<dd class="firstDd">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet.</dd>
+											<dt><a href=""><span class="arrowRight"></span>QUESTION 17</a></dt>
+											<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet.</dd>
+											<dt><a href=""><span class="arrowRight"></span>QUESTION 18</a></dt>
+											<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet.</dd>
+											<dt><a href=""><span class="arrowRight"></span>QUESTION 19</a></dt>
+											<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet.</dd>
+											<dt><a href=""><span class="arrowRight"></span>QUESTION 20</a></dt>
+											<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat itaque, quo magnam dolores nihil enim ipsam doloribus quae consequatur dolorem mollitia veniam tenetur quia, deserunt, reprehenderit voluptatem laboriosam ratione dolore. Lorem ipsum dolor sit amet.
+											</dd>
+										</dl>
+										<div class="lastBorder"></div>
+									</li>
+								</ol>
+
+								<h2>HAVEN'T FOUND THE RIGHT ANSWER YET?</h2>
+								<p><a href="">MESSAGE US</a></p>
+							</article>
+						</section>
+					</div> <!-- ######## #faq ends ######-->
+
+				<!-- #contactUs -->
+					<div id="contactUs">
+						<section>
+							<header><h1>CONTACT US</h1></header>
+							<article>
+								<p>CALL US ANYTIME</p>
+								<p><a href="">000 - 0000 - 0000</a></p>
+							</article>
+						</section>
+					</div> <!-- ######## #contactUs ends ######-->
+
+					</article>
+				</div> <!-- ######## #fullWidth Div ends ######-->
+
+			</div>  <!-- ######## #content ends ######-->
+
+			<!-- #footer -->
+			<div class="footerDeco">
+				<div id="footer">
+					<footer>
+						<p>ADDRESS GOES HERE, 000-000</p>
+						<address>moosic-trig@gmail.com</address>
+						<p>copyright &copy;. ALL RIGHTS RESERVED.</p>
+					</footer>
 				</div>
-			</div>
-		<div class="footerDeco">
-		<div id="footer">
-			<footer>
-				<p>ADDRESS GOES HERE, 000-000</p>
-				<address>moosic-trig@gmail.com</address>
-				<p>copyright &copy;. ALL RIGHTS RESERVED.</p>
-			</footer>
-		</div></div>
+			</div> <!-- ######## #footer ends ######-->
+
+		</div>  <!-- ######## #wrap ends ######-->
 	</body>
 </html>
 

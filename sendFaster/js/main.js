@@ -34,7 +34,27 @@ $(document).ready(function(){
 	});
 	
 
-	
+
+	// .qna 
+	$(".qnaBg dl dt").click(function(){
+		$(this).siblings().css("color","#919191").removeClass("selected");
+		$(this).css("color","#f90d1a").next().toggleClass("selected");
+		
+		return false;
+	});
+
+	$(".pagination a").click(function(){
+
+		var linkNum = $(this).index();
+
+		$(this).addClass("current").siblings().removeClass("current");
+		
+		$(".qnaBg ul li").hide();
+		$(".qnaBg ul li").eq(linkNum).show();
+
+
+		return false;
+	});
 
 
 	

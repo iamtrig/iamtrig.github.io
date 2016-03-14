@@ -1,61 +1,27 @@
 <!DOCTYPE html>
 <html lang="eng">
 	<head>
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>Q&A / SENDFASTER</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
-	<link rel="shortcut icon" href="imgs/sendFaster_favi.png" type="image/png" />
-	<meta name="keywords" content="" />
-	<meta name="description" content="" />
-	<link rel="stylesheet" type="text/css" href="css/common.css" />
-	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
-	<link rel="stylesheet" type="text/css" href="css/main.css" />
-	<link rel="stylesheet" type="text/css" href="css/qna.css" />
-<!--	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script> -->
-	<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
-	<script>
-	//<![CDATA[
-
-		$(document).ready(function(){
-
-			$(".qnaBg dl dt").click(function(){
-				$(this).siblings().css("color","#919191").removeClass("selected");
-				$(this).css("color","#f90d1a").next().toggleClass("selected");
-				
-				return false;
-			});
-
-			$(".pagination a").click(function(){
-
-				var linkNum = $(this).index();
-
-				$(this).addClass("current").siblings().removeClass("current");
-				
-				$(".qnaBg ul li").hide();
-				$(".qnaBg ul li").eq(linkNum).show();
-
-
-				return false;
-			});
-
-		});
-
-
-	//]]>
-	</script>
-	<style>
-		
-
-
-	</style>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Q&A / SENDFASTER</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
+		<link rel="shortcut icon" href="imgs/sendFaster_favi.png" type="image/png" />
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link rel="stylesheet" type="text/css" href="css/qna.css" />
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script> 
+		<script type="text/javascript" src="js/main.js"></script>
 	</head>
 
 	<body>
-
+	
+	<!-- #wrapper -->
 		<div id="wrapper">
-
+			
+		<!-- header -->
 			<header>
 				<h1><a href="http://iamtrig.github.io/sendFaster/index.html"><img src="imgs/logo.jpg" alt="logo" />SENDFASTER</a></h1>
 				
@@ -71,14 +37,18 @@
 				</nav>
 				<h2 class="close"><a href="">Close Menu</a></h2>
 
-			</header>
+			</header> <!-- header end -->
 
+			<!-- small banner -->
 			<div class="smallerBanner">
 				<h2>WE ARE HERE WAITING<br/>TO ANSWER YOUR QUESTION</h2>
 			</div>
-
+			
+		<!-- #content -->
 			<div id="content">
+			<!-- .withoutSide -->
 				<article class="withoutSide">
+					<!-- #qnaForm -->
 					<form action="" method="" name="qnaForm" id="qnaForm">
 						<fieldset>
 							<legend class="hidden">Search what you wonder</legend>
@@ -94,8 +64,9 @@
 							<input type="text" id="qnaTextField" name="qnaTextField" value="ex) Shipping..." />
 							<input type="submit" value="SEARCH" />
 						</fieldset>
-					</form>
-
+					</form><!-- #qnaForm end -->
+					
+				<!-- .qnaBg -->
 					<div class="qnaBg">
 						<ul>
 							<li class="selected">
@@ -169,6 +140,7 @@
 								</dl>
 							</li>
 						</ul>
+
 						<p class="pagination">
 							<a href="" class="current">1</a>
 							<a href="">2</a>
@@ -176,8 +148,13 @@
 							<a href="">4</a>
 							<a href="">5</a>
 						</p>
-					</div>
+
+					</div><!-- .qnaBg end -->
+
+				<!-- 24 hour customer service -->
 					<h3>24-HOUR CUSTOMER SERVICE</h3>
+
+				<!-- .customer24 -->
 					<div class="customer24">
 						<form action="" method="" name="customer24" id="customer24">
 							<fieldset>
@@ -197,10 +174,13 @@
 								<textarea name="customerTextarea" id="customerTextarea" cols="30" rows="10"></textarea>
 							</fieldset>
 						</form>
-					</div>
-				</article>
-			</div>
+					</div><!-- .customer24 end -->
 
+				</article><!-- .withoutSide end -->
+
+			</div> <!-- #content end -->
+			
+		<!-- footer -->
 			<footer>
 				<h1><img src="imgs/logo_footer.jpg" alt="logo">SENDFASTER</h1>
 				<p class="social">
@@ -208,11 +188,11 @@
 					<a href="#"><img src="imgs/facebook.png" alt="facebook"></a>
 					<a href="#"><img src="imgs/instagram.png" alt="instagram"></a>
 				</p>
-			</footer>
+			</footer><!-- footer end -->
 
-		</div>
+		</div> <!-- #wrapper end -->
 
 		
 	</body>
 
-	</html>
+</html>
