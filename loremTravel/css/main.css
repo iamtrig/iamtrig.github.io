@@ -121,7 +121,7 @@ h3 { font-size: 2em; text-align: center; }
 #section3 dl dt a { font-size: 1.5em; color: #fff }
 
 
-#section4 { clear: both; width: 80%; height: 500px; padding: 0 10%; }
+#section4 { clear: both; width: 80%; height: 500px; max-width: 850px; margin: 0 auto; padding: 0 10%; }
 #section4 h3 { padding-bottom: 40px }
 #section4 dl { width: 100%; }
 #section4 dl dt { color: #9A9A9A }
