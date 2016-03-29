@@ -29,7 +29,7 @@ box-shadow: 0px 25px 23px -15px rgba(135,135,135,0.19);
 
 #search dd, #search dt {opacity: 1;  display: inline-block; }
 #search dd:hover, #search dt:hover { opacity: 1; transition: 0.3s; }
-#search dt input { width: 120px; padding: 7px 7px; color: #646464 }
+#search dt input { width: 100px; margin-top: -2px; padding: 7px 7px; color: #646464}
 #search dd input { width: 25px; margin-top: 2px; background: url('../imgs/searchBtn.svg') no-repeat; cursor: pointer; text-indent: -999999px }
 
 
@@ -140,7 +140,7 @@ nav.arial a.activeNav, nav.arial a:hover { transition: 0.5s; font-style: italic;
 @media only screen and (max-width: 480px) {
 	#wrapper .newsList > li > a { font-size: 0.8em }
 	.forPadding { padding: 70px 2% 0 2%; }
-	#wrapper #header form#search { top: 18px }
+	#wrapper #header form#search { top: 20px }
 	#header h2 { top: 7px }
 	#header h1 { top: 23px }
 	#header #search { right: 2% }
