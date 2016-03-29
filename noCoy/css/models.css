@@ -1,0 +1,26 @@
+#search { text-align: right }
+
+.modelsList { margin-top: 10px; width: 100%; }
+.modelsList ul { width: 100%; text-align: center }
+.modelsList ul > li { display: inline-block; width: 33%; margin-bottom: 20px; }
+
+.modelsList > li > a { position: absolute; top: 30px; font-weight: bold }
+li.female > a { margin-left: 60px }
+.modelsList > li > a:hover { color:#FF0053; font-style: italic  }
+
+.modelsList li dl { opacity: 0.9 }
+.modelsList li dl:hover { transition: 0.3s;opacity: 1 }
+
+.modelsList dt { background-size: cover; width: 100%;  }
+.modelsList dt img { width: 100%; background-size: cover }
+.modelsList .name { font-weight: bold; margin: 10px 0 5px }
+.modelsList .detail { font-size: 0.8em; color: #AFAFAF }
+
+.modelsList .seeMore { width: 100%; margin-bottom: 0 }
+.modelsList .seeMore > a { opacity: 0.5; display: block; margin: 10px 0; }
+.seeMore .navDeco { margin: auto; width: 30px; margin-bottom: 10px;background-color: #FF0053; }
+.modelsList .seeMore > a:hover { opacity: 1;}
+.modelsList .seeMore ul, .modelsList > li.female ul { display: none }
+
+
+

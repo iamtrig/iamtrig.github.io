@@ -1,0 +1,19 @@
+.subPageDiv { background: #fff url('../imgs/aboutContentBg.jpg') no-repeat; background-size: cover }
+.groupping { padding: 50px 10% 50px; text-align: center }
+
+#about h1 { font-size: 2em; color: #373737  }
+#about h2 { font-size: 1.1em; margin: 15px 0 30px; font-weight: normal; color: #373737  }
+.description { color: #666; line-height: 20px; text-align: left; font-size: 0.8em}
+.break { margin: 15px 0; }
+.ceo { display: block; margin: 20px 0; text-align: center }
+
+#about ul.partnerAward { width: 90%; margin-top: 40px; padding: 30px 5%; background-color: #fff }
+#about ul.partnerAward > li { display: inline-block; width: 39%; font-size: 0.9em }
+#about ul.partnerAward > li:first-child { width: 60% }
+#about li h3 { font-weight: bold; margin-bottom: 20px }
+#about ul ul li { display: inline-block; width: 30%; margin-bottom: 10px }
+#about ul ul li a { color: #AFAFAF;  }
+#about ul ul li a:hover { color: #666;  }
+
+/*#footer { position: relative; right: auto; bottom: auto; margin: 70px 0; text-align: right; color: #AFAFAF; }
+#footer address { font-style: italic }*/

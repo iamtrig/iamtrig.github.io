@@ -1,0 +1,8 @@
+.subPadding { text-align: center; padding: 0 0 50px 0 }
+
+.subPadding .map { margin: 5% 0 2%; }
+.subPadding .map img { width: 82% }
+.subPadding dd dl dt, .subPadding dd dl dd { display: inline-block; font-size: 0.9em; margin-bottom: 5px; }
+.subPadding dl dd p { font-size: 1.3em; margin-bottom: 20px }
+.subPadding dl { opacity: 0.7 }
+.address { font-weight: bold }

@@ -1,0 +1,19 @@
+.newsList { margin-top: 40px; width: 100% }
+.newsList ul { width: 100%; text-align: center }
+.newsList ul > li { display: inline-block; width: 33%; margin-bottom: 20px; }
+
+.newsList > li > a { position: absolute; top: 30px; font-weight: bold }
+
+
+.date { font-size: 0.8em; color: #AFAFAF; margin: 10px 0 5px }
+.title { font-weight: bold; }
+
+.newsList > li > a:hover { color:#FF0053; font-style: italic  }
+
+.newsList li dl { opacity: 0.9 }
+.newsList li dl:hover { transition: 0.3s; opacity: 1 }
+.newsList dt {  width: 100%; }
+.newsList dt img { width: 100%; background-size: cover }
+
+.newsList > li ul { display: none }
+.newsList > li:first-child ul { display: block }

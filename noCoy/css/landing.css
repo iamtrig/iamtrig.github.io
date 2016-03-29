@@ -1,0 +1,149 @@
+#wrapper { background: url('../imgs/mainBgImg.jpg') no-repeat 55% 15%; color: #fff; background-size: 2700px; }
+/*.gradi { width: 100%; height: 100%; background: url('../imgs/graid.png') no-repeat; background-size: cover; }
+*/
+
+html, body { /*min-height: 800px;*/ /*max-width: 2200px */}
+
+#header h1 { position: absolute; }
+nav.arial { z-index: 1000; top: 20%; position: absolute; font-family: arial; font-size: 4.7em; line-height: 1.2em; font-weight: bold }
+nav.arial a { display: block; color: #000; }
+nav.arial a.activeNav, nav.arial a:hover { transition: 0.5s; font-style: italic; color: #FF0053 }
+.navDeco { display: block; width: 90px; margin-top: 40px; height: 4px; background-color: #000 }
+.redDeco { background-color: #FF0053; margin-bottom: 30px }
+
+#header nav.arial .activeNav { transition: 0.5s; font-style: italic; color: #FF0053 }
+
+
+#search { position: absolute; top: 80px; right: 5% }
+#search dd:hover, #search dt:hover { opacity: 0.7; }
+#search dt input { color: #646464 }
+#search dd, #search dt {opacity: 0.5; }
+
+.forAb { z-index: 100; position: absolute; top: 24%; width: 65%; left: 28%; text-align: center }
+
+.aboutBanner .testi { opacity: 0.4; width: 100%; font-size: 1.2em; letter-spacing: 0.1em }
+.aboutBanner .testi dd { margin-top: 5px; font-size: 0.7em; }
+.aboutBanner .testi li { display: inline-block; width: 45%; }
+
+.aboutBanner .groupping h3 { font-family: arial; font-size: 3em; margin: 100px 0 20px; }
+.aboutBanner .groupping p { font-size: 1.7em; }
+.aboutBanner .groupping .ceo { font-size: 1em; margin: 10px 0 100px }
+.aboutBanner .btns a { margin-left: 20% }
+.aboutBanner .btns a:first-child { margin-left: 0 }
+
+.modelsBanner { margin-top: 40px }
+.modelsBanner > ul { width: 90%; padding-left: 4%}
+.modelsBanner > ul > li { display: inline-block; width: 49%; }
+.modelsBanner li ol li { margin-top: 25px } 
+.modelsBanner .navDeco { width: 50px; opacity: 0.5; background-color: #FF0053; margin-top: 30px; margin-left: auto; margin-right: auto; }
+.modelsBanner dt { font-size: 1.4em }
+.modelsBanner dd.btns { margin-top: 50px; }
+
+.newsBanner { margin-top: 40px }
+.newsBanner > ul { width: 90%; padding-left: 4% } 
+.newsBanner ul li { display: inline-block; width: 49%; margin-bottom: 90px }
+.newsBanner li dl dt { margin-bottom: 20px; }
+.newsBanner li dl dt .date { display: block; margin-bottom: 5px; font-size: 0.7em}
+
+.contactBanner .map { margin: 5% 0 2%; }
+.contactBanner dd dl dt, .contactBanner dd dl dd { display: inline-block; font-size: 0.9em; margin-bottom: 5px; }
+.contactBanner dl dd p { font-size: 1.3em; margin-bottom: 20px }
+.contactBanner dl { opacity: 0.7 }
+
+#banner .pagination { z-index: 100; position: absolute; top: 37%; right: 5% }
+#banner .pagination a { opacity: 0.5; display: block; width: 15px; height: 15px; margin-bottom: 30px; background-color: #000; font-size: 0px; /*text-indent: -99999px; */border-radius: 50% }
+#banner .pagination a:hover, #wrapper #banner .activeRed { opacity: 0.8; background-color: #FF0053  }
+
+#wrapper #footer { position: absolute; right: 5%; bottom: 50px; font-style: italic; font-size: 0.8em; margin: 0; }
+#footer .social, #footer address { display: inline-block; }
+#footer .social a, #footer address { opacity: 0.5; padding-left: 10px; color: #fff; }
+#footer .social a:hover { opacity: 0.9; transition: 0.3s; }
+
+#footer { line-height: 20px }
+#footer .social a { display: inline-block; width: 15px; height: 15px; background: url('../imgs/footerFace.svg') no-repeat; margin-left: 20px; text-indent: -999999px; font-size: 0; }
+#footer .social a.insta { background-image: url('../imgs/footerInsta.svg'); }
+#footer .social a.twitter { background-image: url('../imgs/footerTwitter.svg'); }
+
+
+@media only screen and (min-width: 1230px) {
+	html, body { min-height: 800px; }
+}
+
+@media only screen and (max-width: 1230px) {
+	#wrapper nav.arial { background-color: #000; height: 100% }
+	nav.arial a { color: #292929; }
+	.navDeco { background-color: #292929; }
+	.redDeco { background-color: #FF0053; }
+	#footer { text-align: center; width: 95% }
+	#footer address { display: block; margin-top: 5px }
+}
+
+@media only screen and (max-width: 860px) {
+	#wrapper { background-position: ; background-size: 2200px }
+	/*#wrapper #banner .forAb { position: relative; margin-top: 50px }*/
+	/*#wrapper #banner .forAb > div { display: block !important; margin: 50px 0 20px; font-size: 90% }
+	#wrapper #banner .forAb > div h1 { display: block !important; font-size: 2em; color: #fff; text-align: center; width: 100%; margin-bottom: 50px; opacity: 0.5 }*/
+	/*.aboutBanner .groupping h3 { margin: 40px 0 20px }
+	.aboutBanner .groupping .ceo { margin: 10px 40px }
+	#banner .newsBanner ul li { margin-bottom: 50px }
+	#banner .contactBanner .map img { width: 79%; }*/
+	#banner .btns a { width: 200px  }
+	#wrapper .pagination { display: none; }
+/*	#wrapper #footer { position: relative; right: 0; bottom: 0; margin: 60px  0 30px 0}*/
+
+}
+
+@media only screen and (max-width: 800px) {
+	html, body { min-height: 760px }
+	body #wrapper { background-position: ; background-size: 1900px; background-position: 63% 13% }
+	.aboutBanner { margin-top: -5% }
+	.aboutBanner .testi { font-size: 1em }
+	.aboutBanner .groupping h3 { margin: 13% 0 2% }
+	.aboutBanner .groupping .ceo { margin: 2% 0 13% }
+	.aboutBanner .btns a { margin-left: 10% }
+	nav.arial { font-size: 3.5em }
+	/*	#wrapper #footer { position: relative; right: 0; bottom: 0; margin: 60px  0 30px 0}*/
+}
+
+@media only screen and (max-width: 660px) {
+	body #wrapper { background-position: 61% 13% }
+	html, body { min-height: 660px }
+	.aboutBanner .groupping h3 { font-size: 2.2em }
+	#banner .groupping { font-size: 90% }
+	.aboutBanner .testi li { width: 100%; }
+	.aboutBanner .testi li:first-child  { margin-bottom: 20px }
+	.aboutBanner .groupping .ceo { margin: 2% 0 11% }
+	.aboutBanner .btns a { width: 155px; }
+/*	.aboutBanner .btns a { display: block; margin: auto; margin-left: 0 }*/
+
+}
+
+@media only screen and (max-width: 530px) {
+	html, body { min-height: 600px }
+	.aboutBanner { margin-top: -12% }
+	#banner .btns a { width: 63%; margin: auto; display: block; margin-bottom: 20px; }
+	body #wrapper {  background-size: 1600px; background-position: 61% 14% }
+	
+}
+
+@media only screen and (max-width: 480px) {
+
+	nav.arial { padding-top: 60px; font-size: 2.5em;  }
+}
+
+
+@media only screen and (max-width: 430px) {
+	html, body { min-height: 610px }
+	.aboutBanner .groupping h3 { font-size: 1.9em }
+	.aboutBanner .groupping p { font-size: 1.3em }
+	.aboutBanner .testi { font-size: 0.9em }
+	#footer .social a, #footer address { opacity: 0.7 }
+
+}
+
+@media only screen and (max-width: 370px) {
+
+	.aboutBanner .groupping h3 { font-size: 1.6em }
+
+
+}
