@@ -227,6 +227,7 @@
 	#work ol li.rosie { background-image: url('../imgs/rosie_img_on.jpg'); }
 	#work ol li.moosic { background-image: url('../imgs/moosic_img_on.jpg'); }
 	#work ol li.sendFaster { background-image: url('../imgs/sendFaster_img_on.jpg'); }
+	#work ol li.noCoy { background-image: url('../imgs/noCoy_img_on.jpg'); }
 }
 
 @media only screen and (max-width: 700px) {
@@ -318,6 +319,7 @@
 	#work ol li.rosie { background-image: url('../imgs/rosie_img_on.jpg'); }
 	#work ol li.moosic { background-image: url('../imgs/moosic_img_on.jpg'); }
 	#work ol li.sendFaster { background-image: url('../imgs/sendFaster_img_on.jpg'); }
+	#work ol li.noCoy { background-image: url('../imgs/noCoy_img_on.jpg'); }
 
 }
 
