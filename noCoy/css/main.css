@@ -140,8 +140,13 @@ nav.arial a.activeNav, nav.arial a:hover { transition: 0.5s; font-style: italic;
 @media only screen and (max-width: 480px) {
 	#wrapper .newsList > li > a { font-size: 0.8em }
 	.forPadding { padding: 70px 2% 0 2%; }
+	#wrapper #header form#search { top: 18px }
+	#header h2 { top: 7px }
+	#header h1 { top: 23px }
 	#header #search { right: 2% }
-	#header .social { right: 2% }
+	#header .social { right: 2%; top: 11px }
+	.subPageDiv { margin-top: 0 }
+	#wrapper #footer { bottom: 40px }
 	#wrapper .modelsList .detail { font-size: 0.5em }
 	#header .social a { margin-left: 10px }
 	nav.arial { padding-top: 60px; font-size: 2.5em }
