@@ -55,6 +55,7 @@
 		#work ol li.moosic { background: url('../imgs/moosic_img.jpg') no-repeat 50% 15%; background-size: 110%  }
 		#work ol li.sendFaster { background: url('../imgs/sendFaster_img.jpg') no-repeat 50% 20%; background-size: 110%  }
 		#work ol li.noCoy { background: url('../imgs/noCoy_img.jpg') no-repeat 50% 20%; background-size: 110%  }
+		#work ol li.uCompany { background: url('../imgs/uCompany_img.jpg') no-repeat 50% 20%; background-size: 110%  }
 
 
 		#work ol li.forecast:hover { background-image: url('../imgs/forecast_img_on.jpg');  }
@@ -63,6 +64,7 @@
 		#work ol li.moosic:hover { background-image: url('../imgs/moosic_img_on.jpg'); }
 		#work ol li.sendFaster:hover { background-image: url('../imgs/sendFaster_img_on.jpg'); }
 		#work ol li.noCoy:hover { background-image: url('../imgs/noCoy_img_on.jpg'); }
+		#work ol li.uCompany:hover { background-image: url('../imgs/uCompany_img_on.jpg'); }
 
 		#work ol li dl { position: relative; width: 66%; height: 60px; padding: 25px 3%; margin: 45px 0 0 15%; background-color: #fff; }
 		
@@ -228,6 +230,7 @@
 	#work ol li.moosic { background-image: url('../imgs/moosic_img_on.jpg'); }
 	#work ol li.sendFaster { background-image: url('../imgs/sendFaster_img_on.jpg'); }
 	#work ol li.noCoy { background-image: url('../imgs/noCoy_img_on.jpg'); }
+	#work ol li.uCompany { background-image: url('../imgs/uCompany_img_on.jpg'); }
 }
 
 @media only screen and (max-width: 700px) {
@@ -320,6 +323,7 @@
 	#work ol li.moosic { background-image: url('../imgs/moosic_img_on.jpg'); }
 	#work ol li.sendFaster { background-image: url('../imgs/sendFaster_img_on.jpg'); }
 	#work ol li.noCoy { background-image: url('../imgs/noCoy_img_on.jpg'); }
+	#work ol li.uCompany { background-image: url('../imgs/uCompany_img_on.jpg'); }
 
 }
 
