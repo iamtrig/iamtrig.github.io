@@ -241,6 +241,7 @@ $(document).ready(function(){
 	});
 
 	$("#qna > ol ol > li > a").click(function(){
+		$(this).parent().siblings().removeClass("selected");
 		$(this).next().toggleClass("showHide");
 		return false;
 	});
