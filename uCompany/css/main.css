@@ -414,8 +414,8 @@ p { color: #8F8F90 }
 	#about article .rightSide { width: 100%;  }
 	#wrapper .aboutImgs { height: 130px }
 
-	#search dd { width: 35% }
-	#search dt { width: 65% }
+	#wrapper #search dd { width: 35% }
+	#wrapper #search dt { width: 65% }
 
 	#service .btns a { margin-left: 4% }
 	.btnDeco { width: 150px }
