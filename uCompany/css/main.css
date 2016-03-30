@@ -312,7 +312,7 @@ p { color: #8F8F90 }
 }
 
 @media only screen and (max-width: 700px) {
-	#wrapper > section { font-size: 0.8em !important; }
+	
 	#header, #header .scrollCss { background-color: #505570; width: 100%; right: 0; padding-left: 0; height: 55px; padding-right: 0; z-index: 1000; position: fixed; box-shadow: rgba(135, 135, 135, 0.188235) 0px 25px 23px -15px; }
 	#header h1, #header .scrollCssH1 { top: 14px }
 	#header h1 img, #footer h1 img { width: 90px }
@@ -347,6 +347,8 @@ p { color: #8F8F90 }
 	.social { margin-top: 6px }
 	.detailed dd li { line-height: 18px }
 	#wrapper #contact { padding-bottom: 65px }
+	
+	#wrapper > section { font-size: 0.8em !important; }
 }
 
 @media only screen and (max-width: 660px) {
