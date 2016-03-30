@@ -350,7 +350,7 @@ p { color: #8F8F90 }
 
 	#wrapper > section { font-size: 0.8em !important; }
 	#wrapper #about .rightSide p { font-size: 13px !important; }
-	.detailed dd { font-size: 13px !important }
+	#wrapper #service .detailed dd { font-size: 13px !important; }
 }
 
 @media only screen and (max-width: 660px) {
