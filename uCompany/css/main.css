@@ -283,14 +283,7 @@ p { color: #8F8F90 }
 	.btnDeco { width: 180px; height: 45px; line-height: 45px }
 
 	#contact .map { width: 100%; margin-right: 0; padding: 0 0; margin-bottom: 20px }
-	/*#contact .rightSide { font-size: 1em }*/
-	/*.detailed dd { font-size: 0.9em }*/
 
-	/*.stepByImgs li { width: 80px; height: 80px; margin: 30px 8% }
-	.stepByImgs li img { width: 50px; margin-top: 16px; }
-	.stepByImgs .arrowRight { left: 115px; }
-	.stepByImgs .arrowUpLeft { top: -48px }
-	.stepByImgs .arrowDownLeft { top: 99px }*/
 }
 
 @media only screen and (max-width: 800px) {
@@ -372,10 +365,6 @@ p { color: #8F8F90 }
 }
 
 @media only screen and (max-width: 600px) {
-	/* service svg size */
-	/*#header { height: 50px }
-	#header h1 { top: 11px }
-	#wrapper #header h2, #wrapper #header nav h3 { top: 14px }*/
 
 	#wrapper .stepByImgs li { width: 60px; height: 60px; border: 3px solid #505570 }
 	#wrapper .stepByImgs li img { margin-top: 10px; width: 40px }
