@@ -353,6 +353,11 @@ p { color: #8F8F90 }
 	#wrapper #service .detailed dd { font-size: 13px !important; }
 }
 
+@media only screen and (max-width: 700px) and (max-height: 375) {
+	#wrapper #about .rightSide p { font-size: 13px !important; }
+	#wrapper #service .detailed dd { font-size: 13px !important; }
+
+}
 @media only screen and (max-width: 660px) {
 	#banner { height: 450px; transition: 0.3s; }
 	#banner li .link { padding-top: 180px }
