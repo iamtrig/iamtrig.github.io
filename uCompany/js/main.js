@@ -231,4 +231,18 @@ $(document).ready(function(){
 	});
 
 
+	// Q&A 버튼
+
+	$("#qna .pagination a").click(function(){
+		var qnaIndex = $(this).index();
+		$("#qna > ol > li").siblings().hide();
+		$("#qna > ol > li").eq(qnaIndex).show();
+		return false;
+	});
+
+	$("#qna > ol ol > li > a").click(function(){
+		$(this).next().toggleClass("showHide");
+		return false;
+	});
+
 });
