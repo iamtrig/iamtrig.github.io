@@ -388,20 +388,11 @@ p { color: #8F8F90 }
 	.stepByImgs .arrowLeft { width: 45px; right: 96px; top: 24px }
 
 	#wrapper .stepByImgs dd { width: 410px }
-/*	#wrapper .stepByImgs li { width: 80px; height: 80px; margin: 27px 8% }
-	#wrapper .stepByImgs li img { margin-top: 15px; width: 48px }
-	#wrapper .stepByImgs .fifthStep { margin-left: 137px }
-	#wrapper .stepByImgs .fourthStep { margin-right: 130px }
-	.stepByImgs .arrowLeft { right: 85px }
-	.stepByImgs .arrowRight { left: 100px; }
-	.stepByImgs .arrowUpLeft { top: -48px; right: 75px }
-	.stepByImgs .arrowDownLeft { right: 58px; top: 91px }*/
+
 	
 	#banner .pagination a { width: 10px; height: 10px; }
 
 	#wrapper #about article { padding-bottom: 0 }
-
-	#banner .pagination a
 
 }
 
@@ -447,9 +438,8 @@ p { color: #8F8F90 }
 	.lastWords { background-position: 21% 0; text-align: center }
 	.lastWords h2 { font-size: 1.8em }
 	#wrapper > section.lastWords { padding: 31px 0 4px }
-	/*#contact .map { overflow: hidden }
-	#contact .map img { width: 120% }
-*/}
+	
+}
 
 
 
@@ -527,7 +517,7 @@ p { color: #8F8F90 }
 	#wrapper .arrowRight { width: 46%;  }
 	.stepByImgs .arrowUpLeft { width: 26%;  }
 	.stepByImgs .arrowDownLeft { width: 26%; top: 115%; right: 72% }	
-	/*#wrapper .stepByImgs li { margin: 25px 4% }*/
+
 	#wrapper .stepByImgs li { width: 50px; height: 50px;  }
 	#wrapper .stepByImgs li img { width: 35px; margin-top: 7px }
 }
