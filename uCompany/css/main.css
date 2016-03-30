@@ -104,7 +104,7 @@ p { color: #8F8F90 }
 	.detailed > li { display: inline-block; width: 30%; float: right;  }
 	.detailed > li:first-child { width: 65%; float: none; padding-right: 1%; border-right: 1px solid #e3e3e3 }
 	.detailed dt { margin-bottom: 20px; }
-	.detailed dd { color: #8F8F90; /*font-size: 0.8em*/ }
+	.detailed dd { color: #8F8F90; }
 	.detailed dd li { margin-bottom: 10px; }
 	.detailed dd.actionDescript { line-height: 23px; }
 
@@ -347,8 +347,9 @@ p { color: #8F8F90 }
 	.social { margin-top: 6px }
 	.detailed dd li { line-height: 18px }
 	#wrapper #contact { padding-bottom: 65px }
-	
+
 	#wrapper > section { font-size: 0.8em !important; }
+	#wrapper #about .rightSide p { font-size: 1em !important; }
 }
 
 @media only screen and (max-width: 660px) {
@@ -436,7 +437,7 @@ p { color: #8F8F90 }
 
 
 @media only screen and (max-width: 460px) {
-	/* service svg size */
+	
 	#about > ul > li { width: 100%; display: block; margin-bottom: 15px; float: none }
 	#about > ul > li h2 { margin: 10px 0 10px }
 	#wrapper .aboutImgs { background-repeat: no-repeat; border-radius: 0 }
