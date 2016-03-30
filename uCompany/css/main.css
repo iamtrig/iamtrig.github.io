@@ -414,8 +414,8 @@ p { color: #8F8F90 }
 	#about article .rightSide { width: 100%;  }
 	#wrapper .aboutImgs { height: 130px }
 
-	#search dd { width: 30% }
-	#search dt { width: 70% }
+	#search dd { width: 35% }
+	#search dt { width: 65% }
 
 	#service .btns a { margin-left: 4% }
 	.btnDeco { width: 150px }
@@ -469,6 +469,8 @@ p { color: #8F8F90 }
 	#contact .rightSide { font-size: 0.9em }
 	#contact .rightSide > dl { margin-bottom: 10px }
 	#wrapper .lastWords .width1000 { font-size: 0.9em }
+
+	#banner .pagination { bottom: 20px }
 }
 
 @media only screen and (max-width: 410px) {
@@ -477,6 +479,13 @@ p { color: #8F8F90 }
 	#msg .btns input { margin-left: 5px }
 
 	.stepByImgs .arrowLeft { right: 130% }
+
+	#service .btns a {  width: 70%; margin-left: 0 }
+	#service .btns a:first-child { margin-bottom: 15px }
+	#msg dt input { width: 90%; padding: 15px 5% }
+	#msg .msgEmail input { width: 90%; padding: 15px 5% }
+	#msg .btns input:first-child { margin-bottom: 15px }
+	#msg .btns input { width: 70% }
 }
 
 @media only screen and (max-width: 400px) {
@@ -486,12 +495,7 @@ p { color: #8F8F90 }
 
 @media only screen and (max-width: 370px) {
 	.stepByImgs .arrowLeft { right: 117% }
-	#service .btns a {  width: 70%; margin-left: 0 }
-	#service .btns a:first-child { margin-bottom: 15px }
-	#msg dt input { width: 90%; padding: 15px 5% }
-	#msg .msgEmail input { width: 90%; padding: 15px 5% }
-	#msg .btns input:first-child { margin-bottom: 15px }
-	#msg .btns input { width: 70% }
+	
 }
 
 @media only screen and (max-width: 360px) {
