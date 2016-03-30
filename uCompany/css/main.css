@@ -104,7 +104,7 @@ p { color: #8F8F90 }
 	.detailed > li { display: inline-block; width: 30%; float: right;  }
 	.detailed > li:first-child { width: 65%; float: none; padding-right: 1%; border-right: 1px solid #e3e3e3 }
 	.detailed dt { margin-bottom: 20px; }
-	.detailed dd { color: #8F8F90; font-size: 0.8em }
+	.detailed dd { color: #8F8F90; /*font-size: 0.8em*/ }
 	.detailed dd li { margin-bottom: 10px; }
 	.detailed dd.actionDescript { line-height: 23px; }
 
@@ -118,7 +118,7 @@ p { color: #8F8F90 }
 	#wrapper #project { padding-bottom: 0 }
 	.whiteBg { width: 90%; padding: 40px 4.5% 40px 5.5%; background-color: #fff }
 	.width1000 .pagination { text-align: center; margin-bottom: 30px; }
-	.width1000 .pagination a { font-size: 0.8em; margin-left: 15px; padding-bottom: 7px; border-bottom: 2px solid #fff; color: #505570 }
+	.width1000 .pagination a { font-size: 0.9em; margin-left: 15px; padding-bottom: 7px; border-bottom: 2px solid #fff; color: #505570 }
 	.width1000 .pagination a:first-child { margin-left: 0 }
 	.width1000 .pagination a:hover, .width1000 .pagination a.selected { color: #FF6113;  border-bottom: 2px solid #FF6113; }
 
@@ -213,7 +213,7 @@ p { color: #8F8F90 }
 
 	#contact .map { float: left; display: inline-block; width: 61%; margin-right: 2% }
 	#contact .map img { width: 100% }
-	#contact .rightSide { display: inline-block;  font-size: 0.9em}
+	#contact .rightSide { display: inline-block;  /*font-size: 0.9em*/}
 	#contact .rightSide dt { margin-bottom: 10px; color: #8F8F90  }
 	#contact .rightSide dd { margin-bottom: 20px; }
 
@@ -257,7 +257,7 @@ p { color: #8F8F90 }
 	.scrollDown { bottom: 60px }
 
 	.orangeDeco { margin: 20px auto }
-	#wrapper > section { padding: 60px 0 50px 0; font-size: 0.8em }
+	#wrapper > section { padding: 60px 0 50px 0; font-size: 0.9em }
 	#wrapper .aboutImgs { height: 200px }
 	#about article { padding: 40px 0 30px 0 }
 	#about .ceoPic { width: 26%; height: 180px }
@@ -283,7 +283,7 @@ p { color: #8F8F90 }
 	.btnDeco { width: 180px; height: 45px; line-height: 45px }
 
 	#contact .map { width: 100%; margin-right: 0; padding: 0 0; margin-bottom: 20px }
-	#contact .rightSide { font-size: 1em }
+	/*#contact .rightSide { font-size: 1em }*/
 	/*.detailed dd { font-size: 0.9em }*/
 
 	/*.stepByImgs li { width: 80px; height: 80px; margin: 30px 8% }
@@ -319,6 +319,7 @@ p { color: #8F8F90 }
 }
 
 @media only screen and (max-width: 700px) {
+	#wrapper > section { font-size: 0.8em }
 	#header, #header .scrollCss { background-color: #505570; width: 100%; right: 0; padding-left: 0; height: 55px; padding-right: 0; z-index: 1000; position: fixed; box-shadow: rgba(135, 135, 135, 0.188235) 0px 25px 23px -15px; }
 	#header h1, #header .scrollCssH1 { top: 14px }
 	#header h1 img, #footer h1 img { width: 90px }
