@@ -232,7 +232,7 @@ p { color: #8F8F90 }
 /* media query */
 
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1100px) {
 
 	#header h1 { left: 5% }
 	#header nav { right: 5% }
