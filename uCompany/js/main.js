@@ -182,6 +182,8 @@ $(document).ready(function(){
 		lastScrollPosition = 0;
 		currentScrollPosition = $(window).scrollTop();
 
+		getHeaderHeight = getHeaderHeight-10;
+
 		if ( w >= 701 ) {
 			
 			if(currentScrollPosition > getHeaderHeight) {
