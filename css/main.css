@@ -1,5 +1,6 @@
 		#wrap { background-color: #E8E8E8 }
 		h4, h3 { font-size: 2.7em; letter-spacing: 0.25em }
+		#header .bgColour { background-color: #4b4b4b; color: #fff }
 
 	/* header */
 		#header { position: fixed; width: 220px; height: 100%; background-color: #F1F1F1; -webkit-box-shadow: 21px 0px 30px -10px rgba(222,222,222,1); -moz-box-shadow: 21px 0px 30px -10px rgba(222,222,222,1); box-shadow: 21px 0px 30px -10px rgba(222,222,222,1); }

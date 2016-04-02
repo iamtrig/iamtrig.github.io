@@ -3,26 +3,28 @@ $(document).ready(function(){
 	var wdHeight = $(window).height();
 	$("#work ol li").css("opacity","0.6");
 	
-	
-		$(".mainNav h3").hide();
-		$("#header h2 a").click(function(){
-			$(this).hide();
-			$(".mainNav h3").show();
-			$("#header ul.navUl").slideDown(500);
-			$(".sns").fadeIn(500);
-			$(".chooseLang").fadeIn(500);
-			return false;
-		});
+	// nav clickEvent on mobile devices
 
-		$(".mainNav h3").click(function(){
-			$("#header ul.navUl").slideUp(500);
-			$(".sns").hide();
-			$(".chooseLang").hide();
-			$(this).hide();
-			$("#header h2 a").show();
 
-			return false;
-		});
+	$(".mainNav h3").hide();
+	$("#header h2 a").click(function(){
+		$(this).hide();
+		$(".mainNav h3").show();
+		$("#header ul.navUl").slideDown(500);
+		$(".sns").fadeIn(500);
+		$(".chooseLang").fadeIn(500);
+		return false;
+	});
+
+	$(".mainNav h3").click(function(){
+		$("#header ul.navUl").slideUp(500);
+		$(".sns").hide();
+		$(".chooseLang").hide();
+		$(this).hide();
+		$("#header h2 a").show();
+
+		return false;
+	});
 
 
 	$('.mainNav li > a').bind('mouseenter mouseleave click', function(event){
@@ -117,12 +119,15 @@ $(document).ready(function(){
 
 	// });
 
+
+	// scrolling effect
+
 	var aHeight = $("#aboutMe").height();
-		var workHeight = $("#work").height();	
-		var sHeight = $("#spareTime").height();
-		var cHeight = $("#contact").height();
-		var asideHeight = $("#aside").height();
-		var wHeight = $(window).scrollTop();
+	var workHeight = $("#work").height();	
+	var sHeight = $("#spareTime").height();
+	var cHeight = $("#contact").height();
+	var asideHeight = $("#aside").height();
+	var wHeight = $(window).scrollTop();
 
 	if ( $(window).width() >= 1000  ) {
 		$(window).scroll(function(){
@@ -184,7 +189,23 @@ $(document).ready(function(){
 	}
 
 
+	function smoothScroll (duration) {
+		$('a[href^="#"]').on('click', function(event) {
 
+		    var target = $( $(this).attr('href') );
+		    $(this).addClass("bgColour");
+		    $(target.length)
+
+		    if( target.length ) {
+		        event.preventDefault();
+		        $('html, body').animate({
+		            scrollTop: target.offset().top
+		        }, duration);
+		    }
+		});
+	}
+
+	smoothScroll();
 
 
 
