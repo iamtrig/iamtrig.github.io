@@ -24,6 +24,23 @@ $(document).ready(function(){
 		return false;
 	});
 
+
+	function smoothScroll (duration) {
+		$('a[href^="#"]').on('click', function(event) {
+
+		    var target = $( $(this).attr('href') );
+
+		    if( target.length ) {
+		        event.preventDefault();
+		        $('html, body').animate({
+		            scrollTop: target.offset().top
+		        }, duration);
+		    }
+		});
+	}
+
+	smoothScroll();
+	
 // nav form
 	$("#nav ul li:eq(0) > a").click(function(){
 		$(this).parent().find("form").toggleClass("showAndHide");

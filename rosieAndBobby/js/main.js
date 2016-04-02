@@ -486,6 +486,10 @@ $(".gradiSeeMoreNav a.left").click(function(){
 
 
 
+
+// nav
+
+
 $("#nav h2 a").click(function(){
 	$(this).hide();
 	$(this).parent().parent().find(".closeMenu a").show();
@@ -511,6 +515,23 @@ $("#books .recomLi dt").mouseleave(function(){
 	$(this).siblings(".price, .saveIt, .getIt, .giftIt").fadeOut();
 	return false;
 });
+
+
+function smoothScroll (duration) {
+		$('a[href^="#"]').on('click', function(event) {
+
+		    var target = $( $(this).attr('href') );
+
+		    if( target.length ) {
+		        event.preventDefault();
+		        $('html, body').animate({
+		            scrollTop: target.offset().top
+		        }, duration);
+		    }
+		});
+	}
+
+	smoothScroll();
 
 
 // #qna
