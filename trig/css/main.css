@@ -19,7 +19,7 @@
 
 	.navDeco { width: 20px; height: 20px; position: relative; -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform: rotate(0deg); transform: rotate(0deg); -webkit-transition: .5s ease-in-out; -moz-transition: .5s ease-in-out; -o-transition: .5s ease-in-out; transition: .5s ease-in-out; cursor: pointer; }
 
-	.navDeco span { display: block; position: absolute; height: 1px; width: 100%; background: #8C8C8C; opacity: 1; left: 0; -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform: rotate(0deg); transform: rotate(0deg); -webkit-transition: .25s ease-in-out; -moz-transition: .25s ease-in-out; -o-transition: .25s ease-in-out; transition: .25s ease-in-out; }
+	.navDeco span { display: block; position: absolute; height: 1px; width: 100%; background-color: #8C8C8C; opacity: 1; left: 0; -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform: rotate(0deg); transform: rotate(0deg); -webkit-transition: .25s ease-in-out; -moz-transition: .25s ease-in-out; -o-transition: .25s ease-in-out; transition: .25s ease-in-out; }
 
 	.navDeco span:nth-child(1) { top: 0px; }
 	.navDeco span:nth-child(2) { top: 7px; }
@@ -59,7 +59,7 @@
 	#about .topContent p, #contact .topContent p { font-size: 20px; font-weight: normal; color: #aaa; margin-bottom: 20px }
 	
 	/* 로고 데코 애니메이션 */
-	.aboutDeco span { opacity: 0; display: inline-block; width: 120px; height: 120px; background: url('imgs/aboutDeco.svg') no-repeat; }
+	.aboutDeco span { opacity: 0; display: inline-block; width: 120px; height: 120px; background: url('../imgs/aboutDeco.svg') no-repeat; }
 	.topContent .aboutDeco { position: absolute; left: 480px; bottom: -9px;}
 	.topContent .aboutDeco span { position: absolute; bottom: 0; left: 0 }
 	
@@ -127,12 +127,12 @@
 	.deviceBg { position: relative; padding-left: 13%; overflow: hidden; width: 87%; bottom: -100%; height: 80%; }
 	.devices {  width: 170%}
 
-	.laptop { position: absolute; left: 13%; display: inline-block; width: 353px; height: 204px; background:  url('imgs/mac.png') no-repeat; text-align: center;   }
-	.laptop .imgBg { display: inline-block; width: 279px; height: 188px; margin: 2px 0 0 9px; background: url('imgs/workImgs.png') no-repeat; }
-	.pad { position: absolute; left: 44%; top: 64px; display: inline-block; width: 206px; height: 140px; background:  url('imgs/pad.png') no-repeat;}		
-	.pad .imgBg { display: inline-block; width: 185px; height: 132px; margin: 1px 0 0 20px; background: url('imgs/workImgs.png') no-repeat; background-position: -2px -189px; }
-	.mobile { position: absolute; left: 64%; top: 90px; display: inline-block; width: 57px; height: 114px; background:  url('imgs/phone.png') no-repeat; }	
-	.mobile .imgBg { display: inline-block; width: 52px; height: 110px; margin: 2px 0 0 2px ; background: url('imgs/workImgs.png') no-repeat; background-position: 0px -322px; }
+	.laptop { position: absolute; left: 13%; display: inline-block; width: 353px; height: 204px; background:  url('../imgs/mac.png') no-repeat; text-align: center;   }
+	.laptop .imgBg { display: inline-block; width: 279px; height: 188px; margin: 2px 0 0 9px; background: url('../imgs/workImgs.png') no-repeat; }
+	.pad { position: absolute; left: 44%; top: 64px; display: inline-block; width: 206px; height: 140px; background:  url('../imgs/pad.png') no-repeat;}		
+	.pad .imgBg { display: inline-block; width: 185px; height: 132px; margin: 1px 0 0 20px; background: url('../imgs/workImgs.png') no-repeat; background-position: -2px -189px; }
+	.mobile { position: absolute; left: 64%; top: 90px; display: inline-block; width: 57px; height: 114px; background:  url('../imgs/phone.png') no-repeat; }	
+	.mobile .imgBg { display: inline-block; width: 52px; height: 110px; margin: 2px 0 0 2px ; background: url('../imgs/workImgs.png') no-repeat; background-position: 0px -322px; }
 	#container .lapNoCoy { background-position: 0 0; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
 	
 	/* js */
@@ -163,7 +163,7 @@
 
 	#work .forRel { position: relative; width: 70%; overflow: hidden; height: 100%; }
 	#work .forAb { position: absolute; width: 1500px; }
-	.seeMore { display: none; opacity: 0.5; z-index: 10000; position: absolute; top: 30%; right: 23%; width: 21px; height: 41px; background: url('imgs/seeMore.png') no-repeat; cursor: pointer; }
+	.seeMore { display: none; opacity: 0.5; z-index: 10000; position: absolute; top: 30%; right: 23%; width: 21px; height: 41px; background: url('../imgs/seeMore.png') no-repeat; cursor: pointer; }
 	.seeMore:hover { opacity: 1; }
 
 
