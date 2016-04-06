@@ -167,6 +167,7 @@ $(document).ready(function(){
 		$(this).parent().siblings().find(">a").removeClass("selected");
 		$(this).addClass("selected");
 
+		var listNum = $(this).parent().index();
 
 		if ( listNum == 0 ) {
 	
@@ -256,6 +257,7 @@ $(document).ready(function(){
 		} else { 
 			$(".seeMore").hide();
 		}
+
 	
 
 	$(window).resize(function(){
@@ -271,6 +273,6 @@ $(document).ready(function(){
 		} else {
 			timer();
 		}
-		});
+	});
 
 });
