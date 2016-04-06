@@ -1,0 +1,314 @@
+/*  */
+	html, body{
+	height: 100%;
+	margin: 0;
+	min-height: 750px;
+	}
+	body { overflow: hidden; overflow-y: auto; position: relative; margin: 0; border: 20px solid #fff; font-smoothing: antialiased;-webkit-font-smoothing: antialiased; -moz-font-smoothing: antialiased; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; }
+
+
+/* #header */
+
+	#header h1 { z-index: 1000000; position: absolute; top: 20px; left: 20px;  }
+	#header h1 a { opacity: 0.7 }
+	#header h1 a:hover { opacity: 1; transition: .5s;  -webkit-transition: .5s; -moz-transition: .5s; }
+
+/* nav */
+
+	.navParent { z-index: 1000000; position: absolute; top: 26px; right: 20px }
+
+	.navDeco { width: 20px; height: 20px; position: relative; -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform: rotate(0deg); transform: rotate(0deg); -webkit-transition: .5s ease-in-out; -moz-transition: .5s ease-in-out; -o-transition: .5s ease-in-out; transition: .5s ease-in-out; cursor: pointer; }
+
+	.navDeco span { display: block; position: absolute; height: 1px; width: 100%; background: #8C8C8C; opacity: 1; left: 0; -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform: rotate(0deg); transform: rotate(0deg); -webkit-transition: .25s ease-in-out; -moz-transition: .25s ease-in-out; -o-transition: .25s ease-in-out; transition: .25s ease-in-out; }
+
+	.navDeco span:nth-child(1) { top: 0px; }
+	.navDeco span:nth-child(2) { top: 7px; }
+	.navDeco span:nth-child(3) { top: 14px; }
+
+	.navDeco.open span:nth-child(1) { top: 7px; -webkit-transform: rotate(135deg); -moz-transform: rotate(135deg); -o-transform: rotate(135deg); transform: rotate(135deg); }
+	.navDeco.open span:nth-child(2) { opacity: 0; left: -30px; }
+	.navDeco.open span:nth-child(3) { top: 7px;-webkit-transform: rotate(-135deg); -moz-transform: rotate(-135deg);-o-transform: rotate(-135deg);transform: rotate(-135deg);}
+	
+	#nav { z-index: 1000000; position: absolute; opacity: 0; right: -300px;  top: 28px; font-size:12px;  }
+	#nav.navOn { opacity: 1; right: 50px;  }
+
+	#nav a { margin-right: 10px; opacity: 0.5 }
+	#nav a:hover { opacity: 1; transition: .5s;  -webkit-transition: .5s; -moz-transition: .5s; }
+
+	#container { display: table; width: 100%; height: 100%; overflow: hidden; background-color: #E9E9E9; }
+
+	#mainContainer { width: 100%; background-color: #E9E9E9; height: 60%; }
+	#middle { position: absolute; top: 60%; z-index: 10000; width: 100%; height: 1px; background-color: #FFF; }
+	#bottomContainer { width: 100%; height: 40%; background-color: #E9E9E9;  }
+	
+
+	.break { display: block }
+	
+	.topContent {  z-index: 10000; position: absolute; bottom: 40%; left:13%; width: 87%; font-family: arial }
+
+	.bottomContent { z-index: 10000; overflow: hidden; top: 60%; left:13%; width: 87%; height: 40%; position: absolute; font-size: 1.5em; color: #C5C5C5 }
+
+	#container .toTheLeft { transform: matrix(1, 0, -1, 1, 0, 0); -webkit-transform: matrix(1, 0, -0.5, 1, 0, 0); opacity: 0; transition: 0.5s; -webkit-transition: 0.5s; -moz-transition: 0.5s; left: 0 }
+	#container .toTheRight { transform: matrix(1, 0, 1, 1, 0, 0); -webkit-transform: matrix(1, 0, -0.5, 1, 0, 0); opacity: 0; transition: 0.5s; -webkit-transition: 0.5s; -moz-transition: 0.5s; left: 0 }
+	#container .toTheLeftOff { transform: matrix(1, 0, 0, 1, 0, 0); -webkit-transform: matrix(1, 0, 0, 1, 0, 0); opacity: 1; transition: 0.5s; -webkit-transition: 0.5s; -moz-transition: 0.5s; left: 13%; }
+	#container .toTheRightOff { transform: matrix(1, 0, 0, 1, 0, 0); -webkit-transform: matrix(1, 0, 0, 1, 0, 0); opacity: 1; transition: 0.5s; -webkit-transition: 0.5s; -moz-transition: 0.5s; left: 13%; }
+
+
+/* #about  */	
+	.topContent h1 { font-size: 6em; line-height: 70px; color: #ff0000; margin-bottom: 20px; }
+	#about .topContent p, #contact .topContent p { font-size: 20px; font-weight: normal; color: #aaa; margin-bottom: 20px }
+	
+	/* 로고 데코 애니메이션 */
+	.aboutDeco span { opacity: 0; display: inline-block; width: 120px; height: 120px; background: url('imgs/aboutDeco.svg') no-repeat; }
+	.topContent .aboutDeco { position: absolute; left: 480px; bottom: -9px;}
+	.topContent .aboutDeco span { position: absolute; bottom: 0; left: 0 }
+	
+	.topContent .aboutDeco span:nth-child(2) { left: 204px }
+	.topContent .aboutDeco span:nth-child(3) { left: 255px; bottom: 102px; }
+	.topContent .aboutDeco span:nth-child(4) { left: 306px }
+	.topContent .aboutDeco span:nth-child(5) { left: 510px;  }
+	.topContent .aboutDeco span:nth-child(6) { left: 612px; }
+	.topContent .aboutDeco span:nth-child(7) { left: 663px;bottom: 102px }
+	.topContent .aboutDeco span:nth-child(8) { left: 765px;bottom: 102px }
+	.topContent .aboutDeco span:nth-child(9) { left: 816px;bottom: 204px }
+	.topContent .aboutDeco span:nth-child(10) { left: 816px; }
+	.topContent .aboutDeco span:nth-child(11) { left: 918px; }
+	.topContent .aboutDeco span:nth-child(12) { left: 1020px; }
+	.topContent .aboutDeco span:nth-child(13) { left: 1122px }
+	.topContent .aboutDeco span:nth-child(14) { left: 1326px; }
+	.topContent .aboutDeco span:nth-child(15) { left: 1428px }
+	.topContent .aboutDeco span:nth-child(16) { left: 1530px; }
+
+	
+	#about .bottomContent ul { margin-top: 20px;  }
+	#about .bottomContent li { margin-bottom: 10px; font-weight: normal; font-family: arial }
+
+	.bottomContent .aboutDeco { position: absolute; left: 531px; top: -9px}
+	.bottomContent .aboutDeco span { position: absolute; }
+	.bottomContent .aboutDeco span:nth-child(2) { left: 102px;  }
+	.bottomContent .aboutDeco span:nth-child(4) { left: 255px; top: 102px }
+	.bottomContent .aboutDeco span:nth-child(3) { left: 204px;  }
+	.bottomContent .aboutDeco span:nth-child(5) { left: 306px }
+	.bottomContent .aboutDeco span:nth-child(6) { left: 306px; top: 204px}
+	.bottomContent .aboutDeco span:nth-child(7) { left: 408px; }
+	.bottomContent .aboutDeco span:nth-child(8) { left: 612px; }
+	.bottomContent .aboutDeco span:nth-child(9) { left: 714px; }
+	.bottomContent .aboutDeco span:nth-child(10) { left: 918px; }
+	.bottomContent .aboutDeco span:nth-child(11) { left: 1020px; }
+	.bottomContent .aboutDeco span:nth-child(12) { left: 1122px }
+	.bottomContent .aboutDeco span:nth-child(13) { left: 1224px; }
+	.bottomContent .aboutDeco span:nth-child(14) { left: 1326px; }
+	.bottomContent .aboutDeco span:nth-child(15) { left: 1428px }
+	.bottomContent .aboutDeco span:nth-child(16) { left: 1530px; }
+
+
+
+/* #work */
+	#work .topContent {  bottom: 72%;  }
+	#work .topContent p { color: #4E4E4E }
+
+	#work .bottomContent { z-index: 100000; top: 70%; width: 100%; height: 28% }
+	#work .bottomContent ul li { display: inline-block; width: 200px; margin: 20px 0 }
+	#work .bottomContent ul li > a { display: inline-block; margin-bottom: 10px; color: #5B5B5B; font-weight: bold; font-size: 1.2em }
+	#work .bottomContent ul dl { color: #4E4E4E }
+	#work .bottomContent dl dt { margin-bottom: 15px; font-size: 1em }
+	#work .bottomContent ul dl dd { margin-top: 3px; font-size: 13px }
+	.blackDeco { width: 40px; height: 2px; background-color: #000; margin-bottom: 20px; }
+
+	.workTopBg { z-index: 100; position: absolute; left: -120%; top: 0; width: 100%; height: 30%; background-color: #202020; }
+	.workMiddleBg { z-index: 100; position: absolute; left: 120%; top: 30%; width: 100%; height: 40%; background-color: #161616; }
+	.workBtmBg { z-index: 100; position: absolute; left: -120%; top: 70%; width: 100%; height: 30%; background-color: #202020; }
+	
+	#work .bottomContent ul li a.selected, #work .bottomContent ul li a:hover { color: #701A1A; transition: 0.5s; }
+	
+
+/* #work  */
+
+	.deviceBg { position: relative; padding-left: 13%; overflow: hidden; width: 87%; bottom: -100%; height: 80%; }
+	.devices {  width: 170%}
+
+	.laptop { position: absolute; left: 13%; display: inline-block; width: 353px; height: 204px; background:  url('imgs/mac.png') no-repeat; text-align: center;   }
+	.laptop .imgBg { display: inline-block; width: 279px; height: 188px; margin: 2px 0 0 9px; background: url('imgs/workImgs.png') no-repeat; }
+	.pad { position: absolute; left: 44%; top: 64px; display: inline-block; width: 206px; height: 140px; background:  url('imgs/pad.png') no-repeat;}		
+	.pad .imgBg { display: inline-block; width: 185px; height: 132px; margin: 1px 0 0 20px; background: url('imgs/workImgs.png') no-repeat; background-position: -2px -189px; }
+	.mobile { position: absolute; left: 64%; top: 90px; display: inline-block; width: 57px; height: 114px; background:  url('imgs/phone.png') no-repeat; }	
+	.mobile .imgBg { display: inline-block; width: 52px; height: 110px; margin: 2px 0 0 2px ; background: url('imgs/workImgs.png') no-repeat; background-position: 0px -322px; }
+	#container .lapNoCoy { background-position: 0 0; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
+	
+	/* js */
+	#container .lapUcompany { background-position: -280px 0; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
+	#container .lapSendFaster { background-position: -560px 0; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
+	#container .lapMoosic { background-position: -840px 0; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
+	#container .lapRosie { background-position: -1120px 0; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
+	#container .lapLorem { background-position: -1400px 0; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
+	#container .lapWeather { background-position: -1680px 0; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
+
+	#container .padNoCoy { background-position: -2px -189px; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
+	#container .padUcompnay { background-position: -187px -189px; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
+	#container .padSendFaster { background-position: -374px -189px ; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
+	#container .padMoosic { background-position: -562px -189px ; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
+	#container .padRosie { background-position: -748px -189px ; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
+	#container .padLorem { background-position: -935px -189px ; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
+	#container .padWeather { background-position: -1122px -189px ; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
+	
+	#container .mobileNoCoy { background-position: 0 -322px; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s;}
+	#container .mobileUcompany { background-position: -54px -322px; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s;}
+	#container .mobileSendFaster { background-position: -108px -322px ; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
+	#container .mobileMoosic { background-position: -162px -322px ; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
+	#container .mobileRosie { background-position: -216px -322px ; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
+	#container .mobileLorem { background-position: -270px -322px ; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
+	#container .mobileWeather { background-position: -324px -322px ; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
+
+
+
+	#work .forRel { position: relative; width: 70%; overflow: hidden; height: 100%; }
+	#work .forAb { position: absolute; width: 1500px; }
+	.seeMore { display: none; opacity: 0.5; z-index: 10000; position: absolute; top: 30%; right: 23%; width: 21px; height: 41px; background: url('imgs/seeMore.png') no-repeat; cursor: pointer; }
+	.seeMore:hover { opacity: 1; }
+
+
+/* #contact */
+	.contactBtmBg { z-index: 1; position: absolute; width: 100%; height: 40%; left: -300%; bottom: 0; background-color: #F65D5D; }
+	#contact .bottomContent { color: #fff }
+	#contact .bottomContent ul li { display: inline-block; color: #fff; width: 23px; height: 23px; margin-right: 10px }
+	#contact .bottomContent ul li a { opacity: 0.7; color: #fff; }
+	#contact .bottomContent ul li a:hover { opacity: 1; transition: 0.3s; }
+	#contact .bottomContent ul li:first-child { display: block; width: 100%; font-size: 1.7em; margin: 20px 0 }
+	#contact .bottomContent p { margin-top: 30px; }
+	#contact .topContent p { line-height: 30px }
+	
+
+	.contactBtmBg > span { z-index: 1000; display: block; top: 0; left: 75%; position: absolute; height: 100%; width: 1px; background-color: #fff  }
+	.contactTopBg > span { z-index: 1000; display: block; top: 0; left: 107%; position: absolute; height: 60%; width: 1px; background-color: #fff  }
+	.contactBtmBg span span { position: absolute; display: block; width: 20px; height: 20px; background-color: #fff;   }
+	.contactTopBg span span { position: absolute; bottom: 0; display: block; width: 20px; height: 20px; background-color: #fff;   }
+
+
+/* js */
+	.showDevices { bottom: -100%; transition: 0.5s; }
+	
+	.seeMoreClass { right: 0; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
+	.seeMoreArrow { background-position: -21px 0 }
+
+	.contactSlide { left: 0; -moz-transition: 0.5s; transition: .5s; -webkit-transition: .5s; }
+	span.contactSlideRight { left: 70%; transition: .5s; -webkit-transition: .5s; }
+
+
+/* media query */
+
+	@media only screen and (max-width: 2560px) {
+
+		.deviceBg { padding-left: 21%; }
+		.devices { transform: scale(1.8,1.8); width: 63% }
+	}
+
+	@media only screen and (max-width: 2560px) and (max-height: 1000px) {
+
+		.deviceBg { bottom: -7% !important; height: 100% !important; }
+		.devices { transform: scale(1.8,1.8); width: 63% }
+	}
+
+	@media only screen and (max-width: 1700px) {
+		.deviceBg { padding-left: 18%; bottom: -16% !important;  }
+		.devices { transform: scale(1.5,1.5); width: 100% }
+	}
+
+	@media only screen and (max-width: 1090px) {
+		#work .bottomContent ul li { font-size: 0.8em; width: 150px; margin: 15px 0 }
+		.seeMoreClass { right: 0; left: -450px; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
+
+		.contactBtmBg > span { left: 730px }
+		span.contactSlideRight { left: 670px !important; }
+	}
+
+
+	@media only screen and (max-width: 1000px) {
+		.deviceBg { padding-left: 7%; bottom: -21% !important; }
+		.devices { transform: scale(1.2,1.2); width: 131% }
+
+		#mainContainer { height: 40%; }
+	}
+
+
+	@media only screen and (min-height: 880px) {
+		.deviceBg { -moz-transition: 0.5s; transition: .5s; -webkit-transition: .5s; }
+
+	}
+
+	
+	@media only screen and (max-width: 767px) {
+		.deviceBg { padding-left: 0; width: 100% }
+		.devices { transform: scale(1,1); width: 100% }
+		.laptop { left: 17px; }
+		.pad { left: 56% }
+		.mobile { left: auto; right: 17px }
+
+		html, body { min-height: 660px }
+		#work .topContent { bottom: 79% }
+		.topContent h1 { font-size: 3em; line-height: 40px; margin-bottom: 10px }
+		#work .topContent h1 { line-height: 7px; margin-bottom: 20px }
+		.workTopBg { height: 23% }
+		.workMiddleBg { top: 23%; height: 38% }
+		.workBtmBg { top: 61%; height: 39% }
+		#work .bottomContent { top: 61%; height: 36% }
+		#about .topContent p, #contact .topContent p { font-size: 1.2em }
+		#contact .topContent p { line-height: 21px }
+		#contact .bottomContent { left: 17px; font-size: 1.2em }
+		#about .bottomContent ul { font-size: 0.7em }
+		#work .bottomContent { left: 17px }
+		#work .forRel { width: 85%; }
+		.seeMore { right: 8%; top: 75px }
+
+		#container .toTheLeftOff { left: 17px }
+		.topContent { left: 17px }
+		.bottomContent { left: 17px; }
+	}
+
+	@media only screen and (max-width: 560px) {
+	
+		.pad { left: 50% }
+	
+	}
+
+	@media only screen and (max-width: 500px) {
+	
+		.pad { left: 45% }
+	
+	}
+
+	@media only screen and (max-width: 460px) {
+		.laptop { left: -17px }
+		.pad { left: 40% }
+	
+	}
+
+	@media only screen and (max-width: 420px) {
+		.laptop { left: -17px }
+		.pad { left: 40% }
+		.mobile { right: -17px }
+
+		#work .forRel { width: 83% }
+		#work .topContent h1 { font-size: 2em }
+		body { border: 10px solid #fff }
+	
+	}
+
+	@media only screen and (max-width: 414px) and (max-height: 736px) {
+		#work .bottomContent ul li { margin-top: 20px }
+	}
+
+
+	@media only screen and (max-width: 375px) and (max-height: 667px) {
+		html, body { min-height: 667px }
+	}
+
+	@media only screen and (max-width: 360px) and (max-height: 640px) {
+		html, body { min-height: 640px }
+	}
+
+
+	@media only screen and (max-width: 320px) and (max-height: 568px) {
+		html, body { min-height: 568px }
+		#work .bottomContent ul li { margin-top: 15px }
+		#contact .bottomContent ul li:first-child { font-size: 1.4em }
+	}
