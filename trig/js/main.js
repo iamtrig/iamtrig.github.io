@@ -438,11 +438,48 @@ jQuery(document).ready(function($){
 
 	$(function() {      
       //Enable swiping...
+
+	var count = 0;
+
+
+
       $(".workMiddleBg").swipe( {
         //Generic swipe handler for all directions
-        swipe:function(event, direction, distance, duration, fingerCount, fingerData) {
-         	$("#work .bottomContent ul li").eq(1).siblings().find(">a").removeClass("selected");
-			$("#work .bottomContent ul li").eq(1).find(">a").addClass("selected");
+       
+
+
+        swipeLeft:function(event, direction, distance, duration, fingerCount, fingerData) {
+			
+  //       	if ( count == 0 ) {
+  //       	count++;	
+			
+		// 	$("#work .mouse").eq(count).addClass("active");
+		// 	$("#work .bottomContent ul li").eq(count).find(">a").addClass("selected");
+
+		// 	$(".devices .laptop .imgBg").removeClass("lapUcompany lapSendFaster lapMoosic lapRosie lapLorem padLorem lapWeather");
+		// 	$(".devices .pad .imgBg").removeClass("padUcompnay padSendFaster padMoosic padRosie padLorem padWeather");
+		// 	$(".devices .mobile .imgBg").removeClass("mobileUcompany mobileSendFaster mobileMoosic mobileRosie mobileLorem mobileWeather");
+
+		// 	$(".devices .laptop .imgBg").addClass("lapNoCoy");
+		// 	$(".devices .pad .imgBg").addClass("padNoCoy");
+		// 	$(".devices .mobile .imgBg").addClass("mobileNoCoy");
+
+		// 	$("#work .forAb").removeClass("listUcompany listSendFaster listMoosic listRosie listLorem listWeather")
+
+		// 	$("#work .forAb").addClass("listNoCoy");
+	
+
+		// } else 
+		if ( count == 0 ) {
+			count++;	
+
+
+			$("#work .bottomContent ul li").eq(count).siblings().find(">a").removeClass("selected");
+			$(".handler .mouse").eq(count).siblings().removeClass("active");
+
+
+			$("#work .bottomContent ul li").eq(count).find(">a").addClass("selected");
+			$("#work .mouse").eq(count).addClass("active");
 
 			$(".devices .laptop .imgBg").removeClass("lapNoCoy lapSendFaster lapMoosic lapRosie lapLorem padLorem lapWeather");
 			$(".devices .pad .imgBg").removeClass("padNoCoy padSendFaster padMoosic padRosie padLorem padWeather");
@@ -452,18 +489,275 @@ jQuery(document).ready(function($){
 			$(".devices .pad .imgBg").addClass("padUcompnay");
 			$(".devices .mobile .imgBg").addClass("mobileUcompany");
 
-			$("#work .forAb").removeClass("listNoCoy listSendFaster listMoosic listRosie listLorem listWeather");
+			$("#work .forAb").removeClass("listNoCoy listSendFaster listMoosic listRosie listLorem listWeather")
 
 			$("#work .forAb").addClass("listUcompany");
+
+		} else if ( count == 1 ) {
+			count++;	
+			$("#work .bottomContent ul li").eq(count).siblings().find(">a").removeClass("selected");
+			$(".handler .mouse").eq(count).siblings().removeClass("active");
+
+			$("#work .bottomContent ul li").eq(count).find(">a").addClass("selected");
+			$("#work .mouse").eq(count).addClass("active");
+
+			$(".devices .laptop .imgBg").removeClass("lapNoCoy lapUcompany lapSendFaster lapMoosic lapRosie lapLorem padLorem lapWeather");
+			$(".devices .pad .imgBg").removeClass("padNoCoy padUcompnay padSendFaster padMoosic padRosie padLorem padWeather");
+			$(".devices .mobile .imgBg").removeClass("mobileNoCoy mobileUcompany mobileSendFaster mobileMoosic mobileRosie mobileLorem mobileWeather");
+
+			$(".devices .laptop .imgBg").addClass("lapSendFaster");
+			$(".devices .pad .imgBg").addClass("padSendFaster");
+			$(".devices .mobile .imgBg").addClass("mobileSendFaster");
+
+			$("#work .forAb").removeClass("listNoCoy listUcompany listMoosic listRosie listLorem listWeather")
+
+			$("#work .forAb").addClass("listSendFaster");
+
+		} else if ( count == 2 ) {
+			count++;	
+			$("#work .bottomContent ul li").eq(count).siblings().find(">a").removeClass("selected");
+			$(".handler .mouse").eq(count).siblings().removeClass("active");
+
+			$("#work .bottomContent ul li").eq(count).find(">a").addClass("selected");
+			$("#work .mouse").eq(count).addClass("active");
+
+			$(".devices .laptop .imgBg").removeClass("lapNoCoy lapUcompany lapSendFaster lapRosie lapLorem padLorem lapWeather");
+			$(".devices .pad .imgBg").removeClass("padNoCoy padUcompnay padSendFaster padRosie padLorem padWeather");
+			$(".devices .mobile .imgBg").removeClass("mobileNoCoy mobileUcompany mobileSendFaster mobileRosie mobileLorem mobileWeather");
+
+			$(".devices .laptop .imgBg").addClass("lapMoosic");
+			$(".devices .pad .imgBg").addClass("padMoosic");
+			$(".devices .mobile .imgBg").addClass("mobileMoosic");
+
+			$("#work .forAb").removeClass("listNoCoy listUcompany listSendFaster listRosie listLorem listWeather")
+
+			$("#work .forAb").addClass("listMoosic");
+
+		} else if ( count == 3 ) {
+			count++;
+			$("#work .bottomContent ul li").eq(count).siblings().find(">a").removeClass("selected");
+			$(".handler .mouse").eq(count).siblings().removeClass("active");
+	
+
+			$("#work .bottomContent ul li").eq(count).find(">a").addClass("selected");
+			$("#work .mouse").eq(count).addClass("active");
+
+			$(".devices .laptop .imgBg").removeClass("lapNoCoy lapUcompany lapSendFaster lapMoosic lapLorem padLorem lapWeather");
+			$(".devices .pad .imgBg").removeClass("padNoCoy padUcompnay padSendFaster padMoosic padLorem padWeather");
+			$(".devices .mobile .imgBg").removeClass("mobileNoCoy mobileUcompany mobileSendFaster mobileMoosic mobileLorem mobileWeather");
+	
+			
+			$(".devices .laptop .imgBg").addClass("lapRosie");
+			$(".devices .pad .imgBg").addClass("padRosie");
+			$(".devices .mobile .imgBg").addClass("mobileRosie");
+
+			$("#work .forAb").removeClass("listNoCoy listUcompany listSendFaster listMoosic listLorem listWeather")
+
+			$("#work .forAb").addClass("listRosie");
+
+		} else if ( count == 4 ) {
+			count++;
+			$("#work .bottomContent ul li").eq(count).siblings().find(">a").removeClass("selected");
+			$(".handler .mouse").eq(count).siblings().removeClass("active");
+
+
+			$("#work .bottomContent ul li").eq(count).find(">a").addClass("selected");
+			$("#work .mouse").eq(count).addClass("active");
+
+			$(".devices .laptop .imgBg").removeClass("lapNoCoy lapUcompany lapSendFaster lapMoosic lapRosie padLorem lapWeather");
+			$(".devices .pad .imgBg").removeClass("padNoCoy padUcompnay padSendFaster padMoosic padRosie padWeather");
+			$(".devices .mobile .imgBg").removeClass("mobileNoCoy mobileUcompany mobileSendFaster mobileMoosic mobileRosie mobileWeather");
+	
+			
+			$(".devices .laptop .imgBg").addClass("lapLorem");
+			$(".devices .pad .imgBg").addClass("padLorem");
+			$(".devices .mobile .imgBg").addClass("mobileLorem");
+
+			$("#work .forAb").removeClass("listNoCoy listUcompany listSendFaster listMoosic listRosie listWeather")
+
+			$("#work .forAb").addClass("listLorem");
+		} else if ( count == 5 ) {
+			count++;	
+			$("#work .bottomContent ul li").eq(count).siblings().find(">a").removeClass("selected");
+			$(".handler .mouse").eq(count).siblings().removeClass("active");
+
+
+			$("#work .bottomContent ul li").eq(count).find(">a").addClass("selected");
+			$("#work .mouse").eq(count).addClass("active");
+
+			$(".devices .laptop .imgBg").removeClass("lapNoCoy lapUcompany lapSendFaster lapMoosic lapRosie lapLorem padLorem");
+			$(".devices .pad .imgBg").removeClass("padNoCoy padUcompnay padSendFaster padMoosic padRosie padLorem");
+			$(".devices .mobile .imgBg").removeClass("mobileNoCoy mobileUcompany mobileSendFaster mobileMoosic mobileRosie mobileLorem");
+	
+			$(".devices .laptop .imgBg").addClass("lapWeather");
+			$(".devices .pad .imgBg").addClass("padWeather");
+			$(".devices .mobile .imgBg").addClass("mobileWeather");
+
+			$("#work .forAb").removeClass("listNoCoy listUcompany listSendFaster listMoosic listRosie listLorem")
+
+			$("#work .forAb").addClass("listWeather");
+		}
+
+
+
         },
         //Default is 75px, set to 0 for demo so any distance triggers swipe
          threshold:0
       });
     });
   
+// $(function() {      
+//       //Enable swiping...
+
+// 	var count = 0;
 
 
 
+//       $(".workMiddleBg").swipe( {
+//         //Generic swipe handler for all directions
+
+
+
+//         swipeRight:function(event, direction, distance, duration, fingerCount, fingerData) {
+			
+//         if ( count == 0 ) {
+//         	count--;	
+			
+// 			$("#work .mouse").eq(count).addClass("active");
+// 			$("#work .bottomContent ul li").eq(count).find(">a").addClass("selected");
+
+// 			$(".devices .laptop .imgBg").removeClass("lapUcompany lapSendFaster lapMoosic lapRosie lapLorem padLorem lapWeather");
+// 			$(".devices .pad .imgBg").removeClass("padUcompnay padSendFaster padMoosic padRosie padLorem padWeather");
+// 			$(".devices .mobile .imgBg").removeClass("mobileUcompany mobileSendFaster mobileMoosic mobileRosie mobileLorem mobileWeather");
+
+// 			$(".devices .laptop .imgBg").addClass("lapNoCoy");
+// 			$(".devices .pad .imgBg").addClass("padNoCoy");
+// 			$(".devices .mobile .imgBg").addClass("mobileNoCoy");
+
+// 			$("#work .forAb").removeClass("listUcompany listSendFaster listMoosic listRosie listLorem listWeather")
+
+// 			$("#work .forAb").addClass("listNoCoy");
+	
+
+// 		} else if ( count == 1 ) {
+// 			count--;	
+
+// 			$("#work .bottomContent ul li").eq(count).find(">a").addClass("selected");
+// 			$("#work .mouse").eq(count).addClass("active");
+
+// 			$(".devices .laptop .imgBg").removeClass("lapNoCoy lapSendFaster lapMoosic lapRosie lapLorem padLorem lapWeather");
+// 			$(".devices .pad .imgBg").removeClass("padNoCoy padSendFaster padMoosic padRosie padLorem padWeather");
+// 			$(".devices .mobile .imgBg").removeClass("mobileNoCoy mobileSendFaster mobileMoosic mobileRosie mobileLorem mobileWeather");
+
+// 			$(".devices .laptop .imgBg").addClass("lapUcompany");
+// 			$(".devices .pad .imgBg").addClass("padUcompnay");
+// 			$(".devices .mobile .imgBg").addClass("mobileUcompany");
+
+// 			$("#work .forAb").removeClass("listNoCoy listSendFaster listMoosic listRosie listLorem listWeather")
+
+// 			$("#work .forAb").addClass("listUcompany");
+
+// 		} else if ( count == 2 ) {
+// 			count--;	
+
+// 			$("#work .bottomContent ul li").eq(count).find(">a").addClass("selected");
+// 			$("#work .mouse").eq(count).addClass("active");
+
+// 			$(".devices .laptop .imgBg").removeClass("lapNoCoy lapUcompany lapSendFaster lapMoosic lapRosie lapLorem padLorem lapWeather");
+// 			$(".devices .pad .imgBg").removeClass("padNoCoy padUcompnay padSendFaster padMoosic padRosie padLorem padWeather");
+// 			$(".devices .mobile .imgBg").removeClass("mobileNoCoy mobileUcompany mobileSendFaster mobileMoosic mobileRosie mobileLorem mobileWeather");
+
+// 			$(".devices .laptop .imgBg").addClass("lapSendFaster");
+// 			$(".devices .pad .imgBg").addClass("padSendFaster");
+// 			$(".devices .mobile .imgBg").addClass("mobileSendFaster");
+
+// 			$("#work .forAb").removeClass("listNoCoy listUcompany listMoosic listRosie listLorem listWeather")
+
+// 			$("#work .forAb").addClass("listSendFaster");
+
+// 		} else if ( count == 3 ) {
+// 			count--;	
+
+// 			$("#work .bottomContent ul li").eq(count).find(">a").addClass("selected");
+// 			$("#work .mouse").eq(count).addClass("active");
+
+// 			$(".devices .laptop .imgBg").removeClass("lapNoCoy lapUcompany lapSendFaster lapRosie lapLorem padLorem lapWeather");
+// 			$(".devices .pad .imgBg").removeClass("padNoCoy padUcompnay padSendFaster padRosie padLorem padWeather");
+// 			$(".devices .mobile .imgBg").removeClass("mobileNoCoy mobileUcompany mobileSendFaster mobileRosie mobileLorem mobileWeather");
+
+// 			$(".devices .laptop .imgBg").addClass("lapMoosic");
+// 			$(".devices .pad .imgBg").addClass("padMoosic");
+// 			$(".devices .mobile .imgBg").addClass("mobileMoosic");
+
+// 			$("#work .forAb").removeClass("listNoCoy listUcompany listSendFaster listRosie listLorem listWeather")
+
+// 			$("#work .forAb").addClass("listMoosic");
+
+// 		} else if ( count == 4 ) {
+// 			count--;	
+
+// 			$("#work .bottomContent ul li").eq(count).find(">a").addClass("selected");
+// 			$("#work .mouse").eq(count).addClass("active");
+
+// 			$(".devices .laptop .imgBg").removeClass("lapNoCoy lapUcompany lapSendFaster lapMoosic lapLorem padLorem lapWeather");
+// 			$(".devices .pad .imgBg").removeClass("padNoCoy padUcompnay padSendFaster padMoosic padLorem padWeather");
+// 			$(".devices .mobile .imgBg").removeClass("mobileNoCoy mobileUcompany mobileSendFaster mobileMoosic mobileLorem mobileWeather");
+	
+			
+// 			$(".devices .laptop .imgBg").addClass("lapRosie");
+// 			$(".devices .pad .imgBg").addClass("padRosie");
+// 			$(".devices .mobile .imgBg").addClass("mobileRosie");
+
+// 			$("#work .forAb").removeClass("listNoCoy listUcompany listSendFaster listMoosic listLorem listWeather")
+
+// 			$("#work .forAb").addClass("listRosie");
+
+// 		} else if ( count == 5 ) {
+// 			count--;	
+
+// 			$("#work .bottomContent ul li").eq(count).find(">a").addClass("selected");
+// 			$("#work .mouse").eq(count).addClass("active");
+
+// 			$(".devices .laptop .imgBg").removeClass("lapNoCoy lapUcompany lapSendFaster lapMoosic lapRosie padLorem lapWeather");
+// 			$(".devices .pad .imgBg").removeClass("padNoCoy padUcompnay padSendFaster padMoosic padRosie padWeather");
+// 			$(".devices .mobile .imgBg").removeClass("mobileNoCoy mobileUcompany mobileSendFaster mobileMoosic mobileRosie mobileWeather");
+	
+			
+// 			$(".devices .laptop .imgBg").addClass("lapLorem");
+// 			$(".devices .pad .imgBg").addClass("padLorem");
+// 			$(".devices .mobile .imgBg").addClass("mobileLorem");
+
+// 			$("#work .forAb").removeClass("listNoCoy listUcompany listSendFaster listMoosic listRosie listWeather")
+
+// 			$("#work .forAb").addClass("listLorem");
+// 		}
+		// } else if ( count == 5 ) {
+		// 	count++;	
+
+		// 	$("#work .bottomContent ul li").eq(count).find(">a").addClass("selected");
+		// 	$("#work .mouse").eq(count).addClass("active");
+
+		// 	$(".devices .laptop .imgBg").removeClass("lapNoCoy lapUcompany lapSendFaster lapMoosic lapRosie lapLorem padLorem");
+		// 	$(".devices .pad .imgBg").removeClass("padNoCoy padUcompnay padSendFaster padMoosic padRosie padLorem");
+		// 	$(".devices .mobile .imgBg").removeClass("mobileNoCoy mobileUcompany mobileSendFaster mobileMoosic mobileRosie mobileLorem");
+	
+		// 	$(".devices .laptop .imgBg").addClass("lapWeather");
+		// 	$(".devices .pad .imgBg").addClass("padWeather");
+		// 	$(".devices .mobile .imgBg").addClass("mobileWeather");
+
+		// 	$("#work .forAb").removeClass("listNoCoy listUcompany listSendFaster listMoosic listRosie listLorem")
+
+		// 	$("#work .forAb").addClass("listWeather");
+		// }
+
+
+
+    //     },
+    //     //Default is 75px, set to 0 for demo so any distance triggers swipe
+    //      threshold:0
+    //   });
+    // });
+  
 
 
 
