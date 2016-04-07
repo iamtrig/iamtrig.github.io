@@ -431,9 +431,17 @@ jQuery(document).ready(function($){
 	});
 
 
-	$("#workMiddleBg .deviceBg").on("swipeleft", function(){
 
-			$("#work .bottomContent ul li").eq(1).siblings().find(">a").removeClass("selected");
+
+
+	// touch swipe
+
+	$(function() {      
+      //Enable swiping...
+      $(".workMiddleBg").swipe( {
+        //Generic swipe handler for all directions
+        swipe:function(event, direction, distance, duration, fingerCount, fingerData) {
+         	$("#work .bottomContent ul li").eq(1).siblings().find(">a").removeClass("selected");
 			$("#work .bottomContent ul li").eq(1).find(">a").addClass("selected");
 
 			$(".devices .laptop .imgBg").removeClass("lapNoCoy lapSendFaster lapMoosic lapRosie lapLorem padLorem lapWeather");
@@ -447,7 +455,35 @@ jQuery(document).ready(function($){
 			$("#work .forAb").removeClass("listNoCoy listSendFaster listMoosic listRosie listLorem listWeather");
 
 			$("#work .forAb").addClass("listUcompany");
-	});
+        },
+        //Default is 75px, set to 0 for demo so any distance triggers swipe
+         threshold:0
+      });
+    });
+  
+
+
+
+
+
+
+	// $("#workMiddleBg .deviceBg").on("swipeleft", function(){
+
+	// 		$("#work .bottomContent ul li").eq(1).siblings().find(">a").removeClass("selected");
+	// 		$("#work .bottomContent ul li").eq(1).find(">a").addClass("selected");
+
+	// 		$(".devices .laptop .imgBg").removeClass("lapNoCoy lapSendFaster lapMoosic lapRosie lapLorem padLorem lapWeather");
+	// 		$(".devices .pad .imgBg").removeClass("padNoCoy padSendFaster padMoosic padRosie padLorem padWeather");
+	// 		$(".devices .mobile .imgBg").removeClass("mobileNoCoy mobileSendFaster mobileMoosic mobileRosie mobileLorem mobileWeather");
+
+	// 		$(".devices .laptop .imgBg").addClass("lapUcompany");
+	// 		$(".devices .pad .imgBg").addClass("padUcompnay");
+	// 		$(".devices .mobile .imgBg").addClass("mobileUcompany");
+
+	// 		$("#work .forAb").removeClass("listNoCoy listSendFaster listMoosic listRosie listLorem listWeather");
+
+	// 		$("#work .forAb").addClass("listUcompany");
+	// });
 
 
 	// 로딩시 기본 세팅
