@@ -180,6 +180,9 @@ $(document).ready(function(){
 
 		var listNum = $(this).parent().index();
 
+		$(".handler .mouse").eq(listNum).siblings().removeClass("active");
+		$(".handler .mouse").eq(listNum).addClass("active");
+
 		if ( listNum == 0 ) {
 	
 			$(".devices .laptop .imgBg").removeClass("lapUcompany lapSendFaster lapMoosic lapRosie lapLorem padLorem lapWeather");
@@ -189,6 +192,10 @@ $(document).ready(function(){
 			$(".devices .laptop .imgBg").addClass("lapNoCoy");
 			$(".devices .pad .imgBg").addClass("padNoCoy");
 			$(".devices .mobile .imgBg").addClass("mobileNoCoy");
+
+			$("#work .forAb").removeClass("listUcompany listSendFaster listMoosic listRosie listLorem listWeather")
+
+			$("#work .forAb").addClass("listNoCoy");
 	
 
 		} else if ( listNum == 1 ) {
@@ -199,6 +206,11 @@ $(document).ready(function(){
 			$(".devices .laptop .imgBg").addClass("lapUcompany");
 			$(".devices .pad .imgBg").addClass("padUcompnay");
 			$(".devices .mobile .imgBg").addClass("mobileUcompany");
+
+			$("#work .forAb").removeClass("listNoCoy listSendFaster listMoosic listRosie listLorem listWeather")
+
+			$("#work .forAb").addClass("listUcompany");
+
 		} else if ( listNum == 2 ) {
 			$(".devices .laptop .imgBg").removeClass("lapNoCoy lapUcompany lapSendFaster lapMoosic lapRosie lapLorem padLorem lapWeather");
 			$(".devices .pad .imgBg").removeClass("padNoCoy padUcompnay padSendFaster padMoosic padRosie padLorem padWeather");
@@ -207,6 +219,11 @@ $(document).ready(function(){
 			$(".devices .laptop .imgBg").addClass("lapSendFaster");
 			$(".devices .pad .imgBg").addClass("padSendFaster");
 			$(".devices .mobile .imgBg").addClass("mobileSendFaster");
+
+			$("#work .forAb").removeClass("listNoCoy listUcompany listMoosic listRosie listLorem listWeather")
+
+			$("#work .forAb").addClass("listSendFaster");
+
 		} else if ( listNum == 3 ) {
 			
 			$(".devices .laptop .imgBg").removeClass("lapNoCoy lapUcompany lapSendFaster lapRosie lapLorem padLorem lapWeather");
@@ -216,6 +233,11 @@ $(document).ready(function(){
 			$(".devices .laptop .imgBg").addClass("lapMoosic");
 			$(".devices .pad .imgBg").addClass("padMoosic");
 			$(".devices .mobile .imgBg").addClass("mobileMoosic");
+
+			$("#work .forAb").removeClass("listNoCoy listUcompany listSendFaster listRosie listLorem listWeather")
+
+			$("#work .forAb").addClass("listMoosic");
+
 		} else if ( listNum == 4 ) {
 			$(".devices .laptop .imgBg").removeClass("lapNoCoy lapUcompany lapSendFaster lapMoosic lapLorem padLorem lapWeather");
 			$(".devices .pad .imgBg").removeClass("padNoCoy padUcompnay padSendFaster padMoosic padLorem padWeather");
@@ -225,6 +247,11 @@ $(document).ready(function(){
 			$(".devices .laptop .imgBg").addClass("lapRosie");
 			$(".devices .pad .imgBg").addClass("padRosie");
 			$(".devices .mobile .imgBg").addClass("mobileRosie");
+
+			$("#work .forAb").removeClass("listNoCoy listUcompany listSendFaster listMoosic listLorem listWeather")
+
+			$("#work .forAb").addClass("listRosie");
+
 		} else if ( listNum == 5 ) {
 
 			$(".devices .laptop .imgBg").removeClass("lapNoCoy lapUcompany lapSendFaster lapMoosic lapRosie padLorem lapWeather");
@@ -235,6 +262,10 @@ $(document).ready(function(){
 			$(".devices .laptop .imgBg").addClass("lapLorem");
 			$(".devices .pad .imgBg").addClass("padLorem");
 			$(".devices .mobile .imgBg").addClass("mobileLorem");
+
+			$("#work .forAb").removeClass("listNoCoy listUcompany listSendFaster listMoosic listRosie listWeather")
+
+			$("#work .forAb").addClass("listLorem");
 		} else if ( listNum == 6 ) {
 
 			$(".devices .laptop .imgBg").removeClass("lapNoCoy lapUcompany lapSendFaster lapMoosic lapRosie lapLorem padLorem");
@@ -244,12 +275,150 @@ $(document).ready(function(){
 			$(".devices .laptop .imgBg").addClass("lapWeather");
 			$(".devices .pad .imgBg").addClass("padWeather");
 			$(".devices .mobile .imgBg").addClass("mobileWeather");
+
+			$("#work .forAb").removeClass("listNoCoy listUcompany listSendFaster listMoosic listRosie listLorem")
+
+			$("#work .forAb").addClass("listWeather");
 		}
 
 
 		return false;
 	});
 	
+	
+	// mouse 클릭시
+
+	$("#work .mouse").click(function(){
+		var thisIndex = $(this).index();
+
+		$(this).siblings().removeClass("active");
+		$(this).addClass("active");
+
+		if ( thisIndex == 0 ) {
+			
+			$("#work .bottomContent ul li").eq(0).siblings().find(">a").removeClass("selected");
+			$("#work .bottomContent ul li").eq(0).find(">a").addClass("selected");
+
+			$(".devices .laptop .imgBg").removeClass("lapUcompany lapSendFaster lapMoosic lapRosie lapLorem padLorem lapWeather");
+			$(".devices .pad .imgBg").removeClass("padUcompnay padSendFaster padMoosic padRosie padLorem padWeather");
+			$(".devices .mobile .imgBg").removeClass("mobileUcompany mobileSendFaster mobileMoosic mobileRosie mobileLorem mobileWeather");
+
+			$(".devices .laptop .imgBg").addClass("lapNoCoy");
+			$(".devices .pad .imgBg").addClass("padNoCoy");
+			$(".devices .mobile .imgBg").addClass("mobileNoCoy");
+
+			$("#work .forAb").removeClass("listUcompany listSendFaster listMoosic listRosie listLorem listWeather")
+
+			$("#work .forAb").addClass("listNoCoy");
+	
+
+		} else if ( thisIndex == 1 ) {
+			$("#work .bottomContent ul li").eq(1).siblings().find(">a").removeClass("selected");
+			$("#work .bottomContent ul li").eq(1).find(">a").addClass("selected");
+
+			$(".devices .laptop .imgBg").removeClass("lapNoCoy lapSendFaster lapMoosic lapRosie lapLorem padLorem lapWeather");
+			$(".devices .pad .imgBg").removeClass("padNoCoy padSendFaster padMoosic padRosie padLorem padWeather");
+			$(".devices .mobile .imgBg").removeClass("mobileNoCoy mobileSendFaster mobileMoosic mobileRosie mobileLorem mobileWeather");
+
+			$(".devices .laptop .imgBg").addClass("lapUcompany");
+			$(".devices .pad .imgBg").addClass("padUcompnay");
+			$(".devices .mobile .imgBg").addClass("mobileUcompany");
+
+			$("#work .forAb").removeClass("listNoCoy listSendFaster listMoosic listRosie listLorem listWeather")
+
+			$("#work .forAb").addClass("listUcompany");
+
+		} else if ( thisIndex == 2 ) {
+
+			$("#work .bottomContent ul li").eq(2).siblings().find(">a").removeClass("selected");
+			$("#work .bottomContent ul li").eq(2).find(">a").addClass("selected");
+
+			$(".devices .laptop .imgBg").removeClass("lapNoCoy lapUcompany lapSendFaster lapMoosic lapRosie lapLorem padLorem lapWeather");
+			$(".devices .pad .imgBg").removeClass("padNoCoy padUcompnay padSendFaster padMoosic padRosie padLorem padWeather");
+			$(".devices .mobile .imgBg").removeClass("mobileNoCoy mobileUcompany mobileSendFaster mobileMoosic mobileRosie mobileLorem mobileWeather");
+
+			$(".devices .laptop .imgBg").addClass("lapSendFaster");
+			$(".devices .pad .imgBg").addClass("padSendFaster");
+			$(".devices .mobile .imgBg").addClass("mobileSendFaster");
+
+			$("#work .forAb").removeClass("listNoCoy listUcompany listMoosic listRosie listLorem listWeather")
+
+			$("#work .forAb").addClass("listSendFaster");
+
+		} else if ( thisIndex == 3 ) {
+			
+			$("#work .bottomContent ul li").eq(3).siblings().find(">a").removeClass("selected");
+			$("#work .bottomContent ul li").eq(3).find(">a").addClass("selected");
+
+			$(".devices .laptop .imgBg").removeClass("lapNoCoy lapUcompany lapSendFaster lapRosie lapLorem padLorem lapWeather");
+			$(".devices .pad .imgBg").removeClass("padNoCoy padUcompnay padSendFaster padRosie padLorem padWeather");
+			$(".devices .mobile .imgBg").removeClass("mobileNoCoy mobileUcompany mobileSendFaster mobileRosie mobileLorem mobileWeather");
+
+			$(".devices .laptop .imgBg").addClass("lapMoosic");
+			$(".devices .pad .imgBg").addClass("padMoosic");
+			$(".devices .mobile .imgBg").addClass("mobileMoosic");
+
+			$("#work .forAb").removeClass("listNoCoy listUcompany listSendFaster listRosie listLorem listWeather")
+
+			$("#work .forAb").addClass("listMoosic");
+
+		} else if ( thisIndex == 4 ) {
+
+			$("#work .bottomContent ul li").eq(4).siblings().find(">a").removeClass("selected");
+			$("#work .bottomContent ul li").eq(4).find(">a").addClass("selected");
+
+			$(".devices .laptop .imgBg").removeClass("lapNoCoy lapUcompany lapSendFaster lapMoosic lapLorem padLorem lapWeather");
+			$(".devices .pad .imgBg").removeClass("padNoCoy padUcompnay padSendFaster padMoosic padLorem padWeather");
+			$(".devices .mobile .imgBg").removeClass("mobileNoCoy mobileUcompany mobileSendFaster mobileMoosic mobileLorem mobileWeather");
+	
+			
+			$(".devices .laptop .imgBg").addClass("lapRosie");
+			$(".devices .pad .imgBg").addClass("padRosie");
+			$(".devices .mobile .imgBg").addClass("mobileRosie");
+
+			$("#work .forAb").removeClass("listNoCoy listUcompany listSendFaster listMoosic listLorem listWeather")
+
+			$("#work .forAb").addClass("listRosie");
+
+		} else if ( thisIndex == 5 ) {
+
+			$("#work .bottomContent ul li").eq(5).siblings().find(">a").removeClass("selected");
+			$("#work .bottomContent ul li").eq(5).find(">a").addClass("selected");
+
+			$(".devices .laptop .imgBg").removeClass("lapNoCoy lapUcompany lapSendFaster lapMoosic lapRosie padLorem lapWeather");
+			$(".devices .pad .imgBg").removeClass("padNoCoy padUcompnay padSendFaster padMoosic padRosie padWeather");
+			$(".devices .mobile .imgBg").removeClass("mobileNoCoy mobileUcompany mobileSendFaster mobileMoosic mobileRosie mobileWeather");
+	
+			
+			$(".devices .laptop .imgBg").addClass("lapLorem");
+			$(".devices .pad .imgBg").addClass("padLorem");
+			$(".devices .mobile .imgBg").addClass("mobileLorem");
+
+			$("#work .forAb").removeClass("listNoCoy listUcompany listSendFaster listMoosic listRosie listWeather")
+
+			$("#work .forAb").addClass("listLorem");
+		} else if ( thisIndex == 6 ) {
+
+			$("#work .bottomContent ul li").eq(6).siblings().find(">a").removeClass("selected");
+			$("#work .bottomContent ul li").eq(6).find(">a").addClass("selected");
+
+			$(".devices .laptop .imgBg").removeClass("lapNoCoy lapUcompany lapSendFaster lapMoosic lapRosie lapLorem padLorem");
+			$(".devices .pad .imgBg").removeClass("padNoCoy padUcompnay padSendFaster padMoosic padRosie padLorem");
+			$(".devices .mobile .imgBg").removeClass("mobileNoCoy mobileUcompany mobileSendFaster mobileMoosic mobileRosie mobileLorem");
+	
+			$(".devices .laptop .imgBg").addClass("lapWeather");
+			$(".devices .pad .imgBg").addClass("padWeather");
+			$(".devices .mobile .imgBg").addClass("mobileWeather");
+
+			$("#work .forAb").removeClass("listNoCoy listUcompany listSendFaster listMoosic listRosie listLorem")
+
+			$("#work .forAb").addClass("listWeather");
+		}
+
+
+		return false;
+	});
+
 	
 	// work 더보기 클릭시
 

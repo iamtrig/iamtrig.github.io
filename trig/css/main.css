@@ -123,6 +123,11 @@
 	
 	#work .bottomContent ul li a.selected, #work .bottomContent ul li a:hover { color: #701A1A; transition: 0.5s; }
 	
+	.handler { position: relative; width: 100%; height: 8px;  }
+	.mouse { display: inline-block; float: left; width: 14.2857143%; height: 8px; background-color: #121212; cursor: pointer; }
+	.mouse.active, .mouse:hover { background-color: #840000; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.3s; }
+	
+
 
 /* #work  */
 
@@ -135,7 +140,7 @@
 	.pad .imgBg { display: inline-block; width: 185px; height: 132px; margin: 1px 0 0 20px; background: url('../imgs/workImgs.png') no-repeat; background-position: -2px -189px; }
 	.mobile { position: absolute; left: 64%; top: 90px; display: inline-block; width: 57px; height: 114px; background:  url('../imgs/phone.png') no-repeat; }	
 	.mobile .imgBg { display: inline-block; width: 52px; height: 110px; margin: 2px 0 0 2px ; background: url('../imgs/workImgs.png') no-repeat; background-position: 0px -322px; }
-	#container .lapNoCoy { background-position: 0 0; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
+	#container .lapNoCoy { background-position: 0 0; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.3s; }
 	
 	/* js */
 	#container .lapUcompany { background-position: -280px 0; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
@@ -160,10 +165,16 @@
 	#container .mobileRosie { background-position: -216px -322px ; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
 	#container .mobileLorem { background-position: -270px -322px ; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
 	#container .mobileWeather { background-position: -324px -322px ; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
+	
+	.listNoCoy { left: 0 }
+	.listUcompany { left: 0 }
+	.listSendFaster { left: -200px }
+	.listMoosic { left: -400px }
+	.listRosie { left: -600px }
+	.listLorem { left: -800px }
+	.listWeather { left: -1000px }
 
-
-
-	#work .forRel { position: relative; width: 75%; overflow: hidden; overflow-x: scroll; height: 100%; }
+	#work .forRel { position: relative; width: 75%; overflow: hidden;/* overflow-x: scroll; */height: 100%; }
 	#work .forAb { position: absolute; width: 1440px; }
 	.seeMore { display: none; opacity: 0.5; z-index: 10000; position: absolute; top: 30%; right: 23%; width: 21px; height: 41px; background: url('../imgs/seeMore.png') no-repeat; cursor: pointer; }
 	.seeMore:hover { opacity: 1; }
@@ -223,6 +234,14 @@ ansform: scale(1.5,1.5); -webkit-transform: scale(1.5,1.5); -moz-transform: scal
 		#work .forAb { width: 1100px }
 		#work .bottomContent ul li { font-size: 0.8em; width: 150px; margin: 15px 0 }
 		.seeMoreClass { right: 0; left: -450px; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
+		
+		.listNoCoy { left: 0 }
+		.listUcompany { left: 0 }
+		.listSendFaster { left: -150px }
+		.listMoosic { left: -300px }
+		.listRosie { left: -450px }
+		.listLorem { left: -600px }
+		.listWeather { left: -750px }
 
 		.contactBtmBg > span { left: 730px }
 		span.contactSlideRight { left: 670px !important; }
@@ -277,6 +296,14 @@ ansform: scale(1.2,1.2); -webkit-transform: scale(1.2,1.2); -moz-transform: scal
 	@media only screen and (max-width: 560px) {
 	
 		.pad { left: 50% }
+
+		.listNoCoy { left: 0 }
+		.listUcompany { left: -150px }
+		.listSendFaster { left: -300px }
+		.listMoosic { left: -450px }
+		.listRosie { left: -600px }
+		.listLorem { left: -750px }
+		.listWeather { left: -900px }
 	
 	}
 
