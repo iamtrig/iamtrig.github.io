@@ -1,4 +1,6 @@
-$(document).ready(function(){
+
+$.noConflict();
+jQuery(document).ready(function($){
 
 	$("body, .navParent, #header h1, #about h1, #about p, #about li").css("opacity",0);
 	$("#middle").css("left","-100%");
@@ -428,6 +430,24 @@ $(document).ready(function(){
 
 	});
 
+
+	$("#workMiddleBg .deviceBg").on("swipeleft", function(){
+
+			$("#work .bottomContent ul li").eq(1).siblings().find(">a").removeClass("selected");
+			$("#work .bottomContent ul li").eq(1).find(">a").addClass("selected");
+
+			$(".devices .laptop .imgBg").removeClass("lapNoCoy lapSendFaster lapMoosic lapRosie lapLorem padLorem lapWeather");
+			$(".devices .pad .imgBg").removeClass("padNoCoy padSendFaster padMoosic padRosie padLorem padWeather");
+			$(".devices .mobile .imgBg").removeClass("mobileNoCoy mobileSendFaster mobileMoosic mobileRosie mobileLorem mobileWeather");
+
+			$(".devices .laptop .imgBg").addClass("lapUcompany");
+			$(".devices .pad .imgBg").addClass("padUcompnay");
+			$(".devices .mobile .imgBg").addClass("mobileUcompany");
+
+			$("#work .forAb").removeClass("listNoCoy listSendFaster listMoosic listRosie listLorem listWeather");
+
+			$("#work .forAb").addClass("listUcompany");
+	});
 
 
 	// 로딩시 기본 세팅
