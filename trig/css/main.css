@@ -50,8 +50,8 @@
 
 	.bottomContent { z-index: 10000; overflow: hidden; top: 60%; left:13%; width: 87%; height: 40%; position: absolute; font-size: 1.5em; color: #C5C5C5 }
 
-	#container .toTheLeft { transform: matrix(1, 0, -1, 1, 0, 0); -webkit-transform: matrix(1, 0, -0.5, 1, 0, 0); opacity: 0; transition: 0.5s; -webkit-transition: 0.5s; -moz-transition: 0.5s; left: 0 }
-	#container .toTheRight { transform: matrix(1, 0, 1, 1, 0, 0); -webkit-transform: matrix(1, 0, -0.5, 1, 0, 0); opacity: 0; transition: 0.5s; -webkit-transition: 0.5s; -moz-transition: 0.5s; left: 0 }
+	#container .toTheLeft { transform: matrix(1, 0, -1, 1, 0, 0); -webkit-transform: matrix(1, 0, -0.5, 1, 0, 0); opacity: 0; transition: 0.5s; -webkit-transition: 0.5s; -moz-transition: 0.5s; left: -100% }
+	#container .toTheRight { transform: matrix(1, 0, 1, 1, 0, 0); -webkit-transform: matrix(1, 0, -0.5, 1, 0, 0); opacity: 0; transition: 0.5s; -webkit-transition: 0.5s; -moz-transition: 0.5s; left: -100%}
 	#container .toTheLeftOff { transform: matrix(1, 0, 0, 1, 0, 0); -webkit-transform: matrix(1, 0, 0, 1, 0, 0); opacity: 1; transition: 0.5s; -webkit-transition: 0.5s; -moz-transition: 0.5s; left: 13%; }
 	#container .toTheRightOff { transform: matrix(1, 0, 0, 1, 0, 0); -webkit-transform: matrix(1, 0, 0, 1, 0, 0); opacity: 1; transition: 0.5s; -webkit-transition: 0.5s; -moz-transition: 0.5s; left: 13%; }
 
@@ -163,8 +163,8 @@
 
 
 
-	#work .forRel { position: relative; width: 70%; overflow: hidden; height: 100%; }
-	#work .forAb { position: absolute; width: 1500px; }
+	#work .forRel { position: relative; width: 75%; overflow: hidden; overflow-x: scroll; height: 100%; }
+	#work .forAb { position: absolute; width: 1440px; }
 	.seeMore { display: none; opacity: 0.5; z-index: 10000; position: absolute; top: 30%; right: 23%; width: 21px; height: 41px; background: url('../imgs/seeMore.png') no-repeat; cursor: pointer; }
 	.seeMore:hover { opacity: 1; }
 
@@ -201,21 +201,26 @@
 	@media only screen and (max-width: 2560px) {
 
 		.deviceBg { padding-left: 21%; }
-		.devices { transform: scale(1.8,1.8); width: 63% }
+		.devices { tr
+ansform: scale(1.8,1.8); -webkit-transform: scale(1.8,1.8); -moz-transform: scale(1.8,1.8); -ms-transform: scale(1.8,1.8); width: 63% }
 	}
 
 	@media only screen and (max-width: 2560px) and (max-height: 1000px) {
 
 		.deviceBg { bottom: -7% !important; height: 100% !important; }
-		.devices { transform: scale(1.8,1.8); width: 63% }
+		.devices { tr
+ansform: scale(1.8,1.8); -webkit-transform: scale(1.8,1.8); -moz-transform: scale(1.8,1.8); -ms-transform: scale(1.8,1.8); width: 63% }
+	}
 	}
 
 	@media only screen and (max-width: 1700px) {
 		.deviceBg { padding-left: 18%; bottom: -16% !important;  }
-		.devices { transform: scale(1.5,1.5); width: 100% }
+		.devices { tr
+ansform: scale(1.5,1.5); -webkit-transform: scale(1.5,1.5); -moz-transform: scale(1.5,1.5); -ms-transform: scale(1.5,1.5); width: 100% }
 	}
 
 	@media only screen and (max-width: 1090px) {
+		#work .forAb { width: 1100px }
 		#work .bottomContent ul li { font-size: 0.8em; width: 150px; margin: 15px 0 }
 		.seeMoreClass { right: 0; left: -450px; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
 
@@ -226,7 +231,8 @@
 
 	@media only screen and (max-width: 1000px) {
 		.deviceBg { padding-left: 7%; bottom: -21% !important; }
-		.devices { transform: scale(1.2,1.2); width: 131% }
+		.devices { tr
+ansform: scale(1.2,1.2); -webkit-transform: scale(1.2,1.2); -moz-transform: scale(1.2,1.2); -ms-transform: scale(1.2,1.2); width: 131% }
 
 		#mainContainer { height: 40%; }
 	}
@@ -240,7 +246,7 @@
 	
 	@media only screen and (max-width: 767px) {
 		.deviceBg { padding-left: 0; width: 100% }
-		.devices { transform: scale(1,1); width: 100% }
+		.devices { transform: scale(1,1); -webkit-transform: scale(1,1); -moz-transform: scale(1,1); -ms-transform: scale(1,1); width: 100% }
 		.laptop { left: 17px; }
 		.pad { left: 56% }
 		.mobile { left: auto; right: 17px }
@@ -260,6 +266,8 @@
 		#work .bottomContent { left: 17px }
 		#work .forRel { width: 85%; }
 		.seeMore { right: 8%; top: 75px }
+
+		#work .forRel { width: 95% }
 
 		#container .toTheLeftOff { left: 17px }
 		.topContent { left: 17px }

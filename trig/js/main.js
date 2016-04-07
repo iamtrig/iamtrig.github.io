@@ -68,6 +68,9 @@ $(document).ready(function(){
 	$("#nav a:eq(0)").click(function(){
 		timerStop();
 
+		$("#contact .bottomContent").css("zIndex", 40000);
+		$("#work .bottomContent").css("zIndex", 50000);
+
 		$("#contact h1, #contact .topContent p, #contact ul li, #contact .bottomContent p, #middle, .blackDeco").css("opacity",0);
 
 		$("#middle").css("left",-100+"%");
@@ -116,10 +119,14 @@ $(document).ready(function(){
 	$("#contact .topContent").addClass("toTheLeft");
 	$("#contact .bottomContent").addClass("toTheRight");
 
+
 	$("#contact h1, #contact .topContent p, #contact ul li, #contact .bottomContent p").css("opacity",0);
 
 	$("#nav a:eq(1)").click(function(){
 		timerStop();
+
+		$("#work .bottomContent").css("zIndex", 40000);
+		$("#contact .bottomContent").css("zIndex", 50000);
 
 		$("#work h1, #work .topContent p, #work ul > li > a, #work .bottomContent dl").css("opacity",0);
 		$("#middle").css("opacity",1);
@@ -151,6 +158,10 @@ $(document).ready(function(){
 		$("#work .topContent").removeClass("toTheLeftOff");
 		$("#work .bottomContent").removeClass("toTheRightOff");
 		$("#work .middleContent").removeClass("toTheLeftOff");
+
+		$("#work .topContent").addClass("toTheLeft");
+		$("#work .bottomContent").addClass("toTheRight");
+		$("#work .middleContent").addClass("toTheLeft");
 
 
 		
@@ -252,21 +263,21 @@ $(document).ready(function(){
 
 	// 로딩시 기본 세팅
 
-	if( $(window).width() < 2000 ) {
-			$(".seeMore").show();
-		} else { 
-			$(".seeMore").hide();
-		}
+	// if( $(window).width() < 2000 ) {
+	// 		$(".seeMore").show();
+	// 	} else { 
+	// 		$(".seeMore").hide();
+	// 	}
 
 	
 
 	$(window).resize(function(){
 		var wWidth = $(window).width();
-		if( wWidth < 2000 ) {
-			$(".seeMore").show();
-		} else { 
-			$(".seeMore").hide();
-		}
+		// if( wWidth < 2000 ) {
+		// 	$(".seeMore").show();
+		// } else { 
+		// 	$(".seeMore").hide();
+		// }
 
 		if ( wWidth < 767 ) {
 			timerStop();
