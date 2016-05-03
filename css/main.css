@@ -139,7 +139,7 @@
 	.pad { position: absolute; left: 44%; top: 64px; display: inline-block; width: 206px; height: 140px; background:  url('../imgs/pad.png') no-repeat;}		
 	.pad > div { display: inline-block; width: 185px; height: 132px; margin: 1px 0 0 20px; background: url('../imgs/workImgs.png') no-repeat; background-position: -2px -189px; }
 	.mobile { position: absolute; left: 64%; top: 90px; display: inline-block; width: 57px; height: 114px; background:  url('../imgs/phone.png') no-repeat; }	
-	.mobile > div { display: inline-block; width: 52px; height: 110px; margin: 2px 0 0 2px ; background: url('../imgs/workImgs.png') no-repeat; background-position: 0px -322px; }
+	.mobile > div { display: inline-block; width: 52px; height: 110px; margin: 2px 0 0 2px ; background: url('../imgs/workImgs.png') no-repeat; background-position: 0px -323px; }
 	
 	
 	/* js */
