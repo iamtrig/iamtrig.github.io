@@ -1,6 +1,6 @@
 /*  */
 html, body{
-overflow: hidden; overflow-y: auto; overflow-x: auto; height: 100%; margin: 0; min-height: 900px; min-width: 1000px; background-color: #fff }
+overflow: hidden; overflow-y: auto; overflow-x: auto; height: 100%; margin: 0; min-height: 900px; min-width: 1000px; background-color: #F8F9FF }
 
 body { overflow: hidden; position: relative; margin: 0; font-smoothing: antialiased;-webkit-font-smoothing: antialiased; -moz-font-smoothing: antialiased; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; }
 
@@ -254,4 +254,161 @@ footer { text-align: center; z-index: 1000000; position: absolute; bottom: 0; wi
 	#teach ul li:nth-child(5) { right: 19%; top: 39.5%; }
 	#teach ul li:nth-child(6) { right: 23%; top: 48%; }
 
-}		
+}
+
+@media only screen and (max-width: 1000px) {
+	body, html { min-width: 100% }
+	.deco div span { width: 13px; height: 13px }
+	.forAb { top: 23% }
+	
+	#teach ul li { font-size: 1.7em }
+	#teach ul li:nth-child(1) { left: 16%; top: 30%; }
+	#teach ul li:nth-child(2) { left: 12%; top: 39.5%; }
+	#teach ul li:nth-child(3) { left: 17%; top: 48%; }
+	#teach ul li:nth-child(4) { right: 16%; top: 30%; }
+	#teach ul li:nth-child(5) { right: 15%; top: 39.5%; }
+	#teach ul li:nth-child(6) { right: 17%; top: 48%; }
+	
+	.forWidth { width: 80% }
+	#where .division1 { width: 75%; opacity: 0.3 }
+	#where .division2 { margin-left: -50%; width: 60% }
+	#where .division2 p { width: 82%; font-size: 1.1em }
+	#where .division2 ul li:first-child { float: left; width: 45%; margin-bottom: 20px }
+	
+	#where .eachBg { position: relative; }
+	#where .division2 { position: absolute; z-index: 1000;  }
+	#where .division2 form { clear: both }
+	
+	#enroll .division1 { width: 41%; padding-left: 7% }
+	#enroll .division2 { width: 41%; padding-left: 4% }
+	#enroll .questions p { font-size: 0.9em; width: 86%; margin-left: 9% }
+	#enroll h3 { font-size: 1.3em; margin-bottom: 15px}
+	
+	#courses h1 { left: 26% }
+	#teach h1 { left: 9%}
+	#enroll h1 { right: 26% }
+	#where h1 { right: 9%}
+}
+
+@media only screen and (max-width: 900px) {
+	.forAb { top: 25% }
+	.deco div span { width: 11px; height: 11px }
+	.icon { width: 156px }
+	#courses h2 { font-size: 1.5em }
+	.attach dl dt input { width: 90%; padding: 0 5%; }
+	.venus { width: 208px; background-position: center center }
+	.venus span { display: none }
+	#teach ul li { opacity: 1 !important; }
+}
+
+@media only screen and (max-width: 800px) {
+	.deco { display: none !important }
+	#teach ul li { position: static; text-align: center; font-weight: normal; width: 90%; display: inline-block; text-align: right; padding-right: 10%; margin-bottom: 30px; font-size: 1.5em }
+	.forAb { top: 30% !important }
+	#contents section h1 { position: static; text-align: center; margin: 50px 0 50px 0 }
+	#contents section h1 .break { display: inline-block; margin-right: 5px;}
+	#contents section h1 a { color: #042ff1 !important; font-weight: bold }
+	#contents section { padding-bottom: 50px; }
+	html, body { height: auto; min-height: auto; opacity: 1 !important; }
+	#contents section, .eachBg, .forAb, .venus { position: static !important; }
+	.venus { opacity: 0.3; margin-top: -499px; width: 100%; background-position: 16% 206px; height: 520px }
+	#contents #teach { padding-bottom: 0 }
+	#contents section { border-bottom: 3px solid #fff; }
+	#contents #courses { overflow: hidden; }
+	/*#courses .eachBg > div { float: none; width: 75%; margin-left: 12.5%; margin-bottom: 40px; padding-bottom: 40px; border-bottom: 3px solid #fff }
+	#courses .eachBg > div:nth-child(3) { border-bottom: 0 none }
+	#courses p { width: 70%; padding-left: 15%; height: 110px;  }
+	#enroll .questions p { margin-left: 5%; width: 89% }*/
+	/*.icon { width: 202px; height: 140px; }*/
+	#courses h2 { font-size: 1.3em }
+	.breakLine { width: 80px }
+
+	#enroll .division1 ,#enroll .division2 { float: none; width: 80%; padding-left: 10% }
+	#enroll .division1 { margin-bottom: 50px }
+	#where .division2 ul li:first-child { margin-right: 20px }
+	#where .division2, #where .division1 { position: static; float: none }
+	#where .division1 { z-index: -1; position: absolute; bottom: 0; height: 100%; border-bottom: 0 none }
+	#where .division2 { padding-left: 0; margin-top: 0; width: 65%; margin-left: 25% }
+	#contents #where { position: relative !important; top: 0; }
+	
+
+	.logo h1 { padding-top: 0; margin: 0; }
+	.logo h1 img { width: 75px }
+	.logo .lemon.square { height: 15px; }
+	.logo .lemon.award { display: inline-block }
+	.navParent { top: 30px; }
+	footer { position: static }
+
+}
+
+@media only screen and (max-width: 760px) {
+	#courses p { height: 170px; font-size: 0.9em; line-height: 18px; width: 86%; padding-left: 7% }
+	.icon { width: 140px }
+}
+
+@media only screen and (max-width: 700px) {
+	#where .division2 h2 { font-size: 2.3em }
+}
+
+@media only screen and (max-width: 600px) {
+	#contents #courses { padding-bottom: 0 }
+	#courses .eachBg > div { float: none; width: 75%; margin-left: 12.5%; margin-bottom: 40px; padding-bottom: 40px; border-bottom: 3px solid #fff }
+	#courses .eachBg > div:nth-child(3) { border-bottom: 0 none }
+	#courses p { width: 80%; padding-left: 10%; height: 110px;  }
+	#enroll .questions p { margin-left: 5%; width: 89% }
+	.icon { width: 202px; height: 140px; }
+	#courses h2 { font-size: 1.3em }
+	.breakLine { width: 80px }
+	#where .division2 { margin-left: 23% }
+	.venus { opacity: 0.1; background-position: 50% 206px }
+	#teach ul li { text-align: center; width: 100%; padding-right: 0 }
+	#enroll .questions p { margin-left: 7%; width: 87% }
+	#where .division1 { width: 95% }
+}
+
+
+@media only screen and (max-width: 500px) {
+	#borderLeft { border-left: 20px solid #fff }
+	#borderRight { border-left: 20px solid #fff }
+	nav { right: -210px }
+	.navParent { left: -5px }
+	nav .firstNav { margin-left: 55px }
+
+	
+}
+
+@media only screen and (max-width: 487px) {
+	#where .division2 ul li:first-child { width: 87% }
+	#where .division2 dd input { width: 38.5% }
+}
+
+@media only screen and (max-width: 440px) {
+	#where .division2 { width: 100%; margin-left: 10% }
+	#where .division2 p { width: 77% }
+	#where .division2 h2 { font-size: 2.1em }
+	#enroll .questions p { clear: both; width: 91%; padding: 4%; margin-left: 0; margin-top: 10px; font-size: 1em; line-height: 20px }
+	#enroll h2 { font-size: 1.4em }
+	.yesNo a { display: inline-block; margin-left: 10px }
+	.yesNo { float: right; margin-top: 15px }
+	#enroll h3 { float: left; }
+}
+
+@media only screen and (max-width: 430px) {
+	#courses p { height: 145px; font-size: 1em }
+	#courses .eachBg > div { width: 84%; margin-left: 8% }
+	.icon { width: 188px; height: 132px }
+	.urself dd input { width: 48% }
+}
+
+
+@media only screen and (max-width: 380px) {
+	#where .division2 h2 { font-size: 2em }
+	.attach:first-child dl { margin-bottom: 20px }
+	.attach dl dt { width: 100%; margin-bottom: 0 }
+	.attach dl dd { width: 100%; }
+}
+
+@media only screen and (max-width: 357px) {
+	#where .division2 h2 { font-size: 1.8em }
+
+}
