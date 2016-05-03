@@ -271,7 +271,7 @@ jQuery(document).ready(function($){
 
 			count++;
 
-			if(count>6) {
+			if(count>8) {
 				count = 0;
 				
 			}

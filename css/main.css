@@ -124,7 +124,7 @@
 	#work .bottomContent ul li a.selected, #work .bottomContent ul li a:hover { color: #701A1A; transition: 0.5s; }
 	
 	.handler { position: relative; width: 75%; height: 8px;  }
-	.mouse { display: inline-block; float: left; width: 12.485714%; height: 8px; background-color: #121212; cursor: pointer; }
+	.mouse { display: inline-block; float: left; width: 11.085714%; height: 8px; background-color: #121212; cursor: pointer; }
 	.mouse.active, .mouse:hover { background-color: #840000; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.3s; }
 	
 
@@ -177,6 +177,7 @@
 	#container .lapPosition5 { background-position: -1400px 0; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
 	#container .lapPosition6 { background-position: -1680px 0; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
 	#container .lapPosition7 { background-position: -1960px 0; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
+	#container .lapPosition8 { background-position: -2240px 0; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
 	
 
 	#container .padPosition0 { background-position: -2px -189px; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
@@ -187,7 +188,9 @@
 	#container .padPosition5 { background-position: -935px -189px ; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
 	#container .padPosition6 { background-position: -1122px -189px ; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
 	#container .padPosition7 { background-position: -1309px -189px ; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
+	#container .padPosition8 { background-position: -1496px -189px ; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
 	
+
 	#container .mobilePosition0 { background-position: 0 -322px; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s;}
 	#container .mobilePosition1 { background-position: -54px -322px; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s;}
 	#container .mobilePosition2 { background-position: -108px -322px ; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
@@ -196,21 +199,23 @@
 	#container .mobilePosition5 { background-position: -270px -322px ; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
 	#container .mobilePosition6 { background-position: -324px -322px ; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
 	#container .mobilePosition7 { background-position: -378px -322px ; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
+	#container .mobilePosition8 { background-position: -432px -322px ; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
 
 
 	
 	.liPosition0 { left: 0; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
 	.liPosition1 { left: 0; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
 	.liPosition2 { left: -200px; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
-	.liPosition3 { left: -400px; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
-	.liPosition4 { left: -600px; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
-	.liPosition5 { left: -800px; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
-	.liPosition6 { left: -1000px; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
-	.liPosition7 { left: -1200px; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
+	.liPosition3 { left: -405px; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
+	.liPosition4 { left: -613px; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
+	.liPosition5 { left: -818px; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
+	.liPosition6 { left: -1022px; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
+	.liPosition7 { left: -1230px; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
+	.liPosition8 { left: -1434px; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
 
 
 	#work .forRel { position: relative; width: 75%; overflow: hidden;/* overflow-x: scroll; */height: 100%; }
-	#work .forRel > div { position: absolute; width: 1740px; }
+	#work .forRel > div { position: absolute; width: 1940px; }
 /*	.seeMore { opacity: 0.5; z-index: 10000;  }
 	.seeMore .prev, .seeMore .next { position: absolute; top: 30%; right: 23%; width: 21px; height: 41px; background: url('../imgs/seeMore.png') no-repeat; cursor: pointer; }
 	.seeMore .next { top: 50%; background-position: 0 21px }*/
@@ -270,7 +275,7 @@
 	}
 
 	@media only screen and (max-width: 1090px) {
-		#work .forRel > div { width: 1250px }
+		#work .forRel > div { width: 1450px }
 		#work .bottomContent ul li { font-size: 0.8em; width: 150px; margin: 15px 0 }
 		.seeMoreClass { right: 0; left: -450px; transition: 0.3s; -webkit-transtion: 0.3s; -moz-transition: 0.5s; }
 		
@@ -284,12 +289,13 @@
 
 		.liPosition0 { left: 0 }
 		.liPosition1 { left: -150px }
-		.liPosition2 { left: -300px }
-		.liPosition3 { left: -450px }
-		.liPosition4 { left: -600px }
-		.liPosition5 { left: -750px }
-		.liPosition6 { left: -900px }
-		.liPosition7 { left: -1050px }
+		.liPosition2 { left: -307px }
+		.liPosition3 { left: -460px }
+		.liPosition4 { left: -618px }
+		.liPosition5 { left: -773px }
+		.liPosition6 { left: -930px }
+		.liPosition7 { left: -1083px }
+		.liPosition8 { left: -1237px }
 
 		.contactBtmBg > span { left: 730px }
 		span.contactSlideRight { left: 670px !important; }
@@ -311,7 +317,7 @@
 
 	
 	@media only screen and (max-width: 767px) {
-
+		#work .forRel > div { width: 1450px }
 		.handler { width: 96% }
 		.deviceBg { padding-left: 0; width: 100% }
 		.devices { transform: scale(1,1); -webkit-transform: scale(1,1); -moz-transform: scale(1,1); -ms-transform: scale(1,1); width: 100% }
@@ -346,14 +352,6 @@
 	
 		.pad { left: 50% }
 
-		.liPosition0 { left: 0 }
-		.liPosition1 { left: -150px }
-		.liPosition2 { left: -300px }
-		.liPosition3 { left: -450px }
-		.liPosition4 { left: -600px }
-		.liPosition5 { left: -750px }
-		.liPosition6 { left: -900px }
-		.liPosition7 { left: -1050px }
 	}
 
 	@media only screen and (max-width: 500px) {
