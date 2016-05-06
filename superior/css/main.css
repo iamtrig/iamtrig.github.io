@@ -105,7 +105,7 @@ nav ul li li > a:hover { color: #332F68 }
 .banThirdUl .li3 .bestDescription { background-image: url('../imgs/bg3.jpg'); }
 .banThirdUl .li3 .decoImg { margin-top: 52px; background-image: url('../imgs/illuImg3.png'); }
 
-#content .pagination { z-index: 1000000; position: absolute; left: 20px; top: 483px; display: block; }
+#content .pagination { z-index: 10000; position: absolute; left: 20px; top: 483px; display: block; }
 .pagination a { display: inline-block; opacity: 0.2; width: 8px; height: 8px; border: 2px solid #332F68; margin-right: 15px;-webkit-transform: rotate(-135deg); -moz-transform: rotate(-135deg);-o-transform: rotate(-135deg);transform: rotate(-135deg); text-indent: -9999999px; }
 .pagination a:hover, #content .paginationClass { opacity: 1; background-color: #332F68 } 
 
