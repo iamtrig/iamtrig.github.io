@@ -1,0 +1,3 @@
+#nav a, #about .topContent p, #contact .topContent p, #about .bottomContent li, #work .topContent p, #work .bottomContent ul li > a, #work .bottomContent ul dl dd, #work .bottomContent dl dt, #contact .bottomContent ul li a, #contact .bottomContent p { font-family: Arial }
+#work .topContent p { font-size: 1.2em }
+.topContent h1 { margin-bottom: 15px }
