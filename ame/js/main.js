@@ -145,15 +145,19 @@ $(window).scroll(function(){
 // default settting for animation
 
 $(".attenTrans, .whoImg, .mobile, .tmImg0, .tmImg1, .tmImg2, .upImg0, .upImg1, .upImg2, .upImg3, .upImg4, .upImg5, .upImg6").addClass("basicSettingY");
-$(".tmP, .upP, .artistImg, .submitBg, .appBg, .appBg1, .bannerBg span, .rec5, rec6").addClass("basicSettingX");
+$(".tmP, .upP, .artistImg, .submitBg, .appBg, .appBg1, .bannerBg span, .rec5, .rec6, .rec0, .rec1, .rec2, .rec3, .rec4,.pastPresentFuture h3, .pastPresentFuture dt, .pastPresentFuture .date, .pastPresentFuture .descript, .pastPresentFuture .btns, .bodyTrans h3, .bodyTrans .date, .bodyTrans .descrip, .bodyTrans .btns, .bodyTrans dt, .inOrOut .title, .inOrOut .date, .inOrOut .descript, .inOrOut .btns, .inOrOut h3, .inOrOut dt").addClass("basicSettingX");
 
-$(".tmImg0, .tmImg1, .tmImg2, .upImg0, .upImg1, .upImg2, .upImg3, .upImg4, .upImg5, .upImg6, .artistImg, .mobile").addClass("default");
+$(".tmImg0, .tmImg1, .tmImg2, .upImg0, .upImg1, .upImg2, .upImg3, .upImg4, .upImg5, .upImg6, .rec5, .rec6, .artistImg, .mobile, .pastPresentFuture h3, .pastPresentFuture dt, .pastPresentFuture .date, .pastPresentFuture .descript, .pastPresentFuture .btns, .bodyTrans h3, .bodyTrans .date, .bodyTrans .descrip, .bodyTrans .btns, .bodyTrans dt, .inOrOut .title, .inOrOut .date, .inOrOut .descript, .inOrOut .btns, .inOrOut h3, .inOrOut dt").addClass("default");
 $(".tmP, .attenTrans, .upP, .appBg, .appBg1").addClass("defaultTmP");
 
+$(".rec0, .rec1, .rec2").addClass("basicSpan");
+$(".rec3, .rec4").addClass("recAni2");
+$(".inOrOutBg").addClass("inOrOutAni");
+$(".craig").addClass("craigAni");
+$(".jenny").addClass("jennyAni");
 
 // $(".bannerBg span, .rec5, .rec6, .rec0, .rec1, .rec2, .rec3, .rec4").addClass("opacityDown");
-$(".bannerBg span:eq(0)").addClass("leftZero");
-$(".bannerBg span:eq(1)").addClass("rightZero");
+$(".bannerBg span:eq(0), .bannerBg span:eq(1)").addClass("zero");
 
 // $(".bannerBg span").delay(500).queue(function(next) {
 //   $(".bannerBg span").removeClass("opacityDown");
@@ -312,20 +316,217 @@ $(".preview a").click(function(){
 
 
 
+// $("#banner").css("opacity",0);
+
+// $("#banner").delay(1000).queue(function(next) {
+// 	$("#banner").css("opacity",1);
+// 	$(".craig").removeClass("craigAni");
+// 	$(".jenny").removeClass("jennyAni");
+// });
+
+
+// $(".bannerBg span").delay(1000).queue(function(next) {
+// 	$(".bodyTrans dt").removeClass("default");
+// 	next();
+// });
+
+// $(".bannerBg span").delay(900).queue(function(next) {
+// 	$(".bodyTrans h3").removeClass("default");
+// 	next();
+// });
+// $(".bannerBg span").delay(1000).queue(function(next) {
+// 	$(".bodyTrans .date").removeClass("default");
+
+// 	next();
+// });
+// $(".bannerBg span").delay(1100).queue(function(next) {
+// 	$(".bodyTrans .descrip").removeClass("default");
+// 	$(".bodyTrans .btns").removeClass("default");
+	
+// 	next();
+// });
+
+// $(".bannerBg span").delay(1100).queue(function(next) {
+	
+	
+// 	next();
+// });
+
+
+
+
+
+
+$("#banner").css("opacity",0);
+
+$("#banner").delay(1000).queue(function(next) {
+	$("#banner").css("opacity",1);
+});
+
+$(".bannerBg span").delay(1200).queue(function(next) {
+	$(".bannerBg span:eq(0)").removeClass("zero");
+	$(".rec1").removeClass("basicSpan");
+	
+	$(".rec0").removeClass("basicSpan");
+
+	$(".bannerBg span").delay(200).queue(function(next) {
+		$(".rec2").removeClass("basicSpan");
+		
+		$(".bannerBg span").delay(100).queue(function(next) {
+			$(".bannerBg span:eq(1)").removeClass("zero");
+			$(".rec3").removeClass("recAni2");
+			$(".pastPresentFuture h3, .pastPresentFuture dt").removeClass("default");
+
+			next();
+				$(".bannerBg span").delay(100).queue(function(next) {
+
+				$(".rec4").removeClass("recAni2");
+				$(".pastPresentFuture .date, .pastPresentFuture .descript, .pastPresentFuture .btns, .rec5, .rec6").removeClass("default");
+				next();
+				});
+		});
+
+		next();
+
+	});
+
+	next();
+});
+
+
+
+
+
+
+
+
+
+
 $("#banner .pagination a").click(function(){
 	var thisIndex = $(this).index();
 
 	$("#banner ul li").eq(thisIndex).removeClass("hideLi").addClass("showLi");
 	$("#banner ul li").eq(thisIndex).siblings().removeClass("showLi").addClass("hideLi");
 
-	if(thisIndex == 1) {
-		$(".bannerBg").addClass("secondBg");
-		$(".bannerBg span:eq(0)").removeClass("leftZero");
-		$(".bannerBg span:eq(1)").removeClass("rightZero");
+	if(thisIndex == 0) {
+		$(".bannerBg span").delay(100).queue(function(next) {
+			$(".bannerBg").removeClass("secondBg");
+		$(".bannerBg span:eq(0)").removeClass("zero");
+		
+		$(".rec0").removeClass("basicSpan");
+			next();
+		});
+		
+
+		$(".bannerBg span").delay(200).queue(function(next) {
+
+			$(".rec1").removeClass("basicSpan");
+			
+
+			next();
+		});
+
+		$(".bannerBg span").delay(300).queue(function(next) {
+
+			$(".rec2").removeClass("basicSpan");
+			$(".bannerBg span:eq(1)").removeClass("zero");
+			$(".rec3").removeClass("recAni2");
+			$(".pastPresentFuture h3, .pastPresentFuture dt").removeClass("default");
+
+			next();
+		});
+
+		$(".bannerBg span").delay(400).queue(function(next) {
+
+			$(".rec4").removeClass("recAni2");
+			$(".pastPresentFuture .date, .pastPresentFuture .descript, .pastPresentFuture .btns, .rec5, .rec6").removeClass("default");
+
+			next();
+		});
+
 	} else {
-		$(".bannerBg").removeClass("secondBg");
-		$(".bannerBg span:eq(0)").addClass("leftZero");
-		$(".bannerBg span:eq(1)").addClass("rightZero");
+		$(".bannerBg").addClass("secondBg");
+		$(".bannerBg span:eq(0)").addClass("zero");
+		$(".bannerBg span:eq(1)").addClass("zero");
+		$(".rec0, .rec1, .rec2").addClass("basicSpan");
+		$(".rec3, .rec4").addClass("recAni2");
+		$(".pastPresentFuture h3, .pastPresentFuture .date, .pastPresentFuture .descript, .pastPresentFuture .btns,.pastPresentFuture dt, .rec5, .rec6").addClass("default");
+	}
+
+
+	if ( thisIndex == 1 ) {
+		$(".bannerBg span").delay(50).queue(function(next) {
+			$(".bannerBg").addClass("secondBg");
+
+			$(".jenny").removeClass("jennyAni");
+			$(".craig").removeClass("craigAni");
+			next();
+		});
+		
+		$(".bannerBg span").delay(200).queue(function(next) {
+			$(".bodyTrans h3").removeClass("default");
+
+			next();
+		});
+		$(".bannerBg span").delay(300).queue(function(next) {
+			$(".bodyTrans .date").removeClass("default");
+			$(".bodyTrans dt").removeClass("default");
+
+			next();
+		});
+		$(".bannerBg span").delay(400).queue(function(next) {
+			$(".bodyTrans .descrip").removeClass("default");
+			
+			next();
+		});
+
+		$(".bannerBg span").delay(500).queue(function(next) {
+			$(".bodyTrans .btns").removeClass("default");
+
+			
+			next();
+		});
+		
+	} else {
+		$(".bannerBg span:eq(0)").addClass("zero");
+		$(".bannerBg span:eq(1)").addClass("zero");
+		$(".rec0, .rec1, .rec2").addClass("basicSpan");
+		$(".rec3, .rec4").addClass("recAni2");
+		$(".pastPresentFuture h3, .pastPresentFuture .date, .pastPresentFuture .descript, .pastPresentFuture .btns,.pastPresentFuture dt, .rec5, .rec6, .pastPresentFuture h3, .pastPresentFuture dt, .pastPresentFuture .date, .pastPresentFuture .descript, .pastPresentFuture .btns, .bodyTrans h3, .bodyTrans .date, .bodyTrans .descrip, .bodyTrans .btns, .bodyTrans dt").addClass("default");
+		$(".jenny").addClass("jennyAni");
+		$(".craig").addClass("craigAni");
+
+	}
+
+	
+	if (thisIndex == 2 ) {
+		$(".bannerBg").addClass("secondBg");
+
+		$(".inOrOutBg").removeClass("inOrOutAni");
+		$(".inOrOut .title").removeClass("default");
+
+		$(".bannerBg span").delay(200).queue(function(next) {
+			$(".inOrOut h3").removeClass("default");
+			
+
+			next();
+		});
+		$(".bannerBg span").delay(300).queue(function(next) {
+
+			$(".inOrOut dt").removeClass("default");
+
+			next();
+		});
+		$(".bannerBg span").delay(400).queue(function(next) {
+
+			$(" .inOrOut .date, .inOrOut .descript, .inOrOut .btns").removeClass("default");
+			next();
+		});
+	} else {
+		$(".bannerBg span:eq(0)").addClass("zero");
+		$(".bannerBg span:eq(1)").addClass("zero");
+		$(".inOrOut .date, .inOrOut .descript, .inOrOut .btns, .inOrOut dt, .inOrOut h3, .inOrOut .title").addClass("default");
+		$(".inOrOutBg").addClass("inOrOutAni");
 	}
 
 	return false;
