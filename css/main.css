@@ -14,7 +14,7 @@
 	#header h1 { z-index: 1000000; position: absolute; top: 20px; left: 20px;  }
 	#header h1 a { opacity: 0.7 }
 	#header h1 a:hover { opacity: 1; transition: .5s;  -webkit-transition: .5s; -moz-transition: .5s; }
-
+	.wording { display: none }
 /* nav */
 
 	.navParent { z-index: 1000000; position: absolute; top: 26px; right: 20px }
