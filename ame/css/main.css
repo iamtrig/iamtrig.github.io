@@ -379,16 +379,386 @@ footer p a:hover { opacity: 0.7 }
 
 
 
+@media only screen and (max-width: 1250px) {
+	header{ padding-left: 3%; padding-right: 3%; max-width: auto; width: 94% }
+	.btn0 { right: 3% }
+	#content { padding-left: 3%; padding-right: 3%; max-width: auto; width: 94%  }
+	#thisMonth .firstUl > li > ul > li .tmImg0 { width: 484px }
+	.tmP { padding: 45px 60px }
+	#thisMonth .firstUl > li > ul > li:nth-child(2) .tmP .lineBelow { right: 85% }
+	#thisMonth .firstUl > li > ul > li:nth-child(3) .tmP .lineBelow { left: 86% }
+	#thisMonth .firstUl > li > ul > li .tmImg2 { right: 66px; width: 488px; height: 436px }
+	#thisMonth .firstUl > li > ul > li:nth-child(1) .tmP { left: 8% }
+	#thisMonth .firstUl > li > ul > li .lineBelow { left: 87% }
+	.upImg0 { left: 10% }
+
+
+
+
+}
 
 @media only screen and (max-width: 1200px) {
+	.upImg1 { left: 3%; width: 333px }
+	.upImg3 { left: 32%; width: 352px }
+	.upImg2 { right: 6% }
+	#upcoming .firstUl > li > ul#june > li:nth-child(2) .upP { left: 31% }
+	#upcoming .firstUl > li > ul#june > li:nth-child(4) .upP { left: 6%; }
+	#upcoming .firstUl > li > ul#june > li:nth-child(3) .upP { right: 3% }
+
+	.upImg0 { left: 7% }
+	#upcoming .firstUl > li > ul#june > li:nth-child(1) .upP { right: 10% }
+	
 	#wrapper .hamChange { top: 0px }
 	#wrapper .formChange { margin-top: -6px }
 	#wrapper .headerChange { padding: 20px 0 15px 0 }
 	#wrapper header .svgChange { height: 12px;     margin-right: -36px;  }
 	.fixedPos { position: fixed !important; margin-top: -10px; transition: 0.3s; -webkit-transition: 0.5s; -moz-transition: 0.5s;  }
+	
+	/* #thisMonth */
+	#thisMonth .firstUl > li > ul > li .tmImg0 { right: 2% }
+	#thisMonth .firstUl > li > ul > li .tmImg1 { left: 11% }
+	#thisMonth .firstUl > li > ul > li .lineBelow { left: 90% }
+	#thisMonth .firstUl > li > ul > li:nth-child(2) .tmP .lineBelow {right: 92% }
+	#thisMonth .firstUl > li > ul > li:nth-child(3) .tmP .lineBelow { left: 90% }
+	#thisMonth .firstUl > li > ul > li .tmImg2 { right: 1% }
+}
+
+@media only screen and (max-width: 1100px) {
+	.upImg0 { left: 3% }
+	#upcoming .firstUl > li > ul#june > li:nth-child(1) .upP { right: 6% }
+
+	.upImg1 { left: 0%; width: 333px }
+	.upImg3 { left: 28%; width: 352px }
+	.upImg2 { right: 7%; width: ; }
+	#upcoming .firstUl > li > ul#june > li:nth-child(2) .upP { left: 31%; font-size: 0.9em; width: 16% }
+	#upcoming .firstUl > li > ul#june > li:nth-child(4) .upP { left: 3%; font-size: 0.9em; width: 16% }
+	#upcoming .firstUl > li > ul#june > li:nth-child(3) .upP { right: 3%; font-size: 0.9em; width: 16% }
+
+	/* #thisMonth */
+	#thisMonth .firstUl > li > ul > li:nth-child(3) .tmP { left: 0 }
+	#thisMonth .firstUl > li > ul > li .tmImg0 { right: 1% }
+	#thisMonth .firstUl > li > ul > li .tmImg1 { left: 3% }
+	#thisMonth .firstUl > li > ul > li:nth-child(1) .tmP { left: 0% }
+	#thisMonth .firstUl > li > ul > li:nth-child(2) .tmP { right: 4% }
+}
+
+@media only screen and (max-width: 1024px) {
+	.upImg0 { left: 0% }
+	#upcoming .firstUl > li > ul#june > li:nth-child(1) .upP { right: 0% }
+	
+	#months { right: -2514px }
+
+	.upImg1 { left: 0%; width: 333px }
+	.upImg3 { left: 28%; width: 352px }
+	.upImg2 { right: 4%;  }
+	#upcoming .firstUl > li > ul#june > li:nth-child(2) .upP { left: 31%; font-size: 0.9em; width: 16% }
+	#upcoming .firstUl > li > ul#june > li:nth-child(4) .upP { left: 3%; font-size: 0.9em; width: 16% }
+	#upcoming .firstUl > li > ul#june > li:nth-child(3) .upP { right: 1%; font-size: 0.9em; width: 16% }
+
+
+	#months li .indiLine { opacity: 0 }
+
+	/* #thisMonth */
+	#thisMonth .firstUl > li > ul > li:nth-child(3) .tmP { left: 0 }
+	#thisMonth .firstUl > li > ul > li .tmImg0 { right: 3% }
+	#thisMonth .firstUl > li > ul > li .tmImg1 { left: 3% }
+	#thisMonth .firstUl > li > ul > li .tmImg2 { right: 3% }
+	#thisMonth .firstUl > li > ul > li:nth-child(1) .tmP { left: 0% }
+	#thisMonth .firstUl > li > ul > li:nth-child(2) .tmP { right: 0% }
+	#thisMonth .firstUl > li > ul > li .tmImg2, #thisMonth .firstUl > li > ul > li .tmImg0 { width: 440px }
+	#thisMonth .firstUl > li > ul > li .tmP .lineBelow { width: 220px }
+	.tmP .descript { font-size: 0.8em }
+	.tmP { width: 280px; padding: 45px 45px }
+
+	#semiFooter div { padding-left: 8%; padding-right: 8% }
+}
+
+@media only screen and (max-width: 920px) {
+
+	.upImg0 { left: 0%; width: 100%; background-size: 100%; height: 420px }
+	#upcoming .firstUl > li > ul#june > li:nth-child(1) .upP { right: 0% }
+	
+	#months { right: -2514px }
+
+	.upImg1 { left: 0%; width: 300px; top: 684px }
+	.upImg3 { left: 28%; width: 330px; background-position: top right }
+	.upImg2 { right: 0; width: ; }
+	#upcoming .firstUl > li > ul#june > li:nth-child(2) .upP { left: 31%; font-size: 0.9em; width: 16% }
+	#upcoming .firstUl > li > ul#june > li:nth-child(4) .upP { left: 3%; font-size: 0.9em; width: 16% }
+	#upcoming .firstUl > li > ul#june > li:nth-child(3) .upP { right: 1%; font-size: 0.9em; width: 16% }
+
+
+
+
+
+
+
+
+
+	header{ padding-left: 2%; padding-right: 2%; max-width: auto; width: 96% }
+	.btn0 { right: 2% }
+	#content { padding-left: 2%; padding-right: 2%; max-width: auto; width: 96%  }
+	.firstUl > li { margin-left: 17px }
+
+	#thisMonth .firstUl > li > ul > li .tmP .lineBelow { width: 170px }
+	#thisMonth .firstUl > li > ul > li .tmImg2, #thisMonth .firstUl > li > ul > li .tmImg0 { width: 410px }
+	#thisMonth .firstUl > li > ul > li .tmImg0 { right: 0% }
+	#thisMonth .firstUl > li > ul > li .tmImg1 { left: 0% }
+	#thisMonth .firstUl > li > ul > li .tmImg2 { right: 0% }
+
+}
+
+@media only screen and (max-width: 840px) {
+	header h1 { margin-right: 15px }
+	#mainFind { margin-right: 30px }
+
+	.juneBg, .julyBg { display: none }
+	.upImg0 { position: static; float: left; left: 0%; width: 50%; background-size: auto; background-position: -200px top; height: 420px; margin-top: 0; -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); }
+	#upcoming .firstUl > li > ul#june > li:nth-child(1) .upP { float: right; padding-top: 35px; position: static; width: 40%; padding-left: 5%; padding-right: 5%; }
+	
+	#months { right: -2514px }
+	#upcoming #june > li:first-child { width: 100% }
+
+	.upImg1 {  position: static; width: 50%; float: left; height: 250px }
+	.upImg2 {  position: static; width: 100%; height: 270px; float: left }
+	.upImg3 {  position: static; width: 50%; float: right; height: 250px }
+	#upcoming .firstUl > li > ul#june > li:nth-child(2) .upP { position: static; width: 40%; padding-left: 5%; padding-right: 5%; float: right}
+	#upcoming .firstUl > li > ul#june > li:nth-child(4) .upP { position: static; width: 40%; padding-left: 5%; padding-right: 5%; }
+	#upcoming .firstUl > li > ul#june > li:nth-child(3) .upP { position: static; width: 90%; padding-left: 5%; padding-right: 5%; float: right }
+	
+	#upcoming #june > li:nth-child(3) { float: right; width: 35% }
+	#upcoming .firstUl > li > ul#june > li:nth-child(3) .upP { margin-right: 0 }
+
+	#upcoming #june > li, #upcoming #july > li  { width: 62%;  float: left; }
+	#upcoming .seeMore a { margin-top: 50px; position: static; -webkit-transform: rotate(0); transform: rotate(0); }
+	#upcoming #june .seeMore { position: static; width: 100%; float: left; background: none; height: auto }
+	#upcoming #july { display: none }
+	#upcoming { height: 1200px }
+
+	#upcoming #june > li:first-child { margin-bottom: 20px}
+	#upcoming #june > li:nth-child(2) { margin-bottom: 20px}
+
+
+	#wrapper .basicSettingX ,#wrapper .basicSettingY { opacity: 1; -webkit-transform: translate(0, 0) rotate(0, 0) !important; transform: translate(0, 0) rotate(0, 0) !important; transition: -webkit-transform 0ms cubic-bezier(0, 0, 0, 0) 0ms, opacity 0ms cubic-bezier(0, 0, 0, 0) 0ms; transition: transform 0ms cubic-bezier(0, 0, 0, 0) 0ms, opacity 0ms cubic-bezier(0, 0, 0, 0) 0ms; }
+	#wrapper .basicSettingX { -webkit-transform: translate(0, 0) rotate(0, 0); transform: translate(0, 0) rotate(0, 0); transition: -webkit-transform 0ms cubic-bezier(0, 0, 0, 0) 0ms, opacity 0ms cubic-bezier(0, 0, 0, 0) 0ms; transition: transform 0ms cubic-bezier(0, 0, 0, 0) 0ms, opacity 0ms cubic-bezier(0, 0, 0, 0) 0ms; }
+	#wrapper .default { opacity: 1!important; -webkit-transform: translateY(0) !important; transform: translateY(0) !important; transition: -webkit-transform 3000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms, opacity 3000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms; transition: transform 3000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms, opacity 3000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms; }
+	#wrapper .defaultTmP { opacity: 1!important; -webkit-transform: translateX(0) !important; transform: translateX(0) !important; transition: -webkit-transform 3000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms, opacity 3000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms; transition: transform 3000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms, opacity 3000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms; }
+
+
+
+
+	#wrapper .firstUl > li > a { font-size: 0.8em }
+	#wrapper .firstUl > li > ul { margin-top: 80px }
+	#thisMonth .firstUl > li > ul > li .tmP { background-color: transparent; text-align: center }
+	.tmP .byWhom { margin-top: 10px }
+	
+	#thisMonth .firstUl > li > ul > li:nth-child(2) .tmP h3 { margin-top: 35px }
+	#thisMonth .firstUl > li > ul > li:nth-child(3) .tmP h3 { margin-top: 55px }
+	#thisMonth .firstUl > li > ul > li { height: 500px; float: left }
+	#thisMonth .firstUl > li > ul > li .tmImg0, #thisMonth .firstUl > li > ul > li .tmImg1, #thisMonth .firstUl > li > ul > li .tmImg2, #thisMonth .firstUl > li > ul > li:nth-child(3) .tmP, #thisMonth .firstUl > li > ul > li:nth-child(2) .tmP, #thisMonth .firstUl > li > ul > li:nth-child(1) .tmP { position: static; top: auto; right: auto; left: auto; bottom: auto; display: inline-block; }
+	#thisMonth .firstUl > li > ul > li .tmImg0, #thisMonth .firstUl > li > ul > li .tmImg1, #thisMonth .firstUl > li > ul > li .tmImg2 { width: 50%; background-size: cover; -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); height: 500px}
+	#thisMonth .firstUl > li > ul > li:nth-child(3) .tmP, #thisMonth .firstUl > li > ul > li:nth-child(2) .tmP, #thisMonth .firstUl > li > ul > li:nth-child(1) .tmP { padding-left: 5%; padding-right: 5%; width: 40% }
+	#thisMonth .firstUl > li > ul > li .lineBelow { position: static; display: inline-block; height: 3px }
+	#thisMonth .firstUl > li > ul > li.seeMore { height: 50px; width: 100%; padding-top: 50px; text-align: center }
+	#thisMonth .firstUl > li > ul > li.seeMore a { top: 0px; position: static;}
+	
+	#thisMonth .firstUl > li > ul > li .tmImg0, #thisMonth .firstUl > li > ul > li:nth-child(2) .tmP  { float: right }
+	#thisMonth .firstUl > li > ul > li .tmImg1, #thisMonth .firstUl > li > ul > li:nth-child(3) .tmP { float: left }
+	
+	#content { padding-left: 0; padding-right: 0; width: 100%; }
+	#thisMonth { height: 1740px }
+
+	section h2 { width: 100%; float: none; text-align: center }
+	section h2 a { font-size: 30px }
+	.firstUl > li { margin-top: 16px }
+	p.deco { font-size: 6em; height: 66px; top: 29px; left: 0; width: 100%; text-align: center }
+	.leftP > .dot { float: none; margin: 0 auto; position: static; display: block; width: 50%; height: 1px; background-color: #e3e3e3; }
+	section h2 a { display: inline-block; margin-bottom: 20px }
+
+	.firstUl { text-align: center }
+	.firstUl > li:first-child  { margin-left: 0 }
+	#attention h3, #submit h3, #submit .poten, #app h3 { width: 100%; margin-left: 0; text-align: center; }
+	#submit .leftP { width: 100%; float: none  }
+	#app p.deco { width: 100%; text-align: center }
+	#app h3 a { margin-left: 0; margin-top: 10px; display: inline-block; }
+	.supports { margin-left: 0; margin-right: 0; text-align: center; }
+	#app .dot, .mobile, .download { margin-left: 0 }
+	.mobile { margin-top: 40px }
+	.appBg1 { display: none }
+	.appBg { display: none; position: static; margin: 0 auto; margin-top: 162px;  width: 100px; height: 100px; background-size: 100% 100%; box-shadow: 0px -1px 27px -3px rgba(0, 0, 0, 0.25); -webkit-box-shadow: 0px -1px 27px -3px rgba(0, 0, 0, 0.25); -moz-box-shadow: 0px -1px 27px -3px rgba(0, 0, 0, 0.25); }
+/*	#semiFooter div ul { text-align: left;  }*/
+/*	.supports { margin-top: -240px; }*/
+	.whoImg { display: none }
+	.submitBg { margin: 50px 0 0 0; text-align: center; padding: 65px 15% 75px 15%; width: 70% }
+	
+
+	#attention .attenTrans { position: static; margin: 0 auto; margin-top: -750px; padding-left: 10%; padding-right: 10%; width: 50%; opacity: 0.8 }
+	.artistImg { margin-top: 210px }
+	#attention { height: 910px }
+
+	#thisMonth .firstUl > li > ul > li h3 { font-size: 1.3em }
+
+	#content section { padding-top: 70px }
+	
+	#wrapper section#semiFooter { text-align: center; width: 100% }
+	#semiFooter div { float: none; padding-left: 6.5%; padding-right: 6.5%; width: 20% }
+	#semiFooter .network { float: left }
+	#semiFooter .partners { float: left }
+	.greyBg { top: 6630px; width: 100%; left: 0 }
+
+	#months {text-transform: lowercase; font-weight: normal; text-align: center; width: 100%; margin-bottom: 20px; position: static;  transform: rotate(0); -webkit-transform: rotate(0); -moz-transform: rotate(0); }
+	#months li .indiLine { display: none; }
+	#months li:nth-child(3), #months li:nth-child(4), #months li:nth-child(6), #months li:nth-child(5) { display: inline-block; margin-left: 10px }
+	#months li:nth-child(2) { margin-left: 10px }
+	#months li:first-child a { color: #373737 }
+
+	.firstUl h4.hidden { display: none }
+}
+
+@media only screen and (max-width: 730px) {
+	#semiFooter div { background-position: 49px center; }
+	#mainMenu a { margin-right: 9px }
+	header h1 { margin-right: 20px }
 
 
 }
+
+@media only screen and (max-width: 700px) {
+	#mainMenu { display: none }
+
+}
+
+@media only screen and (max-width: 670px) {
+	#thisMonth { height: 1712px }
+
+	p.deco { font-size: 4.9em; height: 55px; top: 35px }
+	#upcoming .firstUl > li > ul#june > li:nth-child(1) .upP { font-size: 0.9em; }
+	.upImg0 { height: 388px  }
+	.upImg2 { background-position: center top; height: 264px }
+
+	#upcoming .firstUl > li > ul#june > li:nth-child(2) .upP { font-size: 0.8em }
+	#upcoming .firstUl > li > ul#june > li:nth-child(3) .upP { font-size: 0.8em }
+	#upcoming .firstUl > li > ul#june > li:nth-child(4) .upP { font-size: 0.8em }
+	.upImg3, .upImg1  { height: 243px }
+
+}
+
+@media only screen and (max-width: 600px) {
+	.upP .btns a { position: absolute; width: 100%; height: 100%; background: transparent; text-indent: -99999px; top: 0; left: 0; border: 0 none;}
+	.upP .btns a:hover { background: 0 none }
+	#wrapper #upcoming #june > li, #upcoming #june > li:first-child { float: left; margin-bottom: 0; position: relative; width: 50%; height: 245px; }
+	.upImg0, .upImg1, .upImg2, .upImg3 { width: 100%; height: 100%; background-size: cover; /* position: relative; top: auto; left: auto; right: auto; bottom: auto; */}
+	.upImg0 { background-size: 505px; background-position: top left }
+	#upcoming .firstUl > li > ul#june > li .upP h3 { margin-bottom: 21px; font-size: 1.1em; text-transform: lowercase; }
+	#upcoming .firstUl > li > ul#june > li:nth-child(1) .upP h3 { font-size: 1.1em }
+	.upP .descript { display: none }
+	#upcoming .firstUl > li > ul#june > li:nth-child(1) .upP { opacity: 0.8; z-index: 100; width: 60%; padding-left: 10%; padding-right: 10%; padding-top: 30px; padding-bottom: 30px; margin-left: 10%; margin-top: 10%; position: absolute; left: 0; top: 0; font-size: 0.9em }
+	#upcoming .firstUl > li > ul#june > li:nth-child(2) .upP { opacity: 0.8; z-index: 100; width: 60%; padding-left: 10%; padding-right: 10%; padding-top: 30px; padding-bottom: 30px; margin-left: 10%; margin-top: 10%; position: absolute; left: 0; top: 0; font-size: 0.9em }
+	#upcoming .firstUl > li > ul#june > li:nth-child(3) .upP { opacity: 0.8; z-index: 100; width: 60%; padding-left: 10%; padding-right: 10%; padding-top: 30px; padding-bottom: 30px; margin-left: 10%; margin-top: 10%; position: absolute; left: 0; top: 0; font-size: 0.9em }
+	#upcoming .firstUl > li > ul#june > li:nth-child(4) .upP { opacity: 0.8; z-index: 100; width: 60%; padding-left: 10%; padding-right: 10%; padding-top: 30px; padding-bottom: 30px; margin-left: 10%; margin-top: 10%; position: absolute; left: 0; top: 0; font-size: 0.9em }
+
+	#upcoming #june > li:nth-child(3) { float: none; width: 50%; }
+	#wrapper #upcoming #june li.seeMore { width: 100%; height: 100px; position: static; }
+	#upcoming { height: 770px }
+
+	#attention .attenTrans { width: 55%; }
+
+	#content section { padding-bottom: 50px }
+	.greyBg { top: 5823px }
+	.mobile { width: 400px; height: 256px; background-size: 100% }
+	.mobile span { width: 60px; height: 60px; border-radius: 15px; margin: 150px 6px 0 6px }
+	#wrapper .firstUl > li > ul { margin-top: 50px }
+	#content section { padding-top: 70px }
+	#thisMonth { height: 1404px }
+	#thisMonth .firstUl > li > ul > li:nth-child(3) .tmP, #thisMonth .firstUl > li > ul > li:nth-child(2) .tmP, #thisMonth .firstUl > li > ul > li:nth-child(1) .tmP { padding-right: 0; padding-left: 0; width: 100% }
+	.tmP { padding: 30px 0 }
+	.tmP .btns { margin-top: 30px; }
+	.tmP .btns a { background-color: #fff; opacity: 0.8; border: 1px solid #fff }
+	#thisMonth .firstUl > li > ul > li:nth-child(2) .tmP h3 { margin-top: 0 }
+	#thisMonth .firstUl > li > ul > li:nth-child(3) .tmP h3 { margin-top: 0 }
+	#thisMonth .firstUl > li > ul > li { height: 260px; width: 100%; padding-top: 150px; position: relative; }
+	#thisMonth .firstUl > li > ul > li .tmImg0, #thisMonth .firstUl > li > ul > li .tmImg1, #thisMonth .firstUl > li > ul > li .tmImg2 { width: 100%; height: 100%; float: none }
+	#thisMonth .firstUl > li > ul > li .tmImg1 { background-position: center center }
+	#thisMonth .firstUl > li > ul > li:nth-child(2) .tmP, #thisMonth .firstUl > li > ul > li:nth-child(1) .tmP, #thisMonth .firstUl > li > ul > li:nth-child(3) .tmP { float: none; width: 100%; position: absolute; top: 0; left: 0 }
+	#thisMonth .firstUl > li > ul > li .descript { display: none }
+	#submit input[type=text]:nth-child(2) { margin-bottom: 0 }
+	#submit input[type=text]:nth-child(2), #submit input[type=text]:nth-child(3) { width: 100% }
+	#semiFooter div { background-position: 34px center }
+	#semiFooter div ul { margin-left: 0 }
+
+	#thisMonth .firstUl > li > ul { margin-top: 10px }
+
+}
+
+@media only screen and (max-width: 520px) {
+	.artistImg { margin-top: 245px; margin-left: -191px}
+	#attention .attenTrans { margin-top: -800px; width: 65% }
+	#attention .emphasis { font-size: 1.6em }
+	#semiFooter div { background: 0 none }
+	.greyBg { top: 5816px }
+
+	p.deco { font-size: 4em; height: 42px; top: 49px }
+
+	/*#thisMonth { height: 1420px }*/
+	#upcoming { height: 723px }
+}
+
+@media only screen and (max-width: 500px) {
+	#upcoming .firstUl > li > ul#june > li:nth-child(4) .upP h3 { font-size: 0.9em }
+	#wrapper #upcoming #june > li, #upcoming #june > li:first-child { height: 230px }
+	#upcoming { height: 700px }
+	.greyBg { top: 5590px }
+
+	.mobile { width: 320px; height: 190px }
+	.mobile span { margin-top: 113px; width: 50px; height: 50px; border-radius: 10px; border: 1px dashed #cecece; }
+	#wrapper .addApp, #wrapper .mobile span:hover { width: 50px; height: 50px; background-size: 50px; border: 1px solid #fff }
+	
+
+	
+	.topGradi, .btmGradi { width: 100%; background-size: 100% 119%; left: 0 }
+	.btmGradi { height: 50px }
+	#submit input[type=submit] { margin-right: 0; margin-bottom: 0; margin-top: 20px}
+	#submit input[type=submit], #submit input[type=reset] { width: 100%; }
+	#submit input[type=reset] { margin-top: 10px }
+	.submitBg h4 { font-size: 1.3em }
+
+	footer { padding: 10px 0 30px }
+	footer p a { margin-bottom: 10px }
+
+	#thisMonth .firstUl > li > ul > li h3 { font-size: 1.1em }
+	section h2 a { font-size: 25px }
+	#app h3 a { font-size: 23px }
+}
+
+
+@media only screen and (max-width: 450px) {
+	.submitBg { padding-left: 10%; padding-right: 10%; width: 80% }
+	#semiFooter div ul { font-size: 0.9em }
+	#semiFooter div h4 { font-size: 1em; margin-bottom: 20px }
+	#attention .emphasis { font-size: 1.4em }
+
+	p.deco { font-size: 3em } 
+
+}
+
+@media only screen and (max-width: 380px) {
+	.artistImg { margin-top: 175px }
+	#attention .attenTrans { width: 80%; margin-top: -740px }
+	.playLine { width: 130px }
+	#attention .emphasis { font-size: 1.2em }
+	.mobile { width: 285px; height: 170px }
+	.mobile span { margin-top: 103px; width: 45px; height: 45px; border-radius: 10px; border: 1px dashed #cecece; }
+	#wrapper .addApp, #wrapper .mobile span:hover { width: 45px; height: 45px; background-size: 50px; border: 1px solid #fff }
+	
+
+	#semiFooter div ul { font-size: 1.1em }
+	#semiFooter div h4 { font-size: 1.2em;}
+	#semiFooter .partners { padding-bottom: 0 }
+
+	#wrapper #semiFooter div { float: none; width: 70%; background-position: center center }
+	
+}
+
 
 
 

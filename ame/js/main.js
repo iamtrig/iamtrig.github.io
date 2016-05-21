@@ -176,6 +176,22 @@ $(".bannerBg span:eq(0), .bannerBg span:eq(1)").addClass("zero");
 //   next();
 // });
 
+
+
+if ( $(window).width() <= 920 ) {
+	
+	$(".attenTrans, .whoImg, .mobile, .tmImg0, .tmImg1, .tmImg2, .upImg0, .upImg1, .upImg2, .upImg3, .upImg4, .upImg5, .upImg6").removeClass("basicSettingY");
+	$(".tmP, .upP, .artistImg, .submitBg, .appBg, .appBg1, .bannerBg span, .rec5, .rec6, .rec0, .rec1, .rec2, .rec3, .rec4,.pastPresentFuture h3, .pastPresentFuture dt, .pastPresentFuture .date, .pastPresentFuture .descript, .pastPresentFuture .btns, .bodyTrans h3, .bodyTrans .date, .bodyTrans .descrip, .bodyTrans .btns, .bodyTrans dt, .inOrOut .title, .inOrOut .date, .inOrOut .descript, .inOrOut .btns, .inOrOut h3, .inOrOut dt").removeClass("basicSettingX");
+
+} else { 
+
+	$(".attenTrans, .whoImg, .mobile, .tmImg0, .tmImg1, .tmImg2, .upImg0, .upImg1, .upImg2, .upImg3, .upImg4, .upImg5, .upImg6").addClass("basicSettingY");
+	$(".tmP, .upP, .artistImg, .submitBg, .appBg, .appBg1, .bannerBg span, .rec5, .rec6, .rec0, .rec1, .rec2, .rec3, .rec4,.pastPresentFuture h3, .pastPresentFuture dt, .pastPresentFuture .date, .pastPresentFuture .descript, .pastPresentFuture .btns, .bodyTrans h3, .bodyTrans .date, .bodyTrans .descrip, .bodyTrans .btns, .bodyTrans dt, .inOrOut .title, .inOrOut .date, .inOrOut .descript, .inOrOut .btns, .inOrOut h3, .inOrOut dt").addClass("basicSettingX");
+
+}
+
+
+
 // scrolling animation effect
 
 $(window).scroll(function(){
