@@ -2,7 +2,7 @@
 html, body{
 overflow: hidden; overflow-y: auto; width: 100%; /*min-height: 844px;*/ margin: 0 auto; }
 
-body {background: #fff;   width: 100%; margin: 0 auto; font-smoothing: antialiased;-webkit-font-smoothing: antialiased; -moz-font-smoothing: antialiased; }
+body {background: #fff; overflow: hidden;  width: 100%; margin: 0 auto; font-smoothing: antialiased;-webkit-font-smoothing: antialiased; -moz-font-smoothing: antialiased; }
 
 .break { display: block }
 .lineBelow { width: 29px; height: 1px; background-color: #e3e3e3 }
@@ -380,9 +380,9 @@ footer p a:hover { opacity: 0.7 }
 
 
 @media only screen and (max-width: 1250px) {
-	header{ padding-left: 3%; padding-right: 3%; max-width: auto; width: 94% }
+	#wrapper header{ padding-left: 3%; padding-right: 3%; max-width: none; width: 94% }
 	.btn0 { right: 3% }
-	#content { padding-left: 3%; padding-right: 3%; max-width: auto; width: 94%  }
+	#content { padding-left: 3%; padding-right: 3%; max-width: none; width: 94%  }
 	#thisMonth .firstUl > li > ul > li .tmImg0 { width: 484px }
 	.tmP { padding: 45px 60px }
 	#thisMonth .firstUl > li > ul > li:nth-child(2) .tmP .lineBelow { right: 85% }
@@ -495,9 +495,9 @@ footer p a:hover { opacity: 0.7 }
 
 
 
-	header{ padding-left: 2%; padding-right: 2%; max-width: auto; width: 96% }
+	#wrapper header { padding-left: 2%; padding-right: 2%; max-width: none; width: 96% }
 	.btn0 { right: 2% }
-	#content { padding-left: 2%; padding-right: 2%; max-width: auto; width: 96%  }
+	#content { padding-left: 2%; padding-right: 2%; max-width: none; width: 96%  }
 	.firstUl > li { margin-left: 17px }
 
 	#thisMonth .firstUl > li > ul > li .tmP .lineBelow { width: 170px }
