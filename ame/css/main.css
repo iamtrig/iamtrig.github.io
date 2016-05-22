@@ -380,6 +380,7 @@ footer p a:hover { opacity: 0.7 }
 
 
 @media only screen and (max-width: 1250px) {
+	body, html { max-width: 100%; overflow: hidden;  overflow-y: auto; }
 	#wrapper header{ padding-left: 3%; padding-right: 3%; max-width: none; width: 94% }
 	.btn0 { right: 3% }
 	#content { padding-left: 3%; padding-right: 3%; max-width: none; width: 94%  }
