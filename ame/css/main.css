@@ -456,9 +456,31 @@ footer p a:hover { opacity: 0.7 }
 	#banner { height: 776px }
 	.bannerBg { height: 776px }
 	#banner ul li { padding-top: 56px }
+
+	.pastPresentFuture dt { top: 230px }
+	.rec2 { left: 8% }
 }
 
 @media only screen and (max-width: 1100px) {
+
+	/* #banner */
+	.pastPresentFuture h3 { font-size: 1.7em; right: 22px }
+	.pastPresentFuture .descript { left: 49%; width: 352px }
+	.rec0 { width: 471px }
+	 .rec1{ width: 383px }
+	.rec2 { left: 2%; top: 268px }
+	.rec6 { left: 19% }
+	.rec3 { right: 101px; height: 433px}
+	.rec4 { right: 78px; height: 322px }
+	.rec5 { right: 154px }
+	.pastPresentFuture .btns {left: 23% }
+	.bannerBg span:nth-child(1) { width: 58% }
+	.bannerBg span:nth-child(2) { width: 58% }
+
+	.pastPresentFuture dt { left: 44% }
+
+
+
 	.upImg0 { left: 3% }
 	#upcoming .firstUl > li > ul#june > li:nth-child(1) .upP { right: 6% }
 
@@ -546,6 +568,23 @@ footer p a:hover { opacity: 0.7 }
 @media only screen and (max-width: 920px) {
 	#banner .pagination { top: 41% }
 	/* #banner */
+
+	.pastPresentFuture dt { position: static; width: 100%; margin-top: 130px; text-align: center }
+	.pastPresentFuture dt .lineBelow { margin: 0 auto; margin-top: 20px; margin-bottom: 10px }
+	.pastPresentFuture .date { position: static; width: 100%; text-align: center; margin-top: 10px }
+	.pastPresentFuture .descript { width: 50%; left: 25%; text-align: center; bottom: 153px }
+	.rec5 { height: 12px; width: 50%; left: 25%; bottom: 247px; right: auto; }
+	.rec2 { top: 217px }
+
+	.rec0, .rec1, .rec2 { -webkit-transform: rotate(90deg); transform: rotate(90deg); -moz-transform: rotate(90deg); -ms-transform: rotate(90deg);}
+	.rec0 { left: -190px }
+	.rec1 { left: -100px }
+	.rec2 { left: -114px; top: 240px }
+	.rec3 { height: 364px }
+	.rec6 { display: none }
+	.pastPresentFuture .btns { left: auto; width: 100%; text-align: center; bottom: 98px }
+
+
 	#banner ul li { height: 646px }
 	.bannerBg { height: 702px }
 	.inOrOut dt span:first-child { display: inline-block; margin: 10px 0 }
@@ -553,7 +592,8 @@ footer p a:hover { opacity: 0.7 }
 	.inOrOut h3 { position: static; left: auto; width: 100%; margin-bottom: 10px; text-align: center; opacity: 1 }
 	.inOrOut dl { left: 0; bottom: 139px; width: 100%; text-align: center }
 	.inOrOut .lineBelow { margin: 0 auto; }
-
+	.ppf { font-size: 3.6em }
+	.ppf .talks { margin-left: 0 }
 	
 	.inOrOut .descript { width: 40%; padding: 7px 30%; }
 
@@ -613,6 +653,16 @@ footer p a:hover { opacity: 0.7 }
 	#banner .pagination a.active span, #banner .pagination a:hover span { width: 29px }
 
 	/* #banner */
+
+	.pastPresentFuture dt { margin-top: 92px }
+	.ppf { font-size: 3.2em }
+	.pastPresentFuture .descript { bottom: 139px }
+	.rec5 { bottom: 236px }
+	.rec3 { height: 293px; right: 110px }
+	.rec4 { right: 91px }
+	.pastPresentFuture h3 { right: 38px; font-size: 1.5em }
+
+
 	#banner { height: 678px }
 	#banner ul li { height: 583px; padding-top: 46px }
 	.bannerBg { height: 629px }
@@ -736,13 +786,19 @@ footer p a:hover { opacity: 0.7 }
 @media only screen and (max-width: 730px) {
 	#semiFooter div { background-position: 49px center; }
 	#mainMenu a { margin-right: 9px }
-
-
-
+	
+	.pastPresentFuture .descript { bottom: 127px }
+	.pastPresentFuture .btns { bottom: 80px }
+	.rec5 { height: 8px; bottom: 246px }
+	.pastPresentFuture dt { margin-top: 70px }
+	.pastPresentFuture h3 { width: 100%; text-align: center; margin: 10px 0 15px; font-size: 1em; position: static; transform: rotate(0); -webkit-transform: rotate(0); -moz-transform: rotate(0); -ms-transform: rotate(0); }
+	.pastPresentFuture h3 .break { opacity: 1 !important; margin-left: 3px; display: inline-block; }
 }
 
 @media only screen and (max-width: 700px) {
 	#mainMenu { display: none }
+
+
 
 }
 
@@ -764,9 +820,25 @@ footer p a:hover { opacity: 0.7 }
 @media only screen and (max-width: 600px) {
 
 	/* #banner */
+	.ppf { font-size: 2.7em }
+	.pastPresentFuture .descript { position: static; width: 70%; margin-top: 35px; padding-left: 15%;}
+	.pastPresentFuture .btns { bottom: 62px }
+	.rec5 { bottom: 202px; height: 4px }
+	.rec0 { height: 53px; left: -212px }
+	.rec2 { height: 9px; left: -133px }
+	.rec1 { display: none; left: -124px; height: 13px;  }
+	.rec3 { width: 40px; height: 200px; right: 0; }
+	.rec4 {right: 13px; height: 192px; top: 421px  }
+	.bannerBg span:nth-child(1) { left: -14% }
+	.bannerBg span:nth-child(2) { right: -20% }
+	.bannerBg span:nth-child(1), .bannerBg span:nth-child(2) { width: 60%  }
+	
+	.rec0,.rec1,.rec2,.rec3, .rec4 { display: none; opacity: 0.1 }
+
+
 	#banner  { height: 600px }
 	.bannerBg { height: 555px; }
-	#banner ul li { height: 500px }
+	#banner ul li { height: 509px }
 	.inOrOut .descript { width: 70%; padding: 7px 15% }
 
 
@@ -817,6 +889,14 @@ footer p a:hover { opacity: 0.7 }
 }
 
 @media only screen and (max-width: 520px) {
+	.pastPresentFuture dt { margin-top: 58px }
+
+	.rec0,.rec1,.rec2,.rec3, .rec4 { display: none; opacity: 0.1 }
+	.rec5 { bottom: 213px }
+
+
+
+
 	.artistImg { margin-top: 245px; margin-left: -191px}
 	#attention .attenTrans { margin-top: -800px; width: 65% }
 	#attention .emphasis { font-size: 1.6em }
@@ -869,7 +949,8 @@ footer p a:hover { opacity: 0.7 }
 
 
 @media only screen and (max-width: 450px) {
-
+	.ppf { font-size: 2.2em }
+	.rec5 { bottom: 232px }
 
 	/* #banenr */
 	
@@ -886,6 +967,9 @@ footer p a:hover { opacity: 0.7 }
 }
 
 @media only screen and (max-width: 380px) {
+	.pastPresentFuture dt { margin-top: 45px }
+	.rec5 { bottom: 245px }
+	#banner ul .descript { width: 72%; padding-left: 14% }
 	.artistImg { margin-top: 175px }
 	#attention .attenTrans { width: 80%; margin-top: -740px }
 	.playLine { width: 130px }
