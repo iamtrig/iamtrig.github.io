@@ -544,7 +544,7 @@ footer p a:hover { opacity: 0.7 }
 }
 
 @media only screen and (max-width: 920px) {
-
+	#banner .pagination { top: 41% }
 	/* #banner */
 	#banner ul li { height: 646px }
 	.bannerBg { height: 702px }
@@ -603,19 +603,26 @@ footer p a:hover { opacity: 0.7 }
 
 @media only screen and (max-width: 840px) {
 
-
+	header h1 a { width: 43.3px; height: 12px; }
+	#mainFind {margin-top: -7px }
+	.btn0 { top: -7px }
+	header h1 { margin-right: 13px }
+	header { padding-top: 15px }
+	#allMenu { top: 46px }
+	#banner .pagination a span { width: 24px }
+	#banner .pagination a.active span, #banner .pagination a:hover span { width: 29px }
 
 	/* #banner */
 	#banner { height: 678px }
-	#banner ul li { height: 573px }
+	#banner ul li { height: 583px; padding-top: 46px }
 	.bannerBg { height: 629px }
 	.inOrOut dl { bottom: 100px;  }
 	.inOrOut .title { font-size: 4em }
 
 
 
-	header h1 { margin-right: 20px }
 	#mainFind { margin-right: 40px }
+	#wrapper header .svgChange { margin-right: 7px }
 	
 	#wrapper .headerChange { padding-top: 24px }
 	#wrapper .formChange { margin-top: -7px }
@@ -729,7 +736,7 @@ footer p a:hover { opacity: 0.7 }
 @media only screen and (max-width: 730px) {
 	#semiFooter div { background-position: 49px center; }
 	#mainMenu a { margin-right: 9px }
-	header h1 { margin-right: 20px }
+
 
 
 }
