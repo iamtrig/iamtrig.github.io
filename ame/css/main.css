@@ -605,7 +605,12 @@ footer p a:hover { opacity: 0.7 }
 
 
 
-
+	/* #banner */
+	#banner { height: 678px }
+	#banner ul li { height: 573px }
+	.bannerBg { height: 629px }
+	.inOrOut dl { bottom: 100px;  }
+	.inOrOut .title { font-size: 4em }
 
 
 
@@ -750,6 +755,14 @@ footer p a:hover { opacity: 0.7 }
 }
 
 @media only screen and (max-width: 600px) {
+
+	/* #banner */
+	#banner  { height: 600px }
+	.bannerBg { height: 555px; }
+	#banner ul li { height: 500px }
+	.inOrOut .descript { width: 70%; padding: 7px 15% }
+
+
 	.upP .btns a { position: absolute; width: 100%; height: 100%; background: transparent; text-indent: -99999px; top: 0; left: 0; border: 0 none;}
 	.upP .btns a:hover { background: 0 none }
 	#wrapper #upcoming #june > li, #upcoming #june > li:first-child { float: left; margin-bottom: 0; position: relative; width: 50%; height: 245px; }
@@ -810,6 +823,14 @@ footer p a:hover { opacity: 0.7 }
 }
 
 @media only screen and (max-width: 500px) {
+
+	/* #banner */
+	.inOrOut .title { font-size: 3.4em }
+	.inOrOut dl { bottom: 72px }
+
+
+
+
 	#upcoming .firstUl > li > ul#june > li:nth-child(4) .upP h3 { font-size: 0.9em }
 	#wrapper #upcoming #june > li, #upcoming #june > li:first-child { height: 230px }
 	#upcoming { height: 700px }
@@ -841,6 +862,13 @@ footer p a:hover { opacity: 0.7 }
 
 
 @media only screen and (max-width: 450px) {
+
+
+	/* #banenr */
+	
+	#banner ul .descript { font-size: 0.9em }
+
+
 	.submitBg { padding-left: 10%; padding-right: 10%; width: 80% }
 	#semiFooter div ul { font-size: 0.9em }
 	#semiFooter div h4 { font-size: 1em; margin-bottom: 20px }
