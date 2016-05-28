@@ -80,10 +80,10 @@ header h1 a { width: 64.3px; height: 18px; display: inline-block; }
 
 /* body translates */
 #banner ul li { opacity: 0; z-index: 10; overflow: hidden; width: 100%; position: absolute; height: 720px; padding-top: 76px }
-#banner ul li .jenny { z-index: -2; position: absolute; width: 1000px; height: 700px; background: url('../imgs/banner0_jenny.jpg') no-repeat  118px 7px; transition: -webkit-transform 5000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms, opacity 5000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms; transition: transform 5000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms, opacity 5000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms;}
-#banner ul li .craig { z-index: -1; position: relative; width: 100%; height: 862px; background: url('../imgs/banner0_craig.png') no-repeat 197% -93px;  transition: -webkit-transform 5000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms, opacity 5000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms; transition: transform 5000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms, opacity 5000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms; }
+#banner ul li .jenny { z-index: -2; position: absolute; top: 80px; width: 1000px; height: 700px; background: url('../imgs/banner0_jenny.jpg') no-repeat  118px 7px; transition: -webkit-transform 5000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms, opacity 5000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms; transition: transform 5000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms, opacity 5000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms;}
+#banner ul li .craig { z-index: -1; position: absolute; top: 80px; width: 100%; height: 862px; background: url('../imgs/banner0_craig.png') no-repeat 440px -93px;  transition: -webkit-transform 5000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms, opacity 5000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms; transition: transform 5000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms, opacity 5000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms; }
 #banner .ab { position: absolute; z-index: 50; top: 199px; right: -127px; line-height: 1em; font-weight: 700; font-size: 4em; color: #fff; -ms-transform: rotate(90deg); -webkit-transform: rotate(90deg); transform: rotate(90deg); }
-#banner ul li.bodyTrans dl dt { position: absolute; left: 55%; top: 262px;color: #fff }
+#banner ul li.bodyTrans dl dt { position: absolute; left: 659px; top: 262px;color: #fff }
 #banner ul li.bodyTrans .lineBelow { margin-top: 27px; background-color: #E700FF }
 #banner .pagination a.active span, #banner .pagination a:hover span { opacity: 1; margin-left: 0; width: 40px;transition: 0.3s; -webkit-transition: 0.3s; -moz-transition: 0.3s; }
 
@@ -479,6 +479,13 @@ footer p a:hover { opacity: 0.7 }
 
 	.pastPresentFuture dt { left: 44% }
 
+	
+	#banner ul li .craig { background-size: 934px; top: 94px;}
+	#banner ul li .jenny { background-size: 968px; top: 84px }
+	#banner ul li.bodyTrans dl dt { left: 641px }
+	
+
+
 
 
 	.upImg0 { left: 3% }
@@ -565,6 +572,14 @@ footer p a:hover { opacity: 0.7 }
 	#semiFooter div { padding-left: 8%; padding-right: 8% }
 }
 
+
+@media only screen and (max-width: 1000px) {
+	#banner ul li .craig { background-size: 876px; top: 113px }
+	#banner ul li .jenny { background-size: 911px; top: 100px; background-position: 141px 7px }
+	#banner ul li.bodyTrans dl dt { left: 625px }
+}
+
+
 @media only screen and (max-width: 920px) {
 	#banner .pagination { top: 41% }
 	/* #banner */
@@ -576,10 +591,10 @@ footer p a:hover { opacity: 0.7 }
 	.rec5 { height: 12px; width: 50%; left: 25%; bottom: 247px; right: auto; }
 	.rec2 { top: 217px }
 
-	.rec0, .rec1, .rec2 { -webkit-transform: rotate(90deg); transform: rotate(90deg); -moz-transform: rotate(90deg); -ms-transform: rotate(90deg);}
+	.rec0, .rec1, .rec2 { /*-webkit-transform: rotate(90deg); transform: rotate(90deg); -moz-transform: rotate(90deg); -ms-transform: rotate(90deg);*/}
 	.rec0 { left: -190px }
-	.rec1 { left: -100px }
-	.rec2 { left: -114px; top: 240px }
+	.rec1 { left: -100px; height: 20px;  }
+	.rec2 { left: -37px; top: 263px }
 	.rec3 { height: 364px }
 	.rec6 { display: none }
 	.pastPresentFuture .btns { left: auto; width: 100%; text-align: center; bottom: 98px }
@@ -598,6 +613,23 @@ footer p a:hover { opacity: 0.7 }
 	.inOrOut .descript { width: 40%; padding: 7px 30%; }
 
 
+
+
+
+	#banner ul li .craig { background-size: 846px; top: 70px; background-position: 374px -93px }
+	#banner ul li .jenny { background-size: 866px; top: 51px; background-position: 93px 7px }
+	#banner ul li.bodyTrans dl dt { left: 561px; top: 216px }
+	#banner .ab { font-size: 3.6em; right: -107px }
+	#banner .eBody { background-size: 77px 280px; top: 99px  }
+	#banner .mBody { top: 97px; background-size: 77px 280px;  } 
+	#banner ul li.bodyTrans dl dd { top: 215px; left: 99px }
+
+
+
+
+
+
+
 	#allMenu { right: 2% }
 	.upImg0 { left: 0%; width: 100%; background-size: 100%; height: 420px }
 	#upcoming .firstUl > li > ul#june > li:nth-child(1) .upP { right: 0% }
@@ -610,6 +642,13 @@ footer p a:hover { opacity: 0.7 }
 	#upcoming .firstUl > li > ul#june > li:nth-child(2) .upP { left: 31%; font-size: 0.9em; width: 16% }
 	#upcoming .firstUl > li > ul#june > li:nth-child(4) .upP { left: 3%; font-size: 0.9em; width: 16% }
 	#upcoming .firstUl > li > ul#june > li:nth-child(3) .upP { right: 1%; font-size: 0.9em; width: 16% }
+
+	
+
+
+
+
+
 
 
 	/* #upcoming */
@@ -642,6 +681,9 @@ footer p a:hover { opacity: 0.7 }
 }
 
 @media only screen and (max-width: 840px) {
+	
+
+
 
 	header h1 a { width: 43.3px; height: 12px; }
 	#mainFind {margin-top: -7px }
@@ -657,6 +699,10 @@ footer p a:hover { opacity: 0.7 }
 	.pastPresentFuture dt { margin-top: 92px }
 	.ppf { font-size: 3.2em }
 	.pastPresentFuture .descript { bottom: 139px }
+	
+	.rec0 { left: -221px }
+	.rec1 { left: -116px }
+	.rec2 { left: -72px; top: 263px }
 	.rec5 { bottom: 236px }
 	.rec3 { height: 293px; right: 110px }
 	.rec4 { right: 91px }
@@ -669,6 +715,18 @@ footer p a:hover { opacity: 0.7 }
 	.inOrOut dl { bottom: 100px;  }
 	.inOrOut .title { font-size: 4em }
 
+	
+	
+	#banner ul li .craig { background-size: 836px; top: 29px; background-position: 333px -93px }
+	#banner ul li .jenny { background-size: 844px; top: 18px; background-position: 65px 7px }
+	
+	#banner .ab { font-size: 3.6em; right: -107px }
+	#banner .eBody { background-size: 77px 280px; top: 99px  }
+	#banner .mBody { top: 97px; background-size: 77px 280px;  }
+
+
+	#banner ul li.bodyTrans dl dd { top: 154px; left: 74px }
+	#banner ul li.bodyTrans dl dt { left: 528px; top: 154px }
 
 
 	#mainFind { margin-right: 40px }
@@ -783,6 +841,22 @@ footer p a:hover { opacity: 0.7 }
 	.firstUl h4.hidden { display: none }
 }
 
+@media only screen and (max-width: 760px) {
+	#banner ul li.bodyTrans dl dd h3 { font-size: 1.7em }
+	#banner ul li.bodyTrans dl dd .descrip { font-size: 0.9em; line-height: 1.8em }
+	#banner ul li.bodyTrans dl dt { left: 475px; top: 170px  }
+	#banner ul li.bodyTrans .lineBelow { margin-top: 17px; }
+	#banner ul li.bodyTrans dl dd { top: 171px }
+
+	#banner .ab { top: 176px }
+	#banner .mBody { top: 81px }
+	#banner .eBody { top: 75px }
+
+	#banner ul li .craig { background-position: 289px -93px }
+	#banner ul li .jenny { background-position: 23px 7px }
+	
+}
+
 @media only screen and (max-width: 730px) {
 	#semiFooter div { background-position: 49px center; }
 	#mainMenu a { margin-right: 9px }
@@ -797,8 +871,27 @@ footer p a:hover { opacity: 0.7 }
 
 @media only screen and (max-width: 700px) {
 	#mainMenu { display: none }
+	
+	#allMenu { width: 100%; right: 0 }
+	#allMenu > ul {     transform: skewX(0);
+    -webkit-transform: skewX(0);
+    -moz-transform: skewX(0);
+    -ms-transform: skewX(0); width: 100% }
+    #allMenu > ul > li { display: block; float: none }
+    #allMenu > ul > li > a { width: 100%; float: none; opacity: 1 }
+    #allMenu ul ul { position: static; width: 100%;  border-top: 1px solid #F5F5F5;  border-bottom: 1px solid #F5F5F5  }
+    #allMenu ul ul li { float: none; width: 100%; display: block;}
+    #allMenu ul ul li a { width: 100%; float: none; opacity: 0.9 }
 
-
+	#banner ul li.bodyTrans dl dd .descrip { display: none }
+	#banner ul li .craig { height: 600px; background-position: 117px -132px }
+	#banner ul li .jenny { height: 600px; background-position: -147px -29px }
+	#banner ul li.bodyTrans dl dt { left: 48%; top: 129px }
+	#banner ul li.bodyTrans dl dd { top: auto; bottom: 30px; left: 15%; width: 70% }
+	#banner ul li.bodyTrans dl dd h3 { width: 47%; margin-right: 3%; font-size: 1.9em; float: left; text-align: right }
+	#banner ul li.bodyTrans dl dd .btns { width: 47%; float: left; margin-left: 3% }
+	#banner ul li.bodyTrans dl dd .btns a { margin-bottom: 9px }
+	#banner ul li.bodyTrans dl dd .date { display: none }
 
 }
 
@@ -814,7 +907,12 @@ footer p a:hover { opacity: 0.7 }
 	#upcoming .firstUl > li > ul#june > li:nth-child(3) .upP { font-size: 0.8em }
 	#upcoming .firstUl > li > ul#june > li:nth-child(4) .upP { font-size: 0.8em }
 	.upImg3, .upImg1  { height: 243px }
+	.greyBg  { top: 6574px }
+}
 
+@media only screen and (max-width: 640px) {
+	#banner ul li .jenny { background-position: -171px -29px }
+	#banner ul li .craig { background-position: 95px -132px }
 }
 
 @media only screen and (max-width: 600px) {
@@ -834,9 +932,20 @@ footer p a:hover { opacity: 0.7 }
 	.bannerBg span:nth-child(1), .bannerBg span:nth-child(2) { width: 60%  }
 	
 	.rec0,.rec1,.rec2,.rec3, .rec4 { display: none; opacity: 0.1 }
+	
 
+	#banner ul li .craig  { background-size: 700px; background-position: 104px -118px }
+	#banner ul li .jenny { background-size: 720px; background-position: -127px -29px }
+	#banner ul li.bodyTrans dl dt { left: 46% }
+	#banner .ab { font-size: 3em; right: -78px; top: 155px }
+	#banner .eBody { background-size: 64px 237px; top: 73px }
+	#banner .mBody { background-size: 67px 233px; top: 78px; }
 
-	#banner  { height: 600px }
+	#banner ul li.bodyTrans dl dd { bottom: 20px }
+	#banner ul li.bodyTrans dl dd h3 { font-size: 1.4em }
+	.btns a { height: 21px; line-height: 21px }
+
+	#banner  { height: 570px }
 	.bannerBg { height: 555px; }
 	#banner ul li { height: 509px }
 	.inOrOut .descript { width: 70%; padding: 7px 15% }
@@ -861,12 +970,13 @@ footer p a:hover { opacity: 0.7 }
 
 	#attention .attenTrans { width: 55%; }
 
-	#content section { padding-bottom: 50px }
-	.greyBg { top: 5823px }
+	#content section { padding-bottom: 50px; padding-top: 43px }
+	p.deco { top: 16px }
+	.greyBg { top: 5490px }
 	.mobile { width: 400px; height: 256px; background-size: 100% }
 	.mobile span { width: 60px; height: 60px; border-radius: 15px; margin: 150px 6px 0 6px }
 	#wrapper .firstUl > li > ul { margin-top: 50px }
-	#content section { padding-top: 70px }
+
 	#thisMonth { height: 1404px }
 	#thisMonth .firstUl > li > ul > li:nth-child(3) .tmP, #thisMonth .firstUl > li > ul > li:nth-child(2) .tmP, #thisMonth .firstUl > li > ul > li:nth-child(1) .tmP { padding-right: 0; padding-left: 0; width: 100% }
 	.tmP { padding: 30px 0 }
@@ -888,6 +998,13 @@ footer p a:hover { opacity: 0.7 }
 
 }
 
+@media only screen and (max-width: 550px) {
+	#banner ul li .jenny { background-size: 660px; background-position: -123px -22px }
+	#banner ul li .craig { background-size: 637px; background-position: 94px -93px }
+	#banner ul li.bodyTrans dl dt { left: 46% }
+
+}
+
 @media only screen and (max-width: 520px) {
 	.pastPresentFuture dt { margin-top: 58px }
 
@@ -901,7 +1018,7 @@ footer p a:hover { opacity: 0.7 }
 	#attention .attenTrans { margin-top: -800px; width: 65% }
 	#attention .emphasis { font-size: 1.6em }
 	#semiFooter div { background: 0 none }
-	.greyBg { top: 5816px }
+	.greyBg { top: 5452px }
 
 	p.deco { font-size: 4em; height: 42px; top: 49px }
 
@@ -915,14 +1032,18 @@ footer p a:hover { opacity: 0.7 }
 	.inOrOut .title { font-size: 3.4em }
 	.inOrOut dl { bottom: 72px }
 
-
-
+	#banner .ab { font-size: 2.4em; right: -48px; top: 141px }
+	#banner .mBody { top: 73px; background-size: 53px 189px }
+	#banner .eBody { top: 75px; background-size: 52px 189px }
+	#banner ul li .jenny { background-size: 633px; background-position: -132px -8px }
+	#banner ul li .craig { background-size: 606px; background-position: 75px -80px }
+	#banner ul li.bodyTrans dl dd { bottom: 35px }
 
 	#upcoming .firstUl > li > ul#june > li:nth-child(4) .upP h3 { font-size: 0.9em }
 	#wrapper #upcoming #june > li, #upcoming #june > li:first-child { height: 230px }
 	#upcoming { height: 700px }
-	.greyBg { top: 5590px }
 
+	.greyBg  { top: 5052px }
 	.mobile { width: 320px; height: 190px }
 	.mobile span { margin-top: 113px; width: 50px; height: 50px; border-radius: 10px; border: 1px dashed #cecece; }
 	#wrapper .addApp, #wrapper .mobile span:hover { width: 50px; height: 50px; background-size: 50px; border: 1px solid #fff }
@@ -955,7 +1076,10 @@ footer p a:hover { opacity: 0.7 }
 	/* #banenr */
 	
 	#banner ul .descript { font-size: 0.9em }
+	
 
+	#banner ul li .jenny { background-position: -151px -8px }
+	#banner ul li .craig { background-position: 57px -80px }
 
 	.submitBg { padding-left: 10%; padding-right: 10%; width: 80% }
 	#semiFooter div ul { font-size: 0.9em }
@@ -967,6 +1091,15 @@ footer p a:hover { opacity: 0.7 }
 }
 
 @media only screen and (max-width: 380px) {
+
+
+	#banner ul li .jenny { background-position: -174px -8px }
+	#banner ul li .craig { background-position: 34px -80px }
+	#banner ul li.bodyTrans dl dd h3 .break { display: inline-block; margin-left: 3px }
+	#banner ul li.bodyTrans dl dd h3 { width: 100%; margin-right: 0; float: none; text-align: center; font-size: 1.2em}
+	#banner ul li.bodyTrans dl dd .btns { width: 100%; margin-left: 0; float: none; text-align: center; margin: 0 auto }
+	#banner ul li.bodyTrans dl dd .btns a { margin: 0 auto }
+	#banner ul li.bodyTrans dl dd .btns a:first-child { margin-top: 15px; margin-bottom: 10px }
 	.pastPresentFuture dt { margin-top: 45px }
 	.rec5 { bottom: 245px }
 	#banner ul .descript { width: 72%; padding-left: 14% }
