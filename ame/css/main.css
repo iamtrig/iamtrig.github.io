@@ -876,7 +876,9 @@ footer p a:hover { opacity: 0.7 }
 	#allMenu > ul {     transform: skewX(0);
     -webkit-transform: skewX(0);
     -moz-transform: skewX(0);
-    -ms-transform: skewX(0); width: 100% }
+    -ms-transform: skewX(0); width: 100%;     -webkit-box-shadow:0px 21px 17px -3px rgba(84, 84, 84, 0.08);
+    -moz-box-shadow:0px 21px 17px -3px rgba(84, 84, 84, 0.08);
+    box-shadow:0px 21px 17px -3px rgba(84, 84, 84, 0.08); }
     #allMenu > ul > li { display: block; float: none }
     #allMenu > ul > li > a { width: 100%; float: none; opacity: 1 }
     #allMenu ul ul { position: static; width: 100%;  border-top: 1px solid #F5F5F5;  border-bottom: 1px solid #F5F5F5  }
