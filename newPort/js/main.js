@@ -9,8 +9,11 @@ jQuery( document ).ready(function( $ ) {
 	        if ($(window).width() <= 1024) {
 
 	        	$(".loading").hide();
+	        	$("#wrapper nav a:eq(0)").addClass("nav1024Active");
 
 	        } else {
+	        	$("#wrapper nav a:eq(0)").removeClass("nav1024Active");
+
 	        	$(".program").addClass("programSvgAni");
 				$(".language").addClass("languageSvgAni");
 				$(".focus").addClass("focusSvgAni");
@@ -52,7 +55,15 @@ jQuery( document ).ready(function( $ ) {
 
     	
 
+	        $(window).resize(function() {
+	        	var thisWidth = $(window).width();
+	        	if (thisWidth <= 1024) {
+	        		$("#wrapper nav a:eq(0)").addClass("nav1024Active");
+	        	} else {
+	        		$("#wrapper nav a:eq(0)").removeClass("nav1024Active");
+	        	}
 
+	        });
 		
 
 		
@@ -80,8 +91,9 @@ jQuery( document ).ready(function( $ ) {
 
 
 			if ( $(window).width() <= 1024 ) {
-				$("nav a").removeClass("nav1024Active");
-				$("nav a:eq(1),nav a:eq(2)").addClass("nav1024ActiveOff");	
+				$("#wrapper nav a").removeClass("nav1024Active");
+				$("#wrapper nav a:eq(0)").addClass("nav1024Active");
+				$("#wrapper nav a:eq(1), #wrapper nav a:eq(2)").addClass("nav1024ActiveOff");	
 
 				if ( $(window).scrollTop() > 30 ) {
 
@@ -104,7 +116,7 @@ jQuery( document ).ready(function( $ ) {
 
 						$("nav a:eq(1)").addClass("nav1024Active");
 						$("nav a:eq(1)").removeClass("nav1024ActiveOff");
-						$("nav a:eq(0),nav a:eq(2) ").addClass("nav1024ActiveOff");
+						$("nav a:eq(0), nav a:eq(2)").addClass("nav1024ActiveOff");
 
 
 						$("#about").addClass("minus100");
@@ -122,8 +134,10 @@ jQuery( document ).ready(function( $ ) {
 						$("#about").addClass("minus100");
 						$("#work").addClass("minus100");
 						$("#contact").addClass("zero");
-					} else {
-						$("nav a:eq(1),nav a:eq(2) ").addClass("nav1024ActiveOff");	
+					} else if ( $(window).scrollTop() <= 29 ) {
+						$("nav a").removeClass("nav1024Active");
+						$("nav a:eq(0)").addClass("nav1024Active");
+						$("nav a:eq(1),nav a:eq(2)").addClass("nav1024ActiveOff");	
 					}
 
 

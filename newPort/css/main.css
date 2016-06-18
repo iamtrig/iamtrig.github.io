@@ -936,8 +936,8 @@ footer { position: absolute; bottom: 3%; color: #fff; width: 100%; text-align: c
 	
 
 
-	.nav1024Active { color: #4E00FF !important }
-	.nav1024ActiveOff { color: #BBA2FF !important }
+	#wrapper header .nav1024Active { color: #4E00FF !important }
+	#wrapper header .nav1024ActiveOff, .navActive { color: #BBA2FF !important }
 }
 
 
@@ -1454,12 +1454,12 @@ footer { position: absolute; bottom: 3%; color: #fff; width: 100%; text-align: c
 }
 
 @media only screen and (max-width: 375px) {
-	html, body { height: 1993px }
+	html, body { height: 1894px }
 	#wrapper section#contact { height: 600px }
 	.forPadding { padding-top: 16px; padding-bottom: 16px }
 	.forPadding span:nth-child(3) { display: inline-block; }
 	#contact .descript1 { width: 82%; left: 9% }
-#wrapper header h1.fixedOne, #wrapper header h1 { margin-left: -6px;  transform: scale(0.7, 0.7); -ms-transform: scale(0.7, 0.7); -moz-transform: scale(0.7, 0.7); -webkit-transform: scale(0.7, 0.7); }
+	#wrapper header h1.fixedOne, #wrapper header h1 { margin-left: -6px;  transform: scale(0.7, 0.7); -ms-transform: scale(0.7, 0.7); -moz-transform: scale(0.7, 0.7); -webkit-transform: scale(0.7, 0.7); }
 	nav.fixedOne, nav { margin-left: 40px }
 	nav a { margin-right: 8px; font-size: 0.9em }
 	.phone { right: 3% }
@@ -1490,7 +1490,7 @@ footer { position: absolute; bottom: 3%; color: #fff; width: 100%; text-align: c
 	.language, .program, .focus { width: 89px; margin-right: 13px }
 	#about .groupping > ul > li > ul { width: 117px }
 
-
+	html, body { height: 1885px }
 
 
 }
