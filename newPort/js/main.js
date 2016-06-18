@@ -80,6 +80,8 @@ jQuery( document ).ready(function( $ ) {
 
 
 			if ( $(window).width() <= 1024 ) {
+				$("nav a").removeClass("nav1024Active");
+				$("nav a:eq(1),nav a:eq(2)").addClass("nav1024ActiveOff");	
 
 				if ( $(window).scrollTop() > 30 ) {
 
@@ -89,17 +91,10 @@ jQuery( document ).ready(function( $ ) {
 					if ( $(window).scrollTop() <= aboutHeight ) {
 						$("#about, #work, #contact").removeClass();
 
-						$("nav a:eq(0)").addClass("navActive");
-						$("nav a:eq(1),nav a:eq(2) ").removeClass("navActive");
+						$("nav a:eq(0)").addClass("nav1024Active");
+						$("nav a:eq(0)").removeClass("nav1024ActiveOff");
+						$("nav a:eq(1),nav a:eq(2) ").addClass("nav1024ActiveOff");
 
-
-						navIndex = $("nav a.navActive").index();
-
-						$(navIndex).siblings().removeClass("navActive");
-						$(navIndex).siblings().find("span").removeClass("spanActive");
-
-						$(navIndex).addClass("navActive");
-						$(navIndex).find("span").addClass("spanActive");
 
 						$("#about").addClass("zero");
 						$("#work").addClass("ninetyFive");
@@ -107,16 +102,10 @@ jQuery( document ).ready(function( $ ) {
 					} else if ( $(window).scrollTop() <= aboutHeight+workHeight ) {
 						$("#about, #work, #contact").removeClass();
 
-						$("nav a:eq(1)").addClass("navActive");
-						$("nav a:eq(0),nav a:eq(2) ").removeClass("navActive");
+						$("nav a:eq(1)").addClass("nav1024Active");
+						$("nav a:eq(1)").removeClass("nav1024ActiveOff");
+						$("nav a:eq(0),nav a:eq(2) ").addClass("nav1024ActiveOff");
 
-						navIndex = $("nav a.navActive").index();
-
-						$(navIndex).siblings().removeClass("navActive");
-						$(navIndex).siblings().find("span").removeClass("spanActive");
-
-						$(navIndex).addClass("navActive");
-						$(navIndex).find("span").addClass("spanActive");
 
 						$("#about").addClass("minus100");
 						$("#work").addClass("zero");
@@ -125,25 +114,23 @@ jQuery( document ).ready(function( $ ) {
 					} else if ( $(window).scrollTop() <= aboutHeight+workHeight+contactHeight ) {
 						$("#about, #work, #contact").removeClass();
 
-						$("nav a:eq(2)").addClass("navActive");
-						$("nav a:eq(0),nav a:eq(1) ").removeClass("navActive");
+						$("nav a:eq(2)").addClass("nav1024Active");
+						$("nav a:eq(2)").removeClass("nav1024ActiveOff");
+						$("nav a:eq(0),nav a:eq(1) ").addClass("nav1024ActiveOff");
 
-						navIndex = $("nav a.navActive").index();
-
-						$(navIndex).siblings().removeClass("navActive");
-						$(navIndex).siblings().find("span").removeClass("spanActive");
-
-						$(navIndex).addClass("navActive");
-						$(navIndex).find("span").addClass("spanActive");
 						
 						$("#about").addClass("minus100");
 						$("#work").addClass("minus100");
 						$("#contact").addClass("zero");
+					} else {
+						$("nav a:eq(1),nav a:eq(2) ").addClass("nav1024ActiveOff");	
 					}
 
 
 				} else {
 					$(".navBg, header h3, header ul, nav, span.navUnderline, #wrapper header h1, header ul li a").removeClass("fixedOne");
+
+					$("nav a").removeClass("nav1024Active, nav1024ActiveOff");
 
 				}
 

@@ -203,7 +203,7 @@ a.arrow.aboutArrow:hover { bottom: 19% }
 .yellow { background-color: #FFCD12;  transition: 0.3s; -webkit-transition: 0.3s; ms-transition: 0.3s; -moz-transition: 0.3s; }
 .red { background-color: #FF6312; margin-left: 6px;  transition: 0.3s; -webkit-transition: 0.3s; ms-transition: 0.3s; -moz-transition: 0.3s; }
 .green { background-color: #7AFF12;  transition: 0.3s; -webkit-transition: 0.3s; ms-transition: 0.3s; -moz-transition: 0.3s;}
-.laptop #screen { display: inline-block; width: 403px; height: 237px; margin-top: -2px; border: 1px solid #efefef; border-bottom: 0 none; background: url('../imgs/workImgs.png') no-repeat; background-size: 3635px;  transition: 0.3s; -webkit-transition: 0.3s; ms-transition: 0.3s; -moz-transition: 0.3s; }
+.laptop #screen { display: inline-block; width: 403px; height: 237px; margin-top: -2px; border: 1px solid #efefef; border-bottom: 0 none; background: url('../imgs/workImgs.jpg') no-repeat; background-size: 3635px;  transition: 0.3s; -webkit-transition: 0.3s; ms-transition: 0.3s; -moz-transition: 0.3s; }
 
 .laptop .btm { position: absolute; bottom: 0; left: 0; display: inline-block; width: 510px; height: 15px; background-color: #fff; border-bottom-left-radius: 108%; border-bottom-right-radius: 108%;  transition: 0.3s; -webkit-transition: 0.3s; ms-transition: 0.3s; -moz-transition: 0.3s; }
 
@@ -220,7 +220,7 @@ a.arrow.aboutArrow:hover { bottom: 19% }
 .pad .searchBar { display: inline-block; height: 10px; width: 100px; border-radius: 2px; background-color: #fff; transition: 0.3s; -webkit-transition: 0.3s; ms-transition: 0.3s; -moz-transition: 0.3s;  }
 .pad .status { display: inline-block; width: 271px; padding: 2px 0; background-color: #efefef; text-align: center; margin-top: 6.5px;   border-right: 1px solid #efefef; border-left: 1px solid #efefef; transition: 0.3s; -webkit-transition: 0.3s; ms-transition: 0.3s; -moz-transition: 0.3s;}
 .pad .camera { float: left; margin: 33.5% 0 0 10px; margin-right: 10px; transition: 0.3s; -webkit-transition: 0.3s; ms-transition: 0.3s; -moz-transition: 0.3s; }
-.pad #screen {display: inline-block; width: 271px; height: 196px; background: url('../imgs/workImgs.png') no-repeat; background-size: 4125px; border: 1px solid #efefef; border-top: 0 none; background-position: 0 -272px;  transition: 0.3s; -webkit-transition: 0.3s; ms-transition: 0.3s; -moz-transition: 0.3s; }
+.pad #screen {display: inline-block; width: 271px; height: 196px; background: url('../imgs/workImgs.jpg') no-repeat; background-size: 4125px; border: 1px solid #efefef; border-top: 0 none; background-position: 0 -272px;  transition: 0.3s; -webkit-transition: 0.3s; ms-transition: 0.3s; -moz-transition: 0.3s; }
 .pad .btn, .phone .btn { display: inline-block; width: 17px; height: 17px; background-color: #fff; border: 2px solid #EEEFE1; border-radius: 50%; margin-bottom: 28.5%; margin-left: 4px; transition: 0.3s; -webkit-transition: 0.3s; ms-transition: 0.3s; -moz-transition: 0.3s; }
 
 
@@ -228,7 +228,7 @@ a.arrow.aboutArrow:hover { bottom: 19% }
 .phone .camera { width: 6px; height: 6px; margin-top: 8px; margin-bottom: 8px;  transition: 0.3s; -webkit-transition: 0.3s; ms-transition: 0.3s; -moz-transition: 0.3s;}
 .phone .status { float: left; position: relative; display: inline-block; width: 90px; height: 10px; margin-left: 5px; background-color: #efefef; padding: 0px 2px; border-right: 1px solid #efefef; border-left: 1px solid #efefef; transition: 0.3s; -webkit-transition: 0.3s; ms-transition: 0.3s; -moz-transition: 0.3s; }
 .phone .searchBar { position: absolute; left: 2px; top: 3px; display: inline-block; width: 90px; height: 4px; background-color: #fff; border-radius: 1px;  transition: 0.3s; -webkit-transition: 0.3s; ms-transition: 0.3s; -moz-transition: 0.3s; }
-.phone #screen { float: left; display: inline-block; width: 94px; height: 138px; margin-left: 5px; background: url('../imgs/workImgs.png') no-repeat; background-size: 4131px; background-position: 0 -472px; border: 1px solid #efefef; border-top: 0 none;  transition: 0.3s; -webkit-transition: 0.3s; ms-transition: 0.3s; -moz-transition: 0.3s; }
+.phone #screen { float: left; display: inline-block; width: 94px; height: 138px; margin-left: 5px; background: url('../imgs/workImgs.jpg') no-repeat; background-size: 4131px; background-position: 0 -472px; border: 1px solid #efefef; border-top: 0 none;  transition: 0.3s; -webkit-transition: 0.3s; ms-transition: 0.3s; -moz-transition: 0.3s; }
 .phone .btn { width: 10px; height: 10px; text-align: center; border: 1px solid #EEEFE1; margin: 0 auto;  transition: 0.3s; -webkit-transition: 0.3s; ms-transition: 0.3s; -moz-transition: 0.3s; }
 
 /*
@@ -831,6 +831,8 @@ footer { position: absolute; bottom: 3%; color: #fff; width: 100%; text-align: c
 @media only screen and (max-width: 1024px) {
 	html { overflow-y: auto; }
 	body, html { height: 2080px  }
+	
+	nav a, #wrapper header a { transition: 0s; -webkit-transition: 0s; ms-transition: 0s; -moz-transition: 0s;  }
 
 	nav.fixedOne { position: fixed; left: 6%; top: 14px; margin-left: 75px  }
 	.navBg.fixedOne { z-index: 980; position: fixed; display: block; width: 97%; left: 1.5%; height: 50px; background-color: #fff;   }
@@ -931,7 +933,11 @@ footer { position: absolute; bottom: 3%; color: #fff; width: 100%; text-align: c
 
 	#contact .descript1 { line-height: 21px }
 	.contactImg span { width: 288px; height: 339px }
+	
 
+
+	.nav1024Active { color: #4E00FF !important }
+	.nav1024ActiveOff { color: #BBA2FF !important }
 }
 
 
@@ -1325,14 +1331,8 @@ footer { position: absolute; bottom: 3%; color: #fff; width: 100%; text-align: c
 
 	#wrapper header h3 { position: fixed; right: 15px; top: 0 }
 
-	#wrapper header h1 { top: 7px; position: fixed !important; margin-left: 15px; transform: scale(0.8, 0.8); -ms-transform: scale(0.8, 0.8); -moz-transform: scale(0.8, 0.8); -webkit-transform: scale(0.8, 0.8); }
-	.navBg {     z-index: 980;
-    position: fixed;
-    display: block;
-    width: 89%;
-    left: 1.5%;
-    height: 50px;
-    background-color: #fff; }
+	#wrapper header h1 { top: 7px; position: fixed !important; transform: scale(0.8, 0.8); -ms-transform: scale(0.8, 0.8); -moz-transform: scale(0.8, 0.8); -webkit-transform: scale(0.8, 0.8); }
+	.navBg { z-index: 980; position: fixed; display: block; width: 89%; left: 1.5%; height: 50px; background-color: #fff; }
     .navUnderline { z-index: 990; position: fixed; left: 0; display: block; padding-left: 6%; width: 97%; height: 3px; top: 47px; background-color: #4E00FF; }
 	nav { position: fixed; top: 17px; margin-left: 67px }
 
@@ -1345,6 +1345,10 @@ footer { position: absolute; bottom: 3%; color: #fff; width: 100%; text-align: c
 	footer { padding: 15px 0; }
 
 	#wrapper header ul { position: fixed; top: 53px; right: 19px; }
+
+	#wrapper header h1.fixedOne, #wrapper header h1 { margin-left: -3px; transform: scale(0.7, 0.7); -ms-transform: scale(0.7, 0.7); -moz-transform: scale(0.7, 0.7); -webkit-transform: scale(0.7, 0.7); }
+	nav.fixedOne, nav { margin-left: 43px }
+	nav a { margin-right: 12px; }
 }
 
 
@@ -1431,7 +1435,15 @@ footer { position: absolute; bottom: 3%; color: #fff; width: 100%; text-align: c
 	#wrapper .phonePos7 { background-position: -304px -215px; }
 	#wrapper .phonePos8 { background-position: -348px -215px; }
 
+	.de3 { margin-top: 300px }
+	#wrapper section#work { height: 655px }
+	html, body { height: 1933px }
 
+	.about1 { margin-bottom: 47px; padding-top: 110px }
+	.about1 h1 { font-size: 2.1em }
+	#wrapper section#about { height: 558px }
+
+	footer { padding: 12px 0 }
 }
 
 @media only screen and (max-width: 380px) {
@@ -1441,13 +1453,16 @@ footer { position: absolute; bottom: 3%; color: #fff; width: 100%; text-align: c
 	
 }
 
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 375px) {
 	html, body { height: 1993px }
 	#wrapper section#contact { height: 600px }
 	.forPadding { padding-top: 16px; padding-bottom: 16px }
 	.forPadding span:nth-child(3) { display: inline-block; }
 	#contact .descript1 { width: 82%; left: 9% }
-
+#wrapper header h1.fixedOne, #wrapper header h1 { margin-left: -6px;  transform: scale(0.7, 0.7); -ms-transform: scale(0.7, 0.7); -moz-transform: scale(0.7, 0.7); -webkit-transform: scale(0.7, 0.7); }
+	nav.fixedOne, nav { margin-left: 40px }
+	nav a { margin-right: 8px; font-size: 0.9em }
+	.phone { right: 3% }
 	
 }
 
@@ -1458,10 +1473,7 @@ footer { position: absolute; bottom: 3%; color: #fff; width: 100%; text-align: c
 	.de2 { font-size: 0.85em }
 	.de4 { top: 124px }
 
-	#wrapper header h1.fixedOne, #wrapper header h1 { margin-left: -3px; transform: scale(0.7, 0.7); -ms-transform: scale(0.7, 0.7); -moz-transform: scale(0.7, 0.7); -webkit-transform: scale(0.7, 0.7); }
-	nav.fixedOne, nav { margin-left: 40px }
-	nav a { margin-right: 8px; font-size: 0.9em }
-	.phone { right: 3% }
+	
 }
 
 @media only screen and (max-width: 340px) {
