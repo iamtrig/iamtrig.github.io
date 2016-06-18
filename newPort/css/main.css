@@ -1320,7 +1320,7 @@ footer { position: absolute; bottom: 3%; color: #fff; width: 100%; text-align: c
 	nav { top: 59px; margin-left: 54px }
 	nav a { margin-right: 10px; font-size: 1em }
 
-	nav.fixedOne { top: 17px; margin-left: 67px }
+
 
 	#contact .description h2 { margin: 0 auto; width: 230px }
 	.desBg { height: 477px; width: 86%; left: 7%; top: 174px }
@@ -1331,10 +1331,10 @@ footer { position: absolute; bottom: 3%; color: #fff; width: 100%; text-align: c
 
 	#wrapper header h3 { position: fixed; right: 15px; top: 0 }
 
-	#wrapper header h1 { top: 7px; position: fixed !important; transform: scale(0.8, 0.8); -ms-transform: scale(0.8, 0.8); -moz-transform: scale(0.8, 0.8); -webkit-transform: scale(0.8, 0.8); }
+	#wrapper header h1 { top: 6px !important; position: fixed !important; transform: scale(0.8, 0.8); -ms-transform: scale(0.8, 0.8); -moz-transform: scale(0.8, 0.8); -webkit-transform: scale(0.8, 0.8); }
 	.navBg { z-index: 980; position: fixed; display: block; width: 89%; left: 1.5%; height: 50px; background-color: #fff; }
     .navUnderline { z-index: 990; position: fixed; left: 0; display: block; padding-left: 6%; width: 97%; height: 3px; top: 47px; background-color: #4E00FF; }
-	nav { position: fixed; top: 17px; margin-left: 67px }
+	nav, nav.fixedOne { position: fixed; top: 15px; margin-left: 43px }
 
 	#wrapper section#about { height: 600px }
 
@@ -1347,7 +1347,6 @@ footer { position: absolute; bottom: 3%; color: #fff; width: 100%; text-align: c
 	#wrapper header ul { position: fixed; top: 53px; right: 19px; }
 
 	#wrapper header h1.fixedOne, #wrapper header h1 { margin-left: -3px; transform: scale(0.7, 0.7); -ms-transform: scale(0.7, 0.7); -moz-transform: scale(0.7, 0.7); -webkit-transform: scale(0.7, 0.7); }
-	nav.fixedOne, nav { margin-left: 43px }
 	nav a { margin-right: 12px; }
 }
 
@@ -1437,13 +1436,20 @@ footer { position: absolute; bottom: 3%; color: #fff; width: 100%; text-align: c
 
 	.de3 { margin-top: 300px }
 	#wrapper section#work { height: 655px }
-	html, body { height: 1933px }
+	html, body { height: 1920px }
 
-	.about1 { margin-bottom: 47px; padding-top: 110px }
+	nav.fixedOne, nav { margin-left: 39px }
+
+	.about1 { margin-bottom: 47px; padding-top: 100px }
 	.about1 h1 { font-size: 2.1em }
-	#wrapper section#about { height: 558px }
+	#wrapper section#about { height: 550px }
 
 	footer { padding: 12px 0 }
+
+	body { border-left: 12px solid #4E00FF; border-right: 12px solid #4E00FF; }
+	#wrapper header h3, #wrapper header h3.fixedOne { right: 12px }
+	#wrapper header ul, #wrapper header ul.fixedOne { right: 17px }
+	#wrapper header h1.fixedOne, #wrapper header h1 { margin-left: -7px; }
 }
 
 @media only screen and (max-width: 380px) {
@@ -1459,10 +1465,12 @@ footer { position: absolute; bottom: 3%; color: #fff; width: 100%; text-align: c
 	.forPadding { padding-top: 16px; padding-bottom: 16px }
 	.forPadding span:nth-child(3) { display: inline-block; }
 	#contact .descript1 { width: 82%; left: 9% }
-	#wrapper header h1.fixedOne, #wrapper header h1 { margin-left: -6px;  transform: scale(0.7, 0.7); -ms-transform: scale(0.7, 0.7); -moz-transform: scale(0.7, 0.7); -webkit-transform: scale(0.7, 0.7); }
-	nav.fixedOne, nav { margin-left: 40px }
-	nav a { margin-right: 8px; font-size: 0.9em }
+	#wrapper header h1.fixedOne, #wrapper header h1 { transform: scale(0.7, 0.7); -ms-transform: scale(0.7, 0.7); -moz-transform: scale(0.7, 0.7); -webkit-transform: scale(0.7, 0.7); }
+	nav.fixedOne, nav { margin-left: 36px }
+	nav a { margin-right: 6px;  }
 	.phone { right: 3% }
+
+
 	
 }
 
