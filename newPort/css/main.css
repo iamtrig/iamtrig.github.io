@@ -926,7 +926,7 @@ footer { position: absolute; bottom: 3%; color: #fff; width: 100%; text-align: c
 
 
 
-	#wrapper nav a, #wrapper header a, header h1, #wrapper header ul li a { transition: 0s; -webkit-transition: 0s; ms-transition: 0s; -moz-transition: 0s;   transition: -webkit-transform 0ms cubic-bezier(0, 0, 0, 0) 0ms, opacity 0ms cubic-bezier(0, 0, 0, 0) 0ms; transition: transform 0ms cubic-bezier(0, 0, 0, 0) 0ms, opacity 0ms cubic-bezier(0, 0, 0, 0) 0ms;}
+	#wrapper nav, #wrapper h3, #wrapper nav a, #wrapper header a, header h1, #wrapper header ul li a { transition: 0s; -webkit-transition: 0s; ms-transition: 0s; -moz-transition: 0s;   transition: -webkit-transform 0ms cubic-bezier(0, 0, 0, 0) 0ms, opacity 0ms cubic-bezier(0, 0, 0, 0) 0ms; transition: transform 0ms cubic-bezier(0, 0, 0, 0) 0ms, opacity 0ms cubic-bezier(0, 0, 0, 0) 0ms;}
 
 	nav.fixedOne { position: fixed; left: 6%; top: 14px; margin-left: 75px  }
 	.navBg.fixedOne { z-index: 980; position: fixed; display: block; width: 97%; left: 1.5%; height: 50px; background-color: #fff;   }
