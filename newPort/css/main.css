@@ -1440,9 +1440,9 @@ footer { position: absolute; bottom: 3%; color: #fff; width: 100%; text-align: c
 
 	nav.fixedOne, nav { margin-left: 39px }
 
-	.about1 { margin-bottom: 47px; padding-top: 100px }
+	.about1 { margin-bottom: 47px; padding-top: 105px }
 	.about1 h1 { font-size: 2.1em }
-	#wrapper section#about { height: 550px }
+	#wrapper section#about { height: 555px }
 
 	footer { padding: 12px 0 }
 
