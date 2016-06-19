@@ -1172,7 +1172,7 @@ header h1:hover { transform:scale(1.1, 1.1), -webkit-transform:scale(1.1, 1.1); 
 
 
 
-	
+
 @-webkit-keyframes rotation1{
   from{-webkit-transform:rotate(0deg);}
   to{-webkit-transform:rotate(0deg);}
@@ -1405,11 +1405,11 @@ header h1:hover { transform:scale(1.1, 1.1), -webkit-transform:scale(1.1, 1.1); 
 
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 769px) {
 
 
 
-	html, body { height: 2220px }
+	html, body { height: 2220px; }
 	body { border-right: 15px solid #4E00FF; border-left: 15px solid #4E00FF }
 	
 	
@@ -1546,7 +1546,20 @@ header h1:hover { transform:scale(1.1, 1.1), -webkit-transform:scale(1.1, 1.1); 
 }
 
 
+@media only screen and (max-width: 769px) and (min-width: 767px) and (min-height: 900px) and (max-height: 946px) {
+	.contactImg { display: block; width: 96%; height: 333px; background-size: 340px; right: auto; text-align: center; background-position: 20% 0; }
+	.contactImg span { display: none; width: 301px; height: 274px; border-bottom: 110px solid #fff }
+	#wrapper section#contact { height: 900px }
+	html, body { height:  2445px }
+	.desBg { z-index: 500; top: 390px; height: 452px; left: 30%; width: 65%; opacity: 0.9; background-color:  #f6f3ff }
+	#contact .descript1 { z-index: 700; top: 416px; left: 38%; text-align: left }
+	.noneLater { display: block; }
+}
 
+/*
+@media only screen and (max-width: 690px) and (min-height: 900px) and (max-height: 901px) {
+	html, body { min-height: 700px }
+}*/
 
 @media only screen and (max-width: 670px) {
 
@@ -1609,7 +1622,7 @@ header h1:hover { transform:scale(1.1, 1.1), -webkit-transform:scale(1.1, 1.1); 
 
 	.laptop { width: 261px; height: 147px; margin-top: 20px; margin-bottom: 5px;}
 
-	.laptop .top { width: 217px; height: 141px }
+	.laptop .top { width: 217px; height: 141px;  border-top-left-radius: 7px; border-top-right-radius: 7px }
 	.laptop .status { width: 209px; height: 8px; line-height: 8px; }
 	.laptop #screen { width: 209px; height: 122px; margin-top: 0; background-size: 1888px }
 	.laptop .btm { width: 261px; height: 7px }
@@ -1621,14 +1634,14 @@ header h1:hover { transform:scale(1.1, 1.1), -webkit-transform:scale(1.1, 1.1); 
 
 	.mobiles { height: 147px; margin-top: 20px; margin-bottom: 5px }
 
-	.pad { width: 198px; height: 133px; left: 2% }
+	.pad { width: 198px; height: 133px; left: 2%; border-radius: 7px }
 	.pad .status { width: 160px; height: 10px; line-height: 8px; margin-top: 4px }
 	.pad .searchBar { width: 72px; height: 6px; border-radius: 1px }
 	.pad #screen { width: 160px; height: 114px; margin-top: -4px; background-size: 2432px; }
 	.pad .btn { width: 11px; height: 11px; margin-left: -3px }
 
 
-	.phone { width: 61px; height: 114px; right: 1% }
+	.phone { width: 61px; height: 114px; right: 1%; border-radius: 7px  }
 	.phone #screen { width: 55px; height: 81px; margin-left: 2px; background-size: 2419px }
 	.phone .status { width: 51px; height: 5px; margin-left: 2px; margin-top: -2px }
 	.phone .searchBar { width: 53px; height: 1px; top: 2px; left: 1.5px }
@@ -1713,6 +1726,8 @@ header h1:hover { transform:scale(1.1, 1.1), -webkit-transform:scale(1.1, 1.1); 
 	.de1 h2 { font-size: 2em }
 	.de1 p { margin-top: 4px }
 	.de2 .dot { margin: 1px 6px }
+
+
 }
 
 
@@ -1723,7 +1738,7 @@ header h1:hover { transform:scale(1.1, 1.1), -webkit-transform:scale(1.1, 1.1); 
 
 
 
-	.laptop { width: 209px; height: 117px; margin-top: 20px; margin-bottom: 5px;}
+	.laptop { width: 209px; height: 117px; margin-top: 25px; margin-bottom: -5px;}
 
 	.laptop .top { width: 175px; height: 113px; border-top-left-radius: 5px;  border-top-right-radius: 5px; }
 	.laptop .status { width: 169px; height: 5px; line-height: 2px; }
@@ -1736,16 +1751,16 @@ header h1:hover { transform:scale(1.1, 1.1), -webkit-transform:scale(1.1, 1.1); 
 
 	
 
-	.mobiles { height: 117px; margin-top: 20px; margin-bottom: 5px }
+	.mobiles { height: 117px; margin-top: 20px; margin-bottom: -10px; padding-top: 10px }
 
-	.pad { width: 161px; height: 111px; left: 3%; border-radius: 5px }
+	.pad { width: 161px; height: 111px; left: 7%; border-radius: 5px }
 	.pad .status { width: 130px; height: 5px; line-height: 4px; margin-top: 0px }
 	.pad .searchBar { width: 57px; height: 5px; border-radius: 1px }
 	.pad #screen { width: 130px; height: 92px; margin-top: -4px; background-size: 1992px; }
 	.pad .btn { width: 9px; height: 9px; margin-left: -3px; border: 1px solid #EEEFE1 }
 
 
-	.phone { width: 47px; height: 88px; right: 6%; border-radius: 5px }
+	.phone { width: 47px; height: 88px; right: 10%; border-radius: 5px }
 	.phone #screen { width: 43px; height: 62px; margin-left: 1px; background-size: 1887px; margin-bottom: -3px }
 	.phone .status { width: 39px; height: 5px; margin-left: 1px; margin-top: -2px }
 	.phone .searchBar { width: 38px; height: 1px; top: 2px; left: 1.5px }
@@ -1753,7 +1768,7 @@ header h1:hover { transform:scale(1.1, 1.1), -webkit-transform:scale(1.1, 1.1); 
 	.phone .camera { width: 3px; height: 3px; margin: 0 auto; margin-top: 3px; margin-bottom: 5px }
 	
 
-	.navForImg span { width: 10px; height: 10px }
+	.navForImg span { width: 13px; height: 13px }
 
 	#wrapper .lapPos0 { background-position: 0px 0px; }
 	#wrapper .lapPos1 { background-position: -170px 0px; }
@@ -1821,8 +1836,10 @@ header h1:hover { transform:scale(1.1, 1.1), -webkit-transform:scale(1.1, 1.1); 
 	#wrapper header h1.fixedOne, #wrapper header h1 { transform: scale(0.7, 0.7); -ms-transform: scale(0.7, 0.7); -moz-transform: scale(0.7, 0.7); -webkit-transform: scale(0.7, 0.7); }
 	nav.fixedOne, nav { margin-left: 36px }
 	nav a { margin-right: 6px;  }
-	.phone { right: 3% }
+	.phone { right: 7% }
+	.pad { left: 5% }
 
+	.navForImg { top: -43px }
 
 	
 }
