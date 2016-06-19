@@ -1297,7 +1297,7 @@ header h1:hover { transform:scale(1.1, 1.1), -webkit-transform:scale(1.1, 1.1); 
 @media only screen and (max-width: 920px) {
 
 	.whiteGradi {position: absolute; width: 107%; height: 30px; top: -35px; display: inline-block; width: 50px; height: 30px; background: url('../imgs/whiteGradi.png') repeat-y -50px 0; }
-	.whiteGradi.first { display: none; left: 0 }
+	.whiteGradi.first { display: none; left: 0; margin-left: -7% }
 	.whiteGradi.second { right: 0%; margin-right: -7%; background-position: 0 0 }
 
 	.whiteGradi span:first-child { display: none }

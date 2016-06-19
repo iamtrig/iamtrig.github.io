@@ -461,6 +461,9 @@ jQuery( document ).ready(function( $ ) {
 		function workNav() {
 
 			$("#work .group1 ul > li > a").on('click', function(){
+
+
+
 				var listIndex = $(this).parent().index();
 
 				$(".prevNext a").removeClass("noPrev");
@@ -480,6 +483,17 @@ jQuery( document ).ready(function( $ ) {
 				$(this).siblings().addClass("eachOn");
 				$(this).parent().siblings().find(".eachWork").removeClass("eachOn");
 				
+				$(".laptop").show();
+
+				if ($(".mobiles").show()) {
+
+					$(".mobiles").hide();
+
+						$(".navForImg span:eq(1)").removeClass("navForImgActive");
+						$(".navForImg span:eq(1)").siblings().addClass("navForImgActive");
+				}
+
+				// $(".mobiles").hide();
 
 				$("#wrapper #screen").removeClass();
 				$("#workImgBg").removeClass();
@@ -490,6 +504,43 @@ jQuery( document ).ready(function( $ ) {
 
 				$(".pad #screen").addClass("padPos"+listIndex);
 				$(".phone #screen").addClass("phonePos"+listIndex);
+
+
+				if ($(window).width() <= 820 && $(window).width() >= 721 ) {
+					if (listIndex == 6 || listIndex == 7 || listIndex == 6 || listIndex == 5 || listIndex == 8 ) {
+						$("#work .group1 ul > li > a:eq(0)").animate({left: "-51px"}, 300);
+						$("#work .group1 ul > li > a:eq(1)").animate({left: 0}, 300);
+						$("#work .group1 ul > li > a:eq(2)").animate({left: "81px"}, 300);
+						$("#work .group1 ul > li > a:eq(3)").animate({left: "135px"}, 300);
+						$("#work .group1 ul > li > a:eq(4)").animate({left: "204px"}, 300);
+						$("#work .group1 ul > li > a:eq(5)").animate({left: "303px"}, 300);
+						$("#work .group1 ul > li > a:eq(6)").animate({left: "402px"}, 300);
+						$("#work .group1 ul > li > a:eq(7)").animate({left: "472px"}, 300);
+						$("#work .group1 ul > li > a:eq(8)").animate({left: "595px"}, 300);
+
+						$(".whiteGradi.second").hide();
+						$(".whiteGradi.first").show();
+					} else if (listIndex == 0 || listIndex == 1 || listIndex == 2 || listIndex == 3 || listIndex == 4 ) {
+						$("#work .group1 ul > li > a:eq(0)").animate({left: 0}, 300);
+						$("#work .group1 ul > li > a:eq(1)").animate({left: "51px"}, 300);
+						$("#work .group1 ul > li > a:eq(2)").animate({left: "135px"}, 300);
+						$("#work .group1 ul > li > a:eq(3)").animate({left: "187px"}, 300);
+						$("#work .group1 ul > li > a:eq(4)").animate({left: "256px"}, 300);
+						$("#work .group1 ul > li > a:eq(5)").animate({left: "355px"}, 300);
+						$("#work .group1 ul > li > a:eq(6)").animate({left: "459px"}, 300);
+						$("#work .group1 ul > li > a:eq(7)").animate({left: "531px"}, 300);
+						$("#work .group1 ul > li > a:eq(8)").animate({left: "656px"}, 300);
+
+						$(".whiteGradi.second").show();
+						$(".whiteGradi.first").hide();
+					} 
+					
+				} else {
+
+				}
+
+				
+
 
 				
 				return false;
@@ -663,6 +714,11 @@ jQuery( document ).ready(function( $ ) {
 	prevPrevtBtn();
 
 	workNav();
+
+	$(window).resize(function() {
+
+		workNav();
+	});	
 
 
 
