@@ -63,7 +63,7 @@ header ul li:nth-child(3) a:hover { transform: rotate(90deg); -webkit-transform:
 
 .cross > span { z-index: 700; opacity: 0.3; position: absolute; display: block; width: 17px; height: 17px; }
 .cross > span span:nth-child(1) { position: absolute; top: 7.5px; display: inline-block; width: 100%; height: 3px; background-color: #4E00FF }
-.cross > span span:nth-child(2) { position: absolute; left: 7.255556px; display: inline-block; width: 3px; height: 100%; background-color: #4E00FF }
+.cross > span span:nth-child(2) { position: absolute; left: 6.955556px; display: inline-block; width: 3px; height: 100%; background-color: #4E00FF }
 
 .cross > span:nth-child(1) { top: 7%; left: 30% }
 .cross > span:nth-child(2) { top: 7%; right: 30% }
@@ -203,7 +203,7 @@ a.arrow.aboutArrow { position: absolute; right: -7.8%; bottom: 17%;  }
 .yellow { background-color: #FFCD12;  transition: 0.3s; -webkit-transition: 0.3s; ms-transition: 0.3s; -moz-transition: 0.3s; }
 .red { background-color: #FF6312; margin-left: 6px;  transition: 0.3s; -webkit-transition: 0.3s; ms-transition: 0.3s; -moz-transition: 0.3s; }
 .green { background-color: #7AFF12;  transition: 0.3s; -webkit-transition: 0.3s; ms-transition: 0.3s; -moz-transition: 0.3s;}
-.laptop #screen { display: inline-block; width: 403px; height: 237px; margin-top: -2px; border: 1px solid #efefef; border-bottom: 0 none; background: url('../imgs/workImgs.png') no-repeat; transition: 0.3s; -webkit-transition: 0.3s; ms-transition: 0.3s; -moz-transition: 0.3s; }
+.laptop #screen { display: inline-block; width: 403px; height: 237px; margin-top: -2px; border: 1px solid #efefef; border-bottom: 0 none; background: url('../imgs/workImgs.png') no-repeat; background-size: 3635px; transition: 0.3s; -webkit-transition: 0.3s; ms-transition: 0.3s; -moz-transition: 0.3s; }
 
 .laptop .btm { position: absolute; bottom: 0; left: 0; display: inline-block; width: 510px; height: 15px; background-color: #fff; border-bottom-left-radius: 108%; border-bottom-right-radius: 108%;  transition: 0.3s; -webkit-transition: 0.3s; ms-transition: 0.3s; -moz-transition: 0.3s; }
 
@@ -416,7 +416,7 @@ header h1:hover { transform:scale(1.1, 1.1), -webkit-transform:scale(1.1, 1.1); 
   100% {transform:translate(0, 0);}
   }
 
-.program svg, .focus svg {-moz-animation:rotation2 2s ease-in-out infinite;-o-animation:rotation2 2s ease-in-out infinite;-webkit-animation:rotation2 2s ease-in-out infinite;animation:rotation2 2s ease-in-out infinite}
+.program svg, .focus svg { -webkit-animation-delay: 10s; animation-delay: 10s; -moz-animation:rotation2 2s ease-in-out 5;-o-animation:rotation2 2s ease-in-out 5;-webkit-animation:rotation2 2s ease-in-out 5;animation:rotation2 2s ease-in-out 5; }
 
 
 @-webkit-keyframes aboutUl{
@@ -440,7 +440,7 @@ header h1:hover { transform:scale(1.1, 1.1), -webkit-transform:scale(1.1, 1.1); 
   100% {transform:translate(0, 0);}
   }
 
-#about .groupping > ul > li:nth-child(1) ul, #about .groupping > ul > li:nth-child(2) ul  {-moz-animation:aboutUl 2s ease-in-out infinite;-o-animation:aboutUl 2s ease-in-out infinite;-webkit-animation:aboutUl 2s ease-in-out infinite;animation:aboutUl 2s ease-in-out infinite}
+#about .groupping > ul > li:nth-child(1) ul, #about .groupping > ul > li:nth-child(2) ul  {-moz-animation:aboutUl 2s ease-in-out 5;-o-animation:aboutUl 2s ease-in-out 5;-webkit-animation:aboutUl 2s ease-in-out 5;animation:aboutUl 2s ease-in-out 5; }
 
 
 @-webkit-keyframes contactUl{
@@ -464,7 +464,7 @@ header h1:hover { transform:scale(1.1, 1.1), -webkit-transform:scale(1.1, 1.1); 
   100% {transform:translate(0, 0);}
   }
 
-#about .groupping > ul > li:nth-child(3) ul  {-moz-animation:contactUl 2s ease-in-out infinite;-o-animation:contactUl 2s ease-in-out infinite;-webkit-animation:contactUl 2s ease-in-out infinite;animation:contactUl 2s ease-in-out infinite}
+#about .groupping > ul > li:nth-child(3) ul  {-moz-animation:contactUl 2s ease-in-out 5;-o-animation:contactUl 2s ease-in-out 5;-webkit-animation:contactUl 2s ease-in-out 5;animation:contactUl 2s ease-in-out 5; }
 
 
 
@@ -490,7 +490,7 @@ header h1:hover { transform:scale(1.1, 1.1), -webkit-transform:scale(1.1, 1.1); 
   100% {transform:translate(0, 0);}
   }
 
-.language svg {-moz-animation:langSvg 2s ease-in-out infinite;-o-animation:langSvg 2s ease-in-out infinite;-webkit-animation:langSvg 2s ease-in-out infinite;animation:langSvg 2s ease-in-out infinite}
+.language svg {-moz-animation:langSvg 2s ease-in-out 5;-o-animation:langSvg 2s ease-in-out 5;-webkit-animation:langSvg 2s ease-in-out 5;animation:langSvg 2s ease-in-out 5; }
 
 /*
 
@@ -556,7 +556,7 @@ header h1:hover { transform:scale(1.1, 1.1), -webkit-transform:scale(1.1, 1.1); 
   100% {transform:translate(0, 0) scale(1);}
   }
 
-#about a.arrow, #work a:nth-child(2).arrow {-moz-animation:arrowDownAni 2s ease-in-out infinite;-o-animation:arrowDownAni 2s ease-in-out infinite;-webkit-animation:arrowDownAni 2s ease-in-out infinite;animation:arrowDownAni 2s ease-in-out infinite}
+#about a.arrow, #work a:nth-child(2).arrow {-moz-animation:arrowDownAni 1s ease-in-out infinite;-o-animation:arrowDownAni 1s ease-in-out infinite;-webkit-animation:arrowDownAni 1s ease-in-out infinite;animation:arrowDownAni 1s ease-in-out infinite}
 
 
 @-webkit-keyframes arrowUp{
@@ -579,7 +579,7 @@ header h1:hover { transform:scale(1.1, 1.1), -webkit-transform:scale(1.1, 1.1); 
   50% {transform:translate(0, -10px) scale(1.1);}
   100% {transform:translate(0, 0) scale(1);}
 }
-#work a.aboutArrow, #contact a.contactArrow{-moz-animation:arrowUp 2s ease-in-out infinite;-o-animation:arrowUp 2s ease-in-out infinite;-webkit-animation:arrowUp 2s ease-in-out infinite;animation:arrowUp 2s ease-in-out infinite}
+#work a.aboutArrow, #contact a.contactArrow{-moz-animation:arrowUp 1s ease-in-out infinite;-o-animation:arrowUp 1s ease-in-out infinite;-webkit-animation:arrowUp 1s ease-in-out infinite;animation:arrowUp 1s ease-in-out infinite}
 
 
 /* media query */
@@ -926,9 +926,9 @@ header h1:hover { transform:scale(1.1, 1.1), -webkit-transform:scale(1.1, 1.1); 
 
 	.pad #screen { background-size: 3312px }
 	.pad { width: 272px; height: 186px }
-	.pad .status { width: 218px; height: 13px; line-height: 15px; }
+	.pad .status { width: 217px; height: 13px; line-height: 13px; }
 	.pad .searchBar { width: 80px; height: 8px }
-	.pad #screen { width: 218px; height: 157px; margin-top: -3px }
+	.pad #screen { width: 217px; height: 157px; margin-top: -3px }
 	.pad .btn { width: 13px; height: 13px; margin-left: -1px }
 
 	.phone { width: 84px; height: 150px }
@@ -956,25 +956,25 @@ header h1:hover { transform:scale(1.1, 1.1), -webkit-transform:scale(1.1, 1.1); 
 
 
 	#wrapper .padPos0 { background-position: 0 -218px; }
-	#wrapper .padPos1 { background-position: -218px -218px; }
+	#wrapper .padPos1 { background-position: -219px -218px; }
 	#wrapper .padPos2 { background-position: -437px -218px; }
 	#wrapper .padPos3 { background-position: -656px -218px; }
 	#wrapper .padPos4 { background-position: -874px -218px; }
-	#wrapper .padPos5 { background-position: -1092px -218px; }
-	#wrapper .padPos6 { background-position: -1310px -218px; }
-	#wrapper .padPos7 { background-position: -1529px -218px; }
+	#wrapper .padPos5 { background-position: -1093px -218px; }
+	#wrapper .padPos6 { background-position: -1311px -218px; }
+	#wrapper .padPos7 { background-position: -1530px -218px; }
 	#wrapper .padPos8 { background-position: -1748px -218px; }
 
 
 	#wrapper .phonePos0 { background-position: 0 -383px; }
 	#wrapper .phonePos1 { background-position: -77px -383px; }
-	#wrapper .phonePos2 { background-position: -154px -383px; }
+	#wrapper .phonePos2 { background-position: -155px -383px; }
 	#wrapper .phonePos3 { background-position: -232px -383px; }
 	#wrapper .phonePos4 { background-position: -309px -383px; }
 	#wrapper .phonePos5 { background-position: -386px -383px; }
 	#wrapper .phonePos6 { background-position: -463px -383px; }
 	#wrapper .phonePos7 { background-position: -540px -383px; }
-	#wrapper .phonePos8 { background-position: -617px -383px; }
+	#wrapper .phonePos8 { background-position: -618px -383px; }
 
 
 }
@@ -1340,17 +1340,17 @@ header h1:hover { transform:scale(1.1, 1.1), -webkit-transform:scale(1.1, 1.1); 
 	.mobiles { height: 184px; margin-top: 29px; margin-bottom: 29px }
 
 	.pad #screen { background-size: 3312px }
-	.pad { width: 248px; height: 167px; left: 2% }
-	.pad .status { width: 198px; height: 13px; line-height: 13px; margin-top: 5px }
+	.pad { width: 248px; height: 167px; left: 2%; border-radius: 10px; }
+	.pad .status { width: 197px; height: 13px; line-height: 13px; margin-top: 5px }
 	.pad .searchBar { width: 72px; height: 7px }
-	.pad #screen { width: 198px; height: 142px; margin-top: -3px; background-size: 3012px; }
+	.pad #screen { width: 197px; height: 142px; margin-top: -3px; background-size: 3012px; }
 	.pad .btn { width: 13px; height: 13px; margin-left: -1px }
 
 
-	.phone { width: 75px; height: 139px; right: 1% }
-	.phone #screen { width: 69px; height: 101px; margin-left: 2px; background-size: 3027px }
-	.phone .status { width: 65px; height: 7px; margin-left: 2px; margin-top: -3px }
-	.phone .searchBar { width: 67px; height: 3px; top: 2px; left: 1.5px }
+	.phone { width: 76px; height: 139px; right: 1%; border-radius: 8px; }
+	.phone #screen { width: 68px; height: 101px; margin-left: 3px; background-size: 3027px }
+	.phone .status { width: 64px; height: 7px; margin-left: 3px; margin-top: -3px }
+	.phone .searchBar { width: 64px; height: 3px; top: 2px; left: 1.5px }
 	.phone .btn { width: 9px; height: 9px; }
 	.phone .camera { width: 6px; height: 6px; margin: 0 auto; margin-top: 6px; margin-bottom: 6px }
 
@@ -1372,26 +1372,26 @@ header h1:hover { transform:scale(1.1, 1.1), -webkit-transform:scale(1.1, 1.1); 
 	#wrapper .lapPos8 { background-position: -2085px 0px; }
 
 
-	#wrapper .padPos0 { background-position: 0 -198px; }
-	#wrapper .padPos1 { background-position: -199px -198px; }
-	#wrapper .padPos2 { background-position: -397px -198px; }
-	#wrapper .padPos3 { background-position: -596px -198px; }
-	#wrapper .padPos4 { background-position: -795px -198px; }
-	#wrapper .padPos5 { background-position: -994px -198px; }
-	#wrapper .padPos6 { background-position: -1192px -198px; }
-	#wrapper .padPos7 { background-position: -1391px -198px; }
-	#wrapper .padPos8 { background-position: -1590px -198px; }
+	#wrapper .padPos0 { background-position: 0 -199px; }
+	#wrapper .padPos1 { background-position: -198px -199px; }
+	#wrapper .padPos2 { background-position: -397px -199px; }
+	#wrapper .padPos3 { background-position: -596px -199px; }
+	#wrapper .padPos4 { background-position: -795px -199px; }
+	#wrapper .padPos5 { background-position: -994px -199px; }
+	#wrapper .padPos6 { background-position: -1193px -199px; }
+	#wrapper .padPos7 { background-position: -1391px -199px; }
+	#wrapper .padPos8 { background-position: -1590px -199px; }
 
 
-	#wrapper .phonePos0 { background-position: 0 -345px; }
-	#wrapper .phonePos1 { background-position: -70px -345px; }
-	#wrapper .phonePos2 { background-position: -139px -345px; }
-	#wrapper .phonePos3 { background-position: -209px -345px }
-	#wrapper .phonePos4 { background-position: -279px -345px; }
-	#wrapper .phonePos5 { background-position: -348px -345px; }
-	#wrapper .phonePos6 { background-position: -418px -345px; }
-	#wrapper .phonePos7 { background-position: -488px -345px; }
-	#wrapper .phonePos8 { background-position: -558px -345px; }
+	#wrapper .phonePos0 { background-position: 0 -346px; }
+	#wrapper .phonePos1 { background-position: -70px -346px; }
+	#wrapper .phonePos2 { background-position: -140px -346px; }
+	#wrapper .phonePos3 { background-position: -210px -346px }
+	#wrapper .phonePos4 { background-position: -279px -346px; }
+	#wrapper .phonePos5 { background-position: -349px -346px; }
+	#wrapper .phonePos6 { background-position: -418px -346px; }
+	#wrapper .phonePos7 { background-position: -488px -346px; }
+	#wrapper .phonePos8 { background-position: -558px -346px; }
 
 	.contactImg { width: 265px; height: 286px; background-size: 295px; right: 48%; top: 32% }
 	.contactImg span { width: 250px; height: 303px; border: 7px solid #fff; }
@@ -1635,9 +1635,9 @@ header h1:hover { transform:scale(1.1, 1.1), -webkit-transform:scale(1.1, 1.1); 
 	.mobiles { height: 147px; margin-top: 20px; margin-bottom: 5px }
 
 	.pad { width: 198px; height: 133px; left: 2%; border-radius: 7px }
-	.pad .status { width: 160px; height: 10px; line-height: 8px; margin-top: 4px }
-	.pad .searchBar { width: 72px; height: 6px; border-radius: 1px }
-	.pad #screen { width: 160px; height: 114px; margin-top: -4px; background-size: 2432px; }
+	.pad .status { width: 159px; height: 10px; line-height: 8px; margin-top: 4px }
+	.pad .searchBar { width: 71px; height: 6px; border-radius: 1px }
+	.pad #screen { width: 159px; height: 114px; margin-top: -4px; background-size: 2432px; }
 	.pad .btn { width: 11px; height: 11px; margin-left: -3px }
 
 
@@ -1662,12 +1662,12 @@ header h1:hover { transform:scale(1.1, 1.1), -webkit-transform:scale(1.1, 1.1); 
 
 	#wrapper .padPos0 { background-position: 0 -161px; }
 	#wrapper .padPos1 { background-position: -161px -161px; }
-	#wrapper .padPos2 { background-position: -321px -161px; }
+	#wrapper .padPos2 { background-position: -322px -161px; }
 	#wrapper .padPos3 { background-position: -481px -161px; }
 	#wrapper .padPos4 { background-position: -642px -161px; }
 	#wrapper .padPos5 { background-position: -802px -161px; }
 	#wrapper .padPos6 { background-position: -963px -161px; }
-	#wrapper .padPos7 { background-position: -1123px -161px; }
+	#wrapper .padPos7 { background-position: -1124px -161px; }
 	#wrapper .padPos8 { background-position: -1284px -161px; }
 
 
@@ -1676,7 +1676,7 @@ header h1:hover { transform:scale(1.1, 1.1), -webkit-transform:scale(1.1, 1.1); 
 	#wrapper .phonePos2 { background-position: -112px -276px; }
 	#wrapper .phonePos3 { background-position: -167px -276px }
 	#wrapper .phonePos4 { background-position: -223px -276px; }
-	#wrapper .phonePos5 { background-position: -278px -276px; }
+	#wrapper .phonePos5 { background-position: -279px -276px; }
 	#wrapper .phonePos6 { background-position: -334px -276px; }
 	#wrapper .phonePos7 { background-position: -390px -276px; }
 	#wrapper .phonePos8 { background-position: -446px -276px; }
@@ -1738,12 +1738,12 @@ header h1:hover { transform:scale(1.1, 1.1), -webkit-transform:scale(1.1, 1.1); 
 
 
 
-	.laptop { width: 209px; height: 117px; margin-top: 25px; margin-bottom: -5px;}
+	.laptop { width: 209px; height: 117px; margin-top: 20px; margin-bottom: 0px;}
 
-	.laptop .top { width: 175px; height: 113px; border-top-left-radius: 5px;  border-top-right-radius: 5px; }
-	.laptop .status { width: 169px; height: 5px; line-height: 2px; }
+	.laptop .top { width: 174px; height: 113px; border-top-left-radius: 5px;  border-top-right-radius: 5px; }
+	.laptop .status { width: 168px; height: 5px; line-height: 2px; }
 	.status span { width: 3px; height: 3px; }
-	.laptop #screen { width: 169px; height: 98px; margin-top: 0; background-size: 1525px }
+	.laptop #screen { width: 168px; height: 98px; margin-top: 0; background-size: 1525px }
 	.laptop .btm { width: 209px; height: 5px }
 
 	.laptop .camera, .phone .camera { width: 4px; height: 4px; margin-top: 4px; margin-bottom: 2px }
@@ -1771,13 +1771,13 @@ header h1:hover { transform:scale(1.1, 1.1), -webkit-transform:scale(1.1, 1.1); 
 	.navForImg span { width: 13px; height: 13px }
 
 	#wrapper .lapPos0 { background-position: 0px 0px; }
-	#wrapper .lapPos1 { background-position: -170px 0px; }
-	#wrapper .lapPos2 { background-position: -339px 0px; }
-	#wrapper .lapPos3 { background-position: -508px 0px; }
+	#wrapper .lapPos1 { background-position: -171px 0px; }
+	#wrapper .lapPos2 { background-position: -340px 0px; }
+	#wrapper .lapPos3 { background-position: -509px 0px; }
 	#wrapper .lapPos4 { background-position: -678px 0px; }
-	#wrapper .lapPos5 { background-position: -847px 0px; }
-	#wrapper .lapPos6 { background-position: -1017px 0px; }
-	#wrapper .lapPos7 { background-position: -1186px 0px; }
+	#wrapper .lapPos5 { background-position: -848px 0px; }
+	#wrapper .lapPos6 { background-position: -1018px 0px; }
+	#wrapper .lapPos7 { background-position: -1187px 0px; }
 	#wrapper .lapPos8 { background-position: -1356px 0px; }
 
 
@@ -1793,7 +1793,7 @@ header h1:hover { transform:scale(1.1, 1.1), -webkit-transform:scale(1.1, 1.1); 
 
 
 	#wrapper .phonePos0 { background-position: 0 -215px; }
-	#wrapper .phonePos1 { background-position: -43px -215px; }
+	#wrapper .phonePos1 { background-position: -44px -215px; }
 	#wrapper .phonePos2 { background-position: -87px -215px; }
 	#wrapper .phonePos3 { background-position: -130px -215px }
 	#wrapper .phonePos4 { background-position: -174px -215px; }
