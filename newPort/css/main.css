@@ -1781,26 +1781,26 @@ header h1:hover { transform:scale(1.1, 1.1), -webkit-transform:scale(1.1, 1.1); 
 	#wrapper .lapPos8 { background-position: -1356px 0px; }
 
 
-	#wrapper .padPos0 { background-position: 0 -131px; }
-	#wrapper .padPos1 { background-position: -132px -131px; }
-	#wrapper .padPos2 { background-position: -264px -131px; }
-	#wrapper .padPos3 { background-position: -394px -131px; }
-	#wrapper .padPos4 { background-position: -526px -131px; }
-	#wrapper .padPos5 { background-position: -657px -131px; }
-	#wrapper .padPos6 { background-position: -789px -131px; }
-	#wrapper .padPos7 { background-position: -920px -131px; }
-	#wrapper .padPos8 { background-position: -1052px -131px; }
+	#wrapper .padPos0 { background-position: 0 -132px; }
+	#wrapper .padPos1 { background-position: -132px -132px; }
+	#wrapper .padPos2 { background-position: -264px -132px; }
+	#wrapper .padPos3 { background-position: -394px -132px; }
+	#wrapper .padPos4 { background-position: -526px -132px; }
+	#wrapper .padPos5 { background-position: -657px -132px; }
+	#wrapper .padPos6 { background-position: -789px -132px; }
+	#wrapper .padPos7 { background-position: -920px -132px; }
+	#wrapper .padPos8 { background-position: -1052px -132px; }
 
 
-	#wrapper .phonePos0 { background-position: 0 -215px; }
-	#wrapper .phonePos1 { background-position: -44px -215px; }
-	#wrapper .phonePos2 { background-position: -87px -215px; }
-	#wrapper .phonePos3 { background-position: -130px -215px }
-	#wrapper .phonePos4 { background-position: -174px -215px; }
-	#wrapper .phonePos5 { background-position: -217px -215px; }
-	#wrapper .phonePos6 { background-position: -261px -215px; }
-	#wrapper .phonePos7 { background-position: -304px -215px; }
-	#wrapper .phonePos8 { background-position: -348px -215px; }
+	#wrapper .phonePos0 { background-position: 0 -216px; }
+	#wrapper .phonePos1 { background-position: -44px -216px; }
+	#wrapper .phonePos2 { background-position: -87px -216px; }
+	#wrapper .phonePos3 { background-position: -130px -216px }
+	#wrapper .phonePos4 { background-position: -174px -216px; }
+	#wrapper .phonePos5 { background-position: -217px -216px; }
+	#wrapper .phonePos6 { background-position: -261px -216px; }
+	#wrapper .phonePos7 { background-position: -304px -216px; }
+	#wrapper .phonePos8 { background-position: -348px -216px; }
 
 	.de3 { margin-top: 300px }
 	#wrapper section#work { height: 655px }
