@@ -61,6 +61,7 @@ jQuery( document ).ready(function( $ ) {
 	        		$("#wrapper nav a:eq(0)").addClass("nav1024Active");
 	        	} else {
 	        		$("#wrapper nav a:eq(0)").removeClass("nav1024Active");
+
 	        	}
 
 	        });
