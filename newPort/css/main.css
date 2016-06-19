@@ -55,7 +55,7 @@ header ul li:nth-child(3) a { right: 7%; top: 8%; }
 header ul li:nth-child(4) a { position: fixed; right: 7.5%; top: 45%; display: inline-block; margin-right: -39px; font-size: 1.2em; color: #BBA2FF;   transform: rotate(90deg); -webkit-transform: rotate(90deg); -ms-transform: rotate(90deg); -moz-transform: rotate(90deg);}
 header ul li:nth-child(4) a:hover { color: #4E00FF; }
 
-header ul li:nth-child(3) a:hover { transform: rotate(90deg); -webkit-transform: rotate(90deg); -ms-transform: rotate(90deg); -moz-transform: rotate(90deg); top: 6.5% }
+header ul li:nth-child(3) a:hover { transform: rotate(90deg); -webkit-transform: rotate(90deg); -ms-transform: rotate(90deg); -moz-transform: rotate(90deg); }
 
 
 
@@ -372,20 +372,24 @@ header h1:hover { transform:scale(1.1, 1.1), -webkit-transform:scale(1.1, 1.1); 
 
 
 @-webkit-keyframes rotation1{
-  from{-webkit-transform:rotate(0deg);}
-  to{-webkit-transform:rotate(180deg);}
+  0% {-webkit-transform:rotate(0deg); opacity: 0.1; }
+  50% {-webkit-transform:rotate(180deg); opacity: 0.3 }
+  100% {-webkit-transform:rotate(0deg); opacity: 0.1; }
 }
 @-moz-keyframes rotation1{
-  from{-moz-transform:rotate(0deg);}
-  to{-moz-transform:rotate(180deg);}
+  0% {-moz-transform:rotate(0deg); opacity: 0.1; }
+  50% {-moz-transform:rotate(180deg); opacity: 0.3}
+  100% {-webkit-transform:rotate(0deg); opacity: 0.1; }
 }
 @-o-keyframes rotation1{
-  from{-o-transform:rotate(0deg);}
-  to{-o-transform:rotate(180deg);}
+  0% {-o-transform:rotate(0deg); opacity: 0.1; }
+  50% {-o-transform:rotate(180deg); opacity: 0.3}
+  100% {-webkit-transform:rotate(0deg); opacity: 0.1; }
 }
 @keyframes rotation1{
-  from{transform:rotate(0deg);}
-  to{transform:rotate(180deg);}
+  0% {transform:rotate(0deg); opacity: 0.1; }
+  50% {transform:rotate(180deg); opacity: 0.3}
+  100% {-webkit-transform:rotate(0deg); opacity: 0.1; }
   }
 .cross > span {-moz-animation:rotation1 3s linear infinite;-o-animation:rotation1 3s linear infinite;-webkit-animation:rotation1 3s linear infinite;animation:rotation1 3s linear infinite}
 
