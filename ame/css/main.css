@@ -370,6 +370,7 @@ footer { color: #bdbdbd; padding: 30px 0 50px; width: 100%; max-width: 1200px;  
 footer p a { opacity: 0.4; display: inline-block; margin: 0 15px 15px 15px  }
 footer p a:hover { opacity: 0.7 }
 
+#about ul li:nth-child(3) ul { float: left; text-align: right }
 
 .greyBg { z-index: -1; position: absolute; top: 8438px; right: 0; width: 50%; height: 325px; background-color: #F8F8F8 }
 

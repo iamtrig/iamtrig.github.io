@@ -1,0 +1,12 @@
+#wrapper .langKor { font-family: "돋움", Dotum, AppleGothic, 'arial', sans-serif }
+
+#wrapper #work li:nth-child(9) > a { width: 57px; margin-top: 3px }
+
+.de1 p { margin-top: 2px }
+
+#wrapper #work li:nth-child(9) h2 { margin-top: 5px; margin-bottom: 4px }
+
+
+@media only screen and (max-width: 769px) {
+	#wrapper #work li:nth-child(9) h2 { margin-bottom: 14px }
+}
