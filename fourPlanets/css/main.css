@@ -435,7 +435,12 @@ footer p { z-index: 100; position: fixed; bottom: 60px; right: 50px; color: #fff
 	#wrapper #banner h2.over1000 {margin-top: 120px }
 	#wrapper { height: 960px; max-height: 960px; }
 	body, html { height: 960px; max-height: 960px; overflow-y: auto }
-	body { position: relative; }
+	body { position: relative; background-image: radial-gradient(at 50% 194% , #ee475c -56%, #19182A 89%);
+  background-image: -webkit-radial-gradient(at 50% 194% , #ee475c -56%, #19182A 89%);
+  background-image: -moz-radial-gradient(at 50% 194% , #ee475c -56%, #19182A 89%);
+  background-image: -o-radial-gradient(at 50% 194% , #ee475c -56%, #19182A 89%);  }
+
+
 	
 	#wrapper header .planet.cre { top: 450px; left: 20%; }
 	#wrapper header .planet.pro { top: 450px; left: auto; right: 20% }
@@ -460,11 +465,11 @@ footer p { z-index: 100; position: fixed; bottom: 60px; right: 50px; color: #fff
 	#wrapper .navBg.firstHide, #wrapper .navA.firstHide { opacity: 0; transform: translateX(100%); transform: -webkit-translateX(100%); transform: -moz-translateX(100%); transform: -o-translateX(100%); transiton: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -webkit-transition: 0.3s ease-in-out; }
 
 	header h1 { bottom: auto; left: 30px; top: 40px }
-	.mainNav { bottom: auto; right: 30px; left: auto; top: 45px }
+	.mainNav { bottom: auto; right: 30px; left: auto; top: 41px }
 	footer p { bottom: 50px; right: auto; width: 100%; text-align: center; position: absolute; }
 
 	.navA { height: 100%; padding-top: 0 }
-	header nav a:first-child { margin-top: 45px }
+	header nav a:first-child { margin-top: 40px }
 
 }
 
