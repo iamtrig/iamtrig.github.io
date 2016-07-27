@@ -432,25 +432,25 @@ footer p { z-index: 100; position: fixed; bottom: 60px; right: 50px; color: #fff
 
 
 @media only screen and (max-width: 768px) {
-	#wrapper #banner h2.over1000 {margin-top: 580px }
-	#wrapper { height: 980px; max-height: 980px; }
-	body, html { height: 980px; max-height: 980px; overflow-y: auto }
+	#wrapper #banner h2.over1000 {margin-top: 120px }
+	#wrapper { height: 960px; max-height: 960px; }
+	body, html { height: 960px; max-height: 960px; overflow-y: auto }
 	body { position: relative; }
 	
-	#wrapper header .planet.cre { top: 160px; left: 20%; }
-	#wrapper header .planet.pro { top: 160px; left: auto; right: 20% }
-	#wrapper header .planet.eff { top: 360px; right: auto; left: 20% }
-	#wrapper header .planet.info { top: 360px; right: 20% }
+	#wrapper header .planet.cre { top: 450px; left: 20%; }
+	#wrapper header .planet.pro { top: 450px; left: auto; right: 20% }
+	#wrapper header .planet.eff { top: 650px; right: auto; left: 20% }
+	#wrapper header .planet.info { top: 650px; right: 20% }
 
-	#wrapper header .words { top: 215px }
+	#wrapper header .words { top: 505px }
 	#wrapper header .words.cre { left: 24.2% }
 	#wrapper header .words.pro { left: auto; right: 22.2% }
-	#wrapper header .words.eff { top: 415px; left: 24%; right: auto }
-	#wrapper header .words.info { top: 415px;right: 22.7% }
+	#wrapper header .words.eff { top: 705px; left: 24%; right: auto }
+	#wrapper header .words.info { top: 705px;right: 22.7% }
 	
 	#banner { overflow: hidden; clear: both }
 
-	#banner h2.lets { font-size: 1.7em }
+	#banner h2.lets { font-size: 1.7em; margin-top: 30px }
 	#banner h2.over1000 .words { font-size: 0.8em }
 
 	#logIn input { padding: 17px 15px; font-size: 1em }
@@ -479,11 +479,10 @@ footer p { z-index: 100; position: fixed; bottom: 60px; right: 50px; color: #fff
 	#wrapper header .planet.eff { right: auto; left: 15% }
 	#wrapper header .planet.info { right: 15% }
 
-	#wrapper header .words { top: 215px }
 	#wrapper header .words.cre { left: 19.2% }
 	#wrapper header .words.pro { left: auto; right: 17.5% }
-	#wrapper header .words.eff { top: 415px; left: 19.5%; right: auto }
-	#wrapper header .words.info { top: 415px;right: 17.7% }
+	#wrapper header .words.eff {  left: 19.5%; right: auto }
+	#wrapper header .words.info { right: 17.7% }
 
 	#banner h2.over1000 .words { margin: 0 5px }
 	#banner h2.lets { font-size: 1.6em }
@@ -493,19 +492,18 @@ footer p { z-index: 100; position: fixed; bottom: 60px; right: 50px; color: #fff
 }
 
 @media only screen and (max-width: 550px) {
-	#wrapper #banner h2.over1000 {margin-top: 560px }
+
 	
 
-	#wrapper header .planet.cre { top: 150px; left: 15%; }
-	#wrapper header .planet.pro { top: 150px; left: auto; right: 15% }
-	#wrapper header .planet.eff { top: 350px; right: auto; left: 15% }
-	#wrapper header .planet.info { top: 350px; right: 15% }
+	#wrapper header .planet.cre { left: 15%; }
+	#wrapper header .planet.pro { left: auto; right: 15% }
+	#wrapper header .planet.eff { right: auto; left: 15% }
+	#wrapper header .planet.info { right: 15% }
 
-	#wrapper header .words { top: 205px }
 	#wrapper header .words.cre { left: 19.7% }
 	#wrapper header .words.pro { left: auto; right: 17.5% }
-	#wrapper header .words.eff { top: 405px; left: 19.9%; right: auto }
-	#wrapper header .words.info { top: 405px;right: 17.7% }
+	#wrapper header .words.eff {  left: 19.9%; right: auto }
+	#wrapper header .words.info { right: 17.7% }
 
 	#banner h3:first-child { margin-bottom: 10px }
 	#banner h3 { width: 100%; margin-right: 0 }
