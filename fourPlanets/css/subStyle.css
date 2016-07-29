@@ -295,7 +295,8 @@ footer { z-index: 1000; position: absolute; bottom: 30px; left: 0; width: 118px;
 @media only screen and (max-width: 1024px) {
 	#contents { border-right: 0 none; border-top: 101px solid #1A1A2B; border-left: 0 none }
 	header h1 { border-right: 1px solid #313247 }
-	header h1 a { left: 0px; line-height: 75px }
+	header h1 a { left: 0px; line-height: 0; }
+	header h1 a svg { margin-top: 15px }
 	header h1 a svg { width: 20px; height: 20px; }
 	header h3 {  z-index: 1000; position: fixed; width: 50px; height: 50px; line-height: 85px; text-align: center; top: 0; right: 51px }
 	header h3 a { display: inline-block; width: 20px; height: 20px; text-indent: -999999px; background: url('../imgs/logOut.svg') no-repeat; opacity: 0.6; }
@@ -321,7 +322,7 @@ footer { z-index: 1000; position: absolute; bottom: 30px; left: 0; width: 118px;
 
 	#searchBy input[type=submit] { margin-right: 0 }
 	#searchBy .verLine { margin-right: 0 }
-	.mainNav { width: 50px; border-left: 1px solid #313247}
+	.mainNav { width: 50px; line-height: 0; border-left: 1px solid #313247}
 	header h1 a { width: 50px; }
 	.decoRight { right: 50px; height: 50px; }
 	.decoLeft { left: 50px; height: 50px;}
@@ -343,7 +344,7 @@ footer { z-index: 1000; position: absolute; bottom: 30px; left: 0; width: 118px;
 	#msg a { z-index: 50; position: absolute; right: 51px; top: 51px; border-left: 1px solid #313247 }
 	#talk a { z-index: 50; position: absolute; right: 0; top: 51px; border-left: 1px solid #313247 }
 
-	#mainMenu { width: 20px; height: 15px; }
+	#mainMenu { width: 20px; height: 15px; margin-top: 18px }
 	#mainMenu span:nth-child(2) { top: 7px }
 
 	.navTop { transform: rotate(45deg) translate(5px, 5px); -webkit-transform: rotate(45deg) translate(5px, 5px); -o-transform: rotate(45deg) translate(5px, 5px); -moz-transform: rotate(45deg) translate(5px, 5px); transiton: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -webkit-transition: 0.3s ease-in-out;  }
@@ -383,7 +384,7 @@ footer { z-index: 1000; position: absolute; bottom: 30px; left: 0; width: 118px;
 	#contents ul li .mid h3 { margin-bottom: 10px }
 	#contents ul li .mid p { margin-top: 10px }
 	#searchBy { position: absolute; top: -50px; padding-left: 51px; padding-right: 102px; width: 100%; box-sizing: border-box; left: 0 }
-	#searchBy fieldset { width: 100%; height: 100%; background-color: #151522 }
+	#searchBy fieldset { width: 100%; background-color: #151522 }
 	#searchBy input[type=submit] { float: right; width: 24px; height: 24px; margin-top: 14px; margin-right: 10px; padding:0; background: url('../imgs/search.svg') no-repeat; text-indent: -99999px }
 	#searchBy input[type=text] { float: left; text-align: left; margin-left: 10px; width: 66% }
 	#searchBy .verLine { float: right; display: none }
