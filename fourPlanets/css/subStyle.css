@@ -409,7 +409,7 @@ footer { z-index: 1000; position: absolute; bottom: 30px; left: 0; width: 118px;
 }
 
 @media only screen and (max-width: 430px) {
-	#contents ul li { width: 100% }
+	#contents ul li { width: 100%; border-right: 0 none }
 	header ul li:first-child a { display: none }
 	header ul li:nth-child(2) a { left: 102px }
 	header ul li:nth-child(3) a { left: 153px }
