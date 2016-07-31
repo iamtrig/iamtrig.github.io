@@ -15,6 +15,14 @@ jQuery( document ).ready(function( $ ) {
   	return false;
   });
 
+  $(".btm .prevNext a.next").click(function(){
+
+  	$(this).siblings().show();
+
+
+  	return false;
+  });
+
 
 
 });

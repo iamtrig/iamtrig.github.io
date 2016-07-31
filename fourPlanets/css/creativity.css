@@ -1,5 +1,5 @@
 #contents ul li .cover { display: inline-block; width: 200px; height: 200px; margin: 13px 0; background: url('../imgs/creCover_1.jpg') no-repeat; background-size: cover; border-radius: 50%; transiton: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -webkit-transition: 0.3s ease-in-out; }
-.mid a:hover .cover { box-shadow: #F32651 4px 1px 33.5px; transiton: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -webkit-transition: 0.3s ease-in-out;}
+.mid a:hover .cover { box-shadow: #F32651 0px 0px 30px; transiton: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -webkit-transition: 0.3s ease-in-out;}
 
 
 #contents ul li:nth-child(2) .cover { background-image: url('../imgs/creCover_2.jpg'); }
@@ -38,5 +38,4 @@
 
 @media only screen and (max-width: 1024px) {
 	#contents ul li .mid p { height: 47px }
-}
 }
