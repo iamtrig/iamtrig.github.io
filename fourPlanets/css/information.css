@@ -103,7 +103,9 @@ header ul li:first-child .planet { margin-left: 22px; margin-right: 18px }
 	header ul li:nth-child(4) a { left: 254px }
 	header span.userImg { margin-left: 13px }
 
-
+	#contents ul li .articleImg { width: 80px; height: 80px; margin: 32px 20px }
+	#contents .wording { padding-left: 122px }
+	#contents .wording p { font-size: 0.9em }
 	.filterBar h2 a { display: none; }
 }
 
@@ -112,7 +114,12 @@ header ul li:first-child .planet { margin-left: 22px; margin-right: 18px }
 	header ul li:nth-child(2) a { left: 102px }
 	header ul li:nth-child(3) a { left: 153px }
 	header ul li:nth-child(4) a {left: 203px  }
-
+	
+	#contents ul li { height: 140px }
+	#contents ul li .articleImg { width: 60px; height: 60px; margin: 40px 15px;  }
+	#contents ul li a, #contents ul li a:hover { border-left: 0 none }
+	#contents .wording { padding-left: 90px; margin-top: 21px; }
+	#contents .wording p { font-size: 0.9em }
 }
 
 @media only screen and (max-width: 370px) {
