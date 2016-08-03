@@ -121,7 +121,7 @@ header ul li:first-child .planet { margin-left: 22px; margin-right: 18px }
 #contents ul li .save { opacity: 0.3 }
 
 .chatBg { z-index: 0; position: fixed; top: 0; border-top: 313px solid transparent; border-bottom: 130px solid transparent; right: 0; width: 50%; height: 100%; padding: 0 0px;overflow: hidden; overflow-y: auto; -webkit-overflow-scrolling: touch; border-left: 30px solid transparent; border-right: 148px solid transparent; box-sizing: border-box;  }
-.chatBg #chatroom { position: static; width: 100%; height: 1750px; }
+.chatBg #chatroom { position: static; width: 100%; height: auto; }
 ::-webkit-scrollbar { display: none; }
 #chatroom > li > ul { width: 100%; height: auto }
 #chatroom > li > ul > li { position: relative; width: 100%; padding-bottom: 15px; margin-bottom: 15px; }
@@ -192,7 +192,6 @@ header ul li:first-child .planet { margin-left: 22px; margin-right: 18px }
  	
  	.chatBg { border-top: 225px solid transparent; border-right: 120px solid transparent; }
 	
-	.chatBg #chatroom { height: 1950px; }
 	.chat1Bg { border-right: 86px solid transparent; }
 /*	.chat2Bg { width: 100%; height: 70px; background-color: #fff; opacity: 0.05; position: absolute; z-index: -1; border-radius: 15px }
 	.chat1Bg textarea { margin-top: 13px; color: #fff;outline: none; width: 100%; height: 40px; max-width: 100%; max-height: 40px;  border-right: 70px solid transparent; border-left: 20px solid transparent; box-sizing: border-box; }
@@ -232,7 +231,6 @@ header ul li:first-child .planet { margin-left: 22px; margin-right: 18px }
 	.chat1Bg { width: 100%; border-left: 86px solid transparent; }
 
 	#talkSection, .hideRightBtm, .hideRightTop { display: none }
-	.chatBg #chatroom { height: 1650px; }
 
 	#contents .showNow { display: block !important; }
 	#contents #quickLinks .changeBg { background-color: #19192b !important; }
@@ -337,13 +335,8 @@ header ul li:first-child .planet { margin-left: 22px; margin-right: 18px }
 	#send, #file { right: 27px }
 }	
 
-@media only screen and (max-width: 900px) {
-	.chatBg #chatroom { height: 1700px; }
 
-}
 @media only screen and (max-width: 800px) {
-	.chatBg #chatroom { height: 1800px; }
-/*	#talkSection ul#firstUl > li { height: 30px }*/
 
 	#talkSection ul#firstUl > li > ul#users > li > a { width: 100px }
 	#talkSection ul#firstUl > li { width: 170px }
@@ -381,14 +374,8 @@ header ul li:first-child .planet { margin-left: 22px; margin-right: 18px }
 }
 
 @media only screen and (max-width: 560px) {
-	.chatBg #chatroom { height: 2000px; }
 	.sent .groupping2 { width: 55%; }
 	.sent .groupping1 { width: 55% }
-
-}
-
-@media only screen and (max-width: 470px) {
-	.chatBg #chatroom { height: 2100px; }
 
 }
 
@@ -403,19 +390,14 @@ header ul li:first-child .planet { margin-left: 22px; margin-right: 18px }
 	
 	#contents .wording { padding-left: 90px; margin-top: 21px; }
 	#contents .wording p { font-size: 0.9em }
-	.chatBg #chatroom { height: 2200px; } 
 }
-
-@media only screen and (max-width: 390px) {
-	.chatBg #chatroom { height: 2300px; } 
-} 
 
 @media only screen and (max-width: 370px) {
 
 	header ul li:nth-child(2) a { left: 102px }
 	header ul li:nth-child(3) a { left: 143px }
 	header ul li:nth-child(4) a {left: 188px  }
-	.chatBg #chatroom { height: 2400px; } 
+
 }
 
 
@@ -424,7 +406,6 @@ header ul li:first-child .planet { margin-left: 22px; margin-right: 18px }
 	header ul li:nth-child(3) a { left: 138px }
 	header ul li:nth-child(4) a {left: 176px  }
 	header ul li .planet svg { width: 23px; height: 23px }
-	.chatBg #chatroom { height: 2500px; } 
 }
 @media only screen and (max-width: 330px) {
 	header ul li:nth-child(2) a { left: 100px }
