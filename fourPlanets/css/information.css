@@ -322,7 +322,7 @@ header ul li:first-child .planet { margin-left: 22px; margin-right: 18px }
 	.seperLine { margin-top: 13px }
 	#talkSection a.next, #talkSection a.prev { top: 0 }
 	#talkSection ul#firstUl > li:last-child { top: 0px; height: 30px }
-	#talkSection ul#firstUl > li:last-child a .addIcon { width: 20px; height: 20px; margin-top: 0 }
+	#talkSection ul#firstUl > li:last-child a .addIcon { width: 20px; height: 20px; border: 2px solid #b10000; margin-top: 1px }
 	
 	#talkSection .prevNext a.prev { width: 30px }
 	#talkSection .prevNext.user a.prev, #talkSection .prevNext.user a.next { top: 51px; }
