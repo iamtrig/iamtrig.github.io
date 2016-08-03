@@ -120,7 +120,7 @@ header ul li:first-child .planet { margin-left: 22px; margin-right: 18px }
 
 #contents ul li .save { opacity: 0.3 }
 
-.chatBg { z-index: 0; position: fixed; top: 0; border-top: 313px solid transparent; border-bottom: 130px solid transparent; right: 0; width: 50%; height: 100%; padding: 0 0px;overflow: hidden; overflow-y: auto; border-left: 30px solid transparent; border-right: 148px solid transparent; box-sizing: border-box;  }
+.chatBg { z-index: 0; position: fixed; top: 0; border-top: 313px solid transparent; border-bottom: 130px solid transparent; right: 0; width: 50%; height: 100%; padding: 0 0px;overflow: hidden; overflow-y: auto; -webkit-overflow-scrolling: touch; border-left: 30px solid transparent; border-right: 148px solid transparent; box-sizing: border-box;  }
 .chatBg #chatroom { position: static; width: 100%; height: 1750px; }
 ::-webkit-scrollbar { display: none; }
 #chatroom > li > ul { width: 100%; height: auto }
