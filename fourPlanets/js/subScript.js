@@ -78,7 +78,6 @@ jQuery( document ).ready(function( $ ) {
   });
 
 
-
 });
 
 

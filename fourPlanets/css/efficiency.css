@@ -1,4 +1,5 @@
 #contents { 
+	background-image: url('../imgs/eff.jpg'); 
 	background-image: radial-gradient(at 39% 135% , #bd600b -67%, #181528 80%);
 	background-image: -webkit-radial-gradient(at 39% 135% , #bd600b -67%, #181528 80%);
 	background-image: -moz-radial-gradient(at 39% 135% , #bd600b -67%, #181528 80%);
@@ -85,6 +86,14 @@
 	#contents ul li .mid p { height: 35px }
 	.btm { top: 241px }
 	#contents ul li .cover { width: 70px; height: 70px; margin: 8px 0 } 
+	
+	#contents { 
+
+	background-image: radial-gradient(at 47% 199% , #bd600b -56%, #181528 99%);
+	background-image: -webkit-radial-gradient(at 47% 199% , #bd600b -56%, #181528 99%);
+	background-image: -moz-radial-gradient(at 47% 199% , #bd600b -56%, #181528 99%);
+	background-image: -o-radial-gradient(at 47% 199% , #bd600b -56%, #181528 99%); 
+	}
 
 }
 

@@ -54,7 +54,7 @@ header h3 a:hover { background-color: #19192b }
 
 header nav a { display: block; width: 100%; color: #efefef; font-weight: 600; text-align: center; font-size: 2em; text-transform: uppercase; margin-bottom: 20px; }
 header nav a:hover { color: #F32651; font-style: italic }
-header nav .navBg {  z-index: 10000; position: fixed;  background-attachment: fixed; width: 100%; height: 100%; background-color: #19192b; opacity: 0.9; transform: translateY(0); transform: -webkit-translateY(0); transform: -moz-translateY(0); transform: -o-translateY(0); transiton: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -webkit-transition: 0.3s ease-in-out;  }
+header nav .navBg { z-index: 10000; top: 0; position: fixed;  background-attachment: fixed; width: 100%; height: 100%; background-color: #19192b; opacity: 0.9; transform: translateY(0); transform: -webkit-translateY(0); transform: -moz-translateY(0); transform: -o-translateY(0); transiton: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -webkit-transition: 0.3s ease-in-out;  }
 .navA { opacity: 1; position: fixed; width: 100%; height: 80%; z-index: 15000; padding-top: 20%; transform: translateY(0); transform: -webkit-translateY(0); transform: -moz-translateY(0); transform: -o-translateY(0); transiton: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -webkit-transition: 0.3s ease-in-out; }
 
 #wrapper .navBg.firstHide, #wrapper .navA.firstHide { opacity: 0; transform: translateX(100%); transform: -webkit-translateX(100%); transform: -moz-translateX(100%); transform: -o-translateX(100%); transiton: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -webkit-transition: 0.3s ease-in-out; }
@@ -89,10 +89,11 @@ header nav .navBg {  z-index: 10000; position: fixed;  background-attachment: fi
 /* #contents */
 
 #contents { position: relative; word-spacing: 100%; height: auto; border-top: 80px solid #1f1f38; border-left: 118px solid #1f1f38; border-right: 118px solid #1f1f38; box-sizing: border-box; 
+	background-image: url('../imgs/cre.jpg'); 
 	background-image: radial-gradient(at 39% 135% , #a72d42 -67%, #181528 80%);
   background-image: -webkit-radial-gradient(at 39% 135% , #a72d42 -67%, #181528 80%);
   background-image: -moz-radial-gradient(at 39% 135% , #a72d42 -67%, #181528 80%);
-  background-image: -o-radial-gradient(at 39% 135% , #a72d42 -67%, #181528 80%);  background-repeat: no-repeat;  background-attachment: fixed; transiton: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -webkit-transition: 0.3s ease-in-out;}
+  background-image: -o-radial-gradient(at 39% 135% , #a72d42 -67%, #181528 80%);  background-repeat: no-repeat; background-size: cover; background-attachment: fixed; transiton: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -webkit-transition: 0.3s ease-in-out;}
 #contents ul li { position: relative; height: 500px; text-align: center; color: #fff; border-right: 1px solid #313247; border-bottom: 1px solid #313247; box-sizing: border-box; }
 #contents ul { overflow: hidden; width: 100% }
 #contents ul li { width: 20%; display: inline-block; float: left }
