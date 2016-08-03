@@ -13,6 +13,8 @@ header ul li:first-child .planet { margin-left: 31px; margin-right: 16px; }
 header span.userImg { margin-left: 21px }
 header ul li:first-child .planet { margin-left: 21px; margin-right: 18px }
 
+#contents ul li { border-right: 1px solid #263b55; border-bottom: 1px solid #263b55 }
+
 
 
 
@@ -45,7 +47,7 @@ header ul li:first-child .planet { margin-left: 21px; margin-right: 18px }
 #contents .btm > ul > li:nth-child(2) { right: 100%; left: auto; }
 
 .btm .break { display: block }
-.completionBar { margin-top: 15px; display: inline-block; width: 60%; height: 7px; background-color: #121233 }
+.completionBar { margin-top: 15px; display: inline-block; width: 60%; height: 7px; background-color: #111320 }
 .completionBar span { display: inline-block;float: left; width: 90%; height: 100%; text-align: left; background-color: #008ae6 }
 .btm .completionBar.hundred span { background-color: #00b3e6; width: 100%; }
 .btm .completionBar.eighty span { background-color: #008e65; width: 80%; }
@@ -122,8 +124,8 @@ header ul li:first-child .planet { margin-left: 21px; margin-right: 18px }
 	header ul li:nth-child(3) a { left: 342px }
 	header ul li:nth-child(4) a { left: 392px }
 	header ul li:nth-child(4) a:hover .words, header ul li:nth-child(3) a:hover .words, header ul li:nth-child(2) a:hover .words { display: none !important }
-	header ul li:nth-child(2) a, header ul li:nth-child(3) a, header ul li:nth-child(4) a { opacity: 0.3; }
-	header ul li:nth-child(2) a:hover, header ul li:nth-child(3) a:hover, header ul li:nth-child(4) a:hover { opacity: 0.7; }
+
+
 
 
 	#contents ul li .mid p { margin-top: 120px; height: 33px }
@@ -166,6 +168,8 @@ header ul li:first-child .planet { margin-left: 21px; margin-right: 18px }
 	header ul li:nth-child(4) a {left: 203px  }
 	
 	.btm .num { margin-right: 10px }
+
+	#contents ul li { border-right: 0 none; }
 
 }
 

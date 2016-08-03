@@ -3,7 +3,7 @@ body { background-color: #1f1f38; position: relative; }
 input[type=text], input[type=submit], input[type=buttom], input[type=reset],input[type=password], textarea, select  { background: none; border: 0 none; appearance: none; -moz-appearance: none; -webkit-appearance: none; border-radius: 0; -webkit-border-radius: 0; -moz-border-radius: 0; box-shadow: 0 0 0 0; -moz-box-shadow: 0 0 0 0; -webkit-box-shadow: 0 0 0 0; }
 
 input { font-family: 'Robto', 'arial', sans-serif; outline: none }
-
+::-webkit-scrollbar { display: none; }
 select { border: 0; margin: 0; padding: 0; outline: none; }
 a { font-weight: 400 }
 /* header */
@@ -13,7 +13,7 @@ a { font-weight: 400 }
 header, header a { color: #7E7E83; font-weight: 400 }
 
 header h1 { font-size: 0 }
-header h1 a { z-index: 1000; display: inline-block; position: fixed; left: 0; top: 0; width: 118px; height: 80px; text-align: center; line-height: 114px; opacity: 0.3; }
+header h1 a { z-index: 1000; display: inline-block; border-right: 1px solid #313247; position: fixed; left: 0; top: 0; width: 118px; height: 80px; text-align: center; line-height: 114px; opacity: 0.3; }
 header h1 a:hover { background-color: #19192b; opacity: 1; }
 header a.userImg {z-index: 1000; position: fixed; top: 0; left: 119px; display: inline-block; width: 230px; height: 80px; line-height: 80px; border-right: 1px solid #313247 }
 header span.userImg { display: inline-block; width: 36px; height: 36px; margin-top: 22px; margin-left: 30px; float: left; background: url('../imgs/userImg.jpg') no-repeat; border-radius: 50%; }
@@ -43,7 +43,7 @@ header h3 a:hover { background-color: #19192b }
 
 /* nav */
 
-.mainNav { top: 0; right: 0; z-index: 20000; position: fixed; font-size: 0; width: 118px; height: 80px; line-height: 96px; /*border-left: 1px solid #313247;*/ text-align: center;  transiton: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -webkit-transition: 0.3s ease-in-out;}
+.mainNav { top: 0; right: 0; z-index: 20000; border-left: 1px solid #313247;  position: fixed; font-size: 0; width: 118px; height: 80px; line-height: 96px; /*border-left: 1px solid #313247;*/ text-align: center;  transiton: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -webkit-transition: 0.3s ease-in-out;}
 .mainNav:hover { background-color: #19192b ;  transiton: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -webkit-transition: 0.3s ease-in-out;}
 #mainMenu { position: relative; display: inline-block; width: 30px; height: 20px; cursor: pointer; opacity: 0.4 }
 #mainMenu span { z-index: 1200; left: 0; position: absolute; display: inline-block; width: 100%; height: 1px; background-color: #fff;  transiton: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -webkit-transition: 0.3s ease-in-out;  }
@@ -63,7 +63,7 @@ header nav .navBg {  z-index: 10000; position: fixed;  background-attachment: fi
 .navMid { left: -100px; opacity: 0; transiton: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -webkit-transition: 0.3s ease-in-out;  }
 .navBttm {  transform: rotate(-45deg) translate(7px, -7px); -webkit-transform: rotate(-45deg) translate(7px, -7px); -o-transform: rotate(-45deg) translate(7px, -7px); -moz-transform: rotate(-45deg) translate(7px, -7px); transiton: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -webkit-transition: 0.3s ease-in-out;   }
 
-#quickLinks a { z-index: 1000; border-bottom: 1px solid #313247; position: fixed; display: inline-block; height: 115px; width: 118px; text-align: center; transiton: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -webkit-transition: 0.3s ease-in-out; }
+#quickLinks a { z-index: 400; border-bottom: 1px solid #313247; background-color: #1f1f38; position: fixed; display: inline-block; height: 115px; width: 118px; text-align: center; transiton: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -webkit-transition: 0.3s ease-in-out; }
 #quickLinks .break { display: block }
 #quickLinks .words { opacity: 0.5; }
 #quickLinks .icon { opacity: 0.5; margin-top: 30px; display: inline-block; transiton: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -webkit-transition: 0.3s ease-in-out;}
@@ -134,7 +134,7 @@ input[type=submit] { cursor: pointer }
 #searchBy .verLine { float: none; background-color: #000; }
 
 .filterBar form { display: inline-block; float: left}
-select { display: inline-block; cursor: pointer; font-family: 'Roboto','arial', sans-serif; color: #fff; letter-spacing: 0.1em; padding: 0 20px; font-weight: 400; opacity: 0.7; transiton: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -webkit-transition: 0.3s ease-in-out;  }
+select { display: inline-block; cursor: pointer; font-family: 'Roboto','arial', sans-serif; color: #fff; letter-spacing: 0.03em; padding: 0 20px; font-weight: 400; opacity: 0.7; transiton: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -webkit-transition: 0.3s ease-in-out;  }
 select:hover { opacity: 1; transiton: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -webkit-transition: 0.3s ease-in-out; }
 #sortBy { margin-left: 10px }
 option { font-family: 'Roboto','arial', sans-serif; color: #fff }
@@ -144,7 +144,7 @@ option { font-family: 'Roboto','arial', sans-serif; color: #fff }
 /* deco lines */
 .topBg { z-index: 500; width: 100%; height: 81px; top: 0; left: 0; position: fixed; background-color: #1f1f38 }
 .decoLeft {z-index: 900;  position: fixed; left: 118px; top: 0; display: inline-block; width: 1px; height: 100%; background-color: #313247}
-.decoRight {z-index: 900;  position: fixed; right: 118px; top: 0; display: inline-block; width: 1px; height: 100%; background-color: #313247}
+.decoRight {z-index: 100;  position: fixed; right: 118px; top: 0; display: inline-block; width: 1px; height: 100%; background-color: #313247}
 
 .decoTop { z-index: 900; position: fixed; left: 0; top: 80px; display: inline-block; width: 100%; height: 1px; background-color: #313247}
 
@@ -230,6 +230,9 @@ footer { z-index: 1000; position: absolute; bottom: 30px; left: 0; width: 118px;
 	#contents ul li { height: 465px; width: 25% }
 
 	footer { width: 80px }
+
+	
+
 }
 
 
@@ -283,7 +286,7 @@ footer { z-index: 1000; position: absolute; bottom: 30px; left: 0; width: 118px;
 	#contents ul li .mid p { font-size: 0.9em }
 	#contents ul li .mid h3 { font-size: 1.2em }
 
-	footer { width: 70px; letter-spacing: 0em; font-size: 0.6em }
+	footer { width: 70px; letter-spacing: 0em; font-size: 0.8em }
 
 	#searchBy input[type=submit] { padding: 0 13px; margin-right: 12px }
 
@@ -309,7 +312,7 @@ footer { z-index: 1000; position: absolute; bottom: 30px; left: 0; width: 118px;
 	header ul li:nth-child(3) a { left: 342px }
 	header ul li:nth-child(4) a { left: 392px }
 	header ul li:nth-child(4) a:hover .words, header ul li:nth-child(3) a:hover .words, header ul li:nth-child(2) a:hover .words { display: none !important }
-	header ul li:nth-child(2) a, header ul li:nth-child(3) a, header ul li:nth-child(4) a { opacity: 0.3; }
+	header ul li:nth-child(2) a, header ul li:nth-child(3) a, header ul li:nth-child(4) a { opacity: 0.5; }
 	header ul li:nth-child(2) a:hover, header ul li:nth-child(3) a:hover, header ul li:nth-child(4) a:hover { opacity: 0.7; }
 
 
@@ -342,9 +345,9 @@ footer { z-index: 1000; position: absolute; bottom: 30px; left: 0; width: 118px;
 	#upload a, #myPro a { width: 50px; height: 50px; top: 51px; background-color: #1f1f38; border-right: 1px solid #313247 }
 	#upload a { left: 51px }
 
-	#quickLinks a { z-index: 50; position: absolute;  border-bottom: 0 none; }
-	#msg a { z-index: 50; position: absolute; right: 51px; top: 51px; border-left: 1px solid #313247 }
-	#talk a { z-index: 50; position: absolute; right: 0; top: 51px; border-left: 1px solid #313247 }
+	#quickLinks a { /*z-index: 50; */position: absolute;  border-bottom: 0 none; }
+	#msg a { position: absolute; right: 51px; top: 51px; border-left: 1px solid #313247 }
+	#talk a { position: absolute; right: 0; top: 51px; border-left: 1px solid #313247 }
 
 	#mainMenu { width: 20px; height: 15px; margin-top: 18px }
 	#mainMenu span:nth-child(2) { top: 7px }
@@ -376,6 +379,8 @@ footer { z-index: 1000; position: absolute; bottom: 30px; left: 0; width: 118px;
 	#searchBy input[type=submit] { padding: 0 24px }
 
 	footer { position: static; width: 100%; height: 50px; line-height: 40px }
+
+
 }	
 
 @media only screen and (max-width: 870px) {

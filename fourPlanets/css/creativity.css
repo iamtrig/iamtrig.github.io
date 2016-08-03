@@ -1,6 +1,7 @@
 #contents ul li .cover { display: inline-block; width: 200px; height: 200px; margin: 13px 0; background: url('../imgs/creCover_1.jpg') no-repeat; background-size: cover; border-radius: 50%; transiton: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -webkit-transition: 0.3s ease-in-out; }
 .mid a:hover .cover { box-shadow: #F32651 0px 0px 30px; transiton: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -webkit-transition: 0.3s ease-in-out;}
 
+#contents ul li { border-right: 1px solid #473143; border-bottom: 1px solid #473143; }
 
 #contents ul li:nth-child(2) .cover { background-image: url('../imgs/creCover_2.jpg'); }
 #contents ul li:nth-child(3) .cover { background-image: url('../imgs/creCover_3.jpg'); }
@@ -38,4 +39,10 @@
 
 @media only screen and (max-width: 1024px) {
 	#contents ul li .mid p { height: 47px }
+}
+
+
+@media only screen and (max-width: 430px) {
+	#contents ul li { border-right: 0 none; }
+
 }

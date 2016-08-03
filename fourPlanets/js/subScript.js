@@ -25,6 +25,22 @@ jQuery( document ).ready(function( $ ) {
 
 
 
+
+
+  // info planets
+
+
+  $("#talk a").click(function(){
+
+      $(this).toggleClass("changeBg");
+
+      $("#talkSection, .hideRightBtm, .hideRightTop").toggleClass("showNow");
+
+    return false;
+  });
+
+
+
 });
 
 
