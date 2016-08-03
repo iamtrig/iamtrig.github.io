@@ -155,13 +155,13 @@ header ul li:first-child .planet { margin-left: 22px; margin-right: 18px }
 .chat1Bg textarea { resize: none; margin-top: 13px; color: #fff;outline: none; width: 100%; height: 45px; max-width: 100%; max-height: 45px;  border-right: 70px solid transparent; border-left: 20px solid transparent; box-sizing: border-box; }
 
 #send, #file { position: fixed; width: 20px; height: 20px; border-radius: 50%; text-indent: -99999999px; opacity: 0.8; }
-#file { background: url('../imgs/addImg.png') no-repeat center center; right: 0; bottom: 70px; right: 130px; background-size: 16px }
-#send { background: #277262 url('../imgs/right.png') no-repeat center center; bottom: 40px; right: 130px; background-size: 6px }
+#file { background: url('../imgs/addImg.png') no-repeat center center; right: 0; bottom: 70px; right: 162px; background-size: 16px }
+#send { background: #277262 url('../imgs/right.png') no-repeat center center; bottom: 40px; right: 162px; background-size: 6px }
 #send:hover, #file:hover { opacity: 1; }
 
-
-#contents .showNow { display: block !important; }
-#contents #quickLinks .changeBg { background-color: #19192b !important; }
+@media only screen and (min-width: 1500px) {
+	.hideRightTop, .hideRightBtm { display: block !important; }
+}
 
 @media only screen and (max-width: 2000px) {
 	header ul li:first-child .planet { margin-left: 23px; margin-right: 17px; }
@@ -197,7 +197,7 @@ header ul li:first-child .planet { margin-left: 22px; margin-right: 18px }
 /*	.chat2Bg { width: 100%; height: 70px; background-color: #fff; opacity: 0.05; position: absolute; z-index: -1; border-radius: 15px }
 	.chat1Bg textarea { margin-top: 13px; color: #fff;outline: none; width: 100%; height: 40px; max-width: 100%; max-height: 40px;  border-right: 70px solid transparent; border-left: 20px solid transparent; box-sizing: border-box; }
 */
-
+	#file, #send { right: 130px }
 
 
 }
@@ -233,7 +233,12 @@ header ul li:first-child .planet { margin-left: 22px; margin-right: 18px }
 
 	#talkSection, .hideRightBtm, .hideRightTop { display: none }
 	.chatBg #chatroom { height: 1650px; }
+
+	#contents .showNow { display: block !important; }
+	#contents #quickLinks .changeBg { background-color: #19192b !important; }
 }
+
+
 @media only screen and (max-width: 1300px)  {
 	header ul li:first-child a { width: 239px; }
 	header ul li:nth-child(2) a { left: 512px }
@@ -291,12 +296,46 @@ header ul li:first-child .planet { margin-left: 22px; margin-right: 18px }
 	.hideRightTop { width: 30px }
 	#talkSection .prevNext.user a.next { top: 80px;  }
 	#talkSection .prevNext.user a.prev { top: 80px }
-	#talkSection ul#firstUl { padding-left: 42px }
-	#talkSection ul#firstUl > li > ul#users { left: 42px }
+	#talkSection ul#firstUl { padding-left: 31px }
+	#talkSection ul#firstUl > li > ul#users { left: 31px }
 	#send, #file { right: 50px }
+	
+	#talkSection { z-index: 100000; top: 0}
+	#talkSection .firstBg { top: 0; height: 100px }
+	.chatBg { border-top: 100px solid transparent; }
+	#talkSection ul#firstUl > li:last-child a .addIcon { border: 3px solid #b10000; }
+	#talkSection ul#firstUl > li > a { font-size: 0.9em }
+	#talkSection ul#firstUl > li .icon { width: 25px; height: 25px; background-size: 25px 25px }
+	#talkSection ul#firstUl > li > ul#users { font-size: 0.9em; top: 52px }
+	#talkSection .firstBg { border-top: 13px solid transparent; }
+	#talkSection ul#firstUl > li > ul#users > li .userImg { width: 20px; height: 20px }
+	.seperLine { margin-top: 13px }
+	#talkSection a.next, #talkSection a.prev { top: 0 }
+	#talkSection ul#firstUl > li:last-child { top: 0px; height: 30px }
+	#talkSection ul#firstUl > li:last-child a .addIcon { width: 20px; height: 20px; margin-top: 0 }
+	
+	#talkSection .prevNext a.prev { width: 30px }
+	#talkSection .prevNext.user a.prev, #talkSection .prevNext.user a.next { top: 51px; }
+	#talkSection .prevNext.user a.next { background-position: 19px center; width: 30px }
+	.addIcon span:first-child { width: 10px; left: 5px; top: 8.5px; background-color: #b10000; transform: rotate(45deg); -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg);  }
+	.addIcon span:last-child { height: 10px; top: 5px; left: 8.5px; background-color: #b10000; transform: rotate(45deg); -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg);   }
 
+	.hideRightBtm { z-index: 100000; top: 0; right: 0; height: 99px }
+	#talkSection ul#firstUl > li:last-child a  { opacity: 0.9; }
 
-}
+	#talkSection .prevNext.user a.prev, #talkSection .prevNext.user a.next, #talkSection a.next, #talkSection a.prev { background-size: 7px }
+	
+	#talkSection ul#firstUl > li > a { line-height: 11px }
+
+	.chatBg { border-bottom: 90px solid transparent }
+	.chat1Bg { bottom: 0; height: 86px; padding: 15px 15px; }
+	.chat2Bg { height: 55px }
+	.chat1Bg textarea { margin-top: 5px; border-left: 10px solid transparent;  }
+	#send { bottom: 22px }
+	#file { bottom: 47px }
+	.hideRightTop { top: 43px }
+	#send, #file { right: 27px }
+}	
 
 @media only screen and (max-width: 900px) {
 	.chatBg #chatroom { height: 1700px; }
@@ -304,9 +343,24 @@ header ul li:first-child .planet { margin-left: 22px; margin-right: 18px }
 }
 @media only screen and (max-width: 800px) {
 	.chatBg #chatroom { height: 1800px; }
-	#talkSection ul#firstUl > li { height: 30px }
+/*	#talkSection ul#firstUl > li { height: 30px }*/
+
+	#talkSection ul#firstUl > li > ul#users > li > a { width: 100px }
+	#talkSection ul#firstUl > li { width: 170px }
+
+	.chatBg, #talkSection .firstBg { border-right: 10px solid transparent; border-left: 10px solid transparent }
+	#talkSection .prevNext a.prev, #talkSection .prevNext.user a.prev { left: 10px }
+	#talkSection .prevNext a.next { right: 40px }
+	#talkSection .prevNext.user a.next { right: 0; background-position: 10px center; }
+	.hideRightBtm { height: 49px }
+	
+	#talkSection ul#firstUl > li:last-child a .addIcon { margin-right: 10px }
+	#talkSection ul#firstUl > li:last-child { right: -10px }
+
+	#wrapper .hideRightBtm { right: -30px }
 
 }
+
 
 
 @media only screen and (max-width: 650px) {
