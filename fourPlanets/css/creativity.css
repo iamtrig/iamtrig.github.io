@@ -40,15 +40,6 @@
 @media only screen and (max-width: 1024px) {
 	#contents ul li .mid p { height: 47px }
 
-
-
-
-	#contents {
-		background-image: radial-gradient(at 47% 199% , #a72d42 -56%, #181528 99%);
-		background-image: -webkit-radial-gradient(at 47% 199% , #a72d42 -56%, #181528 99%);
-		background-image: -moz-radial-gradient(at 47% 199% , #a72d42 -56%, #181528 99%);
-		background-image: -o-radial-gradient(at 47% 199% , #a72d42 -56%, #181528 99%);
-	}
 }
 
 
