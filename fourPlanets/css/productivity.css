@@ -20,7 +20,7 @@ header ul li:first-child .planet { margin-left: 21px; margin-right: 18px }
 
 
 #contents ul li .cover { display: inline-block; width: 120px; height: 120px; margin: 13px 0; background: url('../imgs/proCover_1.jpg') no-repeat; background-size: cover; border-radius: 50%; transiton: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -webkit-transition: 0.3s ease-in-out; }
-.mid a:hover .cover { box-shadow: #F48E0F 0px 0px 30px; transiton: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -webkit-transition: 0.3s ease-in-out;}
+.mid a:hover .cover {  box-shadow: #10CEE9 0px 0px 30px; transiton: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -webkit-transition: 0.3s ease-in-out;}
 
 
 #contents ul li:nth-child(2) .cover { background-image: url('../imgs/proCover_2.jpg'); }
