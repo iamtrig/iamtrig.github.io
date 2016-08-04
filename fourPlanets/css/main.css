@@ -163,7 +163,7 @@ header .words.info { right: 7%; top: 530px; text-align: right; height: 300px; di
 #mainMenu:hover { opacity: 0.6; }
 
 
-header nav a { display: block; width: 100%; color: #efefef; text-align: center; font-size: 2em; text-transform: uppercase; margin-bottom: 20px; }
+header nav a { display: block; width: 100%; color: #efefef; font-weight: 700; text-align: center; font-size: 2em; text-transform: uppercase; margin-bottom: 20px; }
 header nav a:hover { color: #F32651; font-style: italic }
 header nav .navBg {  z-index: 10000; position: absolute;  background-attachment: fixed; width: 100%; height: 100%; background-color: #151522; opacity: 0.9; transform: translateY(0); transform: -webkit-translateY(0); transform: -moz-translateY(0); transform: -o-translateY(0); transiton: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -webkit-transition: 0.3s ease-in-out;  }
 .navA { opacity: 1; position: absolute; width: 100%; height: 80%; z-index: 15000; padding-top: 20%; transform: translateY(0); transform: -webkit-translateY(0); transform: -moz-translateY(0); transform: -o-translateY(0); transiton: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -webkit-transition: 0.3s ease-in-out; }
