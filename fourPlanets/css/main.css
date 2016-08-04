@@ -56,24 +56,36 @@ header .break { display: block; }
 header .planet { position: absolute; display: block; width: 300px; height: 300px; border-radius: 50%; transiton: 0.7s; -moz-transition: 0.7s; -webkit-transition: 0.7s; }
 
 header .planet.cre { width: 280px; height: 280px; top: -43px; left: 10%; opacity: 0.7;
+	background-image: url('../imgs/crePlanet.jpg');
+	background-size: cover;
+
 	background-image: radial-gradient(at 63% 12% , #F32651 0%, #0A2A48 95%);
 	background-image: -webkit-radial-gradient(at 63% 12% , #F32651 0%, #0A2A48 95%);
 	background-image: -moz-radial-gradient(at 63% 12% , #F32651 0%, #0A2A48 95%);
 	background-image: -o-radial-gradient(at 63% 12% , #F32651 0%, #0A2A48 95%);
 }
 header .planet.eff { width: 216px; height: 216px; top: -39px; right: 31%;  opacity: 0.6;
+	background-image: url('../imgs/effPlanet.jpg');
+	background-size: cover;
+
   background-image: radial-gradient(at 63% 12% , #F48E0F 0%, #0A2A48 95%);
   background-image: -webkit-radial-gradient(at 63% 12% , #F48E0F 0%, #0A2A48 95%);
   background-image: -moz-radial-gradient(at 63% 12% , #F48E0F 0%, #0A2A48 95%);
   background-image: -o-radial-gradient(at 63% 12% , #F48E0F 0%, #0A2A48 95%);
 }
 header .planet.pro { width: 146px; height: 146px; top: -42px; left: 38%;  opacity: 0.3;
+	background-image: url('../imgs/proPlanet.jpg');
+	background-size: cover;
+
   background-image: radial-gradient(at 63% 12% , #10CEE9 0%, #0A2A48 95%);
   background-image: -webkit-radial-gradient(at 63% 12% , #10CEE9 0%, #0A2A48 95%);
   background-image: -moz-radial-gradient(at 63% 12% , #10CEE9 0%, #0A2A48 95%);
   background-image: -o-radial-gradient(at 63% 12% , #10CEE9 0%, #0A2A48 95%);
 }
 header .planet.info { width: 450px; height: 450px; top: -35px; right: -142px; 
+	background-image: url('../imgs/infoPlanet.jpg');
+	background-size: cover;
+
 	background-image: radial-gradient(at 63% 12% , #11F5B0 0%, #0A2A48 95%);
   	background-image: -webkit-radial-gradient(at 63% 12% , #11F5B0 0%, #0A2A48 95%);
   	background-image: -moz-radial-gradient(at 63% 12% , #11F5B0 0%, #0A2A48 95%);
