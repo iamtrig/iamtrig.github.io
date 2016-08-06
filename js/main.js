@@ -472,7 +472,7 @@ jQuery( document ).ready(function( $ ) {
 
 					$(".prevNext a.prev").addClass("noPrev");
 
-				} else if ( listIndex == 8 ) {
+				} else if ( listIndex == 7 ) {
 					$(".prevNext a.next").addClass("noPrev");
 				}
 
@@ -582,7 +582,7 @@ jQuery( document ).ready(function( $ ) {
 
 				
 
-				if ( nextList == 8 ) {		
+				if ( nextList == 7 ) {		
 
 					$("#work .group1 > ul > li").find(">a").removeClass();
 					$("#work .group1 > ul > li").eq(nextList).find(">a").addClass("workOn");
@@ -603,7 +603,7 @@ jQuery( document ).ready(function( $ ) {
 
 					nextList -= 1;
 
-				} else if ( nextList == 7 ) {
+				} else if ( nextList == 6 ) {
 					$(this).addClass("noPrev");
 					$(this).siblings().removeClass("noPrev");
 				} else {
@@ -684,8 +684,8 @@ jQuery( document ).ready(function( $ ) {
 					$(".pad #screen").addClass("padPos"+(prevList-1));
 					$(".phone #screen").addClass("phonePos"+(prevList-1));
 
-					if ( prevList == 8 ) {
-						prevList = 8;
+					if ( prevList == 7 ) {
+						prevList = 7;
 
 					} else if ( prevList == 0 ) {
 						prevList = 0;
@@ -697,7 +697,7 @@ jQuery( document ).ready(function( $ ) {
 					$(this).addClass("noPrev");
 					$(this).siblings().removeClass("noPrev");
 
-				} else if (prevList == 8) {
+				} else if (prevList == 7) {
 					$(this).siblings().removeClass("noPrev");
 				}
 
