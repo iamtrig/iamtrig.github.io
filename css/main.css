@@ -1879,6 +1879,8 @@ header h1:hover { transform:scale(1.1, 1.1), -webkit-transform:scale(1.1, 1.1); 
 	#wrapper header h3, #wrapper header h3.fixedOne { right: 12px }
 	#wrapper header ul, #wrapper header ul.fixedOne { right: 17px }
 	#wrapper header h1.fixedOne, #wrapper header h1 { margin-left: -7px; }
+
+	.whiteGradi.second { display: none }
 }
 
 @media only screen and (max-width: 380px) {

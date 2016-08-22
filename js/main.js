@@ -64,7 +64,165 @@ jQuery( document ).ready(function( $ ) {
 
 	        	}
 
-	        });
+
+	    if (thisWidth >= 740 && thisWidth <= 1024 ) {
+
+			$("#work .group1 > ul > li:eq(0) > a").css("left",0);
+			$("#work .group1 > ul > li:eq(1) > a").css("left",87);
+			$("#work .group1 > ul > li:eq(2) > a").css("left",143);
+			$("#work .group1 > ul > li:eq(3) > a").css("left",221);
+			$("#work .group1 > ul > li:eq(4) > a").css("left",305);
+			$("#work .group1 > ul > li:eq(5) > a").css("left",360);
+			$("#work .group1 > ul > li:eq(6) > a").css("left",431);
+			$("#work .group1 > ul > li:eq(7) > a").css("left",534);
+
+			$("#work .group1 > ul > li > a").click(function(){
+
+				if ($("#work .group1 > ul > li:eq(3) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(2) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(1) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(0) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(4) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(5) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(6) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(6) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(7) > a").hasClass("workOn")) {
+
+					$("#work .group1 > ul > li:eq(0) > a").css("left",0);
+					$("#work .group1 > ul > li:eq(1) > a").css("left",87);
+					$("#work .group1 > ul > li:eq(2) > a").css("left",143);
+					$("#work .group1 > ul > li:eq(3) > a").css("left",221);
+					$("#work .group1 > ul > li:eq(4) > a").css("left",305);
+					$("#work .group1 > ul > li:eq(5) > a").css("left",360);
+					$("#work .group1 > ul > li:eq(6) > a").css("left",431);
+					$("#work .group1 > ul > li:eq(7) > a").css("left",534);
+
+				} 
+				return false;
+			});
+
+        } else if (thisWidth <= 740 && thisWidth >= 629) {
+
+			$("#work .group1 > ul > li > a").click(function(){
+
+				if ($("#work .group1 > ul > li:eq(3) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(2) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(1) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(0) > a").hasClass("workOn") ) {
+
+					$("#work .group1 > ul > li:eq(0) > a").css("left",0);
+					$("#work .group1 > ul > li:eq(1) > a").css("left",87);
+					$("#work .group1 > ul > li:eq(2) > a").css("left",143);
+					$("#work .group1 > ul > li:eq(3) > a").css("left",221);
+					$("#work .group1 > ul > li:eq(4) > a").css("left",305);
+					$("#work .group1 > ul > li:eq(5) > a").css("left",360);
+					$("#work .group1 > ul > li:eq(6) > a").css("left",431);
+					$("#work .group1 > ul > li:eq(7) > a").css("left",534);
+
+				} else if ($("#work .group1 > ul > li:eq(4) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(5) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(6) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(6) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(7) > a").hasClass("workOn")) {
+
+					$("#work .group1 > ul > li:eq(0) > a").css("left",-120);
+					$("#work .group1 > ul > li:eq(1) > a").css("left",-27);
+					$("#work .group1 > ul > li:eq(2) > a").css("left",30);
+					$("#work .group1 > ul > li:eq(3) > a").css("left",109);
+					$("#work .group1 > ul > li:eq(4) > a").css("left",194);
+					$("#work .group1 > ul > li:eq(5) > a").css("left",252);
+					$("#work .group1 > ul > li:eq(6) > a").css("left",324);
+					$("#work .group1 > ul > li:eq(7) > a").css("left",431);
+					
+				}
+
+				return false;
+			});
+			
+
+		} else if (thisWidth <= 630 && thisWidth >= 481) {
+
+			$("#work .group1 > ul > li > a").click(function(){
+
+				if ($("#work .group1 > ul > li:eq(2) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(1) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(0) > a").hasClass("workOn") ) {
+
+					$("#work .group1 > ul > li:eq(0) > a").css("left",0);
+					$("#work .group1 > ul > li:eq(1) > a").css("left",87);
+					$("#work .group1 > ul > li:eq(2) > a").css("left",143);
+					$("#work .group1 > ul > li:eq(3) > a").css("left",221);
+					$("#work .group1 > ul > li:eq(4) > a").css("left",305);
+					$("#work .group1 > ul > li:eq(5) > a").css("left",360);
+					$("#work .group1 > ul > li:eq(6) > a").css("left",431);
+					$("#work .group1 > ul > li:eq(7) > a").css("left",534);
+
+				} else if ($("#work .group1 > ul > li:eq(3) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(4) > a").hasClass("workOn") ) {
+
+					$("#work .group1 > ul > li:eq(0) > a").css("left",-120);
+					$("#work .group1 > ul > li:eq(1) > a").css("left",-27);
+					$("#work .group1 > ul > li:eq(2) > a").css("left",30);
+					$("#work .group1 > ul > li:eq(3) > a").css("left",109);
+					$("#work .group1 > ul > li:eq(4) > a").css("left",194);
+					$("#work .group1 > ul > li:eq(5) > a").css("left",252);
+					$("#work .group1 > ul > li:eq(6) > a").css("left",324);
+					$("#work .group1 > ul > li:eq(7) > a").css("left",431);
+
+				} else if ( $("#work .group1 > ul > li:eq(5) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(6) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(6) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(7) > a").hasClass("workOn")) {
+
+					$("#work .group1 > ul > li:eq(0) > a").css("left",-120);
+					$("#work .group1 > ul > li:eq(1) > a").css("left",-120);
+					$("#work .group1 > ul > li:eq(2) > a").css("left",-120);
+					$("#work .group1 > ul > li:eq(3) > a").css("left",-27);
+					$("#work .group1 > ul > li:eq(4) > a").css("left",60);
+					$("#work .group1 > ul > li:eq(5) > a").css("left",115);
+					$("#work .group1 > ul > li:eq(6) > a").css("left",190);
+					$("#work .group1 > ul > li:eq(7) > a").css("left",293);
+					
+				}
+
+				return false;
+			});
+		} else if (thisWidth <= 480 && thisWidth >= 300) {
+
+			$("#work .group1 > ul > li > a").click(function(){
+
+				if ($("#work .group1 > ul > li:eq(1) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(0) > a").hasClass("workOn") ) {
+
+					$("#work .group1 > ul > li:eq(0) > a").css("left",0);
+					$("#work .group1 > ul > li:eq(1) > a").css("left",87);
+					$("#work .group1 > ul > li:eq(2) > a").css("left",143);
+					$("#work .group1 > ul > li:eq(3) > a").css("left",221);
+					$("#work .group1 > ul > li:eq(4) > a").css("left",305);
+					$("#work .group1 > ul > li:eq(5) > a").css("left",360);
+					$("#work .group1 > ul > li:eq(6) > a").css("left",431);
+					$("#work .group1 > ul > li:eq(7) > a").css("left",534);
+
+				} else if ($("#work .group1 > ul > li:eq(2) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(3) > a").hasClass("workOn") ) {
+
+					$("#work .group1 > ul > li:eq(0) > a").css("left",-120);
+					$("#work .group1 > ul > li:eq(1) > a").css("left",-27);
+					$("#work .group1 > ul > li:eq(2) > a").css("left",30);
+					$("#work .group1 > ul > li:eq(3) > a").css("left",109);
+					$("#work .group1 > ul > li:eq(4) > a").css("left",194);
+					$("#work .group1 > ul > li:eq(5) > a").css("left",252);
+					$("#work .group1 > ul > li:eq(6) > a").css("left",324);
+					$("#work .group1 > ul > li:eq(7) > a").css("left",431);
+
+				} else if ($("#work .group1 > ul > li:eq(4) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(5) > a").hasClass("workOn") ) {
+
+					$("#work .group1 > ul > li:eq(0) > a").css("left",-120);
+					$("#work .group1 > ul > li:eq(1) > a").css("left",-120);
+					$("#work .group1 > ul > li:eq(2) > a").css("left",-120);
+					$("#work .group1 > ul > li:eq(3) > a").css("left",-27);
+					$("#work .group1 > ul > li:eq(4) > a").css("left",60);
+					$("#work .group1 > ul > li:eq(5) > a").css("left",115);
+					$("#work .group1 > ul > li:eq(6) > a").css("left",190);
+					$("#work .group1 > ul > li:eq(7) > a").css("left",293);
+					
+				} else if ($("#work .group1 > ul > li:eq(6) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(7) > a").hasClass("workOn")) {
+
+					$("#work .group1 > ul > li:eq(0) > a").css("left",-120);
+					$("#work .group1 > ul > li:eq(1) > a").css("left",-120);
+					$("#work .group1 > ul > li:eq(2) > a").css("left",-120);
+					$("#work .group1 > ul > li:eq(3) > a").css("left",-120);
+					$("#work .group1 > ul > li:eq(4) > a").css("left",-120);
+					$("#work .group1 > ul > li:eq(5) > a").css("left",-27);
+					$("#work .group1 > ul > li:eq(6) > a").css("left",45);
+					$("#work .group1 > ul > li:eq(7) > a").css("left",156);
+					
+				} 
+
+				return false;
+			});
+
+		}
+
+
+	      });
 		
 
 		
@@ -260,77 +418,6 @@ jQuery( document ).ready(function( $ ) {
 
 		// var count = 0;
 		// $("#wrapper").bind('DOMMouseScroll mousewheel', function(e){
-
-  //           if(e.originalEvent.wheelDelta > 0 || e.originalEvent.detail < 0 && count == 0) {
-
-  //               $("#about").removeClass("aboutAni");
-		// 		$("#work").removeClass("workAni");
-		// 		$("#contact").removeClass("contactAni");
-		// 		$("#work").removeClass("lastAni2");
-		// 		$("#contact").removeClass("lastAni");
-
-		// 		$("nav a").removeClass("navActive");
-		// 		$("nav a span").removeClass("spanActive");
-
-		// 		$("nav a:eq(0)").addClass("navActive");
-		// 		$("nav a:eq(0) span").addClass("spanActive");
-
-		// 		$("#work .groupping").hide();
-
-		// 		count = 1;
-
-  //           } else if(e.originalEvent.wheelDelta > 60 || e.originalEvent.detail < 0 && count == 1) {
-
-  //           	$("#about").addClass("aboutAni");
-		// 		$("#work").addClass("workAni");
-		// 		$("#work .groupping").show();
-		// 		$("#contact").addClass("contactAni");
-
-		// 		$("nav a").removeClass("navActive");
-		// 		$("nav a span").removeClass("spanActive");
-
-		// 		$("nav a:eq(1)").addClass("navActive");
-		// 		$("nav a:eq(1) span").addClass("spanActive");
-
-		// 		count = 2;
-
-		// 	} else if (e.originalEvent.wheelDelta > 120 || e.originalEvent.detail < 0 && count == 2) {
-  //           	$("nav a").removeClass("navActive");
-		// 		$("nav a span").removeClass("spanActive");
-
-  //           	$("#about").removeClass("aboutAni");
-		// 		$("#work").removeClass("workAni");
-		// 		$("#contact").removeClass("contactAni");
-
-		// 		$("#about").addClass("aboutAni");
-		// 		$("#work").addClass("lastAni2");
-		// 		$("#contact").addClass("lastAni");
-
-		// 		$("#contact .groupping").show();				
-
-		// 		$("nav a:eq(2)").addClass("navActive");
-		// 		$("nav a:eq(2) span").addClass("spanActive");
-		// 		count --;
-  //   		} else {
-  //           	$("nav a").removeClass("navActive");
-		// 		$("nav a span").removeClass("spanActive");
-
-  //           	$("#about").removeClass("aboutAni");
-		// 		$("#work").removeClass("workAni");
-		// 		$("#contact").removeClass("contactAni");
-
-		// 		$("#about").addClass("aboutAni");
-		// 		$("#work").addClass("lastAni2");
-		// 		$("#contact").addClass("lastAni");
-
-		// 		$("#contact .groupping").show();				
-
-		// 		$("nav a:eq(2)").addClass("navActive");
-		// 		$("nav a:eq(2) span").addClass("spanActive");
-
-  //           } 
-            
-  //       });
 
 			function naviA (duration) {
 				$('nav a').on('click', function(event) {
@@ -709,33 +796,185 @@ jQuery( document ).ready(function( $ ) {
 		}
 
 
-	prevNextBtn();
-	
-	prevPrevtBtn();
-
-	workNav();
-
-	$(window).resize(function() {
+		prevNextBtn();
+		
+		prevPrevtBtn();
 
 		workNav();
-	});	
+
+		$(window).resize(function() {
+
+			workNav();
+		});	
 
 
 
-	$("#wrapper header h3").click(function() {
+		$("#wrapper header h3").click(function() {
 
-		$("header ul").toggleClass("burger");
-		$(this).find("span span:eq(0)").toggleClass("activeTop");
-		$(this).find("span span:eq(1)").toggleClass("activeMid");
-		$(this).find("span span:eq(2)").toggleClass("activeBtm");
+			$("header ul").toggleClass("burger");
+			$(this).find("span span:eq(0)").toggleClass("activeTop");
+			$(this).find("span span:eq(1)").toggleClass("activeMid");
+			$(this).find("span span:eq(2)").toggleClass("activeBtm");
 
-		return false;
-	});
-
-
+			return false;
+		});
 
 
 
+
+
+		if ($(window).width() >= 741 && $(window).width() <= 1024 ) {
+			$("#work .group1 > ul > li:eq(0) > a").css("left",0);
+			$("#work .group1 > ul > li:eq(1) > a").css("left",87);
+			$("#work .group1 > ul > li:eq(2) > a").css("left",143);
+			$("#work .group1 > ul > li:eq(3) > a").css("left",221);
+			$("#work .group1 > ul > li:eq(4) > a").css("left",305);
+			$("#work .group1 > ul > li:eq(5) > a").css("left",360);
+			$("#work .group1 > ul > li:eq(6) > a").css("left",431);
+			$("#work .group1 > ul > li:eq(7) > a").css("left",534);
+
+			$("#work .group1 > ul > li > a").click(function(){
+
+				if ($("#work .group1 > ul > li:eq(3) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(2) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(1) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(0) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(4) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(5) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(6) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(6) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(7) > a").hasClass("workOn")) {
+
+					$("#work .group1 > ul > li:eq(0) > a").css("left",0);
+					$("#work .group1 > ul > li:eq(1) > a").css("left",87);
+					$("#work .group1 > ul > li:eq(2) > a").css("left",143);
+					$("#work .group1 > ul > li:eq(3) > a").css("left",221);
+					$("#work .group1 > ul > li:eq(4) > a").css("left",305);
+					$("#work .group1 > ul > li:eq(5) > a").css("left",360);
+					$("#work .group1 > ul > li:eq(6) > a").css("left",431);
+					$("#work .group1 > ul > li:eq(7) > a").css("left",534);
+
+				} 
+				return false;
+			});
+		} else if ($(window).width() <= 740 && $(window).width() >= 629) {
+
+			$("#work .group1 > ul > li > a").click(function(){
+
+				if ($("#work .group1 > ul > li:eq(3) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(2) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(1) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(0) > a").hasClass("workOn") ) {
+
+					$("#work .group1 > ul > li:eq(0) > a").css("left",0);
+					$("#work .group1 > ul > li:eq(1) > a").css("left",87);
+					$("#work .group1 > ul > li:eq(2) > a").css("left",143);
+					$("#work .group1 > ul > li:eq(3) > a").css("left",221);
+					$("#work .group1 > ul > li:eq(4) > a").css("left",305);
+					$("#work .group1 > ul > li:eq(5) > a").css("left",360);
+					$("#work .group1 > ul > li:eq(6) > a").css("left",431);
+					$("#work .group1 > ul > li:eq(7) > a").css("left",534);
+
+				} else if ($("#work .group1 > ul > li:eq(4) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(5) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(6) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(6) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(7) > a").hasClass("workOn")) {
+
+					$("#work .group1 > ul > li:eq(0) > a").css("left",-120);
+					$("#work .group1 > ul > li:eq(1) > a").css("left",-27);
+					$("#work .group1 > ul > li:eq(2) > a").css("left",30);
+					$("#work .group1 > ul > li:eq(3) > a").css("left",109);
+					$("#work .group1 > ul > li:eq(4) > a").css("left",194);
+					$("#work .group1 > ul > li:eq(5) > a").css("left",252);
+					$("#work .group1 > ul > li:eq(6) > a").css("left",324);
+					$("#work .group1 > ul > li:eq(7) > a").css("left",431);
+					
+				}
+
+				return false;
+			});
+			
+
+		} else if ($(window).width() <= 630 && $(window).width() >= 481) {
+
+			$("#work .group1 > ul > li > a").click(function(){
+
+				if ($("#work .group1 > ul > li:eq(2) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(1) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(0) > a").hasClass("workOn") ) {
+
+					$("#work .group1 > ul > li:eq(0) > a").css("left",0);
+					$("#work .group1 > ul > li:eq(1) > a").css("left",87);
+					$("#work .group1 > ul > li:eq(2) > a").css("left",143);
+					$("#work .group1 > ul > li:eq(3) > a").css("left",221);
+					$("#work .group1 > ul > li:eq(4) > a").css("left",305);
+					$("#work .group1 > ul > li:eq(5) > a").css("left",360);
+					$("#work .group1 > ul > li:eq(6) > a").css("left",431);
+					$("#work .group1 > ul > li:eq(7) > a").css("left",534);
+
+				} else if ($("#work .group1 > ul > li:eq(3) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(4) > a").hasClass("workOn") ) {
+
+					$("#work .group1 > ul > li:eq(0) > a").css("left",-120);
+					$("#work .group1 > ul > li:eq(1) > a").css("left",-27);
+					$("#work .group1 > ul > li:eq(2) > a").css("left",30);
+					$("#work .group1 > ul > li:eq(3) > a").css("left",109);
+					$("#work .group1 > ul > li:eq(4) > a").css("left",194);
+					$("#work .group1 > ul > li:eq(5) > a").css("left",252);
+					$("#work .group1 > ul > li:eq(6) > a").css("left",324);
+					$("#work .group1 > ul > li:eq(7) > a").css("left",431);
+
+				} else if ( $("#work .group1 > ul > li:eq(5) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(6) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(6) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(7) > a").hasClass("workOn")) {
+
+					$("#work .group1 > ul > li:eq(0) > a").css("left",-120);
+					$("#work .group1 > ul > li:eq(1) > a").css("left",-120);
+					$("#work .group1 > ul > li:eq(2) > a").css("left",-120);
+					$("#work .group1 > ul > li:eq(3) > a").css("left",-27);
+					$("#work .group1 > ul > li:eq(4) > a").css("left",60);
+					$("#work .group1 > ul > li:eq(5) > a").css("left",115);
+					$("#work .group1 > ul > li:eq(6) > a").css("left",190);
+					$("#work .group1 > ul > li:eq(7) > a").css("left",293);
+					
+				}
+
+				return false;
+			});
+		} else if ($(window).width() <= 480 && $(window).width() >= 300) {
+
+			$("#work .group1 > ul > li > a").click(function(){
+
+				if ($("#work .group1 > ul > li:eq(1) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(0) > a").hasClass("workOn") ) {
+
+					$("#work .group1 > ul > li:eq(0) > a").css("left",0);
+					$("#work .group1 > ul > li:eq(1) > a").css("left",87);
+					$("#work .group1 > ul > li:eq(2) > a").css("left",143);
+					$("#work .group1 > ul > li:eq(3) > a").css("left",221);
+					$("#work .group1 > ul > li:eq(4) > a").css("left",305);
+					$("#work .group1 > ul > li:eq(5) > a").css("left",360);
+					$("#work .group1 > ul > li:eq(6) > a").css("left",431);
+					$("#work .group1 > ul > li:eq(7) > a").css("left",534);
+
+				} else if ($("#work .group1 > ul > li:eq(2) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(3) > a").hasClass("workOn") ) {
+
+					$("#work .group1 > ul > li:eq(0) > a").css("left",-120);
+					$("#work .group1 > ul > li:eq(1) > a").css("left",-27);
+					$("#work .group1 > ul > li:eq(2) > a").css("left",30);
+					$("#work .group1 > ul > li:eq(3) > a").css("left",109);
+					$("#work .group1 > ul > li:eq(4) > a").css("left",194);
+					$("#work .group1 > ul > li:eq(5) > a").css("left",252);
+					$("#work .group1 > ul > li:eq(6) > a").css("left",324);
+					$("#work .group1 > ul > li:eq(7) > a").css("left",431);
+
+				} else if ($("#work .group1 > ul > li:eq(4) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(5) > a").hasClass("workOn") ) {
+
+					$("#work .group1 > ul > li:eq(0) > a").css("left",-120);
+					$("#work .group1 > ul > li:eq(1) > a").css("left",-120);
+					$("#work .group1 > ul > li:eq(2) > a").css("left",-120);
+					$("#work .group1 > ul > li:eq(3) > a").css("left",-27);
+					$("#work .group1 > ul > li:eq(4) > a").css("left",60);
+					$("#work .group1 > ul > li:eq(5) > a").css("left",115);
+					$("#work .group1 > ul > li:eq(6) > a").css("left",190);
+					$("#work .group1 > ul > li:eq(7) > a").css("left",293);
+					
+				} else if ($("#work .group1 > ul > li:eq(6) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(7) > a").hasClass("workOn")) {
+
+					$("#work .group1 > ul > li:eq(0) > a").css("left",-120);
+					$("#work .group1 > ul > li:eq(1) > a").css("left",-120);
+					$("#work .group1 > ul > li:eq(2) > a").css("left",-120);
+					$("#work .group1 > ul > li:eq(3) > a").css("left",-120);
+					$("#work .group1 > ul > li:eq(4) > a").css("left",-120);
+					$("#work .group1 > ul > li:eq(5) > a").css("left",-27);
+					$("#work .group1 > ul > li:eq(6) > a").css("left",45);
+					$("#work .group1 > ul > li:eq(7) > a").css("left",156);
+					
+				}
+
+				return false;
+			});
+		} 
 
 
 	});
