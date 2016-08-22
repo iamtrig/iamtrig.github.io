@@ -222,6 +222,7 @@ jQuery( document ).ready(function( $ ) {
 		}
 
 
+
 	      });
 		
 
@@ -591,44 +592,7 @@ jQuery( document ).ready(function( $ ) {
 
 				$(".pad #screen").addClass("padPos"+listIndex);
 				$(".phone #screen").addClass("phonePos"+listIndex);
-
-
-				if ($(window).width() <= 820 && $(window).width() >= 721 ) {
-					// if (listIndex == 6 || listIndex == 7 || listIndex == 6 || listIndex == 5 || listIndex == 8 ) {
-					// 	$("#work .group1 ul > li > a:eq(0)").animate({left: "-51px"}, 300);
-					// 	$("#work .group1 ul > li > a:eq(1)").animate({left: 0}, 300);
-					// 	$("#work .group1 ul > li > a:eq(2)").animate({left: "81px"}, 300);
-					// 	$("#work .group1 ul > li > a:eq(3)").animate({left: "135px"}, 300);
-					// 	$("#work .group1 ul > li > a:eq(4)").animate({left: "204px"}, 300);
-					// 	$("#work .group1 ul > li > a:eq(5)").animate({left: "303px"}, 300);
-					// 	$("#work .group1 ul > li > a:eq(6)").animate({left: "402px"}, 300);
-					// 	$("#work .group1 ul > li > a:eq(7)").animate({left: "472px"}, 300);
-					// 	$("#work .group1 ul > li > a:eq(8)").animate({left: "595px"}, 300);
-
-					// 	$(".whiteGradi.second").hide();
-					// 	$(".whiteGradi.first").show();
-					// } else if (listIndex == 0 || listIndex == 1 || listIndex == 2 || listIndex == 3 || listIndex == 4 ) {
-					// 	$("#work .group1 ul > li > a:eq(0)").animate({left: 0}, 300);
-					// 	$("#work .group1 ul > li > a:eq(1)").animate({left: "51px"}, 300);
-					// 	$("#work .group1 ul > li > a:eq(2)").animate({left: "135px"}, 300);
-					// 	$("#work .group1 ul > li > a:eq(3)").animate({left: "187px"}, 300);
-					// 	$("#work .group1 ul > li > a:eq(4)").animate({left: "256px"}, 300);
-					// 	$("#work .group1 ul > li > a:eq(5)").animate({left: "355px"}, 300);
-					// 	$("#work .group1 ul > li > a:eq(6)").animate({left: "459px"}, 300);
-					// 	$("#work .group1 ul > li > a:eq(7)").animate({left: "531px"}, 300);
-					// 	$("#work .group1 ul > li > a:eq(8)").animate({left: "656px"}, 300);
-
-					// 	$(".whiteGradi.second").show();
-					// 	$(".whiteGradi.first").hide();
-					// } 
-					
-				} else {
-
-				}
-
 				
-
-
 				
 				return false;
 			});
@@ -666,6 +630,134 @@ jQuery( document ).ready(function( $ ) {
 
 				$("#wrapper #screen").removeClass();
 				$("#workImgBg").removeClass();
+
+
+
+				if ($(window).width() >= 741 && $(window).width() <= 1024 ) {
+					if (nextList == 0 || nextList == 1 || nextList == 2 || nextList == 3 || nextList == 4 || nextList == 5 || nextList == 6 || nextList == 7) {
+						$("#work .group1 > ul > li:eq(0) > a").css("left",0);
+						$("#work .group1 > ul > li:eq(1) > a").css("left",87);
+						$("#work .group1 > ul > li:eq(2) > a").css("left",143);
+						$("#work .group1 > ul > li:eq(3) > a").css("left",221);
+						$("#work .group1 > ul > li:eq(4) > a").css("left",305);
+						$("#work .group1 > ul > li:eq(5) > a").css("left",360);
+						$("#work .group1 > ul > li:eq(6) > a").css("left",431);
+						$("#work .group1 > ul > li:eq(7) > a").css("left",534);
+					}
+				} else if ($(window).width() <= 740 && $(window).width() >= 629) {
+
+					if (nextList == 0 || nextList == 1 || nextList == 2 || nextList == 3) {
+
+						$("#work .group1 > ul > li:eq(0) > a").css("left",0);
+						$("#work .group1 > ul > li:eq(1) > a").css("left",87);
+						$("#work .group1 > ul > li:eq(2) > a").css("left",143);
+						$("#work .group1 > ul > li:eq(3) > a").css("left",221);
+						$("#work .group1 > ul > li:eq(4) > a").css("left",305);
+						$("#work .group1 > ul > li:eq(5) > a").css("left",360);
+						$("#work .group1 > ul > li:eq(6) > a").css("left",431);
+						$("#work .group1 > ul > li:eq(7) > a").css("left",534);
+
+					} else if (nextList == 4 || nextList == 5 || nextList == 6 || nextList ==7) {
+
+						$("#work .group1 > ul > li:eq(0) > a").css("left",-120);
+						$("#work .group1 > ul > li:eq(1) > a").css("left",-27);
+						$("#work .group1 > ul > li:eq(2) > a").css("left",30);
+						$("#work .group1 > ul > li:eq(3) > a").css("left",109);
+						$("#work .group1 > ul > li:eq(4) > a").css("left",194);
+						$("#work .group1 > ul > li:eq(5) > a").css("left",252);
+						$("#work .group1 > ul > li:eq(6) > a").css("left",324);
+						$("#work .group1 > ul > li:eq(7) > a").css("left",431);
+						
+					}
+
+				} else if ($(window).width() <= 630 && $(window).width() >= 481) {
+
+						if (nextList == 0 || nextList == 1 || nextList == 2 ) {
+
+							$("#work .group1 > ul > li:eq(0) > a").css("left",0);
+							$("#work .group1 > ul > li:eq(1) > a").css("left",87);
+							$("#work .group1 > ul > li:eq(2) > a").css("left",143);
+							$("#work .group1 > ul > li:eq(3) > a").css("left",221);
+							$("#work .group1 > ul > li:eq(4) > a").css("left",305);
+							$("#work .group1 > ul > li:eq(5) > a").css("left",360);
+							$("#work .group1 > ul > li:eq(6) > a").css("left",431);
+							$("#work .group1 > ul > li:eq(7) > a").css("left",534);
+
+						} else if (nextList == 3 || nextList == 4 ) {
+
+							$("#work .group1 > ul > li:eq(0) > a").css("left",-120);
+							$("#work .group1 > ul > li:eq(1) > a").css("left",-27);
+							$("#work .group1 > ul > li:eq(2) > a").css("left",30);
+							$("#work .group1 > ul > li:eq(3) > a").css("left",109);
+							$("#work .group1 > ul > li:eq(4) > a").css("left",194);
+							$("#work .group1 > ul > li:eq(5) > a").css("left",252);
+							$("#work .group1 > ul > li:eq(6) > a").css("left",324);
+							$("#work .group1 > ul > li:eq(7) > a").css("left",431);
+
+						} else if ( nextList == 5 || nextList == 6 || nextList == 7) {
+
+							$("#work .group1 > ul > li:eq(0) > a").css("left",-120);
+							$("#work .group1 > ul > li:eq(1) > a").css("left",-120);
+							$("#work .group1 > ul > li:eq(2) > a").css("left",-120);
+							$("#work .group1 > ul > li:eq(3) > a").css("left",-27);
+							$("#work .group1 > ul > li:eq(4) > a").css("left",60);
+							$("#work .group1 > ul > li:eq(5) > a").css("left",115);
+							$("#work .group1 > ul > li:eq(6) > a").css("left",190);
+							$("#work .group1 > ul > li:eq(7) > a").css("left",293);
+							
+						}
+
+				} else if ($(window).width() <= 480 && $(window).width() >= 300) {
+
+						if ( nextList == 0 || nextList == 1 ) {
+
+							$("#work .group1 > ul > li:eq(0) > a").css("left",0);
+							$("#work .group1 > ul > li:eq(1) > a").css("left",87);
+							$("#work .group1 > ul > li:eq(2) > a").css("left",143);
+							$("#work .group1 > ul > li:eq(3) > a").css("left",221);
+							$("#work .group1 > ul > li:eq(4) > a").css("left",305);
+							$("#work .group1 > ul > li:eq(5) > a").css("left",360);
+							$("#work .group1 > ul > li:eq(6) > a").css("left",431);
+							$("#work .group1 > ul > li:eq(7) > a").css("left",534);
+
+						} else if (nextList == 3 || nextList == 2 ) {
+
+							$("#work .group1 > ul > li:eq(0) > a").css("left",-120);
+							$("#work .group1 > ul > li:eq(1) > a").css("left",-27);
+							$("#work .group1 > ul > li:eq(2) > a").css("left",30);
+							$("#work .group1 > ul > li:eq(3) > a").css("left",109);
+							$("#work .group1 > ul > li:eq(4) > a").css("left",194);
+							$("#work .group1 > ul > li:eq(5) > a").css("left",252);
+							$("#work .group1 > ul > li:eq(6) > a").css("left",324);
+							$("#work .group1 > ul > li:eq(7) > a").css("left",431);
+
+						} else if ( nextList == 4 || nextList == 5 ) {
+
+							$("#work .group1 > ul > li:eq(0) > a").css("left",-120);
+							$("#work .group1 > ul > li:eq(1) > a").css("left",-120);
+							$("#work .group1 > ul > li:eq(2) > a").css("left",-120);
+							$("#work .group1 > ul > li:eq(3) > a").css("left",-27);
+							$("#work .group1 > ul > li:eq(4) > a").css("left",60);
+							$("#work .group1 > ul > li:eq(5) > a").css("left",115);
+							$("#work .group1 > ul > li:eq(6) > a").css("left",190);
+							$("#work .group1 > ul > li:eq(7) > a").css("left",293);
+							
+						} else if (nextList == 6 || nextList == 7) {
+
+							$("#work .group1 > ul > li:eq(0) > a").css("left",-120);
+							$("#work .group1 > ul > li:eq(1) > a").css("left",-120);
+							$("#work .group1 > ul > li:eq(2) > a").css("left",-120);
+							$("#work .group1 > ul > li:eq(3) > a").css("left",-120);
+							$("#work .group1 > ul > li:eq(4) > a").css("left",-120);
+							$("#work .group1 > ul > li:eq(5) > a").css("left",-27);
+							$("#work .group1 > ul > li:eq(6) > a").css("left",45);
+							$("#work .group1 > ul > li:eq(7) > a").css("left",156);
+							
+						}
+
+
+				} 
+
 
 				
 
@@ -724,7 +816,6 @@ jQuery( document ).ready(function( $ ) {
 					$(".prevNext a.prev").addClass("noPrev");
 				}
 
-				console.log(nextList);
 				return false;
 
 			});
@@ -736,6 +827,134 @@ jQuery( document ).ready(function( $ ) {
 				var prevList = $("#work .group1 ul > li > a.workOn").parent().index();
 					$("#wrapper #screen").removeClass();
 					$("#workImgBg").removeClass();
+
+
+
+		if ($(window).width() >= 741 && $(window).width() <= 1024 ) {
+			if (prevList == 0 || prevList == 1 || prevList == 2 || prevList == 3 || prevList == 4 || prevList == 5 || prevList == 6 || prevList == 7) {
+				$("#work .group1 > ul > li:eq(0) > a").css("left",0);
+				$("#work .group1 > ul > li:eq(1) > a").css("left",87);
+				$("#work .group1 > ul > li:eq(2) > a").css("left",143);
+				$("#work .group1 > ul > li:eq(3) > a").css("left",221);
+				$("#work .group1 > ul > li:eq(4) > a").css("left",305);
+				$("#work .group1 > ul > li:eq(5) > a").css("left",360);
+				$("#work .group1 > ul > li:eq(6) > a").css("left",431);
+				$("#work .group1 > ul > li:eq(7) > a").css("left",534);
+			}
+		} else if ($(window).width() <= 740 && $(window).width() >= 629) {
+
+			if (prevList == 0 || prevList == 1 || prevList == 2 || prevList == 3) {
+
+				$("#work .group1 > ul > li:eq(0) > a").css("left",0);
+				$("#work .group1 > ul > li:eq(1) > a").css("left",87);
+				$("#work .group1 > ul > li:eq(2) > a").css("left",143);
+				$("#work .group1 > ul > li:eq(3) > a").css("left",221);
+				$("#work .group1 > ul > li:eq(4) > a").css("left",305);
+				$("#work .group1 > ul > li:eq(5) > a").css("left",360);
+				$("#work .group1 > ul > li:eq(6) > a").css("left",431);
+				$("#work .group1 > ul > li:eq(7) > a").css("left",534);
+
+			} else if (prevList == 4 || prevList == 5 || prevList == 6 || prevList ==7) {
+
+				$("#work .group1 > ul > li:eq(0) > a").css("left",-120);
+				$("#work .group1 > ul > li:eq(1) > a").css("left",-27);
+				$("#work .group1 > ul > li:eq(2) > a").css("left",30);
+				$("#work .group1 > ul > li:eq(3) > a").css("left",109);
+				$("#work .group1 > ul > li:eq(4) > a").css("left",194);
+				$("#work .group1 > ul > li:eq(5) > a").css("left",252);
+				$("#work .group1 > ul > li:eq(6) > a").css("left",324);
+				$("#work .group1 > ul > li:eq(7) > a").css("left",431);
+				
+			}
+
+		} else if ($(window).width() <= 630 && $(window).width() >= 481) {
+
+				if (prevList == 0 || prevList == 1 || prevList == 2 ) {
+
+					$("#work .group1 > ul > li:eq(0) > a").css("left",0);
+					$("#work .group1 > ul > li:eq(1) > a").css("left",87);
+					$("#work .group1 > ul > li:eq(2) > a").css("left",143);
+					$("#work .group1 > ul > li:eq(3) > a").css("left",221);
+					$("#work .group1 > ul > li:eq(4) > a").css("left",305);
+					$("#work .group1 > ul > li:eq(5) > a").css("left",360);
+					$("#work .group1 > ul > li:eq(6) > a").css("left",431);
+					$("#work .group1 > ul > li:eq(7) > a").css("left",534);
+
+				} else if (prevList == 3 || prevList == 4 ) {
+
+					$("#work .group1 > ul > li:eq(0) > a").css("left",-120);
+					$("#work .group1 > ul > li:eq(1) > a").css("left",-27);
+					$("#work .group1 > ul > li:eq(2) > a").css("left",30);
+					$("#work .group1 > ul > li:eq(3) > a").css("left",109);
+					$("#work .group1 > ul > li:eq(4) > a").css("left",194);
+					$("#work .group1 > ul > li:eq(5) > a").css("left",252);
+					$("#work .group1 > ul > li:eq(6) > a").css("left",324);
+					$("#work .group1 > ul > li:eq(7) > a").css("left",431);
+
+				} else if ( prevList == 5 || prevList == 6 || prevList == 7) {
+
+					$("#work .group1 > ul > li:eq(0) > a").css("left",-120);
+					$("#work .group1 > ul > li:eq(1) > a").css("left",-120);
+					$("#work .group1 > ul > li:eq(2) > a").css("left",-120);
+					$("#work .group1 > ul > li:eq(3) > a").css("left",-27);
+					$("#work .group1 > ul > li:eq(4) > a").css("left",60);
+					$("#work .group1 > ul > li:eq(5) > a").css("left",115);
+					$("#work .group1 > ul > li:eq(6) > a").css("left",190);
+					$("#work .group1 > ul > li:eq(7) > a").css("left",293);
+					
+				}
+
+		} else if ($(window).width() <= 480 && $(window).width() >= 300) {
+
+				if ( prevList == 0 || prevList == 1 ) {
+
+					$("#work .group1 > ul > li:eq(0) > a").css("left",0);
+					$("#work .group1 > ul > li:eq(1) > a").css("left",87);
+					$("#work .group1 > ul > li:eq(2) > a").css("left",143);
+					$("#work .group1 > ul > li:eq(3) > a").css("left",221);
+					$("#work .group1 > ul > li:eq(4) > a").css("left",305);
+					$("#work .group1 > ul > li:eq(5) > a").css("left",360);
+					$("#work .group1 > ul > li:eq(6) > a").css("left",431);
+					$("#work .group1 > ul > li:eq(7) > a").css("left",534);
+
+				} else if (prevList == 3 || prevList == 2 ) {
+
+					$("#work .group1 > ul > li:eq(0) > a").css("left",-120);
+					$("#work .group1 > ul > li:eq(1) > a").css("left",-27);
+					$("#work .group1 > ul > li:eq(2) > a").css("left",30);
+					$("#work .group1 > ul > li:eq(3) > a").css("left",109);
+					$("#work .group1 > ul > li:eq(4) > a").css("left",194);
+					$("#work .group1 > ul > li:eq(5) > a").css("left",252);
+					$("#work .group1 > ul > li:eq(6) > a").css("left",324);
+					$("#work .group1 > ul > li:eq(7) > a").css("left",431);
+
+				} else if ( prevList == 4 || prevList == 5 ) {
+
+					$("#work .group1 > ul > li:eq(0) > a").css("left",-120);
+					$("#work .group1 > ul > li:eq(1) > a").css("left",-120);
+					$("#work .group1 > ul > li:eq(2) > a").css("left",-120);
+					$("#work .group1 > ul > li:eq(3) > a").css("left",-27);
+					$("#work .group1 > ul > li:eq(4) > a").css("left",60);
+					$("#work .group1 > ul > li:eq(5) > a").css("left",115);
+					$("#work .group1 > ul > li:eq(6) > a").css("left",190);
+					$("#work .group1 > ul > li:eq(7) > a").css("left",293);
+					
+				} else if (prevList == 6 || prevList == 7) {
+
+					$("#work .group1 > ul > li:eq(0) > a").css("left",-120);
+					$("#work .group1 > ul > li:eq(1) > a").css("left",-120);
+					$("#work .group1 > ul > li:eq(2) > a").css("left",-120);
+					$("#work .group1 > ul > li:eq(3) > a").css("left",-120);
+					$("#work .group1 > ul > li:eq(4) > a").css("left",-120);
+					$("#work .group1 > ul > li:eq(5) > a").css("left",-27);
+					$("#work .group1 > ul > li:eq(6) > a").css("left",45);
+					$("#work .group1 > ul > li:eq(7) > a").css("left",156);
+					
+				}
+
+
+		} 
+
 
 				if (prevList == 0 ) {
 					$(this).addClass("noPrev");
