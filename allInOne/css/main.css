@@ -1152,7 +1152,7 @@ footer .copy { position: absolute; left: -135px; }
 	footer .footerNav li a { font-size: 13px }
 	footer address { width: 365px }
 	
-	.popularSec > ul > li > ol { height: 140px; overflow: hidden }
+	.popularSec > ul > li > ol { height: 138px; overflow: hidden }
 	.popularSec { height: 229px; }
 
 	#ads .groupping2 dl dt { width: 60px; height: 62px; padding-top: 28px; background-size: cover }
@@ -1244,15 +1244,36 @@ footer .copy { position: absolute; left: -135px; }
 	.tenPlaces .prevNext a { left: 20px; }
 	.tenPlaces .prevNext a:last-child { right: 30px } 
 	#banner > ul { margin-left: 5px }
+	#mainSearch .breakline, #mainSearch select { display: none }
 }
 
 @media only screen and (max-width: 430px) {
 	.popularItems h4 a, .newsBg .ad1 { height: 107px }
 	#fashion { height: 956px }
+
+	#banner .groupping.first h3 { font-size: 23px; margin-top: 35px }
+	.groupping.first .line { width: 250px }
+	#banner .groupping.first p { width: 259px; margin-bottom: 5px }
+	.groupping.first .seeBg { height: 25px; width: 77px }
+	.groupping.first .seeBg span.seemore { font-size: 12px; line-height: 25px }
+	#banner .groupping { height: 210px } 
+	#subHeader { margin-top: 330px }
+	.logInUp { top: 320px }
+
+	.worldwideBg h2 { margin-bottom: 30px }
+	.worldwideBg > ul > li > a { top: -25px; left: 0 }
+	.worldwideBg > ul > li:nth-child(2) > a { left: 35px }
+	.worldwideBg > ul > li:nth-child(3) > a { left: 78px }
+	.worldwideBg > ul > li:nth-child(4) > a { left: 141px }
+	.newsBg .ad1 { top: 1998px }
+
+	.groupping.first h2 { position: static; margin-top: 10px }
+	#banner .groupping.first h3 { margin-top: 10px }
 }
 
 
 @media only screen and (max-width: 400px) {
+
 	/*.popularItems h4 a, .newsBg .ad1 { height: 107px }*/
 	.newsBg .ad1 { display: none; top: 2100px }
 	#fashion { height: 1040px }
