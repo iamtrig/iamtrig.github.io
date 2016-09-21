@@ -329,12 +329,12 @@ header .sns li a:hover { opacity: 0.7; }
 .popularItems h4 a { display: block; width: 270px; height: 147px; background: url('../imgs/ad2.jpg') no-repeat; text-indent: -999999px; opacity: 0.9; }
 .popularItems h4 a:hover { opacity: 1; }
 .popularItems > ol > li > a { position: absolute; top: 0; right: 15px; display: none; opacity: 0.3;}
-.popularItems ol ul li .itemImg { opacity: 0.8; float: left; display: block; width: 86px; height: 86px; background: url('../imgs/poplurItems.jpg') no-repeat;  }
-.popularItems ol ul li:nth-child(2) .itemImg { background-position: -87px 0 }
-.popularItems ol ul li:nth-child(3) .itemImg { background-position: -174px 0 }
-.popularItems ol ul li:nth-child(4) .itemImg { background-position: -261px 0 }
-.popularItems ol ul li:nth-child(5) .itemImg { background-position: -348px 0 }
-.popularItems ol ul li:nth-child(6) .itemImg { background-position: -435px 0 }
+.popularItems ol ul li .itemImg { opacity: 0.8; float: left; display: block; width: 86px; background-size: cover; height: 86px; background: url('../imgs/pop1.jpg') no-repeat;  }
+.popularItems ol ul li:nth-child(2) .itemImg { background-image: url('../imgs/pop2.jpg');}
+.popularItems ol ul li:nth-child(3) .itemImg { background-image: url('../imgs/pop3.jpg');}
+.popularItems ol ul li:nth-child(4) .itemImg { background-image: url('../imgs/pop4.jpg');}
+.popularItems ol ul li:nth-child(5) .itemImg { background-image: url('../imgs/pop5.jpg');}
+.popularItems ol ul li:nth-child(6) .itemImg { background-image: url('../imgs/pop6.jpg');}
 .popularItems ol ul  { height: 266px; }
 /*.popularItems ol ul li { float: left; }*/
 .popularItems ol ul li a { display: inline-block; width: 86px; opacity: 0.8; }
@@ -774,11 +774,11 @@ footer .copy { position: absolute; left: -135px; }
 	.popularItems ol ul li:nth-child(2), .popularItems ol ul li:nth-child(5) { margin: 0; margin-right: 5px }
 	.popularItems ol ul li a { width: 96px }
 	.popularItems ol ul li .itemImg { width: 96px; height: 96px; background-size: cover }
-	.popularItems ol ul li:nth-child(2) .itemImg { background-position: -96px 0 }
+/*	.popularItems ol ul li:nth-child(2) .itemImg { background-position: -96px 0 }
 	.popularItems ol ul li:nth-child(3) .itemImg { background-position: -194px 0 }
 	.popularItems ol ul li:nth-child(4) .itemImg { background-position: -291px 0 }
 	.popularItems ol ul li:nth-child(5) .itemImg { background-position: -388px 0 }
-	.popularItems ol ul li:nth-child(6) .itemImg { background-position: -485px 0 }
+	.popularItems ol ul li:nth-child(6) .itemImg { background-position: -485px 0 }*/
 	.popularItems > ol ul li:nth-child(6) { margin-right: 0 }
 
 	.newsBg ul li:nth-child(5), .newsBg ul li:nth-child(6), .newsBg ul li:nth-child(7) { display: none; }
@@ -1312,4 +1312,6 @@ footer .copy { position: absolute; left: -135px; }
 	.logInUp .hide { width: 100% }
 	#subHeader { margin-top: 405px }
 	.logInUp { border-bottom: 1px solid #ebebeb; height: 77px; }
+
+	#places li { width: 3.7% }
 }
