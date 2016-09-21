@@ -1240,16 +1240,30 @@ footer .copy { position: absolute; left: -135px; }
 	
 	#ads .width1200 .prevNext a { left: 10px }
 	#ads .width1200 .prevNext a:last-child  { right: 10px }
+	#culture .seeMore a { right: 10px }
 
 	.tenPlaces .prevNext a { left: 20px; }
 	.tenPlaces .prevNext a:last-child { right: 30px } 
 	#banner > ul { margin-left: 5px }
 	#mainSearch .breakline, #mainSearch select { display: none }
+
+	.bestMovie dl dt { padding-top: 113px; margin-bottom: 3px }
+	.bestMovie dl { height: 210px }
+	.bestMovie dl dt, .bestMovie dl .drected, .bestMovie .starring { margin-left:10px }
+	.bestMovie .descript { padding-left: 10px }
+}
+
+@media only screen and (max-width: 450px) {
+	
+	#ads .groupping2 ul { left: 19%; }
+	#ads .groupping1 { margin-left: 19% }
+	#ads .getIt a { left: 52%; }
+
 }
 
 @media only screen and (max-width: 430px) {
 	.popularItems h4 a, .newsBg .ad1 { height: 107px }
-	#fashion { height: 956px }
+	#fashion { height: 934px }
 
 	#banner .groupping.first h3 { font-size: 23px; margin-top: 35px }
 	.groupping.first .line { width: 250px }
@@ -1265,10 +1279,13 @@ footer .copy { position: absolute; left: -135px; }
 	.worldwideBg > ul > li:nth-child(2) > a { left: 35px }
 	.worldwideBg > ul > li:nth-child(3) > a { left: 78px }
 	.worldwideBg > ul > li:nth-child(4) > a { left: 141px }
-	.newsBg .ad1 { top: 1998px }
+	.newsBg .ad1 { top: 1968px }
 
 	.groupping.first h2 { position: static; margin-top: 10px }
 	#banner .groupping.first h3 { margin-top: 10px }
+
+	#fashion .fashionImg { height: 180px }
+	.popularItems { top: 480px }
 }
 
 
@@ -1276,8 +1293,23 @@ footer .copy { position: absolute; left: -135px; }
 
 	/*.popularItems h4 a, .newsBg .ad1 { height: 107px }*/
 	.newsBg .ad1 { display: none; top: 2100px }
-	#fashion { height: 1040px }
+	#fashion { height: 986px }
 	.popularItems h4 a { width: 99%; height: 170px }
 
 	#places { padding-bottom: 24px }
+
+	footer .footerNav { width: 300px }
+	footer address { width: 300px }
+
+	#ads .groupping2 ul { left: 15%; }
+	#ads .groupping1 { margin-left: 15% }
+	#ads .getIt a { left: 52%; }
+
+	#subHeader { margin-top: 355px }
+	.weather { width: 95%; padding-right: 0 }
+
+	.logInUp { width: 100%; top: 300px; right: 0 }
+	.logInUp .hide { width: 100% }
+	#subHeader { margin-top: 405px }
+	.logInUp { border-bottom: 1px solid #ebebeb; height: 77px; }
 }
