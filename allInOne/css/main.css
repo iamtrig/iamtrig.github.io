@@ -1,5 +1,5 @@
 /*  */
-html, body{  width: 100%; height: auto; margin: 0;  overflow: hidden; overflow-y: auto;}
+html, body{  width: 100%; height: auto; margin: 0; overflow: hidden; overflow-y: auto;}
 
 
 input[type=text], select, option, input[type=submit], input[type=reset],input[type=password] { background: none; border: 0 none; appearance: none; -moz-appearance: none; -webkit-appearance: none; border-radius: 0; -webkit-border-radius: 0; -moz-border-radius: 0; box-shadow: 0 0 0 0; -moz-box-shadow: 0 0 0 0; -webkit-box-shadow: 0 0 0 0; font-family: 'Roboto Condensed', sans-serif }
@@ -185,7 +185,7 @@ header .sns li a:hover { opacity: 0.7; }
 .newsBg ul li:last-child a:hover { opacity: 1; }
 .newsBg .newsImg { display: inline-block; width: 433px; height: 172px; background: url('../imgs/newsImg.jpg') no-repeat; }
 .newsBg ul li:first-child h3 { padding: 10px 0 6px 0; }
-.newsBg ul li:first-child p { opacity: 0.6; font-size: 12px; font-weight: normal; height: 35px; overflow: hidden }
+.newsBg ul li:first-child p { opacity: 0.6; font-size: 12px; font-weight: normal; height: 31px; overflow: hidden }
 
 .newsBg .ad1 { position: absolute; right: -2px; top: 126px; font-weight: 100; color: #6c6c6c; text-transform: lowercase; font-style: italic; }
 .newsBg .ad1 img { margin-bottom: 3px }
@@ -1078,6 +1078,17 @@ footer .copy { position: absolute; left: -135px; }
 	#ads .getIt a { left: 28% }
 	#ads .groupping1 p {left: 48% }
 	#ads .groupping2 ul {left: 47% }
+
+	footer h1 { text-align: center; width: 100% }
+	footer .footerNav { margin-left: 0; padding: 10px 0 }
+	footer .width1200 { text-align: center }
+	footer .copy { position: static; margin-right: 10px; }
+	footer address { margin-left: 0; width: 70%; text-align: center; margin: 0 auto }
+	footer .footerNav li { margin-right: 7px }
+
+	#subscribe p { width: 70% }
+	#subscribe input[type=text] { width: 50%; }
+	#subscribe input[type=submit] {width: 20% }
 }
 
  @media only screen and (max-width: 620px) {
@@ -1164,8 +1175,88 @@ footer .copy { position: absolute; left: -135px; }
 }	
 
 
+@media only screen and (max-width: 600px) {
+	#banner .groupping { height: 255px }
+	.groupping.first h2 { padding: 2px 2px; font-size: 11px }
+	#banner .groupping.first h3 { font-size: 29px; margin-top: 47px; }
+	.groupping.first .line { width: 315px }
+	#banner .groupping.first p { font-size: 12px; padding-top: 6px; width: 325px; line-height: 14px; text-align: center }
+	#subHeader { margin-top: 375px }
+	.logInUp { top: 364px }
+	.popularItems h4 a { right: auto; margin-right: 0; left: 0; top: 172px; width: 47% }
+	.popularItems > ol ul li { width: 16.1% }
+	.popularItems { width: 90% }
+	.newsBg .ad1 { width: 44%; top: 1833px }
+
+	#fashion { height: 830px }
+
+	#banner > ul { width: 1000px }
+
+}
 @media only screen and (max-width: 570px) {
 	#banner ul > li > a { font-size: 12px }
 	#banner ul > li { margin-right: 9px }
 	#mainSearch input[type=text] { width: 40% }
+
+	.bestMovie .groupping1 { height: 200px; background-size: 523px }
+	.bestMovie .history { padding: 11px 0 96px; width: 203px; font-size: 12px }
+	.bestMovie .time { width: 203px }
+	.bestMovie dl .trailer1, .bestMovie dl .trailer2, .bestMovie .blackBg { width: 150px; height: 93px }
+	#culture .bestMovie dl .titleBg { width: 145px }
+	.bestMovie dl .play { margin-top: 33px; left: 53px }
+	.bestMovie dl .trailer2 { left: 171px }
+	.bestMovie dl dt, .bestMovie dl .drected, .bestMovie .starring { margin-left: 330px }
+	.bestMovie .descript { padding-left: 332px; height: 45px }
+	.bestMovie dl { height: 120px }
+	
+	.bestMovie .review3, .bestMovie .review2, .bestMovie .review1 { display: none }
+
+	.movieList h4 { width: 150px; height: 93px }
+	.movieList ul li { width: 145px; margin-right: 6px }
+	.movieList { height: 195px }
+}
+
+
+@media only screen and (max-width: 500px) {
+	.popularItems { width: 87% } 
+	#fashion { height: 981px }
+	.popularItems h4 a { top: 320px }
+	.newsBg .ad1 { top: 1980px; }
+	.popularItems > ol ul li { width: 32.8% }
+	#ads .groupping2 ul { left: 30% }
+	#ads .groupping1 { margin-left: 31% }
+
+	header h1 { font-size: 15px; width: 111px }
+	#mainSearch { padding-left: 165px }
+	#mainSearch .breakline, #mainSearch select, #mainSearch input[type=text] { margin-left: 9px }
+	header h1 .ui { width: 19px; height: 19px; background-size: 19px; margin-right: 5px }
+
+	.newsBg, .worldwideBg, .bg1200, #subHeader, #banner, #wrapper .width1200, #wrapper .width1200.added, header .bg1200 { padding: 0 10px }
+	.weather { left: 10px; padding-right: 67px }
+	.logInUp { right: 10px }
+	.popularItems { left: 10px; width: 95% }
+	.newsBg .ad1 { right: 10px; width: 46% }
+	.popularItems h4 a { width: 49% }
+	
+	#ads .width1200 .prevNext a { left: 10px }
+	#ads .width1200 .prevNext a:last-child  { right: 10px }
+
+	.tenPlaces .prevNext a { left: 20px; }
+	.tenPlaces .prevNext a:last-child { right: 30px } 
+	#banner > ul { margin-left: 5px }
+}
+
+@media only screen and (max-width: 430px) {
+	.popularItems h4 a, .newsBg .ad1 { height: 107px }
+	#fashion { height: 956px }
+}
+
+
+@media only screen and (max-width: 400px) {
+	/*.popularItems h4 a, .newsBg .ad1 { height: 107px }*/
+	.newsBg .ad1 { display: none; top: 2100px }
+	#fashion { height: 1040px }
+	.popularItems h4 a { width: 99%; height: 170px }
+
+	#places { padding-bottom: 24px }
 }
