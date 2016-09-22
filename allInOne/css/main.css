@@ -1251,6 +1251,11 @@ footer .copy { position: absolute; left: -135px; }
 	.bestMovie dl { height: 210px }
 	.bestMovie dl dt, .bestMovie dl .drected, .bestMovie .starring { margin-left:10px }
 	.bestMovie .descript { padding-left: 10px }
+
+	.bestMovie dl .trailer1, .bestMovie dl .trailer2 { width: 45% }
+	.bestMovie .blackBg  {width: 100% }
+	#culture .bestMovie dl .titleBg { width: 100%; box-sizing: border-box; }
+	.bestMovie dl .trailer2 { left: 52% }
 }
 
 @media only screen and (max-width: 450px) {
@@ -1286,11 +1291,15 @@ footer .copy { position: absolute; left: -135px; }
 
 	#fashion .fashionImg { height: 180px }
 	.popularItems { top: 480px }
+
+	#ads .width1200 .prevNext a { top: 85px }
 }
 
 
 @media only screen and (max-width: 400px) {
 
+	#places li { width: 3.6% }
+	.popularItems > ol ul li { width: 32.1% }
 	/*.popularItems h4 a, .newsBg .ad1 { height: 107px }*/
 	.newsBg .ad1 { display: none; top: 2100px }
 	#fashion { height: 986px }
@@ -1314,4 +1323,37 @@ footer .copy { position: absolute; left: -135px; }
 	.logInUp { border-bottom: 1px solid #ebebeb; height: 77px; }
 
 	#places li { width: 3.7% }
+}
+
+@media only screen and (max-width: 380px) {
+
+	#ads .groupping1 { margin-left: 12% }
+	#ads .groupping2 ul { left: 11% }
+	#places li { width: 3.4% } 
+	#wrapper #places .placeImg { top: 94px }
+	.tenPlaces .prevNext a { top: 260px }
+	.tenPlaces .prevNext a:last-child { right: 10px }
+}
+
+@media only screen and (max-width: 360px) {
+
+	#ads .groupping1 { margin-left: 12% }
+	#ads .groupping2 ul { left: 12% }
+
+	#ads .groupping2 dl dt { width: 51px; height: 54px; padding-top: 23px; margin-top: 9px }
+	#ads .groupping2 li { width: 110px }
+	#ads .groupping2 li dd { width: 49px }
+}
+
+@media only screen and (max-width: 352px) {
+	.bestMovie dl .trailer1, .bestMovie dl .trailer2 { width: 45% }
+	.bestMovie .blackBg  {width: 100% }
+	#culture .bestMovie dl .titleBg { width: 100%; box-sizing: border-box; }
+	.bestMovie dl .trailer2 { left: 52% }
+}
+
+@media only screen and (max-width: 330px) {
+
+	#ads .groupping1 { margin-left: 8% }
+	#ads .groupping2 ul { left: 8% }
 }
