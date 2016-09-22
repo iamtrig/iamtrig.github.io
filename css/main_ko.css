@@ -11,5 +11,5 @@
 	#wrapper #work li:nth-child(9) h2 { margin-bottom: 14px }
 }
 @media only screen and (max-width: 1024px) {
-	#work .group1 > ul > li:nth-child(8) > a { margin-top: 2px; }
+	#work .group1 > ul > li:nth-child(6) > a { margin-top: 0; width: 54px; }
 }
