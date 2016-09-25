@@ -20,7 +20,7 @@ section > h2, .worldwideBg h2, section > h3 { position: relative; display: inlin
 
 /* header */
 header .bg1200 { width: 1200px; margin: 0 auto; position: relative;  }
-header h1 { z-index: 1000; position: absolute; right: 138px; top: 25px; font-size: 18px; }
+header h1 { z-index: 12000; position: absolute; right: 138px; top: 25px; font-size: 18px; }
 h1 .italic { font-style: italic; }
 header h1 .ui { display: inline-block; width: 27px; height: 27px; margin-top: -4px; background: url('../imgs/logo.jpg') no-repeat; margin-right: 11px; vertical-align: middle }
 
@@ -28,6 +28,9 @@ header h1 .ui { display: inline-block; width: 27px; height: 27px; margin-top: -4
 #mainMenu h2 a span { width: 25px; height: 2px;display: block; margin: 0 auto; margin-bottom: 4px; background-color: #fff }
 #mainMenu h2 a span:first-child { margin-top: 27px }
 #mainMenu h2 .hide { display: none; text-indent: -999999999px }
+
+#mainMenu h2 a:hover, #subHeader input[type=submit]:hover{ background-color: #353535}
+
 
 .logInUp { z-index: 1000; position: absolute; font-size: 14px; top: 385px; left: 955px }
 .logInUp a { opacity: 0.8; display: inline-block; margin-right: 10px; font-weight: 600 }
@@ -159,6 +162,10 @@ header .sns li a:hover { opacity: 0.7; }
 #mainSearch .breakline { float: left; display: inline-block; width: 2px; height: 20px; margin-top: 26px; margin-left: 20px; background: #ebebeb }
 #subHeader input[type=submit] { float: right; width: 70px; height: 70px; background: #252525 url('../imgs/search.png') no-repeat center center; text-indent: -99999px }
 
+
+#wrapper .scrolled { z-index: 1000; position: fixed; top: 0; right: 50px; margin-top: 0; width: 100%; box-sizing: border-box; height: 70px; border-bottom: 3px solid #131313; padding-left: 210px; background-color: transparent; }
+#wrapper .logoScrolled { z-index: 12000; position: fixed; right: auto; left: 0; top: 0; width: 150px; border-right: 2px solid #ebebeb; text-align: center; height: 67px; line-height: 70px  }
+#wrapper .bgScrolled { z-index: 900; height:70px; width: 100%; left: 0; top: 0; position: fixed; }
 
 /* #content */
 
@@ -554,7 +561,7 @@ footer .copy { position: absolute; left: -135px; }
 
 
 
-
+#wrapper .showNow { display: block; }
 
 
 
@@ -676,6 +683,12 @@ footer .copy { position: absolute; left: -135px; }
 
 	footer .groupping { margin-left: 406px }
 	footer address { margin-left: 406px; }
+
+
+	#wrapper .scrolled { z-index: 1000; position: fixed; top: 0; right: 50px; margin-top: 0; width: 100%; box-sizing: border-box; height: 50px; border-bottom: 3px solid #131313; padding-left: 210px; background-color: transparent; }
+	#wrapper .logoScrolled { z-index: 12000; position: fixed; right: auto; left: 0; top: 0; width: 150px; border-right: 2px solid #ebebeb; text-align: center; height: 47px; line-height: 50px  }
+	#wrapper #banner .bgScrolled { z-index: 900; height:50px; width: 100%; left: 0; top: 0; position: fixed; }
+
 }
 
 
@@ -813,6 +826,9 @@ footer .copy { position: absolute; left: -135px; }
 
 
 @media only screen and (max-width: 1024px) {
+
+	
+
 	#wrapper .popularItems ol ul li a, .popularItems h4 a, #wrapper #places .placeImg, #events ul li > a { opacity: 1; }
 	.movieList { right: 30px }
 	body { overflow: hidden; overflow-y: auto }
@@ -983,6 +999,8 @@ footer .copy { position: absolute; left: -135px; }
 	#ads .getIt a { margin-left: 476px }
 	.bestMovie .starring { display: none }
 	.bestMovie .descript { height: 83px }
+
+	#volunteer { display: none }
 } 
 
 @media only screen and (max-width: 850px) { 

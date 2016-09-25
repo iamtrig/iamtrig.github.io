@@ -27,6 +27,59 @@ jQuery( document ).ready(function( $ ) {
 
 			return false;
 		});
+
+
+		$(window).scroll(function(){
+
+			w = $(window).width();
+
+			getHeaderHeight = 810;
+			lastScrollPosition = 750;
+			currentScrollPosition = $(window).scrollTop();
+
+			getHeaderHeight = getHeaderHeight-10;
+
+			if (currentScrollPosition > getHeaderHeight) {
+
+				if (w >= 1024) {
+					$("#mainSearch").addClass("scrolled");
+					$("header h1").addClass("logoScrolled");
+					$("#banner .linkBg").addClass("bgScrolled");
+				} else {
+					$("#mainSearch").removeClass("scrolled");
+					$("header h1").removeClass("logoScrolled");
+					$("#banner .linkBg").removeClass("bgScrolled");
+				}
+			} else { 
+				$("#mainSearch").removeClass("scrolled");
+				$("header h1").removeClass("logoScrolled");
+				$("#banner .linkBg").removeClass("bgScrolled");
+			}
+
+			lastScrollPosition = currentScrollPosition;
+
+
+		});
+
+
+		// $("#fashion .groupping1 > div > h3 > a").click(function(){
+
+
+		// 	$(this).parent().parent().parent().find("ol").show();
+		// 	$(this).parent().parent().parent().find(".groupping").show();
+		// 	$(this).parent().parent().parent().find("h5").show();
+
+		// 	$(this).parent().parent().siblings().find("ol").hide();
+		// 	$(this).parent().parent().siblings().find(".groupping").hide();
+		// 	$(this).parent().parent().siblings().find("h5").hide();
+
+		
+		// 	return false; 
+		// });
+
+
+
+
 	});
 
 
