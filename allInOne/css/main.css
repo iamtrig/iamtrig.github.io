@@ -32,8 +32,19 @@ header h1 .ui { display: inline-block; width: 27px; height: 27px; margin-top: -4
 #mainMenu h2 a:hover, #subHeader input[type=submit]:hover{ background-color: #353535}
 
 
+nav { display: none; width: 100%; height: auto; min-height: 700px;  position: fixed; z-index: 20000; }
+nav .navBg { z-index: -1; width: 100%; height: 100%;  position: fixed; background-color: #000; opacity: 0.9; }
+nav a { color: #fff; opacity: 0.7; display: block; width: 100%; font-weight: 600; font-size: 20px; text-align: center; margin-bottom: 10px; }
+nav a.cultureLink { margin-top: 50px }
+nav a:hover { opacity: 1 }
+
+nav a.close { width: 70px; height: 65px; padding-top: 5px; background-color: #000; position: fixed; right: 0; top: 0;  text-indent: -99999px; text-align: center; }
+nav a.close span { display: block; width: 30px; height: 2px; background-color: #fff; margin: 0 auto; }
+nav a.close span:first-child { transform: rotate(45deg); }
+nav a.close span:last-child { transform: rotate(-45deg) translate(2px, -1px); }
+
 .logInUp { z-index: 1000; position: absolute; font-size: 14px; top: 385px; left: 955px }
-.logInUp a { opacity: 0.8; display: inline-block; margin-right: 10px; font-weight: 600 }
+.logItnUp a { opacity: 0.8; display: inline-block; margin-right: 10px; font-weight: 600 }
 .logInUp span { display: inline-block; }
 .logInUp a.signUp { margin-left: 10px; color: #ec3c46; font-style: italic }
 .logInUp a:hover { opacity: 1; }
@@ -62,7 +73,6 @@ header .sns li a:hover { opacity: 0.7; }
 
 #banner .linkBg { position: absolute; right: 70px; top: 0; display: block; width: 220px; height: 436px; background-color: #fff; }
 
-#banner ul > li {  }
 #banner ul > li > a .ui { display: inline-block; width: 16px; height: 16px; margin-right: 20px }
 #banner ul > li > a { margin-top: 10px; opacity: 0.4; font-weight: 600; position: absolute; left: 955px; top: 92px; line-height: 14px; font-size: 15px; }
 #banner ul > li:nth-child(2) > a { top: 130px;  }
@@ -688,6 +698,12 @@ footer .copy { position: absolute; left: -135px; }
 	#wrapper .scrolled { z-index: 1000; position: fixed; top: 0; right: 50px; margin-top: 0; width: 100%; box-sizing: border-box; height: 50px; border-bottom: 3px solid #131313; padding-left: 210px; background-color: transparent; }
 	#wrapper .logoScrolled { z-index: 12000; position: fixed; right: auto; left: 0; top: 0; width: 150px; border-right: 2px solid #ebebeb; text-align: center; height: 47px; line-height: 50px  }
 	#wrapper #banner .bgScrolled { z-index: 900; height:50px; width: 100%; left: 0; top: 0; position: fixed; }
+
+	
+	nav a { font-size: 17px }
+	nav a.close { width: 50px; height: 50px; padding-top: 0; }
+	nav a.close span { width: 20px; }
+	nav .navBg { width: 200%; right: 0; }
 
 }
 

@@ -28,6 +28,17 @@ jQuery( document ).ready(function( $ ) {
 			return false;
 		});
 
+		$("#mainMenu h2 a").click(function(){
+			$("nav").show();
+
+			return false;
+		});
+		$("nav a.close").click(function(){
+			$("nav").hide();
+
+			return false;
+		});
+
 
 		$(window).scroll(function(){
 
