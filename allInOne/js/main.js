@@ -30,11 +30,13 @@ jQuery( document ).ready(function( $ ) {
 
 		$("#mainMenu h2 a").click(function(){
 			$("nav").show();
+			$(".navBg").show();
 
 			return false;
 		});
 		$("nav a.close").click(function(){
 			$("nav").hide();
+			$(".navBg").hide();
 
 			return false;
 		});
