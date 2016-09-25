@@ -163,7 +163,7 @@ header .sns li a:hover { opacity: 0.7; }
 #subHeader input[type=submit] { float: right; width: 70px; height: 70px; background: #252525 url('../imgs/search.png') no-repeat center center; text-indent: -99999px }
 
 
-#wrapper .scrolled { z-index: 1000; position: fixed; top: 0; right: 50px; margin-top: 0; width: 100%; box-sizing: border-box; height: 70px; border-bottom: 3px solid #131313; padding-left: 210px; background-color: transparent; }
+#wrapper .scrolled { z-index: 1000; position: fixed; top: 0; right: 70px; margin-top: 0; width: 100%; box-sizing: border-box; height: 70px; border-bottom: 3px solid #131313; padding-left: 228px; background-color: transparent; }
 #wrapper .logoScrolled { z-index: 12000; position: fixed; right: auto; left: 0; top: 0; width: 150px; border-right: 2px solid #ebebeb; text-align: center; height: 67px; line-height: 70px  }
 #wrapper .bgScrolled { z-index: 900; height:70px; width: 100%; left: 0; top: 0; position: fixed; }
 
