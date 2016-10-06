@@ -579,7 +579,6 @@ footer .copy { position: absolute; left: -135px; }
 
 /* media query */
 
-
 @media only screen and (max-width: 1400px) {
 	#wrapper .width1200.added { padding: 0; }
 	#fashion, #culture { width: 100%; background-color: #fff; padding: 50px 0 70px }
