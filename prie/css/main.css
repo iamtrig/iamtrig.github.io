@@ -715,7 +715,7 @@ footer p { width: 84%; opacity: 0.7; }
 
  	#partners .width1750 > ul > li:last-child a .line { width: 35%; margin-left: 100px }
 
-	#quote dl dd input#userName {  float: left; margin-left: 2%; width: 28%; margin-right: 0 }
+	#quote dl dd input#userName {  float: left; margin-left: 2%;  width: 28%; margin-right: 1% }
 	#quote dl dd input#email { float: right; margin-right: 2%; width: 28% }
 }
 
@@ -932,6 +932,10 @@ footer p { width: 84%; opacity: 0.7; }
 	#work ul a ol { width: 70%; padding-left: 15% }
 	#work .firstLi .prevNext a { margin-right: 15px; }
 	#work .firstLi .prevNext a:first-child { margin-left: 15px }
+
+	#quote dl dd input#userName {  width: 43%; margin-right: 0 }
+	#quote dl dd input#number { float: right;width: 43%; margin-right: 2%  }
+	#quote dl dd input#email { float: right; width: 96% }
  }
 
 @media only screen and (max-width: 480px) { 
