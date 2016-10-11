@@ -715,6 +715,8 @@ footer p { width: 84%; opacity: 0.7; }
 
  	#partners .width1750 > ul > li:last-child a .line { width: 35%; margin-left: 100px }
 
+	#quote dl dd input#userName {  float: left; margin-left: 2%; width: 28%; margin-right: 0 }
+	#quote dl dd input#email { float: right; margin-right: 2%; width: 28% }
 }
 
 
