@@ -935,7 +935,7 @@ footer p { width: 84%; opacity: 0.7; }
 
 	#quote dl dd input#userName {  width: 43%; margin-right: 0 }
 	#quote dl dd input#number { float: right;width: 43%; margin-right: 2%  }
-	#quote dl dd input#email { float: right; width: 96% }
+	#quote dl dd input#email { float: none; width: 96%; margin-right: 0 }
  }
 
 @media only screen and (max-width: 480px) { 
