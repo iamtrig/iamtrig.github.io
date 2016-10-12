@@ -68,22 +68,22 @@ jQuery( document ).ready(function( $ ) {
 			    if (thisWidth >= 740 && thisWidth <= 1024 ) {
 
 					$("#work .group1 > ul > li:eq(0) > a").css("left",0);
-					$("#work .group1 > ul > li:eq(1) > a").css("left",71);
-					$("#work .group1 > ul > li:eq(2) > a").css("left",184);
-					$("#work .group1 > ul > li:eq(3) > a").css("left",240);
-					$("#work .group1 > ul > li:eq(4) > a").css("left",323);
-					$("#work .group1 > ul > li:eq(5) > a").css("left",427);
+					$("#work .group1 > ul > li:eq(1) > a").css("left",66);
+					$("#work .group1 > ul > li:eq(2) > a").css("left",120);
+					$("#work .group1 > ul > li:eq(3) > a").css("left",233);
+					$("#work .group1 > ul > li:eq(4) > a").css("left",290);
+					$("#work .group1 > ul > li:eq(5) > a").css("left",373);
 
 					$("#work .group1 > ul > li > a").click(function(){
 
 						if ($("#work .group1 > ul > li:eq(3) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(2) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(1) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(0) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(4) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(5) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(6) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(6) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(7) > a").hasClass("workOn")) {
 
 							$("#work .group1 > ul > li:eq(0) > a").css("left",0);
-							$("#work .group1 > ul > li:eq(1) > a").css("left",71);
-							$("#work .group1 > ul > li:eq(2) > a").css("left",184);
-							$("#work .group1 > ul > li:eq(3) > a").css("left",240);
-							$("#work .group1 > ul > li:eq(4) > a").css("left",323);
-							$("#work .group1 > ul > li:eq(5) > a").css("left",427);
+							$("#work .group1 > ul > li:eq(1) > a").css("left",66);
+							$("#work .group1 > ul > li:eq(2) > a").css("left",120);
+							$("#work .group1 > ul > li:eq(3) > a").css("left",233);
+							$("#work .group1 > ul > li:eq(4) > a").css("left",290);
+							$("#work .group1 > ul > li:eq(5) > a").css("left",373);
 
 						} 
 						return false;
@@ -96,20 +96,20 @@ jQuery( document ).ready(function( $ ) {
 						if ($("#work .group1 > ul > li:eq(3) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(2) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(1) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(0) > a").hasClass("workOn") ) {
 
 							$("#work .group1 > ul > li:eq(0) > a").css("left",0);
-							$("#work .group1 > ul > li:eq(1) > a").css("left",71);
-							$("#work .group1 > ul > li:eq(2) > a").css("left",184);
-							$("#work .group1 > ul > li:eq(3) > a").css("left",240);
-							$("#work .group1 > ul > li:eq(4) > a").css("left",323);
-							$("#work .group1 > ul > li:eq(5) > a").css("left",427);
+							$("#work .group1 > ul > li:eq(1) > a").css("left",66);
+							$("#work .group1 > ul > li:eq(2) > a").css("left",120);
+							$("#work .group1 > ul > li:eq(3) > a").css("left",233);
+							$("#work .group1 > ul > li:eq(4) > a").css("left",290);
+							$("#work .group1 > ul > li:eq(5) > a").css("left",373);
 
 						} else if ($("#work .group1 > ul > li:eq(4) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(5) > a").hasClass("workOn") ) {
 
 							$("#work .group1 > ul > li:eq(0) > a").css("left",-120);
 							$("#work .group1 > ul > li:eq(1) > a").css("left",-27);
-							$("#work .group1 > ul > li:eq(2) > a").css("left",85);
+							$("#work .group1 > ul > li:eq(2) > a").css("left",26);
 							$("#work .group1 > ul > li:eq(3) > a").css("left",141);
-							$("#work .group1 > ul > li:eq(4) > a").css("left",230);
-							$("#work .group1 > ul > li:eq(5) > a").css("left",334);
+							$("#work .group1 > ul > li:eq(4) > a").css("left",197);
+							$("#work .group1 > ul > li:eq(5) > a").css("left",286);
 
 							
 						}
@@ -124,29 +124,29 @@ jQuery( document ).ready(function( $ ) {
 						if ($("#work .group1 > ul > li:eq(1) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(0) > a").hasClass("workOn") ) {
 
 							$("#work .group1 > ul > li:eq(0) > a").css("left",0);
-							$("#work .group1 > ul > li:eq(1) > a").css("left",71);
-							$("#work .group1 > ul > li:eq(2) > a").css("left",184);
-							$("#work .group1 > ul > li:eq(3) > a").css("left",240);
-							$("#work .group1 > ul > li:eq(4) > a").css("left",323);
-							$("#work .group1 > ul > li:eq(5) > a").css("left",427);
+							$("#work .group1 > ul > li:eq(1) > a").css("left",66);
+							$("#work .group1 > ul > li:eq(2) > a").css("left",120);
+							$("#work .group1 > ul > li:eq(3) > a").css("left",233);
+							$("#work .group1 > ul > li:eq(4) > a").css("left",290);
+							$("#work .group1 > ul > li:eq(5) > a").css("left",373);
 
 						} else if ($("#work .group1 > ul > li:eq(2) > a").hasClass("workOn") ) {
 
 							$("#work .group1 > ul > li:eq(0) > a").css("left",-120);
 							$("#work .group1 > ul > li:eq(1) > a").css("left",-27);
-							$("#work .group1 > ul > li:eq(2) > a").css("left",85);
-							$("#work .group1 > ul > li:eq(3) > a").css("left",141);
-							$("#work .group1 > ul > li:eq(4) > a").css("left",230);
-							$("#work .group1 > ul > li:eq(5) > a").css("left",334);
+							$("#work .group1 > ul > li:eq(2) > a").css("left",26);
+							$("#work .group1 > ul > li:eq(3) > a").css("left",147);
+							$("#work .group1 > ul > li:eq(4) > a").css("left",203);
+							$("#work .group1 > ul > li:eq(5) > a").css("left",281);
 
 						} else if ( $("#work .group1 > ul > li:eq(3) > a").hasClass("workOn") ) {
 
 							$("#work .group1 > ul > li:eq(0) > a").css("left",-120);
 							$("#work .group1 > ul > li:eq(1) > a").css("left",-139);
 							$("#work .group1 > ul > li:eq(2) > a").css("left",-27);
-							$("#work .group1 > ul > li:eq(3) > a").css("left",31);
-							$("#work .group1 > ul > li:eq(4) > a").css("left",114);
-							$("#work .group1 > ul > li:eq(5) > a").css("left",218);
+							$("#work .group1 > ul > li:eq(3) > a").css("left",86);
+							$("#work .group1 > ul > li:eq(4) > a").css("left",144);
+							$("#work .group1 > ul > li:eq(5) > a").css("left",227);
 
 						} else if ( $("#work .group1 > ul > li:eq(4) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(5) > a").hasClass("workOn") ) {
 
@@ -154,8 +154,8 @@ jQuery( document ).ready(function( $ ) {
 							$("#work .group1 > ul > li:eq(1) > a").css("left",-139);
 							$("#work .group1 > ul > li:eq(2) > a").css("left",-139);
 							$("#work .group1 > ul > li:eq(3) > a").css("left",-27);
-							$("#work .group1 > ul > li:eq(4) > a").css("left",53);
-							$("#work .group1 > ul > li:eq(5) > a").css("left",163);
+							$("#work .group1 > ul > li:eq(4) > a").css("left",29);
+							$("#work .group1 > ul > li:eq(5) > a").css("left",118);
 
 							
 						} 
@@ -580,31 +580,31 @@ jQuery( document ).ready(function( $ ) {
 				if ($(window).width() >= 740 && $(window).width() <= 1024 ) {
 				if (nextList == 0 || nextList == 1 || nextList == 2 || nextList == 3 || nextList == 4 || nextList == 5 ) {
 					$("#work .group1 > ul > li:eq(0) > a").css("left",0);
-					$("#work .group1 > ul > li:eq(1) > a").css("left",71);
-					$("#work .group1 > ul > li:eq(2) > a").css("left",184);
-					$("#work .group1 > ul > li:eq(3) > a").css("left",240);
-					$("#work .group1 > ul > li:eq(4) > a").css("left",323);
-					$("#work .group1 > ul > li:eq(5) > a").css("left",427);
+					$("#work .group1 > ul > li:eq(1) > a").css("left",66);
+					$("#work .group1 > ul > li:eq(2) > a").css("left",120);
+					$("#work .group1 > ul > li:eq(3) > a").css("left",233);
+					$("#work .group1 > ul > li:eq(4) > a").css("left",290);
+					$("#work .group1 > ul > li:eq(5) > a").css("left",373);
 				}
 			} else if ($(window).width() <= 630 && $(window).width() >= 420) {
 
 				if (nextList == 0 || nextList == 1 || nextList == 2 || nextList == 3) {
 
 					$("#work .group1 > ul > li:eq(0) > a").css("left",0);
-					$("#work .group1 > ul > li:eq(1) > a").css("left",71);
-					$("#work .group1 > ul > li:eq(2) > a").css("left",184);
-					$("#work .group1 > ul > li:eq(3) > a").css("left",240);
-					$("#work .group1 > ul > li:eq(4) > a").css("left",323);
-					$("#work .group1 > ul > li:eq(5) > a").css("left",427);
+					$("#work .group1 > ul > li:eq(1) > a").css("left",66);
+					$("#work .group1 > ul > li:eq(2) > a").css("left",120);
+					$("#work .group1 > ul > li:eq(3) > a").css("left",233);
+					$("#work .group1 > ul > li:eq(4) > a").css("left",290);
+					$("#work .group1 > ul > li:eq(5) > a").css("left",373);
 
 				} else if (nextList == 4 || nextList == 5 ) {
 
 				$("#work .group1 > ul > li:eq(0) > a").css("left",-120);
 					$("#work .group1 > ul > li:eq(1) > a").css("left",-27);
-					$("#work .group1 > ul > li:eq(2) > a").css("left",85);
+					$("#work .group1 > ul > li:eq(2) > a").css("left",26);
 					$("#work .group1 > ul > li:eq(3) > a").css("left",141);
-					$("#work .group1 > ul > li:eq(4) > a").css("left",230);
-					$("#work .group1 > ul > li:eq(5) > a").css("left",334);
+					$("#work .group1 > ul > li:eq(4) > a").css("left",197);
+					$("#work .group1 > ul > li:eq(5) > a").css("left",286);
 					
 				}
 
@@ -613,38 +613,39 @@ jQuery( document ).ready(function( $ ) {
 					if (nextList == 0 || nextList == 1  ) {
 
 						$("#work .group1 > ul > li:eq(0) > a").css("left",0);
-						$("#work .group1 > ul > li:eq(1) > a").css("left",71);
-						$("#work .group1 > ul > li:eq(2) > a").css("left",184);
-						$("#work .group1 > ul > li:eq(3) > a").css("left",240);
-						$("#work .group1 > ul > li:eq(4) > a").css("left",323);
-						$("#work .group1 > ul > li:eq(5) > a").css("left",427);
+						$("#work .group1 > ul > li:eq(1) > a").css("left",66);
+						$("#work .group1 > ul > li:eq(2) > a").css("left",120);
+						$("#work .group1 > ul > li:eq(3) > a").css("left",233);
+						$("#work .group1 > ul > li:eq(4) > a").css("left",290);
+						$("#work .group1 > ul > li:eq(5) > a").css("left",373);
 
 					} else if (nextList == 2 ) {
 
 						$("#work .group1 > ul > li:eq(0) > a").css("left",-120);
 							$("#work .group1 > ul > li:eq(1) > a").css("left",-27);
-							$("#work .group1 > ul > li:eq(2) > a").css("left",85);
+							$("#work .group1 > ul > li:eq(2) > a").css("left",26);
 							$("#work .group1 > ul > li:eq(3) > a").css("left",141);
-							$("#work .group1 > ul > li:eq(4) > a").css("left",230);
-							$("#work .group1 > ul > li:eq(5) > a").css("left",334);
+							$("#work .group1 > ul > li:eq(4) > a").css("left",197);
+							$("#work .group1 > ul > li:eq(5) > a").css("left",286);
 
 					} else if (nextList == 3 ) {
 
 						$("#work .group1 > ul > li:eq(0) > a").css("left",-120);
 						$("#work .group1 > ul > li:eq(1) > a").css("left",-139);
 						$("#work .group1 > ul > li:eq(2) > a").css("left",-27);
-						$("#work .group1 > ul > li:eq(3) > a").css("left",31);
-						$("#work .group1 > ul > li:eq(4) > a").css("left",114);
-						$("#work .group1 > ul > li:eq(5) > a").css("left",218);
+						$("#work .group1 > ul > li:eq(3) > a").css("left",86);
+						$("#work .group1 > ul > li:eq(4) > a").css("left",144);
+						$("#work .group1 > ul > li:eq(5) > a").css("left",227);
+
 
 					} else if ( nextList == 4 || nextList == 5 ) {
 
 						$("#work .group1 > ul > li:eq(0) > a").css("left",-120);
-						$("#work .group1 > ul > li:eq(1) > a").css("left",-139);
-						$("#work .group1 > ul > li:eq(2) > a").css("left",-139);
-						$("#work .group1 > ul > li:eq(3) > a").css("left",-27);
-						$("#work .group1 > ul > li:eq(4) > a").css("left",53);
-						$("#work .group1 > ul > li:eq(5) > a").css("left",163);
+							$("#work .group1 > ul > li:eq(1) > a").css("left",-139);
+							$("#work .group1 > ul > li:eq(2) > a").css("left",-139);
+							$("#work .group1 > ul > li:eq(3) > a").css("left",-27);
+							$("#work .group1 > ul > li:eq(4) > a").css("left",29);
+							$("#work .group1 > ul > li:eq(5) > a").css("left",118);
 						
 					}
 
@@ -727,31 +728,31 @@ jQuery( document ).ready(function( $ ) {
 			if ($(window).width() >= 740 && $(window).width() <= 1024 ) {
 				if (prevList == 0 || prevList == 1 || prevList == 2 || prevList == 3 || prevList == 4 || prevList == 5 ) {
 					$("#work .group1 > ul > li:eq(0) > a").css("left",0);
-					$("#work .group1 > ul > li:eq(1) > a").css("left",71);
-					$("#work .group1 > ul > li:eq(2) > a").css("left",184);
-					$("#work .group1 > ul > li:eq(3) > a").css("left",240);
-					$("#work .group1 > ul > li:eq(4) > a").css("left",323);
-					$("#work .group1 > ul > li:eq(5) > a").css("left",427);
+					$("#work .group1 > ul > li:eq(1) > a").css("left",66);
+					$("#work .group1 > ul > li:eq(2) > a").css("left",120);
+					$("#work .group1 > ul > li:eq(3) > a").css("left",233);
+					$("#work .group1 > ul > li:eq(4) > a").css("left",290);
+					$("#work .group1 > ul > li:eq(5) > a").css("left",373);
 				}
 			} else if ($(window).width() <= 630 && $(window).width() >= 420) {
 
 				if (prevList == 0 || prevList == 1 || prevList == 2 || prevList == 3) {
 
 					$("#work .group1 > ul > li:eq(0) > a").css("left",0);
-					$("#work .group1 > ul > li:eq(1) > a").css("left",71);
-					$("#work .group1 > ul > li:eq(2) > a").css("left",184);
-					$("#work .group1 > ul > li:eq(3) > a").css("left",240);
-					$("#work .group1 > ul > li:eq(4) > a").css("left",323);
-					$("#work .group1 > ul > li:eq(5) > a").css("left",427);
+					$("#work .group1 > ul > li:eq(1) > a").css("left",66);
+					$("#work .group1 > ul > li:eq(2) > a").css("left",120);
+					$("#work .group1 > ul > li:eq(3) > a").css("left",233);
+					$("#work .group1 > ul > li:eq(4) > a").css("left",290);
+					$("#work .group1 > ul > li:eq(5) > a").css("left",373);
 
 				} else if (prevList == 4 || prevList == 5 ) {
 
 				$("#work .group1 > ul > li:eq(0) > a").css("left",-120);
 					$("#work .group1 > ul > li:eq(1) > a").css("left",-27);
-					$("#work .group1 > ul > li:eq(2) > a").css("left",85);
+					$("#work .group1 > ul > li:eq(2) > a").css("left",26);
 					$("#work .group1 > ul > li:eq(3) > a").css("left",141);
-					$("#work .group1 > ul > li:eq(4) > a").css("left",230);
-					$("#work .group1 > ul > li:eq(5) > a").css("left",334);
+					$("#work .group1 > ul > li:eq(4) > a").css("left",197);
+					$("#work .group1 > ul > li:eq(5) > a").css("left",286);
 					
 				}
 
@@ -760,38 +761,39 @@ jQuery( document ).ready(function( $ ) {
 					if (prevList == 0 || prevList == 1  ) {
 
 						$("#work .group1 > ul > li:eq(0) > a").css("left",0);
-						$("#work .group1 > ul > li:eq(1) > a").css("left",71);
-						$("#work .group1 > ul > li:eq(2) > a").css("left",184);
-						$("#work .group1 > ul > li:eq(3) > a").css("left",240);
-						$("#work .group1 > ul > li:eq(4) > a").css("left",323);
-						$("#work .group1 > ul > li:eq(5) > a").css("left",427);
+						$("#work .group1 > ul > li:eq(1) > a").css("left",66);
+						$("#work .group1 > ul > li:eq(2) > a").css("left",120);
+						$("#work .group1 > ul > li:eq(3) > a").css("left",233);
+						$("#work .group1 > ul > li:eq(4) > a").css("left",290);
+						$("#work .group1 > ul > li:eq(5) > a").css("left",373);
 
 					} else if (prevList == 2 ) {
 
 						$("#work .group1 > ul > li:eq(0) > a").css("left",-120);
 							$("#work .group1 > ul > li:eq(1) > a").css("left",-27);
-							$("#work .group1 > ul > li:eq(2) > a").css("left",85);
+							$("#work .group1 > ul > li:eq(2) > a").css("left",26);
 							$("#work .group1 > ul > li:eq(3) > a").css("left",141);
-							$("#work .group1 > ul > li:eq(4) > a").css("left",230);
-							$("#work .group1 > ul > li:eq(5) > a").css("left",334);
+							$("#work .group1 > ul > li:eq(4) > a").css("left",197);
+							$("#work .group1 > ul > li:eq(5) > a").css("left",286);
 
 					} else if (prevList == 3 ) {
 
 						$("#work .group1 > ul > li:eq(0) > a").css("left",-120);
 						$("#work .group1 > ul > li:eq(1) > a").css("left",-139);
 						$("#work .group1 > ul > li:eq(2) > a").css("left",-27);
-						$("#work .group1 > ul > li:eq(3) > a").css("left",31);
-						$("#work .group1 > ul > li:eq(4) > a").css("left",114);
-						$("#work .group1 > ul > li:eq(5) > a").css("left",218);
+						$("#work .group1 > ul > li:eq(3) > a").css("left",86);
+						$("#work .group1 > ul > li:eq(4) > a").css("left",144);
+						$("#work .group1 > ul > li:eq(5) > a").css("left",227);
+
 
 					} else if ( prevList == 4 || prevList == 5 ) {
 
 						$("#work .group1 > ul > li:eq(0) > a").css("left",-120);
-						$("#work .group1 > ul > li:eq(1) > a").css("left",-139);
-						$("#work .group1 > ul > li:eq(2) > a").css("left",-139);
-						$("#work .group1 > ul > li:eq(3) > a").css("left",-27);
-						$("#work .group1 > ul > li:eq(4) > a").css("left",53);
-						$("#work .group1 > ul > li:eq(5) > a").css("left",163);
+							$("#work .group1 > ul > li:eq(1) > a").css("left",-139);
+							$("#work .group1 > ul > li:eq(2) > a").css("left",-139);
+							$("#work .group1 > ul > li:eq(3) > a").css("left",-27);
+							$("#work .group1 > ul > li:eq(4) > a").css("left",29);
+							$("#work .group1 > ul > li:eq(5) > a").css("left",118);
 						
 					}
 
@@ -885,22 +887,22 @@ jQuery( document ).ready(function( $ ) {
 		  if ($(window).width() >= 740 && $(window).width() <= 1024 ) {
 
 					$("#work .group1 > ul > li:eq(0) > a").css("left",0);
-					$("#work .group1 > ul > li:eq(1) > a").css("left",71);
-					$("#work .group1 > ul > li:eq(2) > a").css("left",184);
-					$("#work .group1 > ul > li:eq(3) > a").css("left",240);
-					$("#work .group1 > ul > li:eq(4) > a").css("left",323);
-					$("#work .group1 > ul > li:eq(5) > a").css("left",427);
+					$("#work .group1 > ul > li:eq(1) > a").css("left",66);
+					$("#work .group1 > ul > li:eq(2) > a").css("left",120);
+					$("#work .group1 > ul > li:eq(3) > a").css("left",233);
+					$("#work .group1 > ul > li:eq(4) > a").css("left",290);
+					$("#work .group1 > ul > li:eq(5) > a").css("left",373);
 
 					$("#work .group1 > ul > li > a").click(function(){
 
 						if ($("#work .group1 > ul > li:eq(3) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(2) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(1) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(0) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(4) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(5) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(6) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(6) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(7) > a").hasClass("workOn")) {
 
 							$("#work .group1 > ul > li:eq(0) > a").css("left",0);
-							$("#work .group1 > ul > li:eq(1) > a").css("left",71);
-							$("#work .group1 > ul > li:eq(2) > a").css("left",184);
-							$("#work .group1 > ul > li:eq(3) > a").css("left",240);
-							$("#work .group1 > ul > li:eq(4) > a").css("left",323);
-							$("#work .group1 > ul > li:eq(5) > a").css("left",427);
+							$("#work .group1 > ul > li:eq(1) > a").css("left",66);
+							$("#work .group1 > ul > li:eq(2) > a").css("left",120);
+							$("#work .group1 > ul > li:eq(3) > a").css("left",233);
+							$("#work .group1 > ul > li:eq(4) > a").css("left",290);
+							$("#work .group1 > ul > li:eq(5) > a").css("left",373);
 
 						} 
 						return false;
@@ -913,20 +915,20 @@ jQuery( document ).ready(function( $ ) {
 						if ($("#work .group1 > ul > li:eq(3) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(2) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(1) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(0) > a").hasClass("workOn") ) {
 
 							$("#work .group1 > ul > li:eq(0) > a").css("left",0);
-							$("#work .group1 > ul > li:eq(1) > a").css("left",71);
-							$("#work .group1 > ul > li:eq(2) > a").css("left",184);
-							$("#work .group1 > ul > li:eq(3) > a").css("left",240);
-							$("#work .group1 > ul > li:eq(4) > a").css("left",323);
-							$("#work .group1 > ul > li:eq(5) > a").css("left",427);
+							$("#work .group1 > ul > li:eq(1) > a").css("left",66);
+							$("#work .group1 > ul > li:eq(2) > a").css("left",120);
+							$("#work .group1 > ul > li:eq(3) > a").css("left",233);
+							$("#work .group1 > ul > li:eq(4) > a").css("left",290);
+							$("#work .group1 > ul > li:eq(5) > a").css("left",373);
 
 						} else if ($("#work .group1 > ul > li:eq(4) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(5) > a").hasClass("workOn") ) {
 
 							$("#work .group1 > ul > li:eq(0) > a").css("left",-120);
 							$("#work .group1 > ul > li:eq(1) > a").css("left",-27);
-							$("#work .group1 > ul > li:eq(2) > a").css("left",85);
+							$("#work .group1 > ul > li:eq(2) > a").css("left",26);
 							$("#work .group1 > ul > li:eq(3) > a").css("left",141);
-							$("#work .group1 > ul > li:eq(4) > a").css("left",230);
-							$("#work .group1 > ul > li:eq(5) > a").css("left",334);
+							$("#work .group1 > ul > li:eq(4) > a").css("left",197);
+							$("#work .group1 > ul > li:eq(5) > a").css("left",286);
 
 							
 						}
@@ -941,29 +943,30 @@ jQuery( document ).ready(function( $ ) {
 						if ($("#work .group1 > ul > li:eq(1) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(0) > a").hasClass("workOn") ) {
 
 							$("#work .group1 > ul > li:eq(0) > a").css("left",0);
-							$("#work .group1 > ul > li:eq(1) > a").css("left",71);
-							$("#work .group1 > ul > li:eq(2) > a").css("left",184);
-							$("#work .group1 > ul > li:eq(3) > a").css("left",240);
-							$("#work .group1 > ul > li:eq(4) > a").css("left",323);
-							$("#work .group1 > ul > li:eq(5) > a").css("left",427);
+							$("#work .group1 > ul > li:eq(1) > a").css("left",66);
+							$("#work .group1 > ul > li:eq(2) > a").css("left",120);
+							$("#work .group1 > ul > li:eq(3) > a").css("left",233);
+							$("#work .group1 > ul > li:eq(4) > a").css("left",290);
+							$("#work .group1 > ul > li:eq(5) > a").css("left",373);
 
 						} else if ($("#work .group1 > ul > li:eq(2) > a").hasClass("workOn") ) {
 
 							$("#work .group1 > ul > li:eq(0) > a").css("left",-120);
 							$("#work .group1 > ul > li:eq(1) > a").css("left",-27);
-							$("#work .group1 > ul > li:eq(2) > a").css("left",85);
+							$("#work .group1 > ul > li:eq(2) > a").css("left",26);
 							$("#work .group1 > ul > li:eq(3) > a").css("left",141);
-							$("#work .group1 > ul > li:eq(4) > a").css("left",230);
-							$("#work .group1 > ul > li:eq(5) > a").css("left",334);
+							$("#work .group1 > ul > li:eq(4) > a").css("left",197);
+							$("#work .group1 > ul > li:eq(5) > a").css("left",286);
 
 						} else if ( $("#work .group1 > ul > li:eq(3) > a").hasClass("workOn") ) {
 
 							$("#work .group1 > ul > li:eq(0) > a").css("left",-120);
 							$("#work .group1 > ul > li:eq(1) > a").css("left",-139);
 							$("#work .group1 > ul > li:eq(2) > a").css("left",-27);
-							$("#work .group1 > ul > li:eq(3) > a").css("left",31);
-							$("#work .group1 > ul > li:eq(4) > a").css("left",114);
-							$("#work .group1 > ul > li:eq(5) > a").css("left",218);
+							$("#work .group1 > ul > li:eq(3) > a").css("left",86);
+							$("#work .group1 > ul > li:eq(4) > a").css("left",144);
+							$("#work .group1 > ul > li:eq(5) > a").css("left",227);
+
 
 						} else if ( $("#work .group1 > ul > li:eq(4) > a").hasClass("workOn") || $("#work .group1 > ul > li:eq(5) > a").hasClass("workOn") ) {
 
@@ -971,8 +974,8 @@ jQuery( document ).ready(function( $ ) {
 							$("#work .group1 > ul > li:eq(1) > a").css("left",-139);
 							$("#work .group1 > ul > li:eq(2) > a").css("left",-139);
 							$("#work .group1 > ul > li:eq(3) > a").css("left",-27);
-							$("#work .group1 > ul > li:eq(4) > a").css("left",53);
-							$("#work .group1 > ul > li:eq(5) > a").css("left",163);
+							$("#work .group1 > ul > li:eq(4) > a").css("left",29);
+							$("#work .group1 > ul > li:eq(5) > a").css("left",118);
 
 							
 						} 

@@ -289,13 +289,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ce5600', end
 /*#wrapper .bgColour8 { background-color: #efefef }*/
 
 #wrapper .bgColour0 { background-color: #d8efe6 }
-#wrapper .bgColour1 { background-color: #141329 }
-#wrapper .bgColour2 { background-color: #ffdf44 }
-#wrapper .bgColour3 { background-color: #e7e7e7 }
+#wrapper .bgColour1 { background-color: #efefef }
+#wrapper .bgColour2 { background-color: #141329 }
+#wrapper .bgColour3 { background-color: #ffdf44 }
 /*#wrapper .bgColour3 { background-color: #dfe6ef }
 #wrapper .bgColour5 { background-color: #d6d6d6 }
 #wrapper .bgColour4 { background-color: #dcdcf8 }*/
-#wrapper .bgColour4 { background-color: #d6f1c7 }
+#wrapper .bgColour4 { background-color: #dfe6ef}
 #wrapper .bgColour5 { background-color: #efefef }
 
 
@@ -1176,11 +1176,11 @@ header h1:hover { transform:scale(1.1, 1.1), -webkit-transform:scale(1.1, 1.1); 
 	#wrapper #work .workOn { font-weight: bold }
 
 	#work .group1 > ul > li:nth-child(1) > a { left: 0 }
-	#work .group1 > ul > li:nth-child(2) > a { left: 71px; margin-left: 30px }
-	#work .group1 > ul > li:nth-child(3) > a { left: 184px; margin-right: 0; margin-left: 30px }
-	#work .group1 > ul > li:nth-child(4) > a { left: 240px; margin-left: 30px }
-	#work .group1 > ul > li:nth-child(5) > a { left: 323px; margin-left: 30px }
-	#work .group1 > ul > li:nth-child(6) > a { left: 427px; margin-left: 30px } 
+	#work .group1 > ul > li:nth-child(2) > a { left: 66px; margin-left: 30px }
+	#work .group1 > ul > li:nth-child(3) > a { left: 120px; margin-right: 0; margin-left: 30px }
+	#work .group1 > ul > li:nth-child(4) > a { left: 233px; margin-left: 30px }
+	#work .group1 > ul > li:nth-child(5) > a { left: 290px; margin-left: 30px }
+	#work .group1 > ul > li:nth-child(6) > a { left: 373px; margin-left: 30px } 
 /*	#work .group1 > ul > li:nth-child(7) > a { left: 431px; margin-left: 30px } 
 	#work .group1 > ul > li:nth-child(8) > a { left: 534px; margin-left: 30px; width: 107px } 
 	#work .group1 > ul > li:nth-child(9) > a { left: 656px }*/ 
