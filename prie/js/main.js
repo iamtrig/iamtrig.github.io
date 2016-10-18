@@ -103,7 +103,7 @@ $(window).scroll(function(){
 		
 	} 
 
-	if(currentScrollPosition > getBHeight+100) {
+	if(currentScrollPosition > getBHeight) {
 
 		$("#strategy li.show p").removeClass("opa0");
 		$("#strategy ol li.right h3").removeClass("opa0");
