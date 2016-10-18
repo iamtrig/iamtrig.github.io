@@ -286,7 +286,7 @@ $(window).scroll(function(){
 	} 
 
 
-	if(currentScrollPosition > getPHeight-100) {
+	if(currentScrollPosition > getPHeight-50) {
 
 		$("#partners").removeClass("opa0");
 
@@ -372,7 +372,7 @@ $(window).scroll(function(){
 		$("#contact").removeClass("opa1");
 	} 
 
-	if(currentScrollPosition > getSSHeight+700) {
+	if(currentScrollPosition > getSSHeight+400) {
 
 		$("#subscribe").removeClass("opa0");
 
