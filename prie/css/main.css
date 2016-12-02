@@ -12,8 +12,8 @@ input[type=text], input[type=submit], input[type=reset],input[type=password], te
 
 /* for js */
 
-#wrapper .opa0 { opacity: 0 !important; -moz-transform: translate(0, 50px) rotate(0, 0); -webkit-transform: translate(0, 50px) rotate(0, 0); transform: translate(0, 50px) rotate(0, 0); transition: -webkit-transform 3000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms, opacity 3000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms; transition: transform 3000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms, opacity 3000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms; }
-#wrapper .opa1 { opacity: 1 !important; -moz-transform: translate(0, 0) rotate(0, 0); -webkit-transform: translate(0, 0) rotate(0, 0); transform: translate(0, 0) rotate(0, 0); transition: -webkit-transform 3000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms, opacity 3000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms; transition: transform 3000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms, opacity 3000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms; }
+#wrapper .opa0 { opacity: 0 !important; -moz-transform: translate(0, 50px) rotate(0, 0); -webkit-transform: translate(0, 50px) rotate(0, 0); transform: translate(0, 50px) rotate(0, 0); transition: -webkit-transform 2000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms, opacity 2000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms; transition: transform 2000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms, opacity 2000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms; }
+#wrapper .opa1 { opacity: 1 !important; -moz-transform: translate(0, 0) rotate(0, 0); -webkit-transform: translate(0, 0) rotate(0, 0); transform: translate(0, 0) rotate(0, 0); transition: -webkit-transform 2000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms, opacity 2000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms; transition: transform 2000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms, opacity 2000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms; }
 
 
 

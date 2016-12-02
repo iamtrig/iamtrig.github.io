@@ -103,7 +103,7 @@ $(window).scroll(function(){
 		
 	} 
 
-	if(currentScrollPosition > getBHeight) {
+	if(currentScrollPosition > getBHeight-300) {
 
 		$("#strategy li.show p").removeClass("opa0");
 		$("#strategy ol li.right h3").removeClass("opa0");
@@ -125,7 +125,7 @@ $(window).scroll(function(){
 
 
 
-	if(currentScrollPosition > getSHeight-400) {
+	if(currentScrollPosition > getSHeight-300) {
 
 		$("#work .work1.width1750").removeClass("opa0");
 
@@ -137,7 +137,7 @@ $(window).scroll(function(){
 		
 	} 
 
-	if(currentScrollPosition > getSHeight-100) {
+	if(currentScrollPosition > getSHeight-200) {
 
 		$("#work h2").removeClass("opa0");
 		$("#work ul a ol li.show h3").removeClass("opa0");
@@ -286,7 +286,7 @@ $(window).scroll(function(){
 	} 
 
 
-	if(currentScrollPosition > getPHeight-50) {
+	if(currentScrollPosition > getPHeight-300) {
 
 		$("#partners").removeClass("opa0");
 
@@ -299,7 +299,7 @@ $(window).scroll(function(){
 		$("#partners").removeClass("opa1");
 	} 
 
-	if(currentScrollPosition > getCHeight-300) {
+	if(currentScrollPosition > getCHeight-500) {
 
 		$("#people .width1460 h2").removeClass("opa0");
 		$("#people .width1460 h2").addClass("opa1");
@@ -359,7 +359,7 @@ $(window).scroll(function(){
 		$("#people ul li:eq(2)").removeClass("opa1");
 	} 
 
-	if(currentScrollPosition > getSSHeight+300) {
+	if(currentScrollPosition > getSSHeight+200) {
 
 		$("#contact").removeClass("opa0");
 
