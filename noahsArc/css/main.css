@@ -744,6 +744,9 @@ footer .groupping2 ul ul > li > a:hover { opacity: 1; margin-left: 10px }
 	#work ul.secondUl li a { margin-left: 0; font-size: 11px }
 	#work .groupping2Bg { margin-top: 440px; height: 783px }
 	#people .descript2 a { top: 386px }
+
+	#banner ul li .groupping { height: 555px }
+	#content { padding-top: 555px }
 }
 
 @media only screen and (max-width: 360px) { 
