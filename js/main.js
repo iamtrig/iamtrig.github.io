@@ -6,6 +6,7 @@ jQuery( document ).ready(function( $ ) {
 		// $(".loading").hide();
 
 
+
 	        if ($(window).width() <= 1024) {
 
 	        	$(".loading").hide();
