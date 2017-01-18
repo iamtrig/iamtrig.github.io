@@ -283,20 +283,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ce5600', end
 
 #wrapper .bgColour3 { background-color: #d6d6d6 }
 #wrapper .bgColour4 { background-color: #dfe6ef }
-/*#wrapper .bgColour5 { background-color: #d6f1c7 }*/
-/*#wrapper .bgColour6 { background-color: #011936 }
-#wrapper .bgColour7 { background-color: #e6efef }*/
-/*#wrapper .bgColour8 { background-color: #efefef }*/
 
-#wrapper .bgColour0 { background-color: #d8efe6 }
-#wrapper .bgColour1 { background-color: #efefef }
-#wrapper .bgColour2 { background-color: #141329 }
-#wrapper .bgColour3 { background-color: #ffdf44 }
-/*#wrapper .bgColour3 { background-color: #dfe6ef }
-#wrapper .bgColour5 { background-color: #d6d6d6 }
-#wrapper .bgColour4 { background-color: #dcdcf8 }*/
-#wrapper .bgColour4 { background-color: #dfe6ef}
-#wrapper .bgColour5 { background-color: #efefef }
+#wrapper .bgColour0 { background-color: #eaeaea }
+#wrapper .bgColour1 { background-color: #d8efe6 }
+#wrapper .bgColour2 { background-color: #efefef }
+#wrapper .bgColour3 { background-color: #141329 }
+#wrapper .bgColour4 { background-color: #ffdf44 }
+#wrapper .bgColour5 { background-color: #dfe6ef}
+/*#wrapper .bgColour5 { background-color: #efefef }*/
 
 
 #wrapper .lapPos0 { background-position: 0px 0px; }

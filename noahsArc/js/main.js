@@ -42,8 +42,10 @@ $(window).load(function(){
 
 		$(".loadingPage span:eq(0)").addClass("left");
 		$(".loadingPage span:eq(1)").addClass("right");
+		$(".loadingPage p").addClass("opa");
 
 		$("#banner").delay(1500).queue(function(){
+			$(".loadingPage p").hide();
 			$("#banner ul li .groupping").removeClass("opa");
 
 			$("#banner ul li p a").delay(1500).queue(function(){

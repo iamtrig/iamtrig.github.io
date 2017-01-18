@@ -14,25 +14,26 @@ input[type=text], input[type=submit], input[type=reset],input[type=password], te
 .loadingPage { width: 100%; height: 100%; text-align: center; }
 .loadingPage span { transition: 0; z-index: 1000000; position: absolute; top: 0; left: 0; display: inline-block; width: 50%; height: 100%; background-color: #fff }
 .loadingPage span:nth-child(2) { left: auto; right: 0; }
+.loadingPage p { z-index: 100000000; top: 0; left: 0; position: absolute; line-height: 31; color: #e3e3e3; width: 100%; height: 100%; text-align: center; font-size: 30px;  }
 
 
 
 /* js */
 
-.blur { transition: 0.4s; transform: scale(1.1,1.1); filter: blure(10px);-webkit-filter: blur(10px); -moz-filter: blur(10px); -o-filter: blur(10px); -ms-filter: blur(5px); }
+.blur { -webkit-transition: 0.4s; transition: 0.4s; -webkit-transform: scale(1.1,1.1); -ms-transform: scale(1.1,1.1); transform: scale(1.1,1.1); filter: blure(10px);-webkit-filter: blur(10px); -moz-filter: blur(10px); -o-filter: blur(10px); -ms-filter: blur(5px); }
 
-.scaleBigger { transition: 0.5s; transform: scale(1.1,1.1); }
+.scaleBigger { -webkit-transition: 0.5s; transition: 0.5s; -webkit-transform: scale(1.1,1.1); -ms-transform: scale(1.1,1.1); transform: scale(1.1,1.1); }
 
-#wrapper .right { right: -50%; transition: 1s; }
-#wrapper .left { left: -50%; transition: 1s; }
+#wrapper .right { right: -50%; -webkit-transition: 1s; transition: 1s; }
+#wrapper .left { left: -50%; -webkit-transition: 1s; transition: 1s; }
 
 #wrapper .zIndex { z-index: 1; }
 #wrapper .zIndexMinus { z-index: -1 }
 
-#wrapper .fontSize { font-size: 0 !important; transition: 0s; }
-#wrapper .heightZero { height: 0 !important; transition: 0s; }
+#wrapper .fontSize { font-size: 0 !important; -webkit-transition: 0s; transition: 0s; }
+#wrapper .heightZero { height: 0 !important; -webkit-transition: 0s;transition: 0s; }
 
-#wrapper .opa { opacity: 0 !important; transition: 0s; }
+#wrapper .opa { opacity: 0 !important; -webkit-transition: 0s; transition: 0s; }
 
 .left70 { left: 70% !important }
 .left40 { left: 40% !important }
@@ -51,11 +52,11 @@ header h1 a { z-index: 1000; position: fixed; top: 22px; left: 100px;  opacity: 
 header h1 a:hover { opacity: 1; }
 
 header h2 { z-index: 1000; position: fixed; top: 23px; left: 50px }
-header h2 .groupping { opacity: 0.5; position: relative; cursor: pointer; height: 29px; width: 29px;transition: 0.3s;  }
-header h2 .groupping:hover { opacity: 1; transition: 0.3s; }
-header h2 .groupping:hover span { top: auto; left: auto; right: auto; bottom: auto; top: 12px; left: 12px;transition: 0.3s;  }
+header h2 .groupping { opacity: 0.5; position: relative; cursor: pointer; height: 29px; width: 29px; -webkit-transition: 0.3s; transition: 0.3s;  }
+header h2 .groupping:hover { opacity: 1;  -webkit-transition: 0.3s; transition: 0.3s; }
+header h2 .groupping:hover span { top: auto; left: auto; right: auto; bottom: auto; top: 12px; left: 12px; -webkit-transition: 0.3s; transition: 0.3s;  }
 header h2 .groupping:hover span:nth-child(5) { width: 29px; left: 0 }
-header h2 span { position: absolute; display: inline-block; width: 5px; height: 5px;  background-color: #210e20; transition: 0.3s;  }
+header h2 span { position: absolute; display: inline-block; width: 5px; height: 5px;  background-color: #210e20;  -webkit-transition: 0.3s; transition: 0.3s;  }
 header h2 span:nth-child(3), header h2 span:nth-child(6), header h2 span:nth-child(9) { right: 0 }
 header h2 span:nth-child(9), header h2 span:nth-child(8), header h2 span:nth-child(7) { bottom: 0 }
 header h2 span:nth-child(8),header h2 span:nth-child(2), header h2 span:nth-child(5) { left: 12px }
@@ -78,19 +79,19 @@ header .lang a:hover { opacity: 1 }
 
 #banner { padding-top: 70px; background-attachment: scroll; position: fixed; z-index: 1; width: 100%; border-right: 50px solid #fff; left: 0; border-left: 50px solid #fff; box-sizing: border-box; }
 #banner > ul { overflow: hidden; width: 100%; }
-#banner > ul > li { transition: 0.4s; }
+#banner > ul > li { -webkit-transition: 0.4s; }
 #banner > ul > li > a { transition: 0.8s; line-height: 12px; top: 410px; text-align:right; right: 100px; z-index: 100; font-size: 14px; position: absolute; color: #fff; font-family: Playfair Display, serif; font-style: italic; letter-spacing: 1px }
 #banner > ul > li > a .break { display: block; }
-#banner > ul > li > a .underline { width: 100%; display: inline-block; background-color: #fff; height: 2px; margin-top: 5px;transition: 0.3s;  }
-#banner > ul > li:nth-child(2) > a { opacity: 0.5; top: 475px; padding-top: 10px;  transition: 0.3s; } 
-#banner > ul > li:nth-child(3) > a { opacity: 0.5; top: 540px; padding-top: 10px;  transition: 0.3s; } 
-#banner > ul > li:nth-child(3) > a:hover, #banner > ul > li:nth-child(2) > a:hover { opacity: 1; text-indent: 0; transition: 0.3s; }
-#banner > ul > li:nth-child(3) > a:hover .underline, #banner > ul > li:nth-child(2) > a:hover .underline { width: 100%; transition: 0.3s; }
-#banner > ul > li:nth-child(2) > a .underline, #banner > ul > li:nth-child(3) > a .underline { width: 0px; transition: 0.3s;  } 
-#banner ul li .groupping { transition: 1s; color: #fff; position: relative; width: 100%; height: 750px; background: url('../imgs/banner1.jpg') no-repeat top center; background-size: cover }
-#banner ul li h3 {  transition: 0.8s; padding-top: 380px; font-size: 55px; letter-spacing: 4px; padding-left: 100px; line-height: 70px; } 
+#banner > ul > li > a .underline { width: 100%; display: inline-block; background-color: #fff; height: 2px; margin-top: 5px;-webkit-transition: 0.3s; transition: 0.3s;  }
+#banner > ul > li:nth-child(2) > a { opacity: 0.5; top: 475px; padding-top: 10px;  -webkit-transition: 0.3s; transition: 0.3s; } 
+#banner > ul > li:nth-child(3) > a { opacity: 0.5; top: 540px; padding-top: 10px;  -webkit-transition: 0.3s; transition: 0.3s; } 
+#banner > ul > li:nth-child(3) > a:hover, #banner > ul > li:nth-child(2) > a:hover { opacity: 1; text-indent: 0; -webkit-transition: 0.3s; transition: 0.3s; }
+#banner > ul > li:nth-child(3) > a:hover .underline, #banner > ul > li:nth-child(2) > a:hover .underline { width: 100%; -webkit-transition: 0.3s; transition: 0.3s; }
+#banner > ul > li:nth-child(2) > a .underline, #banner > ul > li:nth-child(3) > a .underline { width: 0px; -webkit-transition: 0.3s; transition: 0.3s;  } 
+#banner ul li .groupping { -webkit-transition: 1s; transition: 1s; color: #fff; position: relative; width: 100%; height: 750px; background: url('../imgs/banner1.jpg') no-repeat top center; background-size: cover }
+#banner ul li h3 { -webkit-transition: 0.8s; transition: 0.8s; padding-top: 380px; font-size: 55px; letter-spacing: 4px; padding-left: 100px; line-height: 70px; } 
 #banner ul li h3 .break { display: block; }
-#banner ul li p.descript {  transition: 0.8s; letter-spacing: 0.4px; padding-top: 10px; width: 680px; text-transform: uppercase; padding-left: 100px; font-size: 14px }
+#banner ul li p.descript { -webkit-transition: 0.8s; transition: 0.8s; letter-spacing: 0.4px; padding-top: 10px; width: 680px; text-transform: uppercase; padding-left: 100px; font-size: 14px }
 #banner ul li .gradi { opacity: 0.5; position: absolute; top: 0; display: block; width: 100%; height: 277px; background: url('../imgs/gradiTop.png') repeat-x; }
 #banner ul li .gradi.btm { background-image: url('../imgs/gradiBtm.png'); top: auto; bottom: 0 }
 #banner ul li p a { position: absolute; top: 315px; left: 100px; display: block; text-align: center; line-height: 50px; color: #fff; background-color: #ff4d3f; letter-spacing: 3px; font-size: 14px; font-weight: 500; width: 180px; height: 50px; border-radius: 30px  }
@@ -132,7 +133,7 @@ header .lang a:hover { opacity: 1 }
 #about .seper { display: block; width: 1px; height: 100%; background-color: #ffc000; float: left; margin-left: 20px; margin-right: 30px;}
 #about .descript {font-weight: 300; font-size: 14px; opacity: 0.7; display: block; text-align: left; padding-left: 10px; line-height: 18px; }
 
-#about .deco { transition: 2s; display: inline-block; margin-top: 127px; text-align: center; width: 1180px; height: 800px; border: 10px solid #e8e6e8  }
+#about .deco { -webkit-transition: 2s; transition: 2s; display: inline-block; margin-top: 127px; text-align: center; width: 1180px; height: 800px; border: 10px solid #e8e6e8  }
 
 
 
@@ -147,21 +148,21 @@ header .lang a:hover { opacity: 1 }
 #services .words p .break { display: block; margin: 10px 0 }
 #services .words p .bolder { font-size: 15px; font-weight: 500; display: block; margin-top: 22px; font-style: italic }
 
-#services .imgs { transition: 0.5s; position: relative; height: 435px; margin-top: 70px }
+#services .imgs { -webkit-transition: 0.5s; transition: 0.5s; position: relative; height: 435px; margin-top: 70px }
 #services .imgs ul { position: relative; }
 #services .imgs ul li { position: relative; display: inline-block; }
 #services .imgs ul li:first-child { left: 133px; height: 431px }
 #services .imgs ul li:nth-child(2) { left: 290px; height: 431px }
 #services .imgs ul li:nth-child(2) .img { background-image: url('../imgs/testi2.jpg'); }
 #services .imgs .line, #services .imgs .deco { display: block; width: 2px; height: 70%; margin-top: 5%; background-color: #ff6600; float: left }
-#services .imgs .img { transition: 1s;text-indent: -999999px; width: 312px; height: 431px; background: url('../imgs/testi1.jpg') no-repeat; }
-#services .imgs .quote { top: 0; font-weight: 500; position: absolute; transform: rotate(90deg); width: 330px; left: -210px; top: auto; bottom: 140px; letter-spacing: 1.5px; font-size: 17px; text-align: right; }
+#services .imgs .img { -webkit-transition: 1s; transition: 1s;text-indent: -999999px; width: 312px; height: 431px; background: url('../imgs/testi1.jpg') no-repeat; }
+#services .imgs .quote { top: 0; font-weight: 500; position: absolute; -webkit-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg); width: 330px; left: -210px; top: auto; bottom: 140px; letter-spacing: 1.5px; font-size: 17px; text-align: right; }
 #services .imgs h3 { position: absolute; width: 100%; text-align: center; color: #fff; bottom: 20px; font-size: 14px; font-weight: 300; letter-spacing: 2px }
 #services .imgs ul li:last-child { z-index: 50; position: absolute; right: 50px; top: 45%  }
 #services .imgs ul li:last-child a { font-size: 14px; letter-spacing: 2px; font-weight: 500; color: #210e20 }
-#services .imgs ul li:last-child a .underline { width: 0; display: block; height: 0; background-color: #210e20; transition: 0.3s; }
-#services .imgs ul li:last-child a:hover .underline { width: 100%; height: 2px; transition: 0.3s; }
-#services .imgs .deco { transition: 0.7s; z-index: 3; width: 100px; position: absolute; right: 59px; top: 0 }
+#services .imgs ul li:last-child a .underline { width: 0; display: block; height: 0; background-color: #210e20; -webkit-transition: 0.3s; transition: 0.3s; }
+#services .imgs ul li:last-child a:hover .underline { width: 100%; height: 2px; -webkit-transition: 0.3s; transition: 0.3s; }
+#services .imgs .deco { -webkit-transition: 0.7s; transition: 0.7s; z-index: 3; width: 100px; position: absolute; right: 59px; top: 0 }
 
 
 
@@ -176,8 +177,8 @@ header .lang a:hover { opacity: 1 }
 #work .groupping .break { display: block; margin: 10px 0 }
 #work ul.firstUl { display: inline-block; position: absolute; top: -53px; right: 0; width: 49%; text-align: right  }
 #work ul.firstUl > li  { display: inline-block; margin-left: 20px }
-#work ul.firstUl > li > a { transition: 0.3s; font-weight: 500; position: relative;  padding: 0 5px;font-size: 16px; letter-spacing: 1px }
-#work ul.firstUl li a:hover .line, #work ul.firstUl li a.active .line { position: absolute; left: 0; top: 49%; display: inline-block; height: 1px; width: 100%; background-color: #210e20; transition: 0.3s; }
+#work ul.firstUl > li > a { -webkit-transition: 0.3s; transition: 0.3s; font-weight: 500; position: relative;  padding: 0 5px;font-size: 16px; letter-spacing: 1px }
+#work ul.firstUl li a:hover .line, #work ul.firstUl li a.active .line { position: absolute; left: 0; top: 49%; display: inline-block; height: 1px; width: 100%; background-color: #210e20; -webkit-transition: 0.3s; transition: 0.3s; }
 #work ul.secondUl { top: 61px; position: absolute; width: 100%; text-align: left; left: 0 }
 #work ul.secondUl li { width: 45%; margin-left: 3%; display: inline-block; margin-bottom: 17px; letter-spacing: 1px; font-size: 14px;  }
 #work ul.secondUl li a { font-weight: 300; opacity: 0.5; margin-left: 15px; line-height: 20px;  }
@@ -190,18 +191,18 @@ header .lang a:hover { opacity: 1 }
 #work h3 { position: absolute; top: -354px; left: 0; width: 230px; height: 50px; line-height: 50px; background-color: #fff; text-align: center; letter-spacing: 1.5px; font-weight: 500 }
 #work .biggerImg { margin-top: -384px; width: 100%; height: 676px; background: url('../imgs/houseImg1.jpg') no-repeat; text-indent: -9999999px; }
 #work .groupping2 ul { position: relative; width: 100%; height: 210px; overflow: hidden }
-#work .groupping2 li { transition: 0.3s; cursor: pointer; z-index: 100; position: absolute; top: 0;left: 0;background: url('../imgs/selImg1_col.jpg') no-repeat; background-size: cover;  height: 100%; font-size: 0; display: inline-block; width: 30%}
+#work .groupping2 li { -webkit-transition: 0.3s; transition: 0.3s; cursor: pointer; z-index: 100; position: absolute; top: 0;left: 0;background: url('../imgs/selImg1_col.jpg') no-repeat; background-size: cover;  height: 100%; font-size: 0; display: inline-block; width: 30%}
 #work .groupping2 li:nth-child(2) { left: 30%; background-image: url('../imgs/selImg2_col.jpg'); }
 #work .groupping2 li:nth-child(3) { left: 60%; background-image: url('../imgs/selImg3_col.jpg');  }
 #work .groupping2 li:nth-child(4) { left: 90%; background-image: url('../imgs/selImg4_col.jpg');  }
 
-#work .groupping2 li:hover .monoImg { opacity: 0;transition: 0.3s; }
-#work .groupping2 li:hover { transition: 0.3s; }
+#work .groupping2 li:hover .monoImg { opacity: 0;-webkit-transition: 0.3s; transition: 0.3s; }
+#work .groupping2 li:hover { -webkit-transition: 0.3s; transition: 0.3s; }
 #work .groupping2 li:hover .gradi { opacity: 0 }
 
 #work .groupping2 li .rel { width: 100%; height: 100%; position: relative; }
 
-#work .groupping2 li .monoImg {transition: 0.3s; display: inline-block; width: 100%; height: 100%; background: url('../imgs/selImg1.jpg') no-repeat; background-size: cover; }
+#work .groupping2 li .monoImg {-webkit-transition: 0.3s; transition: 0.3s; display: inline-block; width: 100%; height: 100%; background: url('../imgs/selImg1.jpg') no-repeat; background-size: cover; }
 #work .groupping2 li:nth-child(2) .monoImg { background-image: url('../imgs/selImg2.jpg'); }
 #work .groupping2 li:nth-child(3) .monoImg { background-image: url('../imgs/selImg3.jpg'); }
 #work .groupping2 li:nth-child(4) .monoImg { background-image: url('../imgs/selImg4.jpg'); }
@@ -222,7 +223,7 @@ header .lang a:hover { opacity: 1 }
 #people .bg {/* overflow: hidden;*/ position: relative; width: 1200px; margin: 0 auto; }
 #people h2 { font-size: 25px; letter-spacing: 2px; text-align: center; margin-bottom: 40px; }
 #people .watchUs { position: absolute; top: -25px; text-align: center; width: 100%; font-size: 14px; font-weight: 300; letter-spacing: 1px; opacity: 0.5 }
-#people .vid { transition: 0.5s; position: relative; width: 100%; text-align: center; height: 530px; background: url('../imgs/peopleVid.jpg') no-repeat; font-size: 0}
+#people .vid { -webkit-transition: 0.5s; transition: 0.5s; position: relative; width: 100%; text-align: center; height: 530px; background: url('../imgs/peopleVid.jpg') no-repeat; font-size: 0}
 #people .vid a { opacity: 0.5; top: 32%; left: 530px; position: absolute; display: inline-block; width: 200px; height: 200px; background: url('../imgs/play.png') no-repeat; }
 #people .vid a:hover { opacity: 0.8 }
 
@@ -235,21 +236,21 @@ header .lang a:hover { opacity: 1 }
 #people ul { text-align: center }
 #people ul li { cursor: pointer; display: inline-block; position: relative; width: 308px; height: auto;}
 #people ul li .groupping { margin-top: 0px; position: relative; width: 308px; height: 380px; text-align: center; }
-#people ul li .img {transition: 0.3s; font-size: 0; display: block; width: 100%; height: 100%; background: url('../imgs/ceo_col.jpg') no-repeat center center; background-size: cover }
+#people ul li .img {-webkit-transition: 0.3s; transition: 0.3s; font-size: 0; display: block; width: 100%; height: 100%; background: url('../imgs/ceo_col.jpg') no-repeat center center; background-size: cover }
 #people ul li:nth-child(2) .img { background-image: url('../imgs/cfo1_col.jpg'); }
 #people ul li:nth-child(3) .img { background-image: url('../imgs/cfo2_col.jpg'); }
-#people ul li .img .monoImg { transition: 0.3s; z-index: 100; position: absolute; display: inline-block; width: 100%; height: 100%; left: 0; background: url('../imgs/ceo.jpg') no-repeat; }
+#people ul li .img .monoImg { -webkit-transition: 0.3s; transition: 0.3s; z-index: 100; position: absolute; display: inline-block; width: 100%; height: 100%; left: 0; background: url('../imgs/ceo.jpg') no-repeat; }
 #people ul li:nth-child(2) .img .monoImg { background-image: url('../imgs/cfo1.jpg'); }
 #people ul li:nth-child(3) .img .monoImg { background-image: url('../imgs/cfo2.jpg'); }
 #people ul li .break { display: block; width: 100%; margin: -5px 0  }
-#people li h3 { opacity: 0; transition: 0.3s; position: absolute; top: 0; letter-spacing: 1px; width: 100%; text-align: center; font-weight: 500; font-size: 14px }
+#people li h3 { opacity: 0; -webkit-transition: 0.3s; transition: 0.3s; position: absolute; top: 0; letter-spacing: 1px; width: 100%; text-align: center; font-weight: 500; font-size: 14px }
 
 #people ul li:nth-child(2) { float: left; margin-left: 50px; }
 #people ul li:nth-child(3) { float: right; margin-right: 50px }
 
-#people li.active .monoImg, #people li:hover .monoImg { opacity: 0; transition: 0.3s; }
-#people li.active .img, #people li:hover .img { margin-top: 70px; transition: 0.3s;}
-#people li.active h3, #people li:hover h3 { opacity: 1; transition: 0.3s; }
+#people li.active .monoImg, #people li:hover .monoImg { opacity: 0; -webkit-transition: 0.3s; transition: 0.3s; }
+#people li.active .img, #people li:hover .img { margin-top: 70px; -webkit-transition: 0.3s; transition: 0.3s;}
+#people li.active h3, #people li:hover h3 { opacity: 1; -webkit-transition: 0.3s; transition: 0.3s; }
 
 #people .quote {  position: relative; width: 900px; margin: 0 auto; padding: 80px 0 90px; }
 #people .quote .aLittle { padding-left: 20px; font-family: Playfair Display, serif; font-size: 37px; margin: 10px 0 20px 0; display: block; letter-spacing: 4px; font-weight: 500; font-style: italic }
@@ -467,7 +468,7 @@ footer .groupping2 ul ul > li > a:hover { opacity: 1; margin-left: 10px }
 	#services .imgs .quote { left: -168px }
 	
 	#services .imgs .deco { display: none }
-	#services .imgs ul li:last-child { right: -55px; transform: rotate(90deg); }
+	#services .imgs ul li:last-child { right: -55px; -webkit-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg); }
 	
 	#work .groupping1 { width: 700px }
 
@@ -560,7 +561,7 @@ footer .groupping2 ul ul > li > a:hover { opacity: 1; margin-left: 10px }
 	#people ul li:nth-child(3) { margin-right: 10px }
 
 
-	#people li.active .img, #people li:hover .img { margin-top: 60px; transition: 0.3s;}
+	#people li.active .img, #people li:hover .img { margin-top: 60px; -webkit-transition: 0.3s; transition: 0.3s;}
 	#people .quote { width: 500px; padding-top: 50px }
 	#people .quote .aLittle { font-size: 20px }
 	#people .quote .continue { width: 85%; padding-left: 9% }
@@ -582,7 +583,7 @@ footer .groupping2 ul ul > li > a:hover { opacity: 1; margin-left: 10px }
 
 	#contact .contactBg .groupping { width: 600px }
 	
-	.scaleBigger { transition: 0.5s; transform: scale(1,1); }
+	.scaleBigger { -webkit-transition: 0.5s; transition: 0.5s; -webkit-transform: scale(1,1); -ms-transform: scale(1,1); transform: scale(1,1); }
 
 }
 
