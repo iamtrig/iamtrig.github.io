@@ -365,55 +365,125 @@ jQuery( document ).ready(function( $ ) {
 		// var count = 0;
 		// $("#wrapper").bind('DOMMouseScroll mousewheel', function(e){
 
-			function naviA (duration) {
-				$('nav a').on('click', function(event) {
 
-					var navIndex = $(this).index();
+
+
+			// function naviA (duration) {
+			// 	$('nav a').on('click', function(event) {
+			// 		$("#about, #work, #contact").removeClass();
+			// 		var navIndex = $(this).index();
 					
-					$(this).siblings().removeClass("navActive");
-					$(this).siblings().find("span").removeClass("spanActive");
+			// 		$(this).siblings().removeClass("navActive");
+			// 		$(this).siblings().find("span").removeClass("spanActive");
 
-					$(this).addClass("navActive");
-					$(this).find("span").addClass("spanActive");
+			// 		$(this).addClass("navActive");
+			// 		$(this).find("span").addClass("spanActive");
 
-					$("#about, #work, #contact").removeClass();
+					
 
-					if ( navIndex == 0 ) {
-						$("#about").addClass("zero");
-						$("#work").addClass("ninetyFive");
+			// 		if ( navIndex == 0 ) {
+			// 			$("#about").addClass("zero");
+			// 			$("#work").addClass("ninetyFive");
 
 
-					} else if ( navIndex == 1 ) {
-						$("#about").addClass("minus100");
-						$("#work").addClass("zero");
+			// 		} else if ( navIndex == 1 ) {
+			// 			$("#about").addClass("minus100");
+			// 			$("#work").addClass("zero");
 	
-						$("#contact").addClass("ninetyFive");
+			// 			$("#contact").addClass("ninetyFive");
 
 
-					} else if ( navIndex == 2 ) {
+			// 		} else if ( navIndex == 2 ) {
 
 
-						$("#about").addClass("minus100");
-						$("#work").addClass("minus100");
-						$("#contact").addClass("zero");
-					} else {
+			// 			$("#about").addClass("minus100");
+			// 			$("#work").addClass("minus100");
+			// 			$("#contact").addClass("zero");
+			// 		} else {
+			// 			$("#about, #work, #contact").removeClass();
+			// 		}
 
-					}
+			// 	    var target = $( $(this).attr('href') );
 
-				    var target = $( $(this).attr('href') );
-
-				    if( target.length ) {
-				        event.preventDefault();
-				        $('html, body').animate({
-				            scrollTop: target.offset().top
-				        }, duration);
-				    }
-				});
-			}
+			// 	    if( target.length ) {
+			// 	        event.preventDefault();
+			// 	        $('html, body').animate({
+			// 	            scrollTop: target.offset().top
+			// 	        }, duration);
+			// 	    }
+			// 	});
+			// }
 
 			
-			naviA();
+			// naviA();
 
+
+
+			// function naviA (duration) {
+			// 	$('nav a').on('click', function(event) {
+					
+			// 	    var target = $( $(this).attr('href') );
+
+			// 	    if( target.length ) {
+			// 	        event.preventDefault();
+			// 	        $('html, body').animate({
+			// 	            scrollTop: target.offset().top
+			// 	        }, duration);
+			// 	    }
+			// 	});
+			// }
+
+			
+			// naviA();
+
+			
+			$("nav a:eq(0)").click(function(){
+				$(this).siblings().removeClass("navActive");
+				$(this).siblings().find("span").removeClass("spanActive");
+
+				$(this).addClass("navActive");
+				$(this).find("span").addClass("spanActive");
+
+				$("#about, #work, #contact").removeClass();
+				
+				$("#about").addClass("zero");
+				$("#work").addClass("ninetyFive");
+
+				return false;
+			});
+
+			$("nav a:eq(1)").click(function(){
+				$(this).siblings().removeClass("navActive");
+				$(this).siblings().find("span").removeClass("spanActive");
+
+				$(this).addClass("navActive");
+				$(this).find("span").addClass("spanActive");
+
+				$("#about, #work, #contact").removeClass();
+
+				$("#about").addClass("minus100");
+				$("#work").addClass("zero");
+	
+				$("#contact").addClass("ninetyFive");
+
+				return false;
+			});
+
+			$("nav a:eq(2)").click(function(){
+				$(this).siblings().removeClass("navActive");
+				$(this).siblings().find("span").removeClass("spanActive");
+
+				$(this).addClass("navActive");
+				$(this).find("span").addClass("spanActive");
+
+				$("#about, #work, #contact").removeClass();
+
+				$("#about").addClass("minus100");
+				$("#work").addClass("minus100");
+				$("#contact").addClass("zero");
+
+				return false;
+			});
 
 
 		// prev and next button on each page
