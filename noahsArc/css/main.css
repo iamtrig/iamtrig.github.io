@@ -14,7 +14,7 @@ input[type=text], input[type=submit], input[type=reset],input[type=password], te
 .loadingPage { width: 100%; height: 100%; text-align: center; }
 .loadingPage span { transition: 0; z-index: 1000000; position: absolute; top: 0; left: 0; display: inline-block; width: 50%; height: 100%; background-color: #fff }
 .loadingPage span:nth-child(2) { left: auto; right: 0; }
-.loadingPage p { z-index: 100000000; top: 0; left: 0; position: absolute; line-height: 31; color: #e3e3e3; width: 100%; height: 100%; text-align: center; font-size: 30px;  }
+.loadingPage p { z-index: 100000000; top: 0; left: 0; position: absolute; line-height: 31; color: #210e20; width: 100%; height: 100%; text-align: center; font-size: 30px;  }
 
 
 

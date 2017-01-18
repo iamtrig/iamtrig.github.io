@@ -1170,11 +1170,12 @@ header h1:hover { transform:scale(1.1, 1.1), -webkit-transform:scale(1.1, 1.1); 
 	#wrapper #work .workOn { font-weight: bold }
 
 	#work .group1 > ul > li:nth-child(1) > a { left: 0 }
-	#work .group1 > ul > li:nth-child(2) > a { left: 66px; margin-left: 30px }
-	#work .group1 > ul > li:nth-child(3) > a { left: 120px; margin-right: 0; margin-left: 30px }
-	#work .group1 > ul > li:nth-child(4) > a { left: 233px; margin-left: 30px }
-	#work .group1 > ul > li:nth-child(5) > a { left: 290px; margin-left: 30px }
-	#work .group1 > ul > li:nth-child(6) > a { left: 373px; margin-left: 30px } 
+	#work .group1 > ul > li:nth-child(2) > a { left: 76px; margin-left: 30px }
+	#work .group1 > ul > li:nth-child(3) > a { left: 170px; margin-right: 0; margin-left: 30px }
+	#work .group1 > ul > li:nth-child(4) > a { left: 225px; margin-left: 30px }
+	#work .group1 > ul > li:nth-child(5) > a { left: 337px; margin-left: 30px }
+	#work .group1 > ul > li:nth-child(6) > a { left: 393px; margin-left: 30px } 
+	#work .group1 > ul > li.planetsList > a { width: 95px }
 /*	#work .group1 > ul > li:nth-child(7) > a { left: 431px; margin-left: 30px } 
 	#work .group1 > ul > li:nth-child(8) > a { left: 534px; margin-left: 30px; width: 107px } 
 	#work .group1 > ul > li:nth-child(9) > a { left: 656px }*/ 
