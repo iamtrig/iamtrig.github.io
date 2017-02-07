@@ -47,14 +47,16 @@ jQuery( document ).ready(function( $ ) {
 			$(".greyBg").addClass("lessIndex");
 			$("footer, header .menu, #border .border, header .sns, h1 a, header #lang").removeClass("default");
 			$(".greyBg p").addClass("smaller");
-
+			
+			$(".greyBg p").html("WELCOME");
 		  next();
 		});
 
 
 
-		$("#intro").delay(3000).queue(function(next) {
+		$("#intro").delay(3300).queue(function(next) {
 			$("#intro").removeClass("translateMinus");
+
 
 			$("#intro .groupping .groupping1").delay(600).queue(function(next) {
 				$("#intro .groupping .groupping1").removeClass("default");
@@ -70,7 +72,7 @@ jQuery( document ).ready(function( $ ) {
 						$("#intro .groupping").removeClass("ani");
 						$("#intro .groupping").removeClass("default");
 					  next();
-						$("header .hoverBg").delay(1500).queue(function(next) {
+						$("header .hoverBg").delay(1800).queue(function(next) {
 							$(this).addClass("aniForHoverBg");
 							$("header h2.menu").addClass("aniForMenu");
 							next();
@@ -411,7 +413,14 @@ jQuery( document ).ready(function( $ ) {
 			return false;
 		});
 
+	
 
+		$("#about .groupping2 > ul > li").mouseenter(function(){
+			$(this).addClass("active");
+			$(this).siblings().removeClass("active");
+
+
+		});
 		// scroll
 
 		// var height = $(window).height();
