@@ -56,7 +56,6 @@ jQuery( document ).ready(function( $ ) {
 
 		$("#intro").delay(3300).queue(function(next) {
 			$("#intro").removeClass("translateMinus");
-			$(".greyBg p").html("WELCOME");
 
 			$("#intro .groupping .groupping1").delay(600).queue(function(next) {
 				$("#intro .groupping .groupping1").removeClass("default");
