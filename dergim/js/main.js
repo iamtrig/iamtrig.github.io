@@ -54,7 +54,7 @@ jQuery( document ).ready(function( $ ) {
 
 
 
-		$("#intro").delay(3300).queue(function(next) {
+		$("#intro").delay(3000).queue(function(next) {
 			$("#intro").removeClass("translateMinus");
 
 			$("#intro .groupping .groupping1").delay(600).queue(function(next) {
@@ -71,7 +71,7 @@ jQuery( document ).ready(function( $ ) {
 						$("#intro .groupping").removeClass("ani");
 						$("#intro .groupping").removeClass("default");
 					  next();
-						$("header .hoverBg").delay(1800).queue(function(next) {
+						$("header .hoverBg").delay(1500).queue(function(next) {
 							$(this).addClass("aniForHoverBg");
 							$("header h2.menu").addClass("aniForMenu");
 							next();
