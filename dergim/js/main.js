@@ -48,7 +48,7 @@ jQuery( document ).ready(function( $ ) {
 			$("footer, header .menu, #border .border, header .sns, h1 a, header #lang").removeClass("default");
 			$(".greyBg p").addClass("smaller");
 			
-			$(".greyBg p").html("WELCOME");
+			
 		  next();
 		});
 
@@ -56,7 +56,7 @@ jQuery( document ).ready(function( $ ) {
 
 		$("#intro").delay(3300).queue(function(next) {
 			$("#intro").removeClass("translateMinus");
-
+			$(".greyBg p").html("WELCOME");
 
 			$("#intro .groupping .groupping1").delay(600).queue(function(next) {
 				$("#intro .groupping .groupping1").removeClass("default");
