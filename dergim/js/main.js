@@ -94,6 +94,7 @@ jQuery( document ).ready(function( $ ) {
 		$("header h2.menu").mouseenter(function(){
 			$(this).removeClass("aniForMenu");
 			$("header .hoverBg").removeClass("aniForHoverBg");
+			$("header .hidden").removeClass("aniForHidden");
 
 			if ($("header .mainBg").hasClass("active")) {
 				$("header .hoverBg").removeClass("hover");
@@ -107,6 +108,7 @@ jQuery( document ).ready(function( $ ) {
 		$(".hoverBg").mouseenter(function(){
 			$("header h2.menu").removeClass("aniForMenu");
 			$("header .hoverBg").removeClass("aniForHoverBg");
+			$("header .hidden").removeClass("aniForHidden");
 		});
 
 		$("header h2.menu").mouseleave(function(){
