@@ -73,6 +73,7 @@ jQuery( document ).ready(function( $ ) {
 					  next();
 						$("header .hoverBg").delay(1500).queue(function(next) {
 							$(this).addClass("aniForHoverBg");
+							$("header .menu .hidden").addClass("aniForHidden");
 							$("header h2.menu").addClass("aniForMenu");
 							next();
 						});
