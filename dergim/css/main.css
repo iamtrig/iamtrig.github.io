@@ -110,15 +110,15 @@ body #wrapper #contact .smallerFont { font-size: 0 }
 h1 a { z-index: 10000000; top: 20px; left: 50px; display: block; position: fixed; letter-spacing: 0.1em; font-size: 14px }
 h1 a:hover { letter-spacing: 0em }
 h1 .italic { font-style: italic; font-weight: 300; padding-right: 2px; }
-header .menu { z-index: 10000000; position: fixed; top: 50%; right: -27px; height: 100px; line-height: 100px; margin-top: -50px; width: 62px; padding-left: 15px; cursor: pointer; transition: 0.3s; -webkit-transition: 0.3s; -ms-transition: 0.3s; -moz-transition: 0.3s;}
+header .menu { z-index: 10000000; color: #fff; position: fixed; top: 50%; right: -27px; height: 100px; line-height: 100px; margin-top: -50px; width: 62px; padding-left: 15px; cursor: pointer; transition: 0.3s; -webkit-transition: 0.3s; -ms-transition: 0.3s; -moz-transition: 0.3s;}
 header .menu span.burger { transition: 0.3s; -webkit-transition: 0.3s; -ms-transition: 0.3s; -moz-transition: 0.3s; display: inline-block; width: 2px; height: 25px; background-color: #2e2a51; float: left; margin-top: 37px }
 header .menu span.burger:nth-child(2) { margin: 0 6px; margin-top: 32px }
-header .menu:hover {transition: 0.3s; -webkit-transition: 0.3s; -ms-transition: 0.3s; -moz-transition: 0.3s; right: 18px; width: 85px; right: 0; }
+header .menu:hover { color: #2e2a51; transition: 0.3s; -webkit-transition: 0.3s; -ms-transition: 0.3s; -moz-transition: 0.3s; right: 18px; width: 85px; right: 0; }
 header .menu:hover span { transition: 0.3s; -webkit-transition: 0.3s; -ms-transition: 0.3s; -moz-transition: 0.3s }
 header .menu:hover span.burger:nth-child(2) { margin-top: 43px }
 header .menu .hidden {transition: 0.3s; -webkit-transition: 0.3s; -ms-transition: 0.3s; -moz-transition: 0.3s; font-weight: 500; letter-spacing: 0.1em; display: inline-block; padding-left: 11px; width: auto; height: 25px; line-height: 25px; font-size: 10px; text-transform: uppercase; }
-/*header .menu:hover span.burger:nth-child(1), header .menu:hover span.burger:nth-child(3) { width: 0; height: 0 }
-header .menu:hover span.burger { margin: 0; width: 20px; height: 2px; margin-top: 10px;  }*/
+
+
 
 header #lang { z-index: 10000000; position: fixed; right: 50px; top: 23px; }
 header #lang a { font-weight: 300; font-size: 12px; width: 16px; display: inline-block; text-align: right }
